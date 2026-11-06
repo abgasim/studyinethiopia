@@ -1,0 +1,32 @@
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Universities &amp; colleges</h1>
+        <p>Public and private higher-education institutions in Ethiopia. Search by name, city or programme, and narrow by category, region, study level or field.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <div class="toolbar">
+          <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <label class="visually-hidden" for="inst-search">Search institutions</label>
+            <input id="inst-search" type="search" placeholder="Search a name, city or programme, e.g. “Haramaya” or “Nursing”" autocomplete="off">
+          </div>
+          <div class="filters" role="group" aria-label="Filter by type">
+            <button class="chip" type="button" data-filter="all">All</button>
+            <button class="chip" type="button" data-filter="public">Public</button>
+            <button class="chip" type="button" data-filter="private">Private</button>
+            <div class="select-row">
+              <label class="visually-hidden" for="f-category">Category</label><select id="f-category"></select>
+              <label class="visually-hidden" for="f-region">Region</label><select id="f-region"></select>
+              <label class="visually-hidden" for="f-level">Study level</label><select id="f-level"></select>
+              <label class="visually-hidden" for="f-field">Field of study</label><select id="f-field"></select>
+            </div>
+            <span class="result-count" id="result-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="coverage-note" hidden></p>
+        </div>
+        <nav class="az" id="az" aria-label="Jump to letter"></nav>
+        <div id="inst-list"></div>
+      </div>
+    </section>

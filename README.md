@@ -1,6 +1,6 @@
 # Study in Ethiopia
 
-A free guide to higher education in Ethiopia: a directory of universities and colleges with their programmes, a map of public universities, a step-by-step guide for international students, and links for studying abroad.
+A free guide to higher education in Ethiopia, in English and Amharic: a directory of universities and colleges with their programmes, a map of public universities, a step-by-step guide for international students, and links for studying abroad.
 
 Live site: **https://www.studyinethiopia.com**
 
@@ -9,7 +9,7 @@ Live site: **https://www.studyinethiopia.com**
 | Folder | What it is |
 |---|---|
 | [`site/`](site/) | The website: plain HTML, CSS and JavaScript, no build step. See [site/README.md](site/README.md). |
-| [`tools/`](tools/) | Scripts for importing researched programme data and placing institutions on the map. See [tools/README.md](tools/README.md). |
+| [`tools/`](tools/) | The page builder (`build-pages.py`, page content in `tools/pages/<lang>/`), plus scripts for importing researched programme data and placing institutions on the map. See [tools/README.md](tools/README.md). |
 | [`.github/workflows/`](.github/workflows/) | Publishes `site/` to GitHub Pages on every push to `main`. |
 
 ## Editing content

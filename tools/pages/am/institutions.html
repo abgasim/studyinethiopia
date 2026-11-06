@@ -1,0 +1,33 @@
+    <section class="page-head">
+      <div class="wrap">
+        <h1>ዩኒቨርሲቲዎችና ኮሌጆች</h1>
+        <p>በኢትዮጵያ የሚገኙ የመንግሥትና የግል የከፍተኛ ትምህርት ተቋማት። በስም፣ በከተማ ወይም በፕሮግራም ይፈልጉ፤ በዓይነት፣ በክልል፣ በትምህርት ደረጃ ወይም በዘርፍ ያጥብቡ።</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <p class="am-note">የተቋማትና የፕሮግራሞች ስሞችና መግለጫዎች በእንግሊዝኛ ናቸው። ፍለጋውን በእንግሊዝኛ ይጻፉ (ለምሳሌ «Haramaya» ወይም «Nursing»)።</p>
+        <div class="toolbar">
+          <div class="search">{{icon:search}}
+            <label class="visually-hidden" for="inst-search">ተቋማትን ይፈልጉ</label>
+            <input id="inst-search" type="search" placeholder="ስም፣ ከተማ ወይም ፕሮግራም በእንግሊዝኛ ይጻፉ" autocomplete="off">
+          </div>
+          <div class="filters" role="group" aria-label="በዓይነት ይለዩ">
+            <button class="chip" type="button" data-filter="all">ሁሉም</button>
+            <button class="chip" type="button" data-filter="public">የመንግሥት</button>
+            <button class="chip" type="button" data-filter="private">የግል</button>
+            <div class="select-row">
+              <label class="visually-hidden" for="f-category">የተቋም ዓይነት</label><select id="f-category"></select>
+              <label class="visually-hidden" for="f-region">ክልል</label><select id="f-region"></select>
+              <label class="visually-hidden" for="f-level">የትምህርት ደረጃ</label><select id="f-level"></select>
+              <label class="visually-hidden" for="f-field">የትምህርት ዘርፍ</label><select id="f-field"></select>
+            </div>
+            <span class="result-count" id="result-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="coverage-note" hidden></p>
+        </div>
+        <nav class="az" id="az" aria-label="ወደ ፊደል ይዝለሉ"></nav>
+        <div id="inst-list"></div>
+      </div>
+    </section>

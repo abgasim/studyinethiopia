@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="am">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ፕሮግራም ይፈልጉ · Study in Ethiopia</title>
+  <meta name="description" content="በኢትዮጵያ ዩኒቨርሲቲዎችና ኮሌጆች የሚሰጡ የትምህርት ፕሮግራሞችን በደረጃ፣ በዘርፍና በክልል ይፈልጉ።">
+  <link rel="canonical" href="https://www.studyinethiopia.com/am/programmes.html">
+  <link rel="alternate" hreflang="en" href="https://www.studyinethiopia.com/programmes.html">
+  <link rel="alternate" hreflang="am" href="https://www.studyinethiopia.com/am/programmes.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.studyinethiopia.com/programmes.html">
+  <link rel="icon" href="../favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&family=Noto+Serif+Ethiopic:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>try{var t=localStorage.getItem("sie-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-page="programmes">
+  <a class="skip" href="#main">ወደ ዋናው ይዘት ይዝለሉ</a>
+  <div class="stripe"></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">SiE</span>Study in Ethiopia</a>
+      <nav class="nav" id="nav" aria-label="ዋና ማውጫ">
+        <a href="institutions.html">ተቋማት</a>
+        <a href="programmes.html" aria-current="page">ፕሮግራሞች</a>
+        <a href="apply.html">እንዴት ማመልከት</a>
+        <a href="study-abroad.html">በውጭ ሀገር መማር</a>
+        <a href="learn.html">በኦንላይን መማር</a>
+        <a href="resources.html">ምንጮች</a>
+        <a href="about.html">ስለ እኛ</a>
+      </nav>
+      <span class="lang-switches" aria-label="ቋንቋ"><a class="lang-switch" href="../programmes.html" hreflang="en" lang="en" data-lang-link>English</a></span>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="ማውጫ">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <h1>ፕሮግራም ይፈልጉ</h1>
+        <p>ሊማሩት የሚፈልጉትን ይፈልጉ፤ የትኞቹ ተቋማት በምን ደረጃና የት እንደሚሰጡት ይመልከቱ።</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <p class="am-note">የፕሮግራሞች ስሞች በእንግሊዝኛ ናቸው። ፍለጋውን በእንግሊዝኛ ይጻፉ (ለምሳሌ «Nursing»)፣ ወይም ከታች ባሉት ምርጫዎች በዘርፍ ይለዩ።</p>
+        <div class="finder">
+          <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <label class="visually-hidden" for="prog-search">ፕሮግራሞችን ይፈልጉ</label>
+            <input id="prog-search" type="search" placeholder="ለምሳሌ Software Engineering፣ Nursing፣ Agricultural Economics" autocomplete="off">
+          </div>
+          <div class="filters">
+            <div class="select-row">
+              <label class="visually-hidden" for="pf-level">ደረጃ</label><select id="pf-level"></select>
+              <label class="visually-hidden" for="pf-field">ዘርፍ</label><select id="pf-field"></select>
+              <label class="visually-hidden" for="pf-region">ክልል</label><select id="pf-region"></select>
+              <label class="visually-hidden" for="pf-type">የመንግሥት ወይም የግል</label><select id="pf-type"></select>
+            </div>
+            <span class="result-count" id="prog-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="prog-coverage"></p>
+        </div>
+        <div class="prog-grid" id="prog-results"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <a class="brand" href="index.html"><span class="brand-mark">SiE</span>Study in Ethiopia</a>
+          <p style="margin-top:12px;max-width:34em">በኢትዮጵያ ስላለው ከፍተኛ ትምህርትና በውጭ ሀገር ስለመማር ነፃ መመሪያ። የመግቢያ ዝርዝሮችን ሁልጊዜ ከተቋሙ ራሱ ያረጋግጡ።</p>
+        </div>
+        <div>
+          <h4>ያስሱ</h4>
+          <ul>
+            <li><a href="institutions.html">ዩኒቨርሲቲዎችና ኮሌጆች</a></li>
+            <li><a href="programmes.html">ፕሮግራም ይፈልጉ</a></li>
+            <li><a href="apply.html">ከውጭ ሀገር መጥተው በኢትዮጵያ ይማሩ</a></li>
+            <li><a href="study-abroad.html">በውጭ ሀገር መማር</a></li>
+            <li><a href="learn.html">የኦንላይን ኮርሶች</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ስለ እኛ</h4>
+          <ul>
+            <li><a href="about.html">ስለ SiE</a></li>
+            <li><a href="resources.html">ይፋዊ ምንጮች</a></li>
+            <li><a href="https://abgasim.com/" target="_blank" rel="noopener">በABGASIM የተሰራ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        <span>&copy; <span id="year">2026</span> Study in Ethiopia (SiE)</span>
+        <span class="legal-actions">
+          <button class="theme-btn" id="theme-btn" type="button">ጨለማ ገጽታ</button>
+          <a class="portal-link" href="../admin.html">ፖርታል</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/data.js"></script>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

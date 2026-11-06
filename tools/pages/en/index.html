@@ -1,0 +1,103 @@
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">Free guide for Ethiopian students</span>
+          <h1>Find where you'll study next.</h1>
+          <p class="lead">Every public and private university and college in Ethiopia in one place, plus the official portals for scholarships and study abroad.</p>
+          <form action="institutions.html" method="get" role="search">
+            <label class="visually-hidden" for="hero-q">Search institutions</label>
+            <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input id="hero-q" name="q" type="search" placeholder="Try “Jimma” or “AAU”" autocomplete="off">
+            </div>
+          </form>
+          <div class="hero-tags">Popular:
+            <a href="institutions.html?q=Addis">Addis Ababa</a>
+            <a href="institutions.html?q=Medical">Medical</a>
+            <a href="institutions.html?q=Technology">Technology</a>
+            <a href="institutions.html?type=private">Private colleges</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/img/student-reading.jpg" alt="A student reading at a desk with a stack of books" width="854" height="640">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat"><b id="stat-total">–</b><span>Institutions listed</span></div>
+          <div class="stat"><b id="stat-public">–</b><span>Public universities &amp; colleges</span></div>
+          <div class="stat"><b id="stat-programmes">–</b><span>Programmes listed, with sources</span></div>
+          <div class="stat"><b id="stat-abroad">–</b><span>Countries with study-abroad portals</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><h2>Public universities across Ethiopia</h2><p>Each pin is a city with a government university or college. Choose a region to zoom in, or tap a pin to see who's there.</p></div>
+          <a class="btn btn-ghost" href="institutions.html">All institutions</a>
+        </div>
+        <div class="map-layout">
+          <div class="map-wrap">
+            <div id="eth-map" class="map" role="region" aria-label="Map of public universities and colleges in Ethiopia"></div>
+            <p class="small">Pins mark the city of each main campus, located with OpenStreetMap. Regional borders are shown on the map.</p>
+          </div>
+          <div class="map-side">
+            <div class="region-list" id="region-list" role="group" aria-label="Filter by region"></div>
+            <div class="region-insts" id="region-insts" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head"><div><h2>Where do you want to go?</h2><p>Three paths, depending on where you are in your studies.</p></div></div>
+        <div class="grid-3">
+          <a class="card path-card" href="institutions.html">
+            <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 10 12 5l9 5-9 5-9-5Z"/><path d="M7 12v5c0 1 2.2 2.5 5 2.5s5-1.5 5-2.5v-5"/></svg></div>
+            <h3>Study in Ethiopia</h3>
+            <p>Compare universities and colleges by region and type, see the programmes they offer, and find who teaches what you want to study.</p>
+            <span class="more">Browse institutions →</span>
+          </a>
+          <a class="card path-card" href="study-abroad.html">
+            <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></svg></div>
+            <h3>Study abroad</h3>
+            <p>Official study portals and scholarship bodies in Europe, the UK and the US, plus IELTS and TOEFL preparation.</p>
+            <span class="more">Plan your move →</span>
+          </a>
+          <a class="card path-card" href="learn.html">
+            <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2 19h20"/></svg></div>
+            <h3>Learn online</h3>
+            <p>Free and low-cost courses from leading universities on Coursera, edX, Khan Academy and more.</p>
+            <span class="more">Start learning →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="band">
+          <div>
+            <span class="eyebrow">International students</span>
+            <h2>Coming to Ethiopia to study?</h2>
+            <p>Who regulates universities, how to check accreditation, get your certificates recognised, apply, and get a student visa and residence ID, step by step.</p>
+          </div>
+          <a class="btn btn-primary" href="apply.html">Read the 8-step guide →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><h2>Official sources</h2><p>Ministries, agencies and data on Ethiopian education.</p></div>
+          <a class="btn btn-ghost" href="resources.html">All resources</a>
+        </div>
+        <div class="grid" id="home-links"></div>
+      </div>
+    </section>

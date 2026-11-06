@@ -16,6 +16,86 @@
 
   const ARROW = '<svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>';
 
+  /* ---------- Language ----------
+     Pages set <html lang="...">. English text in this file is the key; other
+     languages look it up in I18N, and data labels (levels, regions...) in LABELS.
+     To add a language, add a block to both, then build its pages (tools/build-pages.py). */
+  const LANG = document.documentElement.lang === "am" ? "am" : "en";
+  const appScript = document.querySelector('script[src$="app.js"]');
+  const ASSETS = appScript ? appScript.getAttribute("src").replace(/app\.js$/, "") : "assets/";
+
+  const I18N = {
+    am: {
+      "Light mode": "ብሩህ ገጽታ", "Dark mode": "ጨለማ ገጽታ",
+      "All Ethiopia": "መላው ኢትዮጵያ", "All public institutions": "ሁሉም የመንግሥት ተቋማት",
+      "{n} programmes": "{n} ፕሮግራሞች",
+      "The map couldn't load. Use the region list to browse institutions.": "ካርታው ሊጫን አልቻለም። ተቋማትን ለማየት የክልሎቹን ዝርዝር ይጠቀሙ።",
+      "All categories": "ሁሉም ዓይነቶች", "All regions": "ሁሉም ክልሎች", "Any level": "ማንኛውም ደረጃ",
+      "Any field": "ማንኛውም ዘርፍ", "Any region": "ማንኛውም ክልል",
+      "Est. {y}": "የተመሠረተው እ.ኤ.አ. {y}", "Established {y}": "የተመሠረተው እ.ኤ.አ. {y}",
+      "+{n} more": "+{n} ተጨማሪ", "Website ↗": "ድረ-ገጽ ↗", "Public": "የመንግሥት", "Private": "የግል",
+      "View {n} programmes →": "{n} ፕሮግራሞችን ይመልከቱ →", "View profile →": "መግለጫውን ይመልከቱ →",
+      "{n} of {total} institutions": "ከ{total} ተቋማት {n}", "Clear filters": "ምርጫዎችን ያጽዱ",
+      "Programme information has been collected for <strong>{n} of {total}</strong> institutions so far, so level and field filters only find those.":
+        "እስካሁን የፕሮግራም መረጃ የተሰበሰበው ከ{total} ተቋማት ለ<strong>{n}</strong> ብቻ ነው፤ ስለዚህ የደረጃና የዘርፍ ምርጫዎች እነዚህን ብቻ ያገኛሉ።",
+      "No institutions match these filters.": "ከእነዚህ ምርጫዎች ጋር የሚዛመድ ተቋም የለም።",
+      "Try removing a filter, or search for a shorter name such as “AAU” or “Jimma”.": "አንድ ምርጫ ያስወግዱ፣ ወይም እንደ «AAU» ወይም «Jimma» ያለ አጭር ስም በእንግሊዝኛ ይፈልጉ።",
+      "Institution not found.": "ተቋሙ አልተገኘም።", "Back to all institutions": "ወደ ሁሉም ተቋማት ይመለሱ",
+      "← All institutions": "← ሁሉም ተቋማት", "Undergraduate": "የመጀመሪያ ዲግሪ", "Postgraduate": "ድህረ-ምረቃ",
+      "This list is incomplete: it includes only programmes we could confirm on the institution's own pages.":
+        "ይህ ዝርዝር ያልተሟላ ነው፦ በተቋሙ ራሱ ገጾች ላይ ያረጋገጥናቸውን ፕሮግራሞች ብቻ ያካትታል።",
+      "This list covers most programmes published on the institution's own pages.": "ይህ ዝርዝር በተቋሙ ገጾች ላይ የወጡትን አብዛኞቹን ፕሮግራሞች ያካትታል።",
+      "Visit {d} ↗": "{d} ይጎብኙ ↗", "About": "ስለ ተቋሙ", "Programmes": "ፕሮግራሞች",
+      "Search programmes": "ፕሮግራሞችን ይፈልጉ", "Search {n} programmes": "ከ{n} ፕሮግራሞች ይፈልጉ (በእንግሊዝኛ)",
+      "Filter by level": "በደረጃ ይለዩ", "All levels": "ሁሉም ደረጃዎች",
+      "We haven't collected this institution's programmes yet. Check its website for the current list.":
+        "የዚህን ተቋም ፕሮግራሞች ገና አልሰበሰብንም። ወቅታዊውን ዝርዝር በድረ-ገጹ ላይ ይመልከቱ።",
+      "More about {name}": "ስለ {name} ተጨማሪ", "Accreditation": "እውቅና",
+      "Check this institution's programmes in the Education and Training Authority's register before enrolling.":
+        "ከመመዝገብዎ በፊት የዚህን ተቋም ፕሮግራሞች በትምህርትና ሥልጠና ባለሥልጣን መዝገብ ውስጥ ያረጋግጡ።",
+      "ETA accreditation register ↗": "የETA የእውቅና መዝገብ ↗",
+      "Coming from abroad? See how to apply →": "ከውጭ ሀገር ነው የሚመጡት? እንዴት እንደሚያመለክቱ ይመልከቱ →",
+      "Programmes offered": "የሚሰጡ ፕሮግራሞች", "As stated by {src}{asOf}.": "በ{src}{asOf} መሠረት።", "the institution": "ተቋሙ",
+      "Colleges & institutes": "ኮሌጆችና ኢንስቲትዩቶች", "Sources": "ምንጮች", "(secondary)": "(ሁለተኛ ደረጃ ምንጭ)",
+      "Last checked {date}.": "ለመጨረሻ ጊዜ የተረጋገጠው፦ {date}።", "No programmes match.": "የሚዛመድ ፕሮግራም የለም።",
+      "Source ↗": "ምንጭ ↗", "Source: {d}": "ምንጭ፦ {d}", "Public & private": "የመንግሥትና የግል",
+      "Programme lists come from each institution's own website. So far they cover <strong>{n}</strong> of {total} institutions; more are being added.":
+        "የፕሮግራም ዝርዝሮቹ ከእያንዳንዱ ተቋም ድረ-ገጽ የተገኙ ናቸው። እስካሁን ከ{total} ተቋማት <strong>{n}</strong>ን ይሸፍናሉ፤ ተጨማሪ እየተጨመሩ ነው።",
+      "{n} programmes · {m} offerings": "{n} ፕሮግራሞች · {m} አቅርቦቶች", "Show more ({n} left)": "ተጨማሪ አሳይ (የቀሩ {n})",
+      "Try a broader word, e.g. “Engineering” or “Nursing”, or remove a filter.": "ሰፋ ያለ ቃል በእንግሊዝኛ ይሞክሩ (ለምሳሌ «Engineering» ወይም «Nursing»)፣ ወይም አንድ ምርጫ ያስወግዱ።",
+      "Guide on this site": "በዚህ ድረ-ገጽ ያለ መመሪያ", "{name} logo": "{name} አርማ",
+      "Test centres in Ethiopia: ": "በኢትዮጵያ የፈተና ማዕከላት፦ ",
+      "Names and descriptions are in English.": "የተቋሙ መግለጫና የፕሮግራሞች ስሞች በእንግሊዝኛ ናቸው።",
+    },
+  };
+
+  const LABELS = {
+    am: {
+      level: { "Certificate": "ሰርተፍኬት", "Diploma": "ዲፕሎማ", "Bachelor's": "የመጀመሪያ ዲግሪ", "Master's": "ሁለተኛ ዲግሪ", "PhD": "ሦስተኛ ዲግሪ (PhD)", "Specialty": "ስፔሻሊቲ" },
+      category: { "University": "ዩኒቨርሲቲ", "University College": "ዩኒቨርሲቲ ኮሌጅ", "College": "ኮሌጅ", "Institute": "ኢንስቲትዩት", "Polytechnic / TVET": "ፖሊቴክኒክ / ቴክኒክና ሙያ" },
+      field: {
+        "Agriculture & Environment": "ግብርናና አካባቢ", "Arts & Design": "ሥነ ጥበብና ዲዛይን", "Business & Economics": "ቢዝነስና ኢኮኖሚክስ",
+        "Computing, Data & IT": "ኮምፒውቲንግ፣ ዳታና አይቲ", "Education": "ትምህርትና መምህርነት", "Engineering & Technology": "ምህንድስናና ቴክኖሎጂ",
+        "Health & Medicine": "ጤናና ሕክምና", "Languages & Communication": "ቋንቋና ኮሙኒኬሽን", "Law & Governance": "ሕግና አስተዳደር",
+        "Natural Sciences": "የተፈጥሮ ሳይንስ", "Social Sciences & Humanities": "ማኅበራዊ ሳይንስና ሰብዓዊ ትምህርቶች",
+        "Sport Science": "ስፖርት ሳይንስ", "Veterinary Science": "የእንስሳት ሕክምና",
+      },
+      region: {
+        "Addis Ababa": "አዲስ አበባ", "Afar": "አፋር", "Amhara": "አማራ", "Benishangul-Gumuz": "ቤኒሻንጉል ጉሙዝ",
+        "Central Ethiopia": "ማዕከላዊ ኢትዮጵያ", "Dire Dawa": "ድሬዳዋ", "Gambela": "ጋምቤላ", "Harari": "ሐረሪ", "Oromia": "ኦሮሚያ",
+        "Sidama": "ሲዳማ", "Somali": "ሶማሌ", "South Ethiopia": "ደቡብ ኢትዮጵያ", "South West Ethiopia Peoples": "ደቡብ ምዕራብ ኢትዮጵያ ሕዝቦች", "Tigray": "ትግራይ",
+      },
+    },
+  };
+
+  // tr("{n} programmes", { n: 5 }) -> translated text with values filled in (values are inserted as given)
+  function tr(s, vars) {
+    let out = (I18N[LANG] && I18N[LANG][s]) || s;
+    if (vars) out = out.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
+    return out;
+  }
+  const lbl = (kind, v) => (LANG !== "en" && v && LABELS[LANG][kind][v]) || v;
+
   /* ---------- Shared chrome ---------- */
 
   function initTheme() {
@@ -28,7 +108,7 @@
     const isDark = () => root.dataset.theme
       ? root.dataset.theme === "dark"
       : matchMedia("(prefers-color-scheme: dark)").matches;
-    const label = () => { btn.textContent = isDark() ? "Light mode" : "Dark mode"; };
+    const label = () => { btn.textContent = isDark() ? tr("Light mode") : tr("Dark mode"); };
     label();
     btn.addEventListener("click", () => {
       root.dataset.theme = isDark() ? "light" : "dark";
@@ -50,6 +130,18 @@
     const y = $("#year");
     if (y) y.textContent = new Date().getFullYear();
   }
+
+  // Language links keep the current profile / filters (?id=..., ?q=...) and #anchor.
+  // Filters update the address bar as you type, so refresh the links whenever they change.
+  function syncLangLinks() {
+    document.querySelectorAll("a[data-lang-link]").forEach((a) => {
+      const base = a.getAttribute("href").split(/[?#]/)[0];
+      a.setAttribute("href", base + location.search + location.hash);
+    });
+  }
+  const replaceState = history.replaceState.bind(history);
+  history.replaceState = (...args) => { replaceState(...args); syncLangLinks(); };
+  window.addEventListener("hashchange", syncLangLinks);
 
   /* ---------- Home ---------- */
 
@@ -100,22 +192,22 @@
     let current = "", map = null;
     const markers = [];
 
-    regionList.innerHTML = `<button type="button" class="chip" data-region="" aria-pressed="true">All Ethiopia <span class="n">${pinned.length}</span></button>` +
-      regions.map(([r, n]) => `<button type="button" class="chip" data-region="${esc(r)}" aria-pressed="false">${esc(r)} <span class="n">${n}</span></button>`).join("");
+    regionList.innerHTML = `<button type="button" class="chip" data-region="" aria-pressed="true">${tr("All Ethiopia")} <span class="n">${pinned.length}</span></button>` +
+      regions.map(([r, n]) => `<button type="button" class="chip" data-region="${esc(r)}" aria-pressed="false">${esc(lbl("region", r))} <span class="n">${n}</span></button>`).join("");
 
     function listFor(region) {
       const items = pinned.filter((i) => !region || i.region === region).sort((a, b) => a.name.localeCompare(b.name));
-      out.innerHTML = `<h3>${esc(region || "All public institutions")}</h3><ul>${items.map((i) => {
+      out.innerHTML = `<h3>${esc(region ? lbl("region", region) : tr("All public institutions"))}</h3><ul>${items.map((i) => {
         const n = progsOf(i.id).length;
-        return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a><span>${esc(i.city || "")}${n ? ` · ${n} programmes` : ""}</span></li>`;
+        return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a><span>${esc(i.city || "")}${n ? ` · ${tr("{n} programmes", { n })}` : ""}</span></li>`;
       }).join("")}</ul>`;
     }
 
     function popup(c) {
-      const region = c.region && c.region !== c.city ? `<span>${esc(c.region)}</span>` : "";
+      const region = c.region && c.region !== c.city ? `<span>${esc(lbl("region", c.region))}</span>` : "";
       return `<div class="map-pop"><strong>${esc(c.city)}</strong>${region}<ul>${c.items
         .sort((a, b) => a.name.localeCompare(b.name))
-        .map((i) => { const n = progsOf(i.id).length; return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a>${n ? ` <em>${n} programmes</em>` : ""}</li>`; }).join("")}</ul></div>`;
+        .map((i) => { const n = progsOf(i.id).length; return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a>${n ? ` <em>${tr("{n} programmes", { n })}</em>` : ""}</li>`; }).join("")}</ul></div>`;
     }
 
     function select(region) {
@@ -154,7 +246,7 @@
     }
 
     const start = () => loadLeaflet().then(draw).catch(() => {
-      el.innerHTML = `<p class="map-fail">The map couldn't load. Use the region list to browse institutions.</p>`;
+      el.innerHTML = `<p class="map-fail">${tr("The map couldn't load. Use the region list to browse institutions.")}</p>`;
     });
     if ("IntersectionObserver" in window) {
       const io = new IntersectionObserver((entries) => {
@@ -182,18 +274,18 @@
   const researchedCount = () => [...progsBy.keys()].length;
 
   const abbrOf = (i) => (i.abbr || i.name.split(/\s+/).filter((w) => /^[A-Z]/.test(w)).map((w) => w[0]).join("")).slice(0, 5);
-  const placeOf = (i) => [i.city, i.region && i.region !== i.city ? i.region : ""].filter(Boolean).join(", ");
+  const placeOf = (i) => [i.city, i.region && i.region !== i.city ? lbl("region", i.region) : ""].filter(Boolean).join(", ");
   const profileUrl = (i) => `institution.html?id=${encodeURIComponent(i.id)}`;
 
   function levelSummary(list) {
     const c = {};
     list.forEach((p) => { c[p.level] = (c[p.level] || 0) + 1; });
-    return LEVELS.filter((l) => c[l]).map((l) => `<span class="lvl">${c[l]} ${esc(LEVEL_PLURAL[l])}</span>`).join("");
+    return LEVELS.filter((l) => c[l]).map((l) => `<span class="lvl">${c[l]} ${esc(LANG === "en" ? LEVEL_PLURAL[l] : lbl("level", l))}</span>`).join("");
   }
 
-  function options(sel, values, label, current) {
+  function options(sel, values, label, current, kind) {
     sel.innerHTML = `<option value="">${esc(label)}</option>` + values.map(([v, n]) =>
-      `<option value="${esc(v)}"${v === current ? " selected" : ""}>${esc(v)}${n !== undefined ? ` (${n})` : ""}</option>`).join("");
+      `<option value="${esc(v)}"${v === current ? " selected" : ""}>${esc(kind ? lbl(kind, v) : v)}${n !== undefined ? ` (${n})` : ""}</option>`).join("");
   }
   const countBy = (items, fn) => {
     const m = new Map();
@@ -229,34 +321,34 @@
     input.value = st.q;
 
     const catCounts = countBy(all, (i) => i.category);
-    options(sel.category, CATEGORIES.filter((c) => catCounts.has(c)).map((c) => [c, catCounts.get(c)]), "All categories", st.category);
+    options(sel.category, CATEGORIES.filter((c) => catCounts.has(c)).map((c) => [c, catCounts.get(c)]), tr("All categories"), st.category, "category");
     const regCounts = countBy(all, (i) => i.region);
-    options(sel.region, [...regCounts].sort((a, b) => a[0].localeCompare(b[0])), "All regions", st.region);
+    options(sel.region, [...regCounts].sort((a, b) => a[0].localeCompare(b[0])), tr("All regions"), st.region, "region");
     const lvlCounts = countBy(all, (i) => [...new Set(progsOf(i.id).map((p) => p.level))]);
-    options(sel.level, LEVELS.filter((l) => lvlCounts.has(l)).map((l) => [l, lvlCounts.get(l)]), "Any level", st.level);
+    options(sel.level, LEVELS.filter((l) => lvlCounts.has(l)).map((l) => [l, lvlCounts.get(l)]), tr("Any level"), st.level, "level");
     const fldCounts = countBy(all, (i) => [...new Set(progsOf(i.id).map((p) => p.field))]);
-    options(sel.field, [...fldCounts].sort((a, b) => a[0].localeCompare(b[0])), "Any field", st.field);
+    options(sel.field, [...fldCounts].sort((a, b) => a[0].localeCompare(b[0])), tr("Any field"), st.field, "field");
 
     function card(i, matches) {
       const progs = progsOf(i.id);
       const summary = i.summary || (i.about && i.about[0]) || "";
-      const meta = [placeOf(i), i.founded ? `Est. ${i.founded}` : ""].filter(Boolean).join(" · ");
+      const meta = [placeOf(i), i.founded ? tr("Est. {y}", { y: i.founded }) : ""].filter(Boolean).join(" · ");
       const match = matches.length
-        ? `<ul class="matches">${matches.slice(0, 3).map((p) => `<li>${esc(p.level)} · ${esc(p.name)}</li>`).join("")}${matches.length > 3 ? `<li class="more-m">+${matches.length - 3} more</li>` : ""}</ul>` : "";
-      const site = i.website ? `<a href="${esc(i.website)}" target="_blank" rel="noopener">Website ↗</a>` : "";
+        ? `<ul class="matches">${matches.slice(0, 3).map((p) => `<li>${esc(lbl("level", p.level))} · ${esc(p.name)}</li>`).join("")}${matches.length > 3 ? `<li class="more-m">${tr("+{n} more", { n: matches.length - 3 })}</li>` : ""}</ul>` : "";
+      const site = i.website ? `<a href="${esc(i.website)}" target="_blank" rel="noopener">${tr("Website ↗")}</a>` : "";
       return `<article class="card inst" data-type="${i.type}">
         <div class="inst-top">
           <div class="mono" aria-hidden="true">${esc(abbrOf(i))}</div>
           <div>
             <h3><a class="stretch" href="${profileUrl(i)}">${esc(i.name)}</a></h3>
-            <span class="badge">${i.type === "public" ? "Public" : "Private"}${i.category ? " · " + esc(i.category) : ""}</span>
+            <span class="badge">${tr(i.type === "public" ? "Public" : "Private")}${i.category ? " · " + esc(lbl("category", i.category)) : ""}</span>
             ${meta ? `<div class="meta">${esc(meta)}</div>` : ""}
           </div>
         </div>
         ${summary ? `<p class="summary">${esc(summary)}</p>` : ""}
         ${match}
         ${progs.length ? `<div class="lvls">${levelSummary(progs)}</div>` : ""}
-        <div class="inst-actions"><a href="${profileUrl(i)}">${progs.length ? `View ${progs.length} programmes →` : "View profile →"}</a>${site}</div>
+        <div class="inst-actions"><a href="${profileUrl(i)}">${progs.length ? tr("View {n} programmes →", { n: progs.length }) : tr("View profile →")}</a>${site}</div>
       </article>`;
     }
 
@@ -282,9 +374,9 @@
 
       chips.forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.filter === st.type)));
       const filtered = st.q || st.type !== "all" || st.category || st.region || st.level || st.field;
-      count.innerHTML = `${rows.length} of ${all.length} institutions` + (filtered ? ` · <button type="button" class="linkish" id="clear">Clear filters</button>` : "");
+      count.innerHTML = tr("{n} of {total} institutions", { n: rows.length, total: all.length }) + (filtered ? ` · <button type="button" class="linkish" id="clear">${tr("Clear filters")}</button>` : "");
       $("#coverage-note").hidden = !(st.level || st.field || (nq && rows.some((r) => r.matches.length)));
-      $("#coverage-note").innerHTML = `Programme information has been collected for <strong>${researchedCount()} of ${all.length}</strong> institutions so far, so level and field filters only find those.`;
+      $("#coverage-note").innerHTML = tr("Programme information has been collected for <strong>{n} of {total}</strong> institutions so far, so level and field filters only find those.", { n: researchedCount(), total: all.length });
 
       const groups = new Map();
       rows.forEach((r) => {
@@ -298,7 +390,7 @@
       list.innerHTML = rows.length
         ? [...groups].map(([L, items]) =>
             `<h2 class="letter" id="letter-${L}">${L}</h2><div class="grid">${items.map((r) => card(r.i, r.matches)).join("")}</div>`).join("")
-        : `<div class="empty"><p><strong>No institutions match these filters.</strong></p><p>Try removing a filter, or search for a shorter name such as “AAU” or “Jimma”.</p></div>`;
+        : `<div class="empty"><p><strong>${tr("No institutions match these filters.")}</strong></p><p>${tr("Try removing a filter, or search for a shorter name such as “AAU” or “Jimma”.")}</p></div>`;
 
       const p = new URLSearchParams();
       Object.entries(st).forEach(([k, v]) => { if (v && !(k === "type" && v === "all")) p.set(k, v); });
@@ -324,72 +416,73 @@
     if (!root) return;
     const i = instById.get(new URLSearchParams(location.search).get("id"));
     if (!i) {
-      root.innerHTML = `<div class="wrap section"><div class="empty"><p><strong>Institution not found.</strong></p><p><a href="institutions.html">Back to all institutions</a></p></div></div>`;
+      root.innerHTML = `<div class="wrap section"><div class="empty"><p><strong>${tr("Institution not found.")}</strong></p><p><a href="institutions.html">${tr("Back to all institutions")}</a></p></div></div>`;
       return;
     }
     document.title = `${i.name} · Study in Ethiopia`;
     const progs = progsOf(i.id);
-    const meta = [placeOf(i), i.founded ? `Established ${i.founded}` : ""].filter(Boolean).join(" · ");
+    const meta = [placeOf(i), i.founded ? tr("Established {y}", { y: i.founded }) : ""].filter(Boolean).join(" · ");
     // Short sourced summary goes first; the older long "about" text is folded away below the programmes
     const about = i.summary ? [i.summary] : (i.about || []).slice(0, 1);
     const more = i.summary ? (i.about || []) : (i.about || []).slice(1);
     const s = i.stats || {};
     const statBits = [
-      s.undergraduate && ["Undergraduate", s.undergraduate], s.masters && ["Master's", s.masters],
-      s.phd && ["PhD", s.phd], s.postgraduate && ["Postgraduate", s.postgraduate],
+      s.undergraduate && [tr("Undergraduate"), s.undergraduate], s.masters && [lbl("level", "Master's"), s.masters],
+      s.phd && [lbl("level", "PhD"), s.phd], s.postgraduate && [tr("Postgraduate"), s.postgraduate],
     ].filter(Boolean);
     const coverage = {
-      partial: "This list is incomplete: it includes only programmes we could confirm on the institution's own pages.",
-      most: "This list covers most programmes published on the institution's own pages.",
+      partial: tr("This list is incomplete: it includes only programmes we could confirm on the institution's own pages."),
+      most: tr("This list covers most programmes published on the institution's own pages."),
       none: "",
     }[i.coverage] || "";
 
     root.innerHTML = `
       <section class="page-head profile-head">
         <div class="wrap">
-          <a class="back" href="institutions.html">← All institutions</a>
+          <a class="back" href="institutions.html">${tr("← All institutions")}</a>
           <div class="inst-top">
             <div class="mono big" aria-hidden="true">${esc(abbrOf(i))}</div>
             <div>
               <h1>${esc(i.name)}</h1>
-              <span class="badge">${i.type === "public" ? "Public" : "Private"}${i.category ? " · " + esc(i.category) : ""}</span>
+              <span class="badge">${tr(i.type === "public" ? "Public" : "Private")}${i.category ? " · " + esc(lbl("category", i.category)) : ""}</span>
               ${meta ? `<div class="meta">${esc(meta)}</div>` : ""}
             </div>
           </div>
-          ${i.website ? `<a class="btn btn-primary" href="${esc(i.website)}" target="_blank" rel="noopener" style="margin-top:20px">Visit ${esc(domain(i.website))} ↗</a>` : ""}
+          ${i.website ? `<a class="btn btn-primary" href="${esc(i.website)}" target="_blank" rel="noopener" style="margin-top:20px">${tr("Visit {d} ↗", { d: esc(domain(i.website)) })}</a>` : ""}
         </div>
       </section>
 
       <section class="section profile">
         <div class="wrap profile-grid">
           <div>
-            ${about.length ? `<h2>About</h2>${about.map((p) => `<p class="prose-p">${esc(p)}</p>`).join("")}` : ""}
-            <h2 id="programmes">Programmes</h2>
+            ${LANG !== "en" ? `<p class="am-note">${tr("Names and descriptions are in English.")}</p>` : ""}
+            ${about.length ? `<h2>${tr("About")}</h2>${about.map((p) => `<p class="prose-p">${esc(p)}</p>`).join("")}` : ""}
+            <h2 id="programmes">${tr("Programmes")}</h2>
             ${progs.length ? `
               ${coverage ? `<p class="note">${esc(coverage)}</p>` : ""}
               <div class="toolbar">
                 <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-                  <label class="visually-hidden" for="p-search">Search programmes</label>
-                  <input id="p-search" type="search" placeholder="Search ${progs.length} programmes" autocomplete="off"></div>
-                <div class="filters" role="group" aria-label="Filter by level">
-                  <button class="chip" type="button" data-level="" aria-pressed="true">All levels</button>
-                  ${LEVELS.filter((l) => progs.some((p) => p.level === l)).map((l) => `<button class="chip" type="button" data-level="${esc(l)}" aria-pressed="false">${esc(l)} <span class="n">${progs.filter((p) => p.level === l).length}</span></button>`).join("")}
+                  <label class="visually-hidden" for="p-search">${tr("Search programmes")}</label>
+                  <input id="p-search" type="search" placeholder="${tr("Search {n} programmes", { n: progs.length })}" autocomplete="off"></div>
+                <div class="filters" role="group" aria-label="${tr("Filter by level")}">
+                  <button class="chip" type="button" data-level="" aria-pressed="true">${tr("All levels")}</button>
+                  ${LEVELS.filter((l) => progs.some((p) => p.level === l)).map((l) => `<button class="chip" type="button" data-level="${esc(l)}" aria-pressed="false">${esc(lbl("level", l))} <span class="n">${progs.filter((p) => p.level === l).length}</span></button>`).join("")}
                 </div>
               </div>
               <div id="p-list"></div>`
-            : `<p class="note">${esc(i.coverageNote || "We haven't collected this institution's programmes yet. Check its website for the current list.")}</p>`}
-            ${more.length ? `<details class="more-about"><summary>More about ${esc(i.name)}</summary>${more.map((p) => `<p class="prose-p">${esc(p)}</p>`).join("")}</details>` : ""}
+            : `<p class="note">${esc(LANG === "en" && i.coverageNote ? i.coverageNote : tr("We haven't collected this institution's programmes yet. Check its website for the current list."))}</p>`}
+            ${more.length ? `<details class="more-about"><summary>${tr("More about {name}", { name: esc(i.name) })}</summary>${more.map((p) => `<p class="prose-p">${esc(p)}</p>`).join("")}</details>` : ""}
           </div>
           <aside class="side-facts">
-            <div class="card"><h3>Accreditation</h3>
-              <p class="small" style="margin:0 0 8px">Check this institution's programmes in the Education and Training Authority's register before enrolling.</p>
-              <a href="https://accreditation.neta.gov.et/" target="_blank" rel="noopener">ETA accreditation register ↗</a>
-              <p class="small"><a href="apply.html">Coming from abroad? See how to apply →</a></p></div>
-            ${statBits.length ? `<div class="card"><h3>Programmes offered</h3><dl class="facts">${statBits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
-              <p class="small">As stated by ${s.source ? `<a href="${esc(s.source)}" target="_blank" rel="noopener">${esc(domain(s.source))}</a>` : "the institution"}${s.asOf ? ` (${esc(s.asOf)})` : ""}.</p></div>` : ""}
-            ${(i.colleges || []).length ? `<div class="card"><h3>Colleges &amp; institutes</h3><ul class="plain">${i.colleges.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
-            ${(i.sources || []).length ? `<div class="card"><h3>Sources</h3><ul class="plain">${i.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label || domain(x.url))}</a>${x.kind === "secondary" ? ' <span class="small">(secondary)</span>' : ""}</li>`).join("")}</ul>
-              ${i.checked ? `<p class="small">Last checked ${esc(new Date(i.checked + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }))}.</p>` : ""}</div>` : ""}
+            <div class="card"><h3>${tr("Accreditation")}</h3>
+              <p class="small" style="margin:0 0 8px">${tr("Check this institution's programmes in the Education and Training Authority's register before enrolling.")}</p>
+              <a href="https://accreditation.neta.gov.et/" target="_blank" rel="noopener">${tr("ETA accreditation register ↗")}</a>
+              <p class="small"><a href="apply.html">${tr("Coming from abroad? See how to apply →")}</a></p></div>
+            ${statBits.length ? `<div class="card"><h3>${tr("Programmes offered")}</h3><dl class="facts">${statBits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+              <p class="small">${tr("As stated by {src}{asOf}.", { src: s.source ? `<a href="${esc(s.source)}" target="_blank" rel="noopener">${esc(domain(s.source))}</a>` : tr("the institution"), asOf: s.asOf ? ` (${esc(s.asOf)})` : "" })}</p></div>` : ""}
+            ${(i.colleges || []).length ? `<div class="card"><h3>${esc(tr("Colleges & institutes"))}</h3><ul class="plain">${i.colleges.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
+            ${(i.sources || []).length ? `<div class="card"><h3>${tr("Sources")}</h3><ul class="plain">${i.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label || domain(x.url))}</a>${x.kind === "secondary" ? ` <span class="small">${tr("(secondary)")}</span>` : ""}</li>`).join("")}</ul>
+              ${i.checked ? `<p class="small">${tr("Last checked {date}.", { date: esc(new Date(i.checked + "T00:00:00").toLocaleDateString(LANG === "am" ? "am-ET-u-ca-gregory" : "en-GB", { day: "numeric", month: "long", year: "numeric" })) })}</p>` : ""}</div>` : ""}
           </aside>
         </div>
       </section>`;
@@ -400,15 +493,15 @@
     let level = "";
     function draw() {
       const q = norm(input.value.trim());
-      const rows = progs.filter((p) => (!level || p.level === level) && (!q || norm(p.name).includes(q) || norm(p.college).includes(q) || norm(p.field).includes(q)));
+      const rows = progs.filter((p) => (!level || p.level === level) && (!q || norm(p.name).includes(q) || norm(p.college).includes(q) || norm(p.field).includes(q) || norm(lbl("field", p.field)).includes(q)));
       chips.forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.level === level)));
-      if (!rows.length) { out.innerHTML = `<div class="empty"><p>No programmes match.</p></div>`; return; }
+      if (!rows.length) { out.innerHTML = `<div class="empty"><p>${tr("No programmes match.")}</p></div>`; return; }
       out.innerHTML = LEVELS.filter((l) => rows.some((p) => p.level === l)).map((l) => {
         const items = rows.filter((p) => p.level === l);
-        return `<h3 class="lvl-head">${esc(l)} <span class="n">${items.length}</span></h3>
+        return `<h3 class="lvl-head">${esc(lbl("level", l))} <span class="n">${items.length}</span></h3>
           <ul class="prog-table">${items.map((p) => `<li>
-            <div><strong>${esc(p.name)}</strong><span>${esc([p.college, p.field].filter(Boolean).join(" · "))}</span></div>
-            ${p.source ? `<a class="src" href="${esc(p.source)}" target="_blank" rel="noopener" title="Source: ${esc(domain(p.source))}">Source ↗</a>` : ""}
+            <div><strong>${esc(p.name)}</strong><span>${esc([p.college, lbl("field", p.field)].filter(Boolean).join(" · "))}</span></div>
+            ${p.source ? `<a class="src" href="${esc(p.source)}" target="_blank" rel="noopener" title="${tr("Source: {d}", { d: esc(domain(p.source)) })}">${tr("Source ↗")}</a>` : ""}
           </li>`).join("")}</ul>`;
       }).join("");
     }
@@ -429,11 +522,11 @@
     const st = { q: params.get("q") || "", level: params.get("level") || "", field: params.get("field") || "", region: params.get("region") || "", type: params.get("type") || "" };
     input.value = st.q;
 
-    options(sel.level, LEVELS.map((l) => [l, progs.filter((p) => p.level === l).length]).filter(([, n]) => n), "Any level", st.level);
-    options(sel.field, [...countBy(progs, (p) => p.field)].sort((a, b) => a[0].localeCompare(b[0])), "Any field", st.field);
-    options(sel.region, [...countBy(progs, (p) => instById.get(p.institution).region)].sort((a, b) => a[0].localeCompare(b[0])), "Any region", st.region);
-    sel.type.innerHTML = `<option value="">Public &amp; private</option><option value="public"${st.type === "public" ? " selected" : ""}>Public</option><option value="private"${st.type === "private" ? " selected" : ""}>Private</option>`;
-    $("#prog-coverage").innerHTML = `Programme lists come from each institution's own website. So far they cover <strong>${researchedCount()}</strong> of ${(D.institutions || []).length} institutions; more are being added.`;
+    options(sel.level, LEVELS.map((l) => [l, progs.filter((p) => p.level === l).length]).filter(([, n]) => n), tr("Any level"), st.level, "level");
+    options(sel.field, [...countBy(progs, (p) => p.field)].sort((a, b) => a[0].localeCompare(b[0])), tr("Any field"), st.field, "field");
+    options(sel.region, [...countBy(progs, (p) => instById.get(p.institution).region)].sort((a, b) => a[0].localeCompare(b[0])), tr("Any region"), st.region, "region");
+    sel.type.innerHTML = `<option value="">${esc(tr("Public & private"))}</option><option value="public"${st.type === "public" ? " selected" : ""}>${tr("Public")}</option><option value="private"${st.type === "private" ? " selected" : ""}>${tr("Private")}</option>`;
+    $("#prog-coverage").innerHTML = tr("Programme lists come from each institution's own website. So far they cover <strong>{n}</strong> of {total} institutions; more are being added.", { n: researchedCount(), total: (D.institutions || []).length });
 
     let limit = 40;
     function draw() {
@@ -442,7 +535,7 @@
         const i = instById.get(p.institution);
         return (!st.level || p.level === st.level) && (!st.field || p.field === st.field) &&
           (!st.region || i.region === st.region) && (!st.type || i.type === st.type) &&
-          (!q || norm(p.name).includes(q) || norm(p.field).includes(q));
+          (!q || norm(p.name).includes(q) || norm(p.field).includes(q) || norm(lbl("field", p.field)).includes(q));
       });
       // Group by level + normalised name so "Civil Engineering" at several institutions appears once
       const groups = new Map();
@@ -452,13 +545,13 @@
         groups.get(k).items.push(p);
       });
       const list = [...groups.values()].sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name) || LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level));
-      count.textContent = `${list.length} programmes · ${rows.length} offerings`;
+      count.textContent = tr("{n} programmes · {m} offerings", { n: list.length, m: rows.length });
       out.innerHTML = list.length ? list.slice(0, limit).map((g) => `
         <article class="card prog-card">
-          <div class="prog-card-head"><h3>${esc(g.name)}</h3><span class="badge">${esc(g.level)}${g.field ? " · " + esc(g.field) : ""}</span></div>
+          <div class="prog-card-head"><h3>${esc(g.name)}</h3><span class="badge">${esc(lbl("level", g.level))}${g.field ? " · " + esc(lbl("field", g.field)) : ""}</span></div>
           <ul class="offered">${g.items.map((p) => { const i = instById.get(p.institution); return `<li><a href="${profileUrl(i)}#programmes">${esc(i.name)}</a>${placeOf(i) ? `<span>${esc(placeOf(i))}</span>` : ""}</li>`; }).join("")}</ul>
-        </article>`).join("") + (list.length > limit ? `<div class="more-wrap"><button class="btn btn-ghost" type="button" id="more">Show more (${list.length - limit} left)</button></div>` : "")
-        : `<div class="empty"><p><strong>No programmes match.</strong></p><p>Try a broader word, e.g. “Engineering” or “Nursing”, or remove a filter.</p></div>`;
+        </article>`).join("") + (list.length > limit ? `<div class="more-wrap"><button class="btn btn-ghost" type="button" id="more">${tr("Show more ({n} left)", { n: list.length - limit })}</button></div>` : "")
+        : `<div class="empty"><p><strong>${tr("No programmes match.")}</strong></p><p>${tr("Try a broader word, e.g. “Engineering” or “Nursing”, or remove a filter.")}</p></div>`;
       const p = new URLSearchParams();
       Object.entries(st).forEach(([k, v]) => { if (v) p.set(k, v); });
       history.replaceState(null, "", p.toString() ? `?${p}` : location.pathname);
@@ -475,29 +568,29 @@
     // Links to pages on this site open in the same tab; external links in a new one
     const internal = !/^https?:\/\//i.test(l.website);
     return `<a class="card link-card${internal ? " internal" : ""}" href="${esc(l.website)}"${internal ? "" : ' target="_blank" rel="noopener"'}>
-      <div><strong>${esc(l.name)}</strong><small>${internal ? "Guide on this site" : esc(domain(l.website))}</small></div>${internal ? '<span class="arrow" aria-hidden="true">→</span>' : ARROW}</a>`;
+      <div><strong>${esc(l.name)}</strong><small>${internal ? tr("Guide on this site") : esc(domain(l.website))}</small></div>${internal ? '<span class="arrow" aria-hidden="true">→</span>' : ARROW}</a>`;
   }
 
   function renderAbroad() {
     const c = $("#countries");
     if (c) c.innerHTML = (D.studyAbroad || []).map((s) => `
       <a class="card link-card" href="${esc(s.website)}" target="_blank" rel="noopener">
-        <img class="flag" src="assets/img/flags/${esc(s.code)}.png" alt="" loading="lazy">
+        <img class="flag" src="${ASSETS}img/flags/${esc(s.code)}.png" alt="" loading="lazy">
         <div><strong>${esc(s.name)}</strong><small>${esc(s.label || domain(s.website))}</small></div>${ARROW}
       </a>`).join("");
 
     const t = $("#tests");
     if (t) t.innerHTML = (D.languageTests || []).map((x) => `
       <a class="card link-card tall" href="${esc(x.website)}" target="_blank" rel="noopener">
-        <img class="logo" src="assets/img/logos/${esc(x.code)}.png" alt="${esc(x.name)} logo" loading="lazy">
+        <img class="logo" src="${ASSETS}img/logos/${esc(x.code)}.png" alt="${tr("{name} logo", { name: esc(x.name) })}" loading="lazy">
         <div><strong>${esc(x.name)}</strong><small>${esc(x.label)}</small>
-        <p>${x.code === "ielts" ? "Test centres in Ethiopia: " : ""}${esc(x.note)}</p></div>
+        <p>${x.code === "ielts" ? tr("Test centres in Ethiopia: ") : ""}${esc(x.note)}</p></div>
       </a>`).join("");
 
     const p = $("#practice");
     if (p) p.innerHTML = (D.practice || []).map((x) => `
       <a class="card link-card" href="${esc(x.website)}" target="_blank" rel="noopener">
-        <img class="logo" src="assets/img/logos/${esc(x.code)}.png" alt="" loading="lazy">
+        <img class="logo" src="${ASSETS}img/logos/${esc(x.code)}.png" alt="" loading="lazy">
         <div><strong>${esc(x.name)}</strong><small>${esc(domain(x.website))}</small></div>${ARROW}
       </a>`).join("");
   }
@@ -506,7 +599,7 @@
     const m = $("#moocs");
     if (m) m.innerHTML = (D.moocs || []).map((x) => `
       <a class="card link-card tall" href="${esc(x.website)}" target="_blank" rel="noopener">
-        <img class="logo" src="assets/img/logos/${esc(x.code)}.png" alt="${esc(x.name)} logo" loading="lazy">
+        <img class="logo" src="${ASSETS}img/logos/${esc(x.code)}.png" alt="${tr("{name} logo", { name: esc(x.name) })}" loading="lazy">
         <div><strong>${esc(x.name)}</strong><small>${esc(domain(x.website))}</small><p>${esc(x.about)}</p></div>
       </a>`).join("");
   }
@@ -526,6 +619,7 @@
   initTheme();
   initMenu();
   initFooter();
+  syncLangLinks();
   ({
     home: renderHome,
     institutions: renderInstitutions,

@@ -365,3 +365,22 @@ p { margin: 0 0 1em; }
 .legal-actions { display: inline-flex; gap: 10px; align-items: center; }
 .portal-link { font-size: .9rem; color: var(--ink-3) !important; border: 1px solid var(--line); border-radius: 8px; padding: 5px 10px; text-decoration: none; }
 .portal-link:hover { color: var(--green) !important; border-color: var(--green); }
+
+/* ---------- Languages ---------- */
+.lang-switches { display: flex; gap: 6px; margin-left: 12px; }
+.lang-switch { font-size: .9rem; font-weight: 600; text-decoration: none; color: var(--green-ink); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; white-space: nowrap; }
+.lang-switch:hover { border-color: var(--green); background: var(--green-tint); }
+@media (max-width: 1080px) {
+  .lang-switches { margin-left: auto; }
+  .menu-btn { margin-left: 8px; }
+}
+
+/* Amharic pages: Ethiopic fonts first (Latin text falls through to Inter / Fraunces) */
+html[lang="am"] {
+  --font-body: "Noto Sans Ethiopic", "Inter", "Nyala", system-ui, sans-serif;
+  --font-display: "Noto Serif Ethiopic", "Fraunces", "Nyala", Georgia, serif;
+}
+html[lang="am"] body { line-height: 1.7; }
+html[lang="am"] .eyebrow, html[lang="am"] .badge, html[lang="am"] .site-footer h4,
+html[lang="am"] .side-facts h3, html[lang="am"] .who span, html[lang="am"] .tbl th { letter-spacing: 0; }
+.am-note { font-size: .88rem; color: var(--ink-3); margin: 0 0 14px; }

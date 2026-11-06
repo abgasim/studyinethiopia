@@ -1,0 +1,28 @@
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Find a programme</h1>
+        <p>Search what you want to study and see which institutions offer it, at which level and where.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <div class="finder">
+          <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <label class="visually-hidden" for="prog-search">Search programmes</label>
+            <input id="prog-search" type="search" placeholder="e.g. Software Engineering, Nursing, Agricultural Economics" autocomplete="off">
+          </div>
+          <div class="filters">
+            <div class="select-row">
+              <label class="visually-hidden" for="pf-level">Level</label><select id="pf-level"></select>
+              <label class="visually-hidden" for="pf-field">Field</label><select id="pf-field"></select>
+              <label class="visually-hidden" for="pf-region">Region</label><select id="pf-region"></select>
+              <label class="visually-hidden" for="pf-type">Public or private</label><select id="pf-type"></select>
+            </div>
+            <span class="result-count" id="prog-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="prog-coverage"></p>
+        </div>
+        <div class="prog-grid" id="prog-results"></div>
+      </div>
+    </section>

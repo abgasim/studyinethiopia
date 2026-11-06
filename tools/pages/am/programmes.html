@@ -1,0 +1,29 @@
+    <section class="page-head">
+      <div class="wrap">
+        <h1>ፕሮግራም ይፈልጉ</h1>
+        <p>ሊማሩት የሚፈልጉትን ይፈልጉ፤ የትኞቹ ተቋማት በምን ደረጃና የት እንደሚሰጡት ይመልከቱ።</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <p class="am-note">የፕሮግራሞች ስሞች በእንግሊዝኛ ናቸው። ፍለጋውን በእንግሊዝኛ ይጻፉ (ለምሳሌ «Nursing»)፣ ወይም ከታች ባሉት ምርጫዎች በዘርፍ ይለዩ።</p>
+        <div class="finder">
+          <div class="search">{{icon:search}}
+            <label class="visually-hidden" for="prog-search">ፕሮግራሞችን ይፈልጉ</label>
+            <input id="prog-search" type="search" placeholder="ለምሳሌ Software Engineering፣ Nursing፣ Agricultural Economics" autocomplete="off">
+          </div>
+          <div class="filters">
+            <div class="select-row">
+              <label class="visually-hidden" for="pf-level">ደረጃ</label><select id="pf-level"></select>
+              <label class="visually-hidden" for="pf-field">ዘርፍ</label><select id="pf-field"></select>
+              <label class="visually-hidden" for="pf-region">ክልል</label><select id="pf-region"></select>
+              <label class="visually-hidden" for="pf-type">የመንግሥት ወይም የግል</label><select id="pf-type"></select>
+            </div>
+            <span class="result-count" id="prog-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="prog-coverage"></p>
+        </div>
+        <div class="prog-grid" id="prog-results"></div>
+      </div>
+    </section>

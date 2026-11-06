@@ -8,6 +8,7 @@ site/
   institutions.html     Directory: search + filters (public/private, category, region, level, field)
   institution.html      Profile page for one institution (?id=...): summary, programmes, colleges, sources
   programmes.html       Find a programme across all institutions
+  am/                   Amharic version of every public page (generated)
   apply.html            Study in Ethiopia from abroad: regulators (MoE, ETA, EAES, ICS) and the 8-step path
   study-abroad.html     Country portals, IELTS/TOEFL, practice material
   learn.html            MOOCs
@@ -60,8 +61,19 @@ The home page shows public institutions on a map, using Leaflet (loaded from cdn
 ## Adding researched information
 Institution profiles and programme lists are collected from official websites and imported with `tools/import-research.mjs`. See `tools/README.md`.
 
-## Changing the header or footer
-The header and footer are repeated in each of the nine public HTML files. If you change the navigation, make the same change in all nine.
+## Languages, header and footer (page builder)
+The site is in **English** (`/`) and **Amharic** (`/am/`). The HTML pages are generated; don't edit `site/*.html` or `site/am/*.html` directly.
+- **Page content:** `tools/pages/en/<page>.html` and `tools/pages/am/<page>.html` (only what goes inside `<main>`).
+- **Header, footer, navigation, page titles:** `tools/build-pages.py`.
+- **Text created by JavaScript** (filters, counts, map, profiles) and the Amharic names of levels, categories, fields and regions: the `I18N` and `LABELS` tables at the top of `assets/app.js`.
+
+After editing, rebuild and commit:
+```
+python tools/build-pages.py
+```
+Institution and programme names, summaries and sources stay in English on every language (they come from `data.js`).
+
+To add a language (e.g. Afaan Oromo `om` or Tigrinya `ti`): add it to `LANGS`, `CHROME` and `PAGE_META` in `tools/build-pages.py`, translate `tools/pages/en/` into `tools/pages/<code>/`, add its block to `I18N` and `LABELS` in `assets/app.js`, and set `<html lang>` detection there.
 
 ## Running locally
 Double-click `index.html`, or serve the folder:

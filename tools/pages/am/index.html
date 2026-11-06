@@ -1,0 +1,103 @@
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">ለኢትዮጵያ ተማሪዎች ነፃ መመሪያ</span>
+          <h1>የት እንደሚማሩ ያግኙ።</h1>
+          <p class="lead">በኢትዮጵያ የሚገኙ የመንግሥትና የግል ዩኒቨርሲቲዎችና ኮሌጆች በአንድ ቦታ፣ እንዲሁም ለነፃ የትምህርት ዕድልና በውጭ ሀገር ለመማር ይፋዊ ድረ-ገጾች።</p>
+          <form action="institutions.html" method="get" role="search">
+            <label class="visually-hidden" for="hero-q">ተቋማትን ይፈልጉ</label>
+            <div class="search">{{icon:search}}
+              <input id="hero-q" name="q" type="search" placeholder="ለምሳሌ «Jimma» ወይም «AAU»" autocomplete="off">
+            </div>
+          </form>
+          <div class="hero-tags">ብዙ የሚፈለጉ፦
+            <a href="institutions.html?q=Addis">አዲስ አበባ</a>
+            <a href="institutions.html?q=Medical">ሕክምና</a>
+            <a href="institutions.html?q=Technology">ቴክኖሎጂ</a>
+            <a href="institutions.html?type=private">የግል ኮሌጆች</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/img/student-reading.jpg" alt="በጠረጴዛ ላይ መጻሕፍት ደርድሮ የሚያነብ ተማሪ" width="854" height="640">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat"><b id="stat-total">–</b><span>የተዘረዘሩ ተቋማት</span></div>
+          <div class="stat"><b id="stat-public">–</b><span>የመንግሥት ዩኒቨርሲቲዎችና ኮሌጆች</span></div>
+          <div class="stat"><b id="stat-programmes">–</b><span>ከምንጮቻቸው ጋር የተዘረዘሩ ፕሮግራሞች</span></div>
+          <div class="stat"><b id="stat-abroad">–</b><span>የውጭ ሀገር ትምህርት ድረ-ገጽ ያላቸው ሀገራት</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><h2>በመላው ኢትዮጵያ የሚገኙ የመንግሥት ዩኒቨርሲቲዎች</h2><p>እያንዳንዱ ምልክት የመንግሥት ዩኒቨርሲቲ ወይም ኮሌጅ ያለበትን ከተማ ያሳያል። ለማቅረብ ክልል ይምረጡ፣ ወይም እዚያ ያሉትን ለማየት ምልክቱን ይንኩ።</p></div>
+          <a class="btn btn-ghost" href="institutions.html">ሁሉም ተቋማት</a>
+        </div>
+        <div class="map-layout">
+          <div class="map-wrap">
+            <div id="eth-map" class="map" role="region" aria-label="በኢትዮጵያ የሚገኙ የመንግሥት ዩኒቨርሲቲዎችና ኮሌጆች ካርታ"></div>
+            <p class="small">ምልክቶቹ የእያንዳንዱን ዋና ካምፓስ ከተማ ያሳያሉ (በOpenStreetMap የተገኘ)። የክልል ወሰኖች በካርታው ላይ ይታያሉ።</p>
+          </div>
+          <div class="map-side">
+            <div class="region-list" id="region-list" role="group" aria-label="በክልል ይለዩ"></div>
+            <div class="region-insts" id="region-insts" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head"><div><h2>ወዴት መሄድ ይፈልጋሉ?</h2><p>እንደ ትምህርትዎ ደረጃ ሦስት መንገዶች።</p></div></div>
+        <div class="grid-3">
+          <a class="card path-card" href="institutions.html">
+            <div class="icon">{{icon:uni}}</div>
+            <h3>በኢትዮጵያ ይማሩ</h3>
+            <p>ዩኒቨርሲቲዎችንና ኮሌጆችን በክልልና በዓይነት ያወዳድሩ፣ የሚሰጧቸውን ፕሮግራሞች ይመልከቱ፣ ሊማሩት የሚፈልጉትን ማን እንደሚያስተምር ያግኙ።</p>
+            <span class="more">ተቋማትን ያስሱ →</span>
+          </a>
+          <a class="card path-card" href="study-abroad.html">
+            <div class="icon">{{icon:globe}}</div>
+            <h3>በውጭ ሀገር መማር</h3>
+            <p>በአውሮፓ፣ በእንግሊዝና በአሜሪካ ያሉ ይፋዊ የትምህርት ድረ-ገጾችና የነፃ ትምህርት ዕድል ሰጪ ተቋማት፣ እንዲሁም የIELTSና TOEFL ዝግጅት።</p>
+            <span class="more">ጉዞዎን ያቅዱ →</span>
+          </a>
+          <a class="card path-card" href="learn.html">
+            <div class="icon">{{icon:laptop}}</div>
+            <h3>በኦንላይን መማር</h3>
+            <p>ከታወቁ ዩኒቨርሲቲዎች በCoursera፣ edX፣ Khan Academy እና በሌሎችም የሚሰጡ ነፃና ዝቅተኛ ዋጋ ያላቸው ኮርሶች።</p>
+            <span class="more">መማር ይጀምሩ →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="band">
+          <div>
+            <span class="eyebrow">የውጭ ሀገር ተማሪዎች</span>
+            <h2>በኢትዮጵያ ለመማር እየመጡ ነው?</h2>
+            <p>ዩኒቨርሲቲዎችን የሚቆጣጠረው ማን እንደሆነ፣ እውቅናን እንዴት እንደሚያረጋግጡ፣ የትምህርት ማስረጃዎን እንዴት እንደሚያስመዘግቡ፣ እንዴት እንደሚያመለክቱና የተማሪ ቪዛና የመኖሪያ ፈቃድ እንዴት እንደሚያገኙ ደረጃ በደረጃ።</p>
+          </div>
+          <a class="btn btn-primary" href="apply.html">የ8 ደረጃ መመሪያውን ያንብቡ →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><h2>ይፋዊ ምንጮች</h2><p>በኢትዮጵያ ትምህርት ላይ ሚኒስቴሮች፣ ኤጀንሲዎችና መረጃዎች።</p></div>
+          <a class="btn btn-ghost" href="resources.html">ሁሉም ምንጮች</a>
+        </div>
+        <div class="grid" id="home-links"></div>
+      </div>
+    </section>
