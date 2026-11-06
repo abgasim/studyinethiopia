@@ -15,12 +15,42 @@
 </head>
 <body class="admin-body">
   <div class="stripe"></div>
+
+  <!-- Portal sign-in (shown only when this page is opened from the website) -->
+  <div class="login" id="login" hidden>
+    <form class="login-card" id="login-form" autocomplete="off">
+      <a class="brand" href="index.html"><span class="brand-mark">SiE</span>Study in Ethiopia</a>
+      <h1>Admin portal</h1>
+      <p class="muted">Sign in with your GitHub access key to edit and publish the website.</p>
+      <label for="gh-token">GitHub access key</label>
+      <input id="gh-token" type="password" placeholder="github_pat_…" spellcheck="false" autocomplete="off" required>
+      <label class="check"><input type="checkbox" id="remember"> Keep me signed in on this device</label>
+      <p class="login-error" id="login-error" role="alert"></p>
+      <button class="btn btn-primary" id="login-btn" type="submit">Sign in</button>
+      <details class="howto">
+        <summary>How do I get an access key?</summary>
+        <ol>
+          <li>Sign in to GitHub with an account that manages <strong>abgasim/studyinethiopia</strong>.</li>
+          <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
+          <li>Name it e.g. <em>SiE admin portal</em> and choose an expiry (90 days is a good balance).</li>
+          <li>Under <strong>Repository access</strong>, choose <strong>Only select repositories</strong> → <strong>studyinethiopia</strong>.</li>
+          <li>Under <strong>Permissions → Repository permissions</strong>, set <strong>Contents</strong> to <strong>Read and write</strong>. Leave everything else as is.</li>
+          <li>Click <strong>Generate token</strong>, copy it (it starts with <code>github_pat_</code>) and paste it above.</li>
+        </ol>
+        <p>Keep the key private: anyone who has it can change the website. If it's lost or shared, delete it at <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">github.com/settings/personal-access-tokens</a>.</p>
+      </details>
+      <a class="back-site" href="index.html">← Back to the website</a>
+    </form>
+  </div>
+
   <div class="admin">
     <aside class="side">
       <a class="brand" href="index.html" target="_blank" rel="noopener"><span class="brand-mark">SiE</span>Admin</a>
       <nav id="side-nav" aria-label="Sections"></nav>
       <div class="side-foot">
-        <button class="side-btn" id="open-btn" type="button">Open data.js…</button>
+        <p class="who" id="who"></p>
+        <button class="side-btn portal-only" id="signout-btn" type="button">Sign out</button>
+        <button class="side-btn local-only" id="open-btn" type="button">Open data.js…</button>
         <a class="side-btn" href="index.html" target="_blank" rel="noopener">Preview site ↗</a>
         <button class="side-btn" id="theme-btn" type="button">Dark mode</button>
       </div>

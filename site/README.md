@@ -13,7 +13,7 @@ site/
   learn.html            MOOCs
   resources.html        Ministries, agencies, background reading
   about.html            About page
-  admin.html            Admin dashboard: run locally, do NOT upload
+  admin.html            Admin portal (online, GitHub sign-in) and offline editor (opened from disk)
   assets/
     data.js             ALL site content (written by the admin dashboard)
     app.js              Renders content into each page (picked by <body data-page>)
@@ -22,7 +22,14 @@ site/
     img/                Flags, logos, hero photo
 ```
 
-## Editing content with the admin dashboard
+## Admin portal (online)
+Click **Portal** in the footer of any page, or go to `https://www.studyinethiopia.com/admin.html`, and sign in with a GitHub fine-grained access key that has **Contents: Read and write** on `abgasim/studyinethiopia` only. The sign-in screen explains how to create one. **Publish** commits `site/assets/data.js` to GitHub, and the live site updates about a minute later.
+- The key is stored only in your browser (for this tab, or on this device if you tick "Keep me signed in"). **Sign out** removes it.
+- Without a valid key the portal can't read drafts or change anything; GitHub enforces this, not the page.
+- If someone else changed the content since you signed in, Publish stops and asks you to load the latest version first, so nobody's work is overwritten.
+- If a key is lost or shared, delete it at github.com/settings/personal-access-tokens.
+
+## Editing content offline (admin dashboard on your computer)
 1. Open `site/admin.html` in **Microsoft Edge or Google Chrome** (double-click it).
 2. Edit any section: Institutions, Programmes, Country portals, English tests, Practice material, Online courses, Official links.
 3. Press **Save** (or Ctrl+S). The first time, choose the file `site/assets/data.js` and replace it. After that, Save writes to it directly.
@@ -33,7 +40,6 @@ Notes:
 - In Firefox or Safari, Save downloads a `data.js` instead. Copy it over `site/assets/data.js`.
 - Deleting an institution also deletes its programmes. Use **Undo** in the message that appears if that was a mistake.
 - New logos and flags: put the PNG in `assets/img/logos/` or `assets/img/flags/` first, then type its name (without `.png`).
-- `admin.html` can't change anything on the live site, but there's no reason to upload it. Leave it off the host.
 
 ## Editing content by hand
 Open `assets/data.js`. Each list is plain JSON inside `window.SIE_DATA`:
@@ -66,7 +72,7 @@ python -m http.server 8000      # then open http://localhost:8000
 ```
 
 ## Deploying
-Upload the **contents** of `site/` (everything except `admin.html`, `assets/admin.js`, `assets/admin.css`) to any static host (cPanel `public_html`, Netlify, GitHub Pages, Cloudflare Pages).
+The site is published by GitHub Pages from this repository on every push to `main` (see `.github/workflows/deploy-pages.yml`). To host elsewhere, upload the **contents** of `site/` to any static host (cPanel `public_html`, Netlify, GitHub Pages, Cloudflare Pages).
 
 **Important:** the old server contained hidden web-shell files (`contents.php` in every `sie_*` folder). Before deploying:
 1. Delete everything in `public_html`. Don't upload the new site next to the old PHP files.

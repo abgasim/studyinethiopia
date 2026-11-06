@@ -1,5 +1,5 @@
 # Publishes the site/ folder to GitHub Pages on every push to main.
-# The admin dashboard is left out: it's a local tool for editing data.js.
+# The admin portal (admin.html) is published too: it needs a GitHub access key to change anything.
 name: Deploy site to GitHub Pages
 
 on:
@@ -26,11 +26,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build the public site (without admin files)
+      - name: Build the public site
         run: |
           mkdir -p _site
           cp -r site/. _site/
-          rm -f _site/admin.html _site/assets/admin.js _site/assets/admin.css _site/README.md
+          rm -f _site/README.md
           echo "Published files:" && find _site -type f | sort
 
       - uses: actions/configure-pages@v5

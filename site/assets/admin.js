@@ -44,6 +44,15 @@
   let data = shape(loaded ? clone(window.SIE_DATA) : {});
   let savedText = serialize(data);     // what's on disk
   let fileHandle = null;               // set after first save/open (Edge/Chrome)
+
+  // Portal mode: when this page is served from the website (http/https), you sign in with a
+  // GitHub access key and "Publish" commits data.js to the repository through the GitHub API.
+  // GitHub enforces the permission, so the page is harmless without a valid key.
+  // Opened from disk (file://), it works offline and saves to the local file as before.
+  const GH = { owner: "abgasim", repo: "studyinethiopia", path: "site/assets/data.js", branch: "main" };
+  const PORTAL = /^https?:$/.test(location.protocol) && !new URLSearchParams(location.search).has("local");
+  const TOKEN_KEY = "sie-portal-token";
+  let ghToken = null, ghSha = null, ghUser = "";
   let section = "institutions";
   let query = "";
   let filter = "";
@@ -289,7 +298,8 @@
   function renderStatus() {
     const st = $("#status"), dirty = isDirty();
     st.classList.toggle("dirty", dirty);
-    st.textContent = dirty ? "Unsaved changes" : fileHandle ? `Saved to ${fileHandle.name}` : "No changes";
+    st.textContent = dirty ? (PORTAL ? "Unpublished changes" : "Unsaved changes")
+      : PORTAL ? "Live site is up to date" : fileHandle ? `Saved to ${fileHandle.name}` : "No changes";
     $("#save-btn").classList.toggle("btn-ghost", !dirty);
     $("#save-btn").classList.toggle("btn-primary", dirty);
   }
@@ -519,6 +529,7 @@
   }
 
   async function save() {
+    if (PORTAL) return ghToken ? publish() : undefined;
     const text = serialize(data);
     try {
       if (!fileHandle && window.showSaveFilePicker) {
@@ -582,6 +593,119 @@
     } catch (e) {
       toast("That file couldn't be read: " + e.message, { error: true });
     }
+  }
+
+  /* ---------- Portal: GitHub sign-in and publishing ---------- */
+
+  function gh(pathPart, opts = {}) {
+    const url = pathPart.startsWith("https://") ? pathPart : `https://api.github.com/repos/${GH.owner}/${GH.repo}${pathPart}`;
+    const headers = {
+      Authorization: `Bearer ${ghToken}`,
+      Accept: opts.accept || "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+    };
+    if (opts.body) headers["Content-Type"] = "application/json";
+    return fetch(url, { method: opts.method || "GET", headers, body: opts.body, cache: "no-store" });
+  }
+
+  // UTF-8 safe base64 (data.js contains Amharic and other non-Latin text)
+  function b64(text) {
+    const bytes = new TextEncoder().encode(text);
+    let s = "";
+    for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    return btoa(s);
+  }
+
+  const tokenStore = {
+    get() { try { return sessionStorage.getItem(TOKEN_KEY) || localStorage.getItem(TOKEN_KEY); } catch { return null; } },
+    set(t, remember) { try { (remember ? localStorage : sessionStorage).setItem(TOKEN_KEY, t); } catch {} },
+    clear() { try { sessionStorage.removeItem(TOKEN_KEY); localStorage.removeItem(TOKEN_KEY); } catch {} },
+  };
+
+  async function loadFromGitHub() {
+    const where = `/contents/${GH.path}?ref=${GH.branch}`;
+    const meta = await gh(where);
+    if (!meta.ok) throw new Error(`Couldn't read the site's content from GitHub (${meta.status}).`);
+    const { sha } = await meta.json();
+    const raw = await gh(where, { accept: "application/vnd.github.raw+json" });
+    if (!raw.ok) throw new Error(`Couldn't read the site's content from GitHub (${raw.status}).`);
+    data = parseDataFile(await raw.text());
+    savedText = serialize(data);
+    ghSha = sha;
+  }
+
+  async function signIn(token, remember) {
+    ghToken = token.trim();
+    if (!ghToken) throw new Error("Paste your GitHub access key.");
+    const r = await gh("");
+    if (r.status === 401) throw new Error("That key isn't valid, or it has expired. Create a new one (see below).");
+    if (!r.ok) throw new Error(`GitHub didn't accept the key (${r.status}). Try again in a moment.`);
+    const repo = await r.json();
+    if (!repo.permissions || !repo.permissions.push)
+      throw new Error("This GitHub account isn't allowed to change the Study in Ethiopia site.");
+    const u = await gh("https://api.github.com/user");
+    ghUser = u.ok ? (await u.json()).login || "" : "";
+    await loadFromGitHub();
+    tokenStore.set(ghToken, remember);
+  }
+
+  function signOut() {
+    tokenStore.clear();
+    ghToken = null; ghSha = null; ghUser = "";
+    showLogin();
+  }
+
+  async function publish() {
+    if (!isDirty()) { toast("Nothing new to publish."); return; }
+    const text = serialize(data);
+    const btn = $("#save-btn");
+    btn.disabled = true; btn.textContent = "Publishing…";
+    try {
+      const res = await gh(`/contents/${GH.path}`, {
+        method: "PUT",
+        body: JSON.stringify({ message: `Update site content via admin portal${ghUser ? ` (${ghUser})` : ""}`, content: b64(text), sha: ghSha, branch: GH.branch }),
+      });
+      if (res.status === 409 || res.status === 422) { conflict(); return; }
+      if (res.status === 401) { toast("Your sign-in has expired. Sign in again; your changes are kept as a draft.", { error: true }); signOut(); return; }
+      if (res.status === 403 || res.status === 404)
+        throw new Error("your key isn't allowed to change the site. It needs “Contents: Read and write” for abgasim/studyinethiopia.");
+      if (!res.ok) throw new Error(`GitHub returned ${res.status}.`);
+      ghSha = (await res.json()).content.sha;
+      savedText = text;
+      store.del(DRAFT_KEY);
+      $("#banner").innerHTML = "";
+      toast("Published. The live site updates in about a minute.");
+    } catch (e) {
+      toast("Couldn't publish: " + (e && e.message ? e.message : e), { error: true });
+    } finally {
+      btn.disabled = false; btn.textContent = "Publish";
+      render();
+    }
+  }
+
+  // Someone else changed data.js (another admin, or a push from a computer) since we loaded it
+  function conflict() {
+    $("#banner").innerHTML = `<div class="banner error"><span class="grow"><strong>The site was changed somewhere else since you opened the portal.</strong>
+      Publishing now would overwrite that change. Your edits are kept as a draft: load the latest version, then restore your draft and check it before publishing.</span>
+      <button type="button" id="latest-btn">Load latest version</button></div>`;
+    $("#latest-btn").onclick = async () => {
+      try { await loadFromGitHub(); afterLoad(); toast("Loaded the latest version."); }
+      catch (e) { toast(e.message, { error: true }); }
+    };
+  }
+
+  function showLogin(message) {
+    document.body.classList.add("locked");
+    $("#login").hidden = false;
+    $("#login-error").textContent = message || "";
+    const input = $("#gh-token"); input.value = ""; input.focus();
+  }
+
+  function unlock() {
+    document.body.classList.remove("locked");
+    $("#login").hidden = true;
+    $("#who").textContent = ghUser ? `Signed in as ${ghUser}` : "Signed in";
+    afterLoad();
   }
 
   /* ---------- Toast ---------- */
@@ -672,28 +796,59 @@
   const startKey = location.hash.slice(1);
   if (S(startKey)) section = startKey;
 
-  if (!loaded) {
-    $("#banner").innerHTML = `<div class="banner error"><span class="grow"><strong>assets/data.js didn't load.</strong> Open admin.html from inside the site folder, or use “Open data.js…”.</span></div>`;
+  // Runs once the content is loaded (straight away from disk; after sign-in in the portal)
+  function afterLoad() {
+    $("#banner").innerHTML = "";
+    const draftRaw = store.get(DRAFT_KEY);
+    if (draftRaw) {
+      try {
+        const draft = JSON.parse(draftRaw);
+        if (serialize(shape(draft.data)) !== savedText) {
+          const when = new Date(draft.at).toLocaleString();
+          $("#banner").innerHTML = `<div class="banner"><span class="grow"><strong>You have unsaved changes from ${esc(when)}.</strong> Restore them, or discard and start from the current version.</span>
+            <button type="button" id="restore-btn">Restore</button><button type="button" id="discard-btn">Discard</button></div>`;
+          $("#restore-btn").onclick = () => { data = shape(draft.data); $("#banner").innerHTML = ""; render(); toast(PORTAL ? "Draft restored. Publish to make it live." : "Draft restored. Save to keep it."); };
+          $("#discard-btn").onclick = () => { store.del(DRAFT_KEY); $("#banner").innerHTML = ""; };
+        } else store.del(DRAFT_KEY);
+      } catch { store.del(DRAFT_KEY); }
+    }
+    const seenKey = PORTAL ? "sie-portal-seen" : "sie-admin-seen";
+    if (!$("#banner").innerHTML && !store.get(seenKey)) {
+      store.set(seenKey, "1");
+      const how = PORTAL
+        ? "edit anything here, then press <strong>Publish</strong> (Ctrl+S). The live site updates about a minute later. Unpublished edits are kept as a draft in this browser."
+        : "edit anything here, then press <strong>Save</strong> (Ctrl+S) and choose <code>site/assets/data.js</code>. Commit and push it to publish. Unsaved edits are kept as a draft in this browser.";
+      $("#banner").innerHTML = `<div class="banner info"><span class="grow"><strong>How this works:</strong> ${how}</span><button type="button" onclick="this.closest('.banner').remove()">Got it</button></div>`;
+    }
+    render();
   }
 
-  const draftRaw = store.get(DRAFT_KEY);
-  if (draftRaw) {
-    try {
-      const draft = JSON.parse(draftRaw);
-      if (serialize(shape(draft.data)) !== savedText) {
-        const when = new Date(draft.at).toLocaleString();
-        $("#banner").innerHTML = `<div class="banner"><span class="grow"><strong>You have unsaved changes from ${esc(when)}.</strong> Restore them, or discard and start from the current data.js.</span>
-          <button type="button" id="restore-btn">Restore</button><button type="button" id="discard-btn">Discard</button></div>`;
-        $("#restore-btn").onclick = () => { data = shape(draft.data); $("#banner").innerHTML = ""; render(); toast("Draft restored. Save to keep it."); };
-        $("#discard-btn").onclick = () => { store.del(DRAFT_KEY); $("#banner").innerHTML = ""; };
-      } else store.del(DRAFT_KEY);
-    } catch { store.del(DRAFT_KEY); }
+  if (PORTAL) {
+    document.body.classList.add("portal");
+    $("#save-btn").textContent = "Publish";
+    $("#save-btn").title = "Publish to the live site (Ctrl+S)";
+    $("#signout-btn").addEventListener("click", () => {
+      if (isDirty() && !confirm("You have unpublished changes. They'll stay as a draft in this browser. Sign out?")) return;
+      signOut();
+    });
+    $("#login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const btn = $("#login-btn");
+      btn.disabled = true; btn.textContent = "Signing in…"; $("#login-error").textContent = "";
+      try { await signIn($("#gh-token").value, $("#remember").checked); unlock(); }
+      catch (err) { ghToken = null; $("#login-error").textContent = err.message || String(err); }
+      finally { btn.disabled = false; btn.textContent = "Sign in"; }
+    });
+    const saved = tokenStore.get();
+    if (saved) {
+      signIn(saved, !!(function () { try { return localStorage.getItem(TOKEN_KEY); } catch { return null; } })())
+        .then(unlock)
+        .catch((err) => { tokenStore.clear(); showLogin(err.message); });
+    } else showLogin();
+  } else {
+    if (!loaded) {
+      $("#banner").innerHTML = `<div class="banner error"><span class="grow"><strong>assets/data.js didn't load.</strong> Open admin.html from inside the site folder, or use “Open data.js…”.</span></div>`;
+      render();
+    } else afterLoad();
   }
-
-  if (loaded && !draftRaw && !store.get("sie-admin-seen")) {
-    store.set("sie-admin-seen", "1");
-    $("#banner").innerHTML = `<div class="banner info"><span class="grow"><strong>How this works:</strong> edit anything here, then press <strong>Save</strong> (Ctrl+S) and choose <code>site/assets/data.js</code>. Upload that one file to your host to publish. Unsaved edits are kept as a draft in this browser.</span><button type="button" onclick="this.closest('.banner').remove()">Got it</button></div>`;
-  }
-
-  render();
 })();

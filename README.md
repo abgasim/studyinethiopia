@@ -13,7 +13,8 @@ Live site: **https://www.studyinethiopia.com**
 | [`.github/workflows/`](.github/workflows/) | Publishes `site/` to GitHub Pages on every push to `main`. |
 
 ## Editing content
-Open `site/admin.html` in Edge or Chrome on your computer, edit, press **Save** (choose `site/assets/data.js`), then commit and push. The site updates within a minute or two. The admin page is never published.
+- **Online:** click **Portal** in the site footer (`/admin.html`), sign in with a GitHub access key for this repository, edit, and press **Publish**. The site updates about a minute later.
+- **Offline:** open `site/admin.html` from disk in Edge or Chrome, edit, press **Save** (choose `site/assets/data.js`), then commit and push.
 
 ## Running locally
 ```
