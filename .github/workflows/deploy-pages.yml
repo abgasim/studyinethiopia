@@ -41,6 +41,5 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # GitHub Pages can be slow to confirm a deployment; wait up to 20 minutes (default is 10)
-          timeout: 1200000
+        # If this step times out ("Timeout reached"), GitHub Pages was slow to confirm:
+        # open the run on GitHub and click "Re-run failed jobs". (10 minutes is GitHub's maximum wait.)
