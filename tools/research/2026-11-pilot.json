@@ -1,0 +1,123 @@
+{
+ "hawassa-university": {
+  "category": "University", "city": "Hawassa", "region": "Sidama", "founded": 1976,
+  "summary": "Hawassa University began as Awassa College of Agriculture in 1976. It became Debub University after a merger of three colleges in 1999 and was renamed Hawassa University in 2006. It runs seven campuses in and around Hawassa.",
+  "colleges": ["College of Agriculture", "Awada College of Business and Economics", "College of Education", "College of Law and Governance", "College of Medicine and Health Sciences", "College of Natural and Computational Sciences", "College of Social Science", "Wondo Genet College of Forestry and Natural Resources Conservation", "Institute of Technology", "Institute of Sidama Studies", "Institute of Policy and Development Research"],
+  "stats": {"undergraduate": 103, "masters": 141, "phd": 54, "source": "https://www.hu.edu.et/", "asOf": "2025"},
+  "sources": [
+   {"label": "Hawassa University website", "url": "https://www.hu.edu.et/", "kind": "official"},
+   {"label": "Background", "url": "https://hu.edu.et/background-detail", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "programmes": {
+   "https://cmhs.hu.edu.et/medicine": {"College of Medicine and Health Sciences": {
+     "Bachelor's": ["Medicine", "Anesthesia", "Medical Radiology Technology", "Optometry"],
+     "Master's": ["Medical Biochemistry", "Clinical Anesthesia"],
+     "Specialty": ["Internal Medicine", "General Surgery", "Orthopedics", "Obstetrics and Gynecology", "Pediatrics and Child Health", "Ophthalmology", "Clinical Radiology", "Anesthesiology", "Emergency and Critical Care", "Oral and Maxillofacial Surgery", "Pathology", "Gynecologic Oncology (Subspecialty)"]}},
+   "https://clg.hu.edu.et/": {"College of Law and Governance": {
+     "Bachelor's": ["Law", "Governance and Development Studies", "Civics and Ethics"]}},
+   "https://coe.hu.edu.et/list-of-programs-offered-coe": {"College of Education": {
+     "Bachelor's": ["Educational Planning and Management", "Psychology", "Lifelong Learning and Community Development", "Special Needs and Inclusive Education"],
+     "Master's": ["School Leadership", "Educational Supervision and Quality Management", "Social Psychology", "Counseling Psychology", "Adult Education and Community Development", "Special Needs and Inclusive Education", "Curriculum and Instruction", "Multicultural and International Education"],
+     "PhD": ["Curriculum and Instruction", "Educational Measurement and Evaluation", "Educational Assessment and Evaluation", "Educational Leadership and Policy Studies", "Educational Policy and Strategic Management"],
+     "Diploma": ["Biology Teaching (PGDT)", "Chemistry Teaching (PGDT)", "Physics Teaching (PGDT)", "Mathematics Teaching (PGDT)", "Health and Physical Education Teaching (PGDT)", "Geography Teaching (PGDT)", "English Teaching (PGDT)", "Sidaamu Afoo Teaching (PGDT)", "Amharic Teaching (PGDT)", "Information Technology Teaching (PGDT)", "History Teaching (PGDT)", "Economics Teaching (PGDT)"]}}
+  }
+ },
+
+ "haramaya-university": {
+  "category": "University", "city": "Haramaya", "region": "Oromia", "founded": 1954,
+  "summary": "Haramaya University is one of Ethiopia's oldest higher-education institutions, founded in the early 1950s as the Imperial Ethiopian College of Agricultural and Mechanical Arts and renamed Haramaya University in 2006. Its main campus is near Haramaya town in East Hararghe, with a second campus in Harar for health and medical sciences.",
+  "colleges": ["College of Agriculture and Environmental Sciences", "College of Business and Economics", "College of Computing and Informatics", "College of Education and Behavioural Sciences", "College of Health and Medical Science", "College of Law", "College of Natural and Computational Science", "College of Social Sciences and Humanities", "College of Veterinary Medicine", "Haramaya Institute of Technology", "Institute of Gada Studies"],
+  "stats": {"undergraduate": 72, "masters": 137, "phd": 46, "source": "https://www.haramaya.edu.et/", "asOf": "2025/26"},
+  "sources": [
+   {"label": "Haramaya University website", "url": "https://www.haramaya.edu.et/", "kind": "official"},
+   {"label": "History", "url": "https://www.haramaya.edu.et/history/", "kind": "official"},
+   {"label": "Facts and figures", "url": "https://www.haramaya.edu.et/facts-and-figures", "kind": "official"}
+  ],
+  "coverage": "most",
+  "programmes": {
+   "https://www.haramaya.edu.et/admissions/programs/regular-programs/": {
+    "Haramaya Institute of Technology": {
+     "Bachelor's": ["Agricultural Engineering", "Water Resources and Irrigation Engineering", "Water Supply and Environmental Engineering", "Hydraulics and Water Resource Engineering", "Electrical and Computer Engineering", "Chemical Engineering", "Civil Engineering", "Mechanical Engineering"],
+     "Master's": ["Communication System Engineering", "Electrical Power Engineering", "Hydraulic Engineering", "Chemical Engineering (Environmental)", "Civil Engineering (Structural)", "Manufacturing Engineering"]},
+    "College of Computing and Informatics": {
+     "Bachelor's": ["Computer Science", "Information Science", "Information Systems", "Information Technology", "Software Engineering", "Statistics"],
+     "Master's": ["Artificial Intelligence", "Computer Science", "Data Science", "Information Science", "Biostatistics", "Statistics (Econometrics and Biometrics)"]},
+    "College of Health and Medical Science": {
+     "Bachelor's": ["Medicine (MD)", "Clinical Pharmacy", "Medical Laboratory Sciences", "Comprehensive Nursing", "Midwifery"],
+     "Master's": ["Public Health (Clinical Epidemiology)", "Public Health (Epidemiology)", "Public Health (Field Epidemiology)", "Public Health (General Public Health)", "Public Health (Health Promotion and Behaviour)", "Public Health (Health Service Management)", "Public Health (Public Health Nutrition)", "Public Health (Reproductive Health)", "Adult Health Nursing", "Maternity and Neonatal Nursing", "Pediatric Development and Rehabilitating Nursing", "Pediatrics and Child Health Nursing", "Clinical Midwifery", "Medical Microbiology", "Tropical and Infectious Diseases"]},
+    "College of Social Sciences and Humanities": {
+     "Bachelor's": ["English Language and Literature", "French Language and Literature", "Journalism and Mass Communication", "Geo-Information Sciences", "Geography and Environmental Studies", "Urban Planning", "Gender and Development", "History and Heritage Management", "Tourism Development and Hotel Management", "Sociology", "Afan Oromo Communication and Literature"],
+     "Master's": ["Teaching Afaan Oromoo", "Applied Linguistics in Teaching Amharic", "Civics and Ethical Studies", "Environment and Climate Change Management", "Governance and Development Studies", "History and Heritage Management", "Social Anthropology", "Teaching English as a Foreign Language", "Urban and Regional Development Planning"]},
+    "College of Agriculture and Environmental Sciences": {
+     "Bachelor's": ["Agribusiness and Value Chain Management", "Agricultural Economics", "Animal Sciences", "Range Ecology and Biodiversity", "Natural Resource Management", "Environmental Sciences", "Rural Development and Agricultural Extension", "Plant Sciences"],
+     "Master's": ["Agricultural Economics", "Agribusiness and Value Chain Management", "Agriculture and Applied Economics", "Environment and Natural Resource Economics", "Agroforestry", "Agro-meteorology and Natural Risk Management", "Environmental Science and Management", "Irrigation Agronomy", "Soil Science", "Agroecology", "Agricultural Entomology", "Agronomy", "Horticulture", "Integrated Pest Management", "Plant Breeding", "Plant Pathology", "Seed Science and Technology", "Weed Science", "Animal Breeding and Genetics", "Animal Nutrition", "Animal Production", "Dairy Science and Technology", "Range Ecology and Biodiversity Management", "Rural Development and Agricultural Extension", "Agricultural Information and Communication Management"]},
+    "College of Veterinary Medicine": {
+     "Bachelor's": ["Veterinary Medicine (DVM)", "Veterinary Laboratory Technology"]},
+    "College of Business and Economics": {
+     "Bachelor's": ["Accounting and Finance", "Cooperatives", "Economics", "Management", "Public Administration and Development Management"],
+     "Master's": ["Development Economics", "Energy Economics", "Business Administration (MBA)", "Accounting and Finance", "Public Policy Management"]},
+    "College of Education and Behavioural Sciences": {
+     "Bachelor's": ["Adult Education and Community Development", "Curriculum and Teachers' Professional Development Studies", "Educational Planning and Management", "Psychology", "Special Needs and Inclusive Education"]},
+    "College of Law": {
+     "Bachelor's": ["Law (LLB)"]}
+   },
+   "https://www.haramaya.edu.et/academics/phd-programs/phd-program/": {
+    "College of Agriculture and Environmental Sciences": {"PhD": ["Agricultural Economics", "Agribusiness and Value Chain Management", "Soil Science", "Agricultural Entomology", "Agronomy", "Horticulture", "Plant Breeding", "Plant Pathology", "Animal Breeding and Genetics", "Animal Nutrition", "Dairy Science and Technology", "Range Ecology and Dryland Biodiversity", "Tropical Animal Production", "Meat Science and Technology", "Poultry Science", "Rural Development and Agricultural Extension", "Rural Development"]},
+    "College of Computing and Informatics": {"PhD": ["Biostatistics"]},
+    "College of Natural and Computational Science": {"PhD": ["Microbiology", "Chemistry", "Physics", "Mathematics"]},
+    "College of Social Sciences and Humanities": {"PhD": ["Teaching English as a Foreign Language", "Language Education Policy Studies", "Climate Change and Disaster Risk Management", "Geography and Environmental Studies", "Peace and Development Studies", "Afaan Oromoo and Literature"]},
+    "College of Veterinary Medicine": {"PhD": ["Food Safety and Zoonosis"]},
+    "College of Education and Behavioural Sciences": {"PhD": ["Adult and Non-Formal Education", "Education", "Educational Leadership and Policy Studies", "Educational Psychology", "Inclusive Education"]}
+   },
+   "https://www.haramaya.edu.et/admissions/programs/specialty-program/": {
+    "College of Health and Medical Science": {
+     "PhD": ["Medical Microbiology", "Public Health", "Environmental Health", "Nursing", "Tropical and Infectious Disease", "Public Health (DrPH)"],
+     "Specialty": ["Anesthesiology, Critical Care and Pain Medicine", "Dermatology and Venereology", "Emergency and Critical Care Medicine", "General Surgery", "Internal Medicine", "Obstetrics and Gynecology", "Orthopedics and Trauma Surgery", "Pediatrics and Child Health", "Gynecologic Oncology (Subspecialty)", "Maternal Fetal Medicine (Subspecialty)", "Urogynecology (Subspecialty)"]},
+    "College of Education and Behavioural Sciences": {
+     "Diploma": ["Secondary School Teaching (PGDT)", "School Leadership (PGDSL)", "Higher Education Teaching (PGDHET)", "Higher Diploma Program (HDP)"],
+     "Certificate": ["Primary School Supervision"]}
+   },
+   "https://www.haramaya.edu.et/admissions/programs/non-regular-postgraduate-programs/": {
+    "College of Agriculture and Environmental Sciences": {"Master's": ["Animal and Range Sciences", "Plant Sciences"]},
+    "Haramaya Institute of Technology": {"Master's": ["Food Science and Technology", "Soil and Water Conservation Engineering"]},
+    "College of Education and Behavioural Sciences": {"Master's": ["Educational Planning and Management", "Educational Leadership and Management", "School Leadership", "Social Psychology", "Special Needs and Inclusive Education"]},
+    "College of Social Sciences and Humanities": {"Master's": ["Afan Oromo Literature and Communication", "Geography and Environmental Sciences", "Sociology"]},
+    "College of Natural and Computational Science": {"Master's": ["Biology", "Biotechnology", "Chemistry", "Mathematics", "Physics"]},
+    "College of Veterinary Medicine": {"Master's": ["Veterinary Public Health"]},
+    "College of Health and Medical Science": {"Master's": ["Public Health"]},
+    "Sport Sciences Academy": {"Master's": ["Sport Medicine", "Sport Nutrition", "Teaching in Physical Education"]}
+   },
+   "https://www.haramaya.edu.et/admissions/programs/non-regular-undergraduate-programs/": {
+    "College of Health and Medical Science": {"Bachelor's": ["Pharmacy", "Nursing"]},
+    "College of Natural and Computational Science": {"Bachelor's": ["Biology", "Chemistry", "Mathematics", "Physics", "Sport Science"]},
+    "College of Education and Behavioural Sciences": {"Bachelor's": ["Agricultural Communication Education"]}
+   }
+  }
+ },
+
+ "jimma-university": {
+  "category": "University", "city": "Jimma", "region": "Oromia", "founded": 1952,
+  "summary": "Jimma University traces its origins to Jimma College of Agriculture, founded in 1952. It took its current name in 1999 after merging with the Jimma Institute of Health Sciences, and offers undergraduate and postgraduate programmes across health, technology, agriculture, business, natural and social sciences, and law.",
+  "colleges": ["Institute of Health", "Jimma Institute of Technology", "Institute of Education and Professional Development Studies", "College of Agriculture and Veterinary Medicine", "College of Business and Economics", "College of Natural Sciences", "College of Social Sciences and Humanities", "College of Law and Governance", "School of Graduate Studies"],
+  "stats": {"undergraduate": 56, "postgraduate": 103, "source": "https://en.wikipedia.org/wiki/Jimma_University"},
+  "sources": [
+   {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jimma_University", "kind": "secondary"}
+  ],
+  "coverage": "none",
+  "coverageNote": "The university website (ju.edu.et) could not be reached during research (certificate error), so programmes are not listed yet.",
+  "programmes": {}
+ },
+
+ "addis-ababa-university": {
+  "category": "University", "city": "Addis Ababa", "region": "Addis Ababa", "founded": 1950,
+  "summary": "Addis Ababa University is Ethiopia's oldest university, founded as a two-year college on 20 March 1950. It has campuses across Addis Ababa and one in Bishoftu, with colleges, institutes and schools covering most academic fields.",
+  "colleges": ["College of Business and Economics", "College of Development Studies", "College of Education and Behavioral Studies", "College of Health Sciences", "College of Humanities, Language Studies, Journalism and Communication", "College of Law and Governance Studies", "College of Natural and Computational Sciences", "College of Social Sciences", "College of Veterinary Medicine and Agriculture", "Skunder Boghossian College of Performing and Visual Arts", "Addis Ababa Institute of Technology", "Ethiopian Institute of Architecture, Building Construction and City Development", "Institute of Ethiopian Studies"],
+  "sources": [
+   {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Addis_Ababa_University", "kind": "secondary"}
+  ],
+  "coverage": "none",
+  "coverageNote": "The university website (aau.edu.et) shows no readable content to automated readers, so programmes are not listed yet.",
+  "programmes": {}
+ }
+}

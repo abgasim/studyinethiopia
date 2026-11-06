@@ -1,0 +1,282 @@
+{
+ "Adama": {
+  "lat": 8.54401,
+  "lng": 39.27045,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/relation/7098959"
+ },
+ "Addis Ababa": {
+  "lat": 9.03581,
+  "lng": 38.75243,
+  "region": "Addis Ababa",
+  "code": "ET-AA",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/27565076"
+ },
+ "Adigrat": {
+  "lat": 14.27741,
+  "lng": 39.4615,
+  "region": "Tigray",
+  "code": "ET-TI",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/298296178"
+ },
+ "Adwa, Tigray": {
+  "lat": 14.16707,
+  "lng": 38.89116,
+  "region": "Tigray",
+  "code": "ET-TI",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/9137631067"
+ },
+ "Aksum": {
+  "lat": 14.1221,
+  "lng": 38.73217,
+  "region": "Tigray",
+  "code": "ET-TI",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/298296175"
+ },
+ "Ambo": {
+  "lat": 8.9821,
+  "lng": 37.85544,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/266775102"
+ },
+ "Arba Minch": {
+  "lat": 6.02151,
+  "lng": 37.55398,
+  "region": "South Ethiopia",
+  "code": "",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/253440282"
+ },
+ "Asosa": {
+  "lat": 10.06464,
+  "lng": 34.5437,
+  "region": "Benishangul-Gumuz",
+  "code": "ET-BE",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/321761901"
+ },
+ "Bahir Dar": {
+  "lat": 11.59137,
+  "lng": 37.39,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/way/809136599"
+ },
+ "Bule Hora": {
+  "lat": 5.63995,
+  "lng": 38.23937,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/294749162"
+ },
+ "Debre Berhan": {
+  "lat": 9.67521,
+  "lng": 39.53249,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/298296167"
+ },
+ "Debre Markos": {
+  "lat": 10.33587,
+  "lng": 37.72856,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/298296174"
+ },
+ "Debre Tabor": {
+  "lat": 11.85659,
+  "lng": 38.00831,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1150570832"
+ },
+ "Dilla": {
+  "lat": 6.40996,
+  "lng": 38.31028,
+  "region": "South Ethiopia",
+  "code": "",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/298296169"
+ },
+ "Dire Dawa": {
+  "lat": 9.59134,
+  "lng": 41.85661,
+  "region": "Dire Dawa",
+  "code": "ET-DD",
+  "type": "administrative",
+  "osm": "https://www.openstreetmap.org/relation/13422225"
+ },
+ "Gambela": {
+  "lat": 8.25037,
+  "lng": 34.58773,
+  "region": "Gambela",
+  "code": "ET-GA",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/321376181"
+ },
+ "Gewane": {
+  "lat": 10.15923,
+  "lng": 40.6616,
+  "region": "Afar",
+  "code": "ET-AF",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/2152888719"
+ },
+ "Gondar": {
+  "lat": 12.61037,
+  "lng": 37.46677,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/71556493"
+ },
+ "Haramaya": {
+  "lat": 9.39462,
+  "lng": 42.01339,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "suburb",
+  "osm": "https://www.openstreetmap.org/node/1150890522"
+ },
+ "Hawassa": {
+  "lat": 7.0481,
+  "lng": 38.47861,
+  "region": "Sidama",
+  "code": "ET-SI",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/1394787650"
+ },
+ "Jijiga": {
+  "lat": 9.35085,
+  "lng": 42.80038,
+  "region": "Somali",
+  "code": "ET-SO",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/298290931"
+ },
+ "Jimma": {
+  "lat": 7.67562,
+  "lng": 36.84788,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/2503575146"
+ },
+ "Robe, Bale": {
+  "lat": 7.12427,
+  "lng": 40.0081,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/1800190312"
+ },
+ "Mekelle": {
+  "lat": 13.49666,
+  "lng": 39.47683,
+  "region": "Tigray",
+  "code": "ET-TI",
+  "type": "administrative",
+  "osm": "https://www.openstreetmap.org/relation/3290045"
+ },
+ "Mettu": {
+  "lat": 8.29565,
+  "lng": 35.58343,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/321378115"
+ },
+ "Tepi": {
+  "lat": 7.19707,
+  "lng": 35.42182,
+  "region": "South West Ethiopia Peoples",
+  "code": "ET-SW",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/283675719"
+ },
+ "Batu": {
+  "lat": 7.93581,
+  "lng": 38.71649,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/318126326"
+ },
+ "Semera": {
+  "lat": 11.79231,
+  "lng": 41.00892,
+  "region": "Afar",
+  "code": "ET-AF",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1235451313"
+ },
+ "Hossana": {
+  "lat": 7.55015,
+  "lng": 37.85274,
+  "region": "Central Ethiopia",
+  "code": "",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/4601173879"
+ },
+ "Sodo": {
+  "lat": 6.85775,
+  "lng": 37.75785,
+  "region": "South Ethiopia",
+  "code": "",
+  "type": "administrative",
+  "osm": "https://www.openstreetmap.org/relation/20682993"
+ },
+ "Woldia": {
+  "lat": 11.82885,
+  "lng": 39.59633,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1293233626"
+ },
+ "Wolkite": {
+  "lat": 8.28609,
+  "lng": 37.78184,
+  "region": "Central Ethiopia",
+  "code": "",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/283675671"
+ },
+ "Nekemte": {
+  "lat": 9.09052,
+  "lng": 36.54816,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/298296163"
+ },
+ "Dessie": {
+  "lat": 11.1226,
+  "lng": 39.63498,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/281666535"
+ },
+ "Wondo Genet": {
+  "lat": 7.08548,
+  "lng": 38.61411,
+  "region": "Sidama",
+  "code": "ET-SI",
+  "type": "village",
+  "osm": "https://www.openstreetmap.org/node/1150981107"
+ }
+}

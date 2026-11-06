@@ -1,0 +1,15 @@
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Never commit the old PHP site, database dumps or server config
+*.php
+*.sql
+*.ini
+error_log
+sie_*/
+
+# Build output (created by the GitHub Pages workflow)
+_site/

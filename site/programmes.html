@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find a programme · Study in Ethiopia</title>
+  <meta name="description" content="Search degree programmes across Ethiopian universities and colleges by level, field and region.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>try{var t=localStorage.getItem("sie-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-page="programmes">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="stripe"></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">SiE</span>Study in Ethiopia</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="institutions.html">Institutions</a>
+        <a href="programmes.html" aria-current="page">Programmes</a>
+        <a href="apply.html">How to apply</a>
+        <a href="study-abroad.html">Study abroad</a>
+        <a href="learn.html">Learn online</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Find a programme</h1>
+        <p>Search what you want to study and see which institutions offer it, at which level and where.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <div class="finder">
+          <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <label class="visually-hidden" for="prog-search">Search programmes</label>
+            <input id="prog-search" type="search" placeholder="e.g. Software Engineering, Nursing, Agricultural Economics" autocomplete="off">
+          </div>
+          <div class="filters">
+            <div class="select-row">
+              <label class="visually-hidden" for="pf-level">Level</label><select id="pf-level"></select>
+              <label class="visually-hidden" for="pf-field">Field</label><select id="pf-field"></select>
+              <label class="visually-hidden" for="pf-region">Region</label><select id="pf-region"></select>
+              <label class="visually-hidden" for="pf-type">Public or private</label><select id="pf-type"></select>
+            </div>
+            <span class="result-count" id="prog-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="prog-coverage"></p>
+        </div>
+        <div class="prog-grid" id="prog-results"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <a class="brand" href="index.html"><span class="brand-mark">SiE</span>Study in Ethiopia</a>
+          <p style="margin-top:12px;max-width:34em">A free guide to higher education in Ethiopia and to studying abroad. Always confirm admission details with the institution itself.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="institutions.html">Universities &amp; colleges</a></li>
+            <li><a href="programmes.html">Find a programme</a></li>
+            <li><a href="apply.html">Study in Ethiopia from abroad</a></li>
+            <li><a href="study-abroad.html">Study abroad</a></li>
+            <li><a href="learn.html">Online courses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="about.html">About SiE</a></li>
+            <li><a href="resources.html">Official sources</a></li>
+            <li><a href="https://abgasim.com/" target="_blank" rel="noopener">Built by ABGASIM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        <span>&copy; <span id="year">2026</span> Study in Ethiopia (SiE)</span>
+        <button class="theme-btn" id="theme-btn" type="button">Dark mode</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

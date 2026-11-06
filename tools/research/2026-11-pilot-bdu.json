@@ -1,0 +1,2516 @@
+{
+ "bahir-dar-university": {
+  "category": "University",
+  "city": "Bahir Dar",
+  "region": "Amhara",
+  "founded": 2000,
+  "summary": "Bahir Dar University was established on 6 May 2000 by merging Bahir Dar Polytechnic and Bahir Dar Teachers’ College. It is one of Ethiopia’s largest universities, with colleges, faculties, institutes, schools and academies across engineering, health, agriculture, education, business and the social sciences.",
+  "colleges": [
+   "Agriculture and Environmental Sciences",
+   "College of Business and Economics",
+   "College of Medicine and Health Sciences",
+   "College of Education",
+   "College of Science",
+   "Faculty of Humanities",
+   "Faculty of Social Sciences",
+   "Bahir Dar Institute of Technology",
+   "Institute of Biotechnology",
+   "Ethiopian Institute of Textile and Fashion Technology",
+   "Institute of Disaster Risk Management and Food Security",
+   "Institute of Land Administration",
+   "Nile Executive Leadership Academy",
+   "Sports Academy",
+   "School of Earth Sciences",
+   "School of Graduate Studies",
+   "School of Law",
+   "School of Material Science Engineering",
+   "School of Veterinary Medicine",
+   "Faculty of Chemical and Food Engineering",
+   "Faculty of Civil and Water Resources Engineering",
+   "Faculty of Computing",
+   "Faculty of Electrical and Computer Engineering",
+   "Faculty of Mechanical and Industrial Engineering",
+   "Bahir Dar Energy Center"
+  ],
+  "stats": {
+   "undergraduate": 65,
+   "postgraduate": 66,
+   "source": "https://www.bdu.edu.et/registrar/node/131"
+  },
+  "sources": [
+   {
+    "label": "Bahir Dar University website",
+    "url": "https://www.bdu.edu.et/",
+    "kind": "official"
+   },
+   {
+    "label": "Registrar: programmes overview",
+    "url": "https://bdu.edu.et/registrar/node/131",
+    "kind": "official"
+   },
+   {
+    "label": "Post-graduate programmes",
+    "url": "https://bdu.edu.et/registrar/node/154",
+    "kind": "official"
+   }
+  ],
+  "coverage": "partial",
+  "coverageNote": "Postgraduate programmes and Institute of Technology undergraduate programmes are listed; other undergraduate programmes are not yet.",
+  "programmes": [
+   {
+    "level": "Master's",
+    "name": "Hydraulic Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Engineering Hydrology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Water Supply and Sanitary Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Irrigation Engineering and Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Construction Technology and Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Structural Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Geotechnical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Road and Transport Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Materials Science and Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sustainable Energy Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Automotive Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Electromechanical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Production Engineering and Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agricultural Mechanization Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Mechanical Design",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Thermal Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Manufacturing Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Power System Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Energy Informatics",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Control System Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Computer System Engineering (AI and Data Science)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Computer System Engineering (Networking and Cyber Security)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Communication System Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biomedical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Space Science Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Optics and Optical Communication",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Electric Mobility Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Microelectronics Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Process Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Environmental Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Food Technology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Food Safety and Quality",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sugar Technology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Applied Human Nutrition",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Polymer Science and Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Nuclear Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Postharvest Management and Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Software Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Computer Science",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Information Technology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Artificial Intelligence and Data Science",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Industrial Biotechnology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Industrial Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Hydraulic Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Hydrology and Water Resources Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Water Supply and Sanitary Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Irrigation Engineering and Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Construction Engineering and Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Structural Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Geotechnical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Road and Transport Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Sustainable Energy Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Agricultural Mechanization Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Agricultural Machinery Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Mechanical Design",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Thermal Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Manufacturing Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Power System Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Control System Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer System Engineering (Networking and Cyber Security)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Communication System Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Postharvest Engineering and Management",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Food Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Biochemical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Process Engineering and Design",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Environmental and Biological Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Industrial and Environmental Biotechnology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Nano Science and Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Polymer Science and Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer (Communication and Network Systems)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Artificial Intelligence and Robotics)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Cyber Security)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Data Science)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Civil Engineering (Structural Engineering)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Engineering (Intelligent and Adaptive Systems)",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Textile Chemistry",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Textile Manufacturing",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Fashion Technology",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Leather Products Design and Engineering",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Fashion Design",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Fiber Science and Technology",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Textile Technology",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Textile Material Science and Engineering",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Fashion Marketing",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Textile Technology",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Fiber and Polymer Science",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Smart and Functional Textiles",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Textile Chemical Processing",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Textile Design and Manufacturing",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Textile Material Science and Engineering",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Leather Technology",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Footwear Design and Engineering",
+    "college": "Ethiopian Institute of Textile and Fashion Technology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Medical Microbiology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Parasitology and Vector Control",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Pharmacology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Pediatric Nursing",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Clinical Midwifery",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Adult Health Nursing",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Surgical Nursing",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Hematology and Immunohematology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Epidemiology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Public Health Genomics",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Reproductive Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Public Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Public Health Nutrition",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Health Promotion",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Health System and Project Management",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Health Informatics",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Water, Sanitation and Hygiene",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Environmental Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biostatistics",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Integrated Clinical and Community Mental Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Emergency Medicine and Critical Care Nursing",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Public Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Public Health Nutrition",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Environmental Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Reproductive Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Epidemiology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Biostatistics",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Nursing",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Nursing Practice (Doctor of Nursing Practice)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "General Surgery",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Gynecology and Obstetrics",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Internal Medicine",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Orthopedics and Trauma Management",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Pediatrics and Child Health",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Dermatovenerology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Anesthesiology and Critical Care",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Ophthalmology",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Psychiatry",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Radiology and Imaging",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Otolaryngology-Head and Neck Surgery",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Emergency and Critical Medicine",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Gynecology Oncology (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Urologic Surgery (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Pulmonology and Critical Care Medicine (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Urogynecology and Pelvic Floor Reconstructive Surgery (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Advanced Head and Neck Surgery (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Maternal and Fetal Medicine (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Specialty",
+    "name": "Pediatrics Otolaryngology and Facial Plastic Surgery (Subspecialty)",
+    "college": "College of Medicine and Health Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agronomy",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agricultural Economics",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Fisheries and Aquaculture",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Aquatic and Wetland Ecosystems Management",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Animal Genetics and Breeding",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Feeds and Animal Nutrition",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Apiculture",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Animal Production",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Plant Breeding",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Plant Protection",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Horticulture",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Land Resources Management",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Rural Development Management",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agricultural Extension and Innovation",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Seed Science and Technology",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Wildlife Conservation and Ecotourism Management",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Soil Science",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Soil Conservation and Watershed Management",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Environment and Natural Resource Economics",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agroforestry",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agricultural Entomology",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Plant Pathology",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Plant Quarantine and Agricultural Pesticides",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Agronomy",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Animal Production (Dairy Science and Technology, Meat Science and Technology, Poultry Science and Technology)",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Apiculture",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Fisheries and Aquaculture",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Soil Science",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Animal Genetics and Breeding",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Animal Nutrition",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Aquatic and Wetland Ecosystems Management",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Horticulture",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Rural Development",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Plant Pathology",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Plant Breeding and Genetics",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Agricultural Economics (Agricultural Production Economic, Agricultural Marketing and Value Analysis, Environmental and Resource Economics)",
+    "college": "Agriculture and Environmental Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Mathematics (Algebra, Analysis, Differential Equations, Numerical Analysis, Optimization, Mathematical Modeling, Financial Mathematics)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biology (Botanical Science)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biology (Applied Microbiology)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biology (Biomedical Science)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biology (Applied Genetics)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Biology (Zoological Science)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Ecological and Systematic Zoology",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Chemistry (Analytical Chemistry, Physical Chemistry, Organic Chemistry and Inorganic Chemistry)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Physics (Space Physics, Solid State Physics, Physical Electronics, Quantum Optics, Laser, Atmospheric, Nuclear Physics, and Semiconductor)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Statistics (Biostatistics, Industrial Statistics, Econometrics)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Industrial Quality Control and Management",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Mathematics (Algebra, Analysis, Differential Equations, Numerical Analysis, Optimization, Mathematical Modeling, Financial Mathematics, Inverse Problem)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Physics (Space Physics, Solid State Physics, Applied Conduced Mater Physics, Atmospheric Physics)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Plant Biology",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Applied Microbiology",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Biomedical Sciences",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Statistics",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Chemistry (Analytic Chemistry, Organic Chemistry, Inorganic Chemistry, Physical Chemistry)",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Wildlife Ecology and Conservation",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Entomology",
+    "college": "College of Science",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Curriculum and Instruction",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Adult Education and Community Development",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "International and Comparative Education",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Educational Planning and Management",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Educational Psychology",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Educational Leadership",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "School Leadership",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Social Psychology",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Educational Measurement and Evaluation",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Counseling Psychology",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Early Childhood Care and Education",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Special Needs and Inclusive Education",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Applied Developmental Psychology",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Teaching of Mathematics (Educational Sciences)",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Teaching of Science Subjects (Educational Sciences)",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Teaching English as a Foreign Language",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Teaching Amharic",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Clinical Psychology",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Accounting and Finance",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Curriculum and Instruction",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Educational Policy and Leadership",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Educational Psychology",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Teaching Amharic",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Teaching English as a Foreign Language (TEFL)",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Mathematics Education",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Science Education",
+    "college": "College of Education",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Accounting and Auditing",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Business Administration",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Public Management and Governance",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Economics (Policy Analysis, Resource and Environmental Economics, Human Resource Economics, International Economics)",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Development Economics",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Logistic and Supply Chain Management",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Marketing Management",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Banking and Financial Markets",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Tourism Business Administration",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Economics",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Accounting and Finance",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Management Studies",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Marketing Management",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Logistics and Supplies Chain Management",
+    "college": "College of Business and Economics",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Geography and Environmental Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Population Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Geo-information Science",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Social Anthropology",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Environmental Management",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Social Work",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "History",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Heritage and Museum Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Political Science",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Peace and Conflict Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Gender and Development Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sociology",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Urban and Regional Development Planning",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Geography and Environmental Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "History",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Political Science and International Studies",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Social Anthropology",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Geospatial Analytics and Remote Sensing",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Social Work and Social Development",
+    "college": "Faculty of Social Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Literature",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Amharic Literature",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Folklore and Cultural Studies",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Media and Communication",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Applied Linguistics and Communication",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Ge'ez Language and Literature",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Literature",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Amharic Literature",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Media and Communication",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Folklore",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Ge'ez",
+    "college": "Faculty of Humanities",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Disaster Risk Management and Sustainable Development",
+    "college": "Institute of Disaster Risk Management and Food Security",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Livelihood and Food Security",
+    "college": "Institute of Disaster Risk Management and Food Security",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Disaster Risk and Management and Food Systems Resilience",
+    "college": "Institute of Disaster Risk Management and Food Security",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Disaster Risk Science",
+    "college": "Institute of Disaster Risk Management and Food Security",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Land Administration and Management",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Real Property Valuation",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Real Property Law",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Geomatics",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Land Use Planning and Development Management",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Land Policy and Governance",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Urban Planning and Development",
+    "college": "Institute of Land Administration",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Criminal Justice and Human Rights",
+    "college": "School of Law",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Environment and Land Law",
+    "college": "School of Law",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Business and Corporate Law",
+    "college": "School of Law",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Construction Law and Dispute Resolution",
+    "college": "School of Law",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Governance and Development",
+    "college": "School of Law",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Law",
+    "college": "School of Law",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Petrology",
+    "college": "School of Earth Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Hydrogeology",
+    "college": "School of Earth Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Economic Geology",
+    "college": "School of Earth Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Geophysics",
+    "college": "School of Earth Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Earth Sciences (Hydrogeology)",
+    "college": "School of Earth Sciences",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sport Science (Athletics Coaching)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sport Science (Basketball Coaching)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sport Science (Football Coaching)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sport Science (Handball Coaching)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sport Science (Volleyball Coaching)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Sport Management",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Teaching Physical Education",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Exercise Physiology",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Sport Science (Coaching Athletics)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Sport Science (Coaching Volley Ball)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Sport Science (Coaching Foot Ball)",
+    "college": "Sport Academy",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Agricultural Biotechnology (Animal, Plant and Aquaculture Biotechnology)",
+    "college": "Institute of Biotechnology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Medical Biotechnology",
+    "college": "Institute of Biotechnology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Environmental Biotechnology",
+    "college": "Institute of Biotechnology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Bioinformatics and Data Base Management",
+    "college": "Institute of Biotechnology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "PhD",
+    "name": "Biotechnology (Health Biotechnology, Agricultural Biotechnology, Industrial Biotechnology, Environmental Biotechnology)",
+    "college": "Institute of Biotechnology",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Veterinary Epidemiology and Economics",
+    "college": "School of Veterinary Medicine",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Veterinary Microbiology",
+    "college": "School of Veterinary Medicine",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Master's",
+    "name": "Veterinary Public Health",
+    "college": "School of Veterinary Medicine",
+    "source": "https://bdu.edu.et/registrar/node/154"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Software Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Information Technology",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Computer Science",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Information Systems",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Cyber Security",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Information Technology Education",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Chemical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Food Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Human Nutrition",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Civil Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Hydraulic and Water Resource Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Water Resource Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Water Resource and Irrigation Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Computer Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Electrical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Mechanical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Industrial Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Electromechanical Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Automotive Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Aerospace Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Engineering Drawing and Design",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Bachelor's",
+    "name": "Materials Science and Engineering",
+    "college": "Bahir Dar Institute of Technology",
+    "source": "https://bdu.edu.et/bit/node/139"
+   },
+   {
+    "level": "Master's",
+    "name": "Sustainable Process Engineering and Design",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Environmental Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Food Technology Food Safety and Quality",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Biochemical Engineering and Biotechnology",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Applied Human Nutrition",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Polymer Science and Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Nuclear Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Electrochemical Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Mineral Processing",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Membrane Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Postharvest Engineering and Management",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Hydraulic Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Engineering Hydrology",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Water Supply and Sanitary Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Irrigation Engineering and Management",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Construction Technology and Management",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Structural Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Geotechnical Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Road and Transport Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Software Engineering",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Computer Science",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Information Technology",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Artificial Intelligence and Data Science",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Electric Mobility Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Power System Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Energy Informatics",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Control System Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Computer Engineering (Artificial Intelligence and Data Engineering)",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Computer Engineering (Computer Networks and Cyber Security)",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Communication System Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Biomedical Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Space Science Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Optics and Optical Communication",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Microelectronics Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Automotive Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Electromechanical Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Production Engineering and Management",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Industrial Management",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Agricultural Mechanization Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Mechanical Design",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Thermal Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Manufacturing Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Materials Science and Engineering",
+    "college": "School of Materials Science and Engineering",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Sustainable Energy Engineering",
+    "college": "Bahir Dar Energy Center",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "Master's",
+    "name": "Energy System Management",
+    "college": "Bahir Dar Energy Center",
+    "source": "https://bdu.edu.et/bit/node/166"
+   },
+   {
+    "level": "PhD",
+    "name": "Postharvest Engineering and Management",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Food Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Biochemical Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Polymer Science and Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Nano Science and Technology",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Industrial and Environmental Biotechnology",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Environmental and Biological Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Process Design and Engineering",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Food and Nutritional Science",
+    "college": "Faculty of Chemical and Food Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Hydraulic Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Hydrology and Water Resources Management",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Water Supply and Sanitary Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Irrigation Engineering and Management",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Construction Engineering and Management",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Structural Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Geotechnical Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Road and Transport Engineering",
+    "college": "Faculty of Civil and Water Resources Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Communication and Network Systems)",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Artificial Intelligence and Robotics)",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Cyber Security)",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Science (Data Science)",
+    "college": "Faculty of Computing",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Power System Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Control System Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Engineering (Data Communication Networks and Security)",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Communication System Engineering",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Engineering (Intelligent and Adaptive Systems)",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Computer Engineering (Architectures and High Performance Computing)",
+    "college": "Faculty of Electrical and Computer Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Industrial Systems and Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Agricultural Mechanization Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Agricultural Machinery Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Mechanical Design",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Thermal Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Manufacturing Engineering",
+    "college": "Faculty of Mechanical and Industrial Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Materials Science and Engineering",
+    "college": "School of Materials Science and Engineering",
+    "source": "https://bdu.edu.et/bit/node/138"
+   },
+   {
+    "level": "PhD",
+    "name": "Sustainable Energy Engineering",
+    "college": "Bahir Dar Energy Center",
+    "source": "https://bdu.edu.et/bit/node/138"
+   }
+  ]
+ }
+}
