@@ -8,7 +8,7 @@ site/
   institutions.html     Directory: search + filters (public/private, category, region, level, field)
   institution.html      Profile page for one institution (?id=...): summary, programmes, colleges, sources
   programmes.html       Find a programme across all institutions
-  am/                   Amharic version of every public page (generated)
+  am/ om/ ti/           Amharic, Afaan Oromo and Tigrinya versions of every public page (generated)
   apply.html            Study in Ethiopia from abroad: regulators (MoE, ETA, EAES, ICS) and the 8-step path
   study-abroad.html     Country portals, IELTS/TOEFL, practice material
   learn.html            MOOCs
@@ -62,7 +62,7 @@ The home page shows public institutions on a map, using Leaflet (loaded from cdn
 Institution profiles and programme lists are collected from official websites and imported with `tools/import-research.mjs`. See `tools/README.md`.
 
 ## Languages, header and footer (page builder)
-The site is in **English** (`/`) and **Amharic** (`/am/`). The HTML pages are generated; don't edit `site/*.html` or `site/am/*.html` directly.
+The site is in **English** (`/`), **Amharic** (`/am/`), **Afaan Oromo** (`/om/`) and **Tigrinya** (`/ti/`). Non-English pages show a short "this translation is new" notice (set in `CHROME[lang]["note"]`; remove it once a native speaker has reviewed that language). The HTML pages are generated; don't edit `site/*.html` or `site/am/*.html` directly.
 - **Page content:** `tools/pages/en/<page>.html` and `tools/pages/am/<page>.html` (only what goes inside `<main>`).
 - **Header, footer, navigation, page titles:** `tools/build-pages.py`.
 - **Text created by JavaScript** (filters, counts, map, profiles) and the Amharic names of levels, categories, fields and regions: the `I18N` and `LABELS` tables at the top of `assets/app.js`.
@@ -73,7 +73,7 @@ python tools/build-pages.py
 ```
 Institution and programme names, summaries and sources stay in English on every language (they come from `data.js`).
 
-To add a language (e.g. Afaan Oromo `om` or Tigrinya `ti`): add it to `LANGS`, `CHROME` and `PAGE_META` in `tools/build-pages.py`, translate `tools/pages/en/` into `tools/pages/<code>/`, add its block to `I18N` and `LABELS` in `assets/app.js`, and set `<html lang>` detection there.
+To add another language: add it to `LANGS`, `CHROME` and `PAGE_META` in `tools/build-pages.py`, translate `tools/pages/en/` into `tools/pages/<code>/`, add its block to `I18N` and `LABELS` in `assets/app.js`, and add its code to the `LANG` and `DATE_LOCALE` lines there.
 
 ## Running locally
 Double-click `index.html`, or serve the folder:

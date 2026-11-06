@@ -1,0 +1,29 @@
+    <section class="page-head">
+      <div class="wrap">
+        <h1>ፕሮግራም ድለዩ</h1>
+        <p>ክትመሃሩዎ እትደልዩ ድለዩ፤ ኣየኖት ትካላት ብኣየናይ ደረጃን ኣበይን ከም ዝህብዎ ርኣዩ።</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <p class="am-note">ኣስማት ፕሮግራማት ብእንግሊዝኛ እዮም። ምድላይ ብእንግሊዝኛ ጽሓፉ (ንኣብነት «Nursing»)፣ ወይ ብታሕቲ ዘለዉ ምርጫታት ብዓውዲ ፈልዩ።</p>
+        <div class="finder">
+          <div class="search">{{icon:search}}
+            <label class="visually-hidden" for="prog-search">ፕሮግራማት ድለዩ</label>
+            <input id="prog-search" type="search" placeholder="ንኣብነት Software Engineering፣ Nursing፣ Agricultural Economics" autocomplete="off">
+          </div>
+          <div class="filters">
+            <div class="select-row">
+              <label class="visually-hidden" for="pf-level">ደረጃ</label><select id="pf-level"></select>
+              <label class="visually-hidden" for="pf-field">ዓውዲ</label><select id="pf-field"></select>
+              <label class="visually-hidden" for="pf-region">ክልል</label><select id="pf-region"></select>
+              <label class="visually-hidden" for="pf-type">ናይ መንግስቲ ወይ ብሕቲ</label><select id="pf-type"></select>
+            </div>
+            <span class="result-count" id="prog-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="prog-coverage"></p>
+        </div>
+        <div class="prog-grid" id="prog-results"></div>
+      </div>
+    </section>

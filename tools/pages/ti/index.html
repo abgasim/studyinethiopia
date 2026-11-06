@@ -1,0 +1,103 @@
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">ንተማሃሮ ኢትዮጵያ ናጻ መምርሒ</span>
+          <h1>ኣበይ ከም እትመሃሩ ርከቡ።</h1>
+          <p class="lead">ናይ መንግስትን ብሕትን ዩኒቨርሲቲታትን ኮሌጃትን ኢትዮጵያ ኣብ ሓደ ቦታ፣ ከምኡውን ንናጻ ዕድል ትምህርትን ኣብ ወጻኢ ንምምሃርን ወግዓውያን መርበባት ሓበሬታ።</p>
+          <form action="institutions.html" method="get" role="search">
+            <label class="visually-hidden" for="hero-q">ትካላት ድለዩ</label>
+            <div class="search">{{icon:search}}
+              <input id="hero-q" name="q" type="search" placeholder="ንኣብነት «Jimma» ወይ «AAU»" autocomplete="off">
+            </div>
+          </form>
+          <div class="hero-tags">ብዙሕ ዝድለዩ፦
+            <a href="institutions.html?q=Addis">ኣዲስ ኣበባ</a>
+            <a href="institutions.html?q=Medical">ሕክምና</a>
+            <a href="institutions.html?q=Technology">ቴክኖሎጂ</a>
+            <a href="institutions.html?type=private">ብሕታውያን ኮሌጃት</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/img/student-reading.jpg" alt="ኣብ ጠረጴዛ መጻሕፍቲ ኣቐሚጡ ዘንብብ ተማሃራይ" width="854" height="640">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat"><b id="stat-total">–</b><span>ዝተመዝገቡ ትካላት</span></div>
+          <div class="stat"><b id="stat-public">–</b><span>ናይ መንግስቲ ዩኒቨርሲቲታትን ኮሌጃትን</span></div>
+          <div class="stat"><b id="stat-programmes">–</b><span>ምስ ምንጭታቶም ዝተዘርዘሩ ፕሮግራማት</span></div>
+          <div class="stat"><b id="stat-abroad">–</b><span>መርበብ ትምህርቲ ወጻኢ ዘለወን ሃገራት</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><h2>ኣብ መላእ ኢትዮጵያ ዘለዉ ናይ መንግስቲ ዩኒቨርሲቲታት</h2><p>ነፍሲ-ወከፍ ምልክት ናይ መንግስቲ ዩኒቨርሲቲ ወይ ኮሌጅ ዘለዋ ከተማ የርኢ። ንምቕራብ ክልል ምረጹ፣ ወይ ኣብኡ ዘለዉ ንምርኣይ ነቲ ምልክት ጠውቑ።</p></div>
+          <a class="btn btn-ghost" href="institutions.html">ኩሎም ትካላት</a>
+        </div>
+        <div class="map-layout">
+          <div class="map-wrap">
+            <div id="eth-map" class="map" role="region" aria-label="ካርታ ናይ መንግስቲ ዩኒቨርሲቲታትን ኮሌጃትን ኢትዮጵያ"></div>
+            <p class="small">እቶም ምልክታት ከተማ ቀንዲ ካምፓስ ነፍሲ-ወከፍ የርእዩ (ካብ OpenStreetMap)። ዶባት ክልላት ኣብቲ ካርታ ይረኣዩ።</p>
+          </div>
+          <div class="map-side">
+            <div class="region-list" id="region-list" role="group" aria-label="ብክልል ፈልዩ"></div>
+            <div class="region-insts" id="region-insts" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head"><div><h2>ናበይ ክትከዱ ትደልዩ?</h2><p>ከከም ደረጃ ትምህርትኹም ሰለስተ መገድታት።</p></div></div>
+        <div class="grid-3">
+          <a class="card path-card" href="institutions.html">
+            <div class="icon">{{icon:uni}}</div>
+            <h3>ኣብ ኢትዮጵያ ተማሃሩ</h3>
+            <p>ዩኒቨርሲቲታትን ኮሌጃትን ብክልልን ብዓይነትን ኣወዳድሩ፣ ዝህብዎም ፕሮግራማት ርኣዩ፣ ክትመሃሩዎ እትደልዩ መን ከም ዝምህሮ ርከቡ።</p>
+            <span class="more">ትካላት ዳህስሱ →</span>
+          </a>
+          <a class="card path-card" href="study-abroad.html">
+            <div class="icon">{{icon:globe}}</div>
+            <h3>ኣብ ወጻኢ ምምሃር</h3>
+            <p>ኣብ ኤውሮጳ፣ ብሪጣንያን ኣሜሪካን ዘለዉ ወግዓውያን መርበባት ትምህርትን ናጻ ዕድል ትምህርቲ ዝህቡ ትካላትን፣ ከምኡውን ምድላው IELTSን TOEFLን።</p>
+            <span class="more">ጉዕዞኹም ኣዳልዉ →</span>
+          </a>
+          <a class="card path-card" href="learn.html">
+            <div class="icon">{{icon:laptop}}</div>
+            <h3>ብኦንላይን ምምሃር</h3>
+            <p>ካብ ፍሉጣት ዩኒቨርሲቲታት ኣብ Coursera፣ edX፣ Khan Academy ካልኦትን ዝወሃቡ ናጻን ትሑት ዋጋ ዘለዎምን ኮርሳት።</p>
+            <span class="more">ምምሃር ጀምሩ →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="band">
+          <div>
+            <span class="eyebrow">ተማሃሮ ወጻኢ</span>
+            <h2>ኣብ ኢትዮጵያ ክትመሃሩ ትመጹ ዲኹም?</h2>
+            <p>ዩኒቨርሲቲታት መን ከም ዝቆጻጸሮም፣ ተቐባልነት ብኸመይ ከም እተረጋግጹ፣ ምስክር ትምህርትኹም ብኸመይ ከም እተመዝግቡ፣ ብኸመይ ከም እትምልከቱን ቪዛ ተማሃራይን መንበሪ ፍቓድን ብኸመይ ከም እትረኽቡን ብደረጃ።</p>
+          </div>
+          <a class="btn btn-primary" href="apply.html">መምርሒ 8 ደረጃታት ኣንብቡ →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><h2>ወግዓውያን ምንጭታት</h2><p>ብዛዕባ ትምህርቲ ኢትዮጵያ ሚኒስትሪታት፣ ኤጀንሲታትን ሓበሬታን።</p></div>
+          <a class="btn btn-ghost" href="resources.html">ኩሎም ምንጭታት</a>
+        </div>
+        <div class="grid" id="home-links"></div>
+      </div>
+    </section>

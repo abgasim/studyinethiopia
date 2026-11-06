@@ -89,7 +89,7 @@ p { margin: 0 0 1em; }
 .menu-btn { display: none; margin-left: auto; background: none; border: 1px solid var(--line); border-radius: 8px; width: 42px; height: 42px; color: var(--ink); cursor: pointer; }
 .menu-btn svg { margin: auto; }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .menu-btn { display: grid; }
   .nav { display: none; position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; background: var(--paper); border-bottom: 1px solid var(--line); padding: 8px var(--gutter) 16px; }
   .nav.open { display: flex; }
@@ -370,7 +370,7 @@ p { margin: 0 0 1em; }
 .lang-switches { display: flex; gap: 6px; margin-left: 12px; }
 .lang-switch { font-size: .9rem; font-weight: 600; text-decoration: none; color: var(--green-ink); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; white-space: nowrap; }
 .lang-switch:hover { border-color: var(--green); background: var(--green-tint); }
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .lang-switches { margin-left: auto; }
   .menu-btn { margin-left: 8px; }
 }
@@ -384,3 +384,41 @@ html[lang="am"] body { line-height: 1.7; }
 html[lang="am"] .eyebrow, html[lang="am"] .badge, html[lang="am"] .site-footer h4,
 html[lang="am"] .side-facts h3, html[lang="am"] .who span, html[lang="am"] .tbl th { letter-spacing: 0; }
 .am-note { font-size: .88rem; color: var(--ink-3); margin: 0 0 14px; }
+
+/* ---------- Language menu (4 languages) ---------- */
+.lang-menu { position: relative; margin-left: 12px; }
+.lang-menu summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; font-weight: 600; color: var(--green-ink); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; white-space: nowrap; }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary::after { content: "▾"; font-size: .75rem; color: var(--ink-3); }
+.lang-menu summary:hover, .lang-menu[open] summary { border-color: var(--green); background: var(--green-tint); }
+.lang-menu ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 60; list-style: none; margin: 0; padding: 6px; min-width: 170px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); }
+.lang-menu li a { display: block; padding: 8px 12px; border-radius: 6px; text-decoration: none; color: var(--ink); font-weight: 500; }
+.lang-menu li a:hover { background: var(--surface-2); }
+.lang-menu li a[aria-current] { color: var(--green-ink); font-weight: 700; background: var(--green-tint); }
+@media (max-width: 1180px) { .lang-menu { margin-left: auto; } .lang-menu summary span { max-width: 7.5em; overflow: hidden; text-overflow: ellipsis; } }
+.lang-note { background: var(--gold-tint); color: var(--ink-2); font-size: .86rem; padding: 6px 0; border-bottom: 1px solid var(--line); }
+
+/* Tigrinya uses the same Ge'ez script as Amharic */
+html[lang="ti"] {
+  --font-body: "Noto Sans Ethiopic", "Inter", "Nyala", system-ui, sans-serif;
+  --font-display: "Noto Serif Ethiopic", "Fraunces", "Nyala", Georgia, serif;
+}
+html[lang="ti"] body { line-height: 1.7; }
+.nav a { white-space: nowrap; }
+.lang-code { display: none; }
+@media (max-width: 560px) {
+  .lang-menu summary .lang-full { display: none; }
+  .lang-menu summary .lang-code { display: inline; }
+}
+.glance li { min-width: 0; }
+.glance a { overflow-wrap: anywhere; hyphens: auto; }
+h1, h2, .step h2 { overflow-wrap: break-word; hyphens: auto; }
+/* Mid-width desktops: tighter navigation and a short language button so all 4 languages fit on one line */
+@media (min-width: 1181px) and (max-width: 1360px) {
+  .site-header .wrap { gap: 16px; }
+  .nav { gap: 0; }
+  .nav a { padding: 8px 8px; font-size: .9rem; }
+  .lang-menu { margin-left: 8px; }
+  .lang-menu summary .lang-full { display: none; }
+  .lang-menu summary .lang-code { display: inline; }
+}

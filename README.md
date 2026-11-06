@@ -1,6 +1,6 @@
 # Study in Ethiopia
 
-A free guide to higher education in Ethiopia, in English and Amharic: a directory of universities and colleges with their programmes, a map of public universities, a step-by-step guide for international students, and links for studying abroad.
+A free guide to higher education in Ethiopia, in English, Amharic, Afaan Oromo and Tigrinya: a directory of universities and colleges with their programmes, a map of public universities, a step-by-step guide for international students, and links for studying abroad.
 
 Live site: **https://www.studyinethiopia.com**
 

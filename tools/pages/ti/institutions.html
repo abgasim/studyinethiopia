@@ -1,0 +1,33 @@
+    <section class="page-head">
+      <div class="wrap">
+        <h1>ዩኒቨርሲቲታትን ኮሌጃትን</h1>
+        <p>ናይ መንግስትን ብሕትን ትካላት ላዕለዋይ ትምህርቲ ኢትዮጵያ። ብስም፣ ብከተማ ወይ ብፕሮግራም ድለዩ፤ ብዓይነት፣ ብክልል፣ ብደረጃ ትምህርቲ ወይ ብዓውዲ ኣጸቢብኩም ርኣዩ።</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:28px">
+      <div class="wrap">
+        <p class="am-note">ኣስማትን መግለጺታትን ትካላትን ፕሮግራማትን ብእንግሊዝኛ እዮም። ምድላይ ብእንግሊዝኛ ጽሓፉ (ንኣብነት «Haramaya» ወይ «Nursing»)።</p>
+        <div class="toolbar">
+          <div class="search">{{icon:search}}
+            <label class="visually-hidden" for="inst-search">ትካላት ድለዩ</label>
+            <input id="inst-search" type="search" placeholder="ስም፣ ከተማ ወይ ፕሮግራም ብእንግሊዝኛ ጽሓፉ" autocomplete="off">
+          </div>
+          <div class="filters" role="group" aria-label="ብዓይነት ፈልዩ">
+            <button class="chip" type="button" data-filter="all">ኩሉ</button>
+            <button class="chip" type="button" data-filter="public">ናይ መንግስቲ</button>
+            <button class="chip" type="button" data-filter="private">ብሕቲ</button>
+            <div class="select-row">
+              <label class="visually-hidden" for="f-category">ዓይነት ትካል</label><select id="f-category"></select>
+              <label class="visually-hidden" for="f-region">ክልል</label><select id="f-region"></select>
+              <label class="visually-hidden" for="f-level">ደረጃ ትምህርቲ</label><select id="f-level"></select>
+              <label class="visually-hidden" for="f-field">ዓውዲ ትምህርቲ</label><select id="f-field"></select>
+            </div>
+            <span class="result-count" id="result-count" aria-live="polite"></span>
+          </div>
+          <p class="note" id="coverage-note" hidden></p>
+        </div>
+        <nav class="az" id="az" aria-label="ናብ ፊደል ሕለፉ"></nav>
+        <div id="inst-list"></div>
+      </div>
+    </section>

@@ -23,6 +23,8 @@ DOMAIN = "https://www.studyinethiopia.com"
 LANGS = {
     "en": {"dir": "", "name": "English", "html_lang": "en"},
     "am": {"dir": "am", "name": "አማርኛ", "html_lang": "am"},
+    "om": {"dir": "om", "name": "Afaan Oromoo", "html_lang": "om"},
+    "ti": {"dir": "ti", "name": "ትግርኛ", "html_lang": "ti"},
 }
 
 PAGES = ["index", "institutions", "institution", "programmes", "apply", "study-abroad", "learn", "resources", "about"]
@@ -56,6 +58,28 @@ PAGE_META = {
         "resources": ("ምንጮች", "ይፋዊ የኢትዮጵያ የትምህርት ተቋማትና ኤጀንሲዎች፣ እንዲሁም ስታቲስቲክስና ተጨማሪ ንባቦች።"),
         "about": ("ስለ እኛ", "ስለ Study in Ethiopia (SiE)፦ በኢትዮጵያ ስላለው ከፍተኛ ትምህርትና በውጭ ሀገር ስለመማር ነፃ መመሪያ።"),
     },
+    "om": {
+        "index": ("Study in Ethiopia · Itoophiyaatti Baradhaa", "Yuunivarsiitiiwwanii fi kolleejjota Itoophiyaa, sagantaalee barnootaa, carraa biyya alaatti barachuu fi koorsiiwwan interneetii bilisaa argadhaa."),
+        "institutions": ("Yuunivarsiitiiwwanii fi kolleejjota", "Galmee yuunivarsiitiiwwanii fi kolleejjota mootummaa fi dhuunfaa Itoophiyaa."),
+        "institution": ("Dhaabbata", "Ibsa, kolleejjotaa fi sagantaalee dhaabbata barnoota olaanaa Itoophiyaa, maddoota isaanii wajjin."),
+        "programmes": ("Sagantaa barbaadi", "Sagantaalee barnootaa yuunivarsiitiiwwanii fi kolleejjota Itoophiyaa sadarkaan, damee fi naannoon barbaadaa."),
+        "apply": ("Biyya alaa dhuftanii Itoophiyaatti barachuu", "Barnoonni olaanaan Itoophiyaa akkamitti akka bulfamu fi barattoonni biyya alaa akkamitti akka iyyatan."),
+        "study-abroad": ("Biyya alaatti barachuu", "Marsariitiiwwan barnoota biyya alaa mootummaa, dhaabbilee carraa barnootaa kennanii fi IELTS/TOEFL."),
+        "learn": ("Interneetiin barachuu", "Koorsiiwwan interneetii bilisaa fi gatii xiqqaa yuunivarsiitiiwwan beekamoo irraa."),
+        "resources": ("Maddoota", "Ministeerota fi ejjansiiwwan barnoota Itoophiyaa, akkasumas istaatiksii fi dubbisa dabalataa."),
+        "about": ("Waa'ee keenya", "Waa'ee Study in Ethiopia (SiE): qajeelfama bilisaa barnoota olaanaa Itoophiyaa fi biyya alaatti barachuu."),
+    },
+    "ti": {
+        "index": ("Study in Ethiopia · ኣብ ኢትዮጵያ ተማሃሩ", "ዩኒቨርሲቲታትን ኮሌጃትን ኢትዮጵያ፣ ፕሮግራማት ትምህርቲ፣ ዕድላት ኣብ ወጻኢ ምምሃርን ናጻ ኮርሳት ኦንላይንን ርከቡ።"),
+        "institutions": ("ዩኒቨርሲቲታትን ኮሌጃትን", "ዝርዝር ናይ መንግስትን ብሕትን ዩኒቨርሲቲታትን ኮሌጃትን ኢትዮጵያ።"),
+        "institution": ("ትካል", "መግለጺ፣ ኮሌጃትን ፕሮግራማትን ናይ ላዕለዋይ ትምህርቲ ትካል ምስ ምንጭታቶም።"),
+        "programmes": ("ፕሮግራም ድለዩ", "ኣብ ዩኒቨርሲቲታትን ኮሌጃትን ኢትዮጵያ ዝወሃቡ ፕሮግራማት ትምህርቲ ብደረጃ፣ ብዓውድን ብክልልን ድለዩ።"),
+        "apply": ("ካብ ወጻኢ መጺኹም ኣብ ኢትዮጵያ ተማሃሩ", "ላዕለዋይ ትምህርቲ ኢትዮጵያ ብኸመይ ከም ዝመሓደርን ተማሃሮ ወጻኢ ብኸመይ ከም ዝምልከቱን።"),
+        "study-abroad": ("ኣብ ወጻኢ ምምሃር", "ወግዓዊ መርበባት ሓበሬታ ትምህርቲ ወጻኢ፣ ናጻ ዕድል ትምህርቲ ዝህቡ ትካላትን IELTS/TOEFLን።"),
+        "learn": ("ብኦንላይን ምምሃር", "ካብ ፍሉጣት ዩኒቨርሲቲታትን ትካላትን ዝወሃቡ ናጻን ትሑት ዋጋ ዘለዎምን ናይ ኦንላይን ኮርሳት።"),
+        "resources": ("ምንጭታት", "ወግዓውያን ትካላትን ኤጀንሲታትን ትምህርቲ ኢትዮጵያ፣ ከምኡውን ስታቲስቲክስን ተወሳኺ ንባባትን።"),
+        "about": ("ብዛዕባና", "ብዛዕባ Study in Ethiopia (SiE)፦ ብዛዕባ ላዕለዋይ ትምህርቲ ኢትዮጵያን ኣብ ወጻኢ ምምሃርን ናጻ መምርሒ።"),
+    },
 }
 
 CHROME = {
@@ -80,6 +104,31 @@ CHROME = {
                           ("apply.html", "ከውጭ ሀገር መጥተው በኢትዮጵያ ይማሩ"), ("study-abroad.html", "በውጭ ሀገር መማር"), ("learn.html", "የኦንላይን ኮርሶች")],
         "about_links": [("about.html", "ስለ SiE"), ("resources.html", "ይፋዊ ምንጮች")],
         "built_by": "በABGASIM የተሰራ", "dark": "ጨለማ ገጽታ", "portal": "ፖርታል",
+        "note": "ይህ ትርጉም አዲስ ነው። ስህተት ካዩ ያሳውቁን።",
+    },
+    "om": {
+        "nav": [("institutions.html", "Dhaabbilee"), ("programmes.html", "Sagantaalee"), ("apply.html", "Iyyannoo"),
+                ("study-abroad.html", "Biyya alaa"), ("learn.html", "Interneetiin"), ("resources.html", "Maddoota"), ("about.html", "Waa'ee keenya")],
+        "skip": "Gara qabiyyee ijootti darbi", "menu": "Baafata", "main_nav": "Baafata ijoo", "lang_label": "Afaan",
+        "tagline": "Qajeelfama bilisaa barnoota olaanaa Itoophiyaa fi biyya alaatti barachuu irratti. Odeeffannoo galmee yeroo hunda dhaabbata sana irraa mirkaneeffadhaa.",
+        "explore": "Daawwadhaa", "about_h": "Waa'ee keenya",
+        "explore_links": [("institutions.html", "Yuunivarsiitiiwwanii fi kolleejjota"), ("programmes.html", "Sagantaa barbaadi"),
+                          ("apply.html", "Biyya alaa dhuftanii Itoophiyaatti barachuu"), ("study-abroad.html", "Biyya alaatti barachuu"), ("learn.html", "Koorsiiwwan interneetii")],
+        "about_links": [("about.html", "Waa'ee SiE"), ("resources.html", "Maddoota mootummaa")],
+        "built_by": "ABGASIM'n kan ijaarame", "dark": "Haala dukkanaa", "portal": "Poortaalii",
+        "note": "Hiikkaan kun haaraa dha. Dogoggora yoo argitan nutti himaa.",
+    },
+    "ti": {
+        "nav": [("institutions.html", "ትካላት"), ("programmes.html", "ፕሮግራማት"), ("apply.html", "ከመይ ትምልከቱ"),
+                ("study-abroad.html", "ኣብ ወጻኢ ምምሃር"), ("learn.html", "ብኦንላይን ምምሃር"), ("resources.html", "ምንጭታት"), ("about.html", "ብዛዕባና")],
+        "skip": "ናብ ቀንዲ ትሕዝቶ ሕለፉ", "menu": "ዝርዝር", "main_nav": "ቀንዲ ዝርዝር", "lang_label": "ቋንቋ",
+        "tagline": "ብዛዕባ ላዕለዋይ ትምህርቲ ኣብ ኢትዮጵያን ኣብ ወጻኢ ምምሃርን ናጻ መምርሒ። ዝርዝር ምእታው ኩሉ ግዜ ካብቲ ትካል ባዕሉ ኣረጋግጹ።",
+        "explore": "ዳህስሱ", "about_h": "ብዛዕባና",
+        "explore_links": [("institutions.html", "ዩኒቨርሲቲታትን ኮሌጃትን"), ("programmes.html", "ፕሮግራም ድለዩ"),
+                          ("apply.html", "ካብ ወጻኢ መጺኹም ኣብ ኢትዮጵያ ተማሃሩ"), ("study-abroad.html", "ኣብ ወጻኢ ምምሃር"), ("learn.html", "ናይ ኦንላይን ኮርሳት")],
+        "about_links": [("about.html", "ብዛዕባ SiE"), ("resources.html", "ወግዓውያን ምንጭታት")],
+        "built_by": "ብABGASIM ዝተሰርሐ", "dark": "ጸልማት ገጽ", "portal": "ፖርታል",
+        "note": "እዚ ትርጉም ሓድሽ እዩ። ጌጋ እንተረኺብኩም ሓብሩና።",
     },
 }
 
@@ -94,6 +143,7 @@ FONTS = {
     "en": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap",
     "am": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&family=Noto+Serif+Ethiopic:wght@600&display=swap",
 }
+FONTS["ti"] = FONTS["am"]  # Tigrinya is written in Ge'ez script too; Afaan Oromo (Qubee) uses the English fonts
 
 
 def page_url(lang, page):
@@ -118,14 +168,19 @@ def build(lang, page):
     explore = "\n".join(f'            <li><a href="{h}">{t}</a></li>' for h, t in c["explore_links"])
     about = "\n".join(f'            <li><a href="{h}">{t}</a></li>' for h, t in c["about_links"])
 
-    # Language switch: link to the same page in each other language
-    switch = []
+    # Language menu: the same page in every language (a <details> menu, works without JavaScript)
+    items = []
     for other, info in LANGS.items():
-        if other == lang:
-            continue
         od = info["dir"]
-        href = (f"{up}{od + '/' if od else ''}{page}.html")
-        switch.append(f'<a class="lang-switch" href="{href}" hreflang="{info["html_lang"]}" lang="{info["html_lang"]}" data-lang-link>{info["name"]}</a>')
+        href = f"{up}{od + '/' if od else ''}{page}.html"
+        if other == lang:
+            items.append(f'<li><a href="{href}" aria-current="true" lang="{info["html_lang"]}">{info["name"]}</a></li>')
+        else:
+            items.append(f'<li><a href="{href}" hreflang="{info["html_lang"]}" lang="{info["html_lang"]}" data-lang-link>{info["name"]}</a></li>')
+    globe = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></svg>'
+    lang_menu = (f'<details class="lang-menu"><summary aria-label="{c["lang_label"]}: {LANGS[lang]["name"]}">{globe}<span class="lang-full">{LANGS[lang]["name"]}</span><span class="lang-code">{lang.upper()}</span></summary>'
+                 f'<ul>{"".join(items)}</ul></details>')
+    note = f'\n  <div class="lang-note"><div class="wrap">{c["note"]}</div></div>' if c.get("note") else ""
     alternates = "\n".join(f'  <link rel="alternate" hreflang="{info["html_lang"]}" href="{page_url(l, page)}">' for l, info in LANGS.items())
 
     scripts = f'\n  <script src="{up}assets/data.js"></script>' if needs_data else ""
@@ -157,12 +212,12 @@ def build(lang, page):
       <nav class="nav" id="nav" aria-label="{c["main_nav"]}">
 {nav}
       </nav>
-      <span class="lang-switches" aria-label="{c["lang_label"]}">{"".join(switch)}</span>
+      {lang_menu}
       <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="{c["menu"]}">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
     </div>
-  </header>
+  </header>{note}
 
   <main id="main">
 {body}

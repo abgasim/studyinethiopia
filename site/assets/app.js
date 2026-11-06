@@ -20,7 +20,9 @@
      Pages set <html lang="...">. English text in this file is the key; other
      languages look it up in I18N, and data labels (levels, regions...) in LABELS.
      To add a language, add a block to both, then build its pages (tools/build-pages.py). */
-  const LANG = document.documentElement.lang === "am" ? "am" : "en";
+  const LANG = ["am", "om", "ti"].includes(document.documentElement.lang) ? document.documentElement.lang : "en";
+  // Gregorian dates in each language (Ethiopian-calendar locales would otherwise show EC dates)
+  const DATE_LOCALE = { en: "en-GB", am: "am-ET-u-ca-gregory", ti: "ti-ET-u-ca-gregory", om: "om-ET-u-ca-gregory" }[LANG];
   const appScript = document.querySelector('script[src$="app.js"]');
   const ASSETS = appScript ? appScript.getAttribute("src").replace(/app\.js$/, "") : "assets/";
 
@@ -67,6 +69,90 @@
       "Test centres in Ethiopia: ": "በኢትዮጵያ የፈተና ማዕከላት፦ ",
       "Names and descriptions are in English.": "የተቋሙ መግለጫና የፕሮግራሞች ስሞች በእንግሊዝኛ ናቸው።",
     },
+    om: {
+      "Light mode": "Haala ifaa", "Dark mode": "Haala dukkanaa",
+      "All Ethiopia": "Itoophiyaa guutuu", "All public institutions": "Dhaabbilee mootummaa hunda",
+      "{n} programmes": "sagantaalee {n}",
+      "The map couldn't load. Use the region list to browse institutions.": "Kaartaan fe'amuu hin dandeenye. Dhaabbilee ilaaluuf tarree naannolee fayyadamaa.",
+      "All categories": "Gosoota hunda", "All regions": "Naannolee hunda", "Any level": "Sadarkaa kamiyyuu",
+      "Any field": "Damee kamiyyuu", "Any region": "Naannoo kamiyyuu",
+      "Est. {y}": "Bara {y} hundeeffame", "Established {y}": "Bara {y} hundeeffame",
+      "+{n} more": "+{n} dabalataa", "Website ↗": "Marsariitii ↗", "Public": "Mootummaa", "Private": "Dhuunfaa",
+      "View {n} programmes →": "Sagantaalee {n} ilaali →", "View profile →": "Ibsa ilaali →",
+      "{n} of {total} institutions": "Dhaabbilee {total} keessaa {n}", "Clear filters": "Filannoo haqi",
+      "Programme information has been collected for <strong>{n} of {total}</strong> institutions so far, so level and field filters only find those.":
+        "Hanga ammaatti odeeffannoon sagantaa dhaabbilee {total} keessaa <strong>{n}</strong> qofaaf walitti qabameera; kanaaf filannoon sadarkaa fi damee isaan kana qofa argata.",
+      "No institutions match these filters.": "Dhaabbanni filannoo kana wajjin walsimu hin jiru.",
+      "Try removing a filter, or search for a shorter name such as “AAU” or “Jimma”.": "Filannoo tokko haqaa, yookaan maqaa gabaabaa kan akka “AAU” ykn “Jimma” Afaan Ingiliziitiin barbaadaa.",
+      "Institution not found.": "Dhaabbanni hin argamne.", "Back to all institutions": "Gara dhaabbilee hundaatti deebi'i",
+      "← All institutions": "← Dhaabbilee hunda", "Undergraduate": "Digirii jalqabaa", "Postgraduate": "Digirii booda",
+      "This list is incomplete: it includes only programmes we could confirm on the institution's own pages.":
+        "Tarreen kun guutuu miti: sagantaalee fuula dhaabbatichaa irratti mirkaneessuu dandeenye qofa qabata.",
+      "This list covers most programmes published on the institution's own pages.": "Tarreen kun sagantaalee fuula dhaabbatichaa irratti maxxanfaman baay'ee isaanii qabata.",
+      "Visit {d} ↗": "{d} daawwadhu ↗", "About": "Waa'ee dhaabbatichaa", "Programmes": "Sagantaalee",
+      "Search programmes": "Sagantaalee barbaadi", "Search {n} programmes": "Sagantaalee {n} keessaa barbaadi (Afaan Ingiliziitiin)",
+      "Filter by level": "Sadarkaan calaqi", "All levels": "Sadarkaalee hunda",
+      "We haven't collected this institution's programmes yet. Check its website for the current list.":
+        "Sagantaalee dhaabbata kanaa ammallee hin sassaabne. Tarree yeroo ammaa marsariitii isaa irratti ilaalaa.",
+      "More about {name}": "Waa'ee {name} dabalataan", "Accreditation": "Beekamtii (akrediteeshinii)",
+      "Check this institution's programmes in the Education and Training Authority's register before enrolling.":
+        "Osoo hin galmaa'in dura sagantaalee dhaabbata kanaa galmee Abbaa Taayitaa Barnootaa fi Leenjii keessatti mirkaneeffadhaa.",
+      "ETA accreditation register ↗": "Galmee beekamtii ETA ↗",
+      "Coming from abroad? See how to apply →": "Biyya alaa dhuftu? Akkamitti akka iyyattan ilaalaa →",
+      "Programmes offered": "Sagantaalee kennaman", "As stated by {src}{asOf}.": "Akka {src}{asOf} ibsetti.", "the institution": "dhaabbatichi",
+      "Colleges & institutes": "Kolleejjotaa fi inistiitiyuutota", "Sources": "Maddoota", "(secondary)": "(madda lammaffaa)",
+      "Last checked {date}.": "Yeroo dhumaaf kan mirkanaa'e: {date}.", "No programmes match.": "Sagantaan walsimu hin jiru.",
+      "Source ↗": "Madda ↗", "Source: {d}": "Madda: {d}", "Public & private": "Mootummaa fi dhuunfaa",
+      "Programme lists come from each institution's own website. So far they cover <strong>{n}</strong> of {total} institutions; more are being added.":
+        "Tarreen sagantaalee marsariitii tokkoon tokkoon dhaabbilee irraa argame. Hanga ammaatti dhaabbilee {total} keessaa <strong>{n}</strong> qabata; kan biroon itti dabalamaa jira.",
+      "{n} programmes · {m} offerings": "Sagantaalee {n} · dhiyeessii {m}", "Show more ({n} left)": "Dabalataan agarsiisi ({n} hafe)",
+      "Try a broader word, e.g. “Engineering” or “Nursing”, or remove a filter.": "Jecha bal'aa Afaan Ingiliziitiin yaalaa (fkn. “Engineering” ykn “Nursing”), yookaan filannoo tokko haqaa.",
+      "Guide on this site": "Qajeelfama marsariitii kana irra jiru", "{name} logo": "Asxaa {name}",
+      "Test centres in Ethiopia: ": "Giddugala qormaataa Itoophiyaa: ",
+      "Names and descriptions are in English.": "Ibsi dhaabbatichaa fi maqaaleen sagantaalee Afaan Ingiliziitiin.",
+    },
+    ti: {
+      "Light mode": "ብሩህ ገጽ", "Dark mode": "ጸልማት ገጽ",
+      "All Ethiopia": "መላእ ኢትዮጵያ", "All public institutions": "ኩሎም ናይ መንግስቲ ትካላት",
+      "{n} programmes": "{n} ፕሮግራማት",
+      "The map couldn't load. Use the region list to browse institutions.": "እቲ ካርታ ክጽዓን ኣይከኣለን። ትካላት ንምርኣይ ዝርዝር ክልላት ተጠቐሙ።",
+      "All categories": "ኩሎም ዓይነታት", "All regions": "ኩሎም ክልላት", "Any level": "ዝኾነ ደረጃ",
+      "Any field": "ዝኾነ ዓውዲ", "Any region": "ዝኾነ ክልል",
+      "Est. {y}": "ዝተመስረተ ብ{y} (ብፈረንጂ)", "Established {y}": "ዝተመስረተ ብ{y} (ብፈረንጂ)",
+      "+{n} more": "+{n} ተወሳኺ", "Website ↗": "መርበብ ሓበሬታ ↗", "Public": "ናይ መንግስቲ", "Private": "ብሕቲ",
+      "View {n} programmes →": "{n} ፕሮግራማት ርኣዩ →", "View profile →": "መግለጺ ርኣዩ →",
+      "{n} of {total} institutions": "ካብ {total} ትካላት {n}", "Clear filters": "ምርጫታት ኣጽርዩ",
+      "Programme information has been collected for <strong>{n} of {total}</strong> institutions so far, so level and field filters only find those.":
+        "ክሳብ ሕጂ ሓበሬታ ፕሮግራማት ዝተኣከበ ካብ {total} ትካላት ን<strong>{n}</strong> ጥራይ እዩ፤ ስለዚ ምርጫታት ደረጃን ዓውድን ነዚኦም ጥራይ ይረኽቡ።",
+      "No institutions match these filters.": "ምስዞም ምርጫታት ዝሰማማዕ ትካል የለን።",
+      "Try removing a filter, or search for a shorter name such as “AAU” or “Jimma”.": "ሓደ ምርጫ ኣልግሱ፣ ወይ ከም «AAU» ወይ «Jimma» ዝኣመሰለ ሓጺር ስም ብእንግሊዝኛ ድለዩ።",
+      "Institution not found.": "እቲ ትካል ኣይተረኽበን።", "Back to all institutions": "ናብ ኩሎም ትካላት ተመለሱ",
+      "← All institutions": "← ኩሎም ትካላት", "Undergraduate": "ቀዳማይ ዲግሪ", "Postgraduate": "ድሕረ-ምረቓ",
+      "This list is incomplete: it includes only programmes we could confirm on the institution's own pages.":
+        "እዚ ዝርዝር ምሉእ ኣይኮነን፦ ኣብ ገጻት እቲ ትካል ዘረጋገጽናዮም ፕሮግራማት ጥራይ የጠቓልል።",
+      "This list covers most programmes published on the institution's own pages.": "እዚ ዝርዝር ኣብ ገጻት እቲ ትካል ዝተዘርግሑ መብዛሕትኦም ፕሮግራማት የጠቓልል።",
+      "Visit {d} ↗": "{d} ብጽሑ ↗", "About": "ብዛዕባ እቲ ትካል", "Programmes": "ፕሮግራማት",
+      "Search programmes": "ፕሮግራማት ድለዩ", "Search {n} programmes": "ካብ {n} ፕሮግራማት ድለዩ (ብእንግሊዝኛ)",
+      "Filter by level": "ብደረጃ ፈልዩ", "All levels": "ኩሎም ደረጃታት",
+      "We haven't collected this institution's programmes yet. Check its website for the current list.":
+        "ፕሮግራማት እዚ ትካል ገና ኣይኣከብናን። ናይ ሕጂ ዝርዝር ኣብ መርበብ ሓበሬታኡ ርኣዩ።",
+      "More about {name}": "ተወሳኺ ብዛዕባ {name}", "Accreditation": "ተቐባልነት (ኣክሬዲቴሽን)",
+      "Check this institution's programmes in the Education and Training Authority's register before enrolling.":
+        "ቅድሚ ምምዝጋብኩም ፕሮግራማት እዚ ትካል ኣብ መዝገብ ስልጣን ትምህርትን ስልጠናን ኣረጋግጹ።",
+      "ETA accreditation register ↗": "መዝገብ ተቐባልነት ETA ↗",
+      "Coming from abroad? See how to apply →": "ካብ ወጻኢ ዲኹም እትመጹ? ከመይ ከም እትምልከቱ ርኣዩ →",
+      "Programmes offered": "ዝወሃቡ ፕሮግራማት", "As stated by {src}{asOf}.": "ከምቲ {src}{asOf} ዝገለጾ።", "the institution": "እቲ ትካል",
+      "Colleges & institutes": "ኮሌጃትን ኢንስቲትዩታትን", "Sources": "ምንጭታት", "(secondary)": "(ካልኣይ ደረጃ ምንጪ)",
+      "Last checked {date}.": "ንመወዳእታ ግዜ ዝተረጋገጸ፦ {date}።", "No programmes match.": "ዝሰማማዕ ፕሮግራም የለን።",
+      "Source ↗": "ምንጪ ↗", "Source: {d}": "ምንጪ፦ {d}", "Public & private": "ናይ መንግስትን ብሕትን",
+      "Programme lists come from each institution's own website. So far they cover <strong>{n}</strong> of {total} institutions; more are being added.":
+        "ዝርዝራት ፕሮግራማት ካብ መርበብ ሓበሬታ ነፍሲ-ወከፍ ትካል ዝተረኽቡ እዮም። ክሳብ ሕጂ ካብ {total} ትካላት <strong>{n}</strong> የጠቓልሉ፤ ተወሰኽቲ ይውሰኹ ኣለዉ።",
+      "{n} programmes · {m} offerings": "{n} ፕሮግራማት · {m} ኣቕርቦታት", "Show more ({n} left)": "ተወሳኺ ኣርእዩ ({n} ተሪፎም)",
+      "Try a broader word, e.g. “Engineering” or “Nursing”, or remove a filter.": "ሰፊሕ ቃል ብእንግሊዝኛ ፈትኑ (ንኣብነት «Engineering» ወይ «Nursing»)፣ ወይ ሓደ ምርጫ ኣልግሱ።",
+      "Guide on this site": "ኣብዚ መርበብ ዘሎ መምርሒ", "{name} logo": "ኣርማ {name}",
+      "Test centres in Ethiopia: ": "ማእከላት ፈተና ኣብ ኢትዮጵያ፦ ",
+      "Names and descriptions are in English.": "መግለጺ እቲ ትካልን ኣስማት ፕሮግራማትን ብእንግሊዝኛ እዮም።",
+    },
   };
 
   const LABELS = {
@@ -84,6 +170,38 @@
         "Addis Ababa": "አዲስ አበባ", "Afar": "አፋር", "Amhara": "አማራ", "Benishangul-Gumuz": "ቤኒሻንጉል ጉሙዝ",
         "Central Ethiopia": "ማዕከላዊ ኢትዮጵያ", "Dire Dawa": "ድሬዳዋ", "Gambela": "ጋምቤላ", "Harari": "ሐረሪ", "Oromia": "ኦሮሚያ",
         "Sidama": "ሲዳማ", "Somali": "ሶማሌ", "South Ethiopia": "ደቡብ ኢትዮጵያ", "South West Ethiopia Peoples": "ደቡብ ምዕራብ ኢትዮጵያ ሕዝቦች", "Tigray": "ትግራይ",
+      },
+    },
+    om: {
+      level: { "Certificate": "Sartiifikeetii", "Diploma": "Diploomaa", "Bachelor's": "Digirii jalqabaa", "Master's": "Digirii lammaffaa", "PhD": "Digirii sadaffaa (PhD)", "Specialty": "Ispeeshaalitii" },
+      category: { "University": "Yuunivarsiitii", "University College": "Kolleejjii Yuunivarsiitii", "College": "Kolleejjii", "Institute": "Inistiitiyuutii", "Polytechnic / TVET": "Poolii-teeknikii / TVET" },
+      field: {
+        "Agriculture & Environment": "Qonnaa fi naannoo", "Arts & Design": "Aartii fi dizaayinii", "Business & Economics": "Daldalaa fi diinagdee",
+        "Computing, Data & IT": "Kompiitara, daataa fi IT", "Education": "Barnootaa fi barsiisummaa", "Engineering & Technology": "Injinariingii fi teeknooloojii",
+        "Health & Medicine": "Fayyaa fi yaala", "Languages & Communication": "Afaanii fi qunnamtii", "Law & Governance": "Seeraa fi bulchiinsa",
+        "Natural Sciences": "Saayinsii uumamaa", "Social Sciences & Humanities": "Saayinsii hawaasaa fi namoomaa",
+        "Sport Science": "Saayinsii ispoortii", "Veterinary Science": "Yaala horii",
+      },
+      region: {
+        "Addis Ababa": "Finfinnee", "Afar": "Affaar", "Amhara": "Amaaraa", "Benishangul-Gumuz": "Beenishaangul Gumuz",
+        "Central Ethiopia": "Itoophiyaa Giddugaleessaa", "Dire Dawa": "Dirree Dhawaa", "Gambela": "Gambeellaa", "Harari": "Hararii", "Oromia": "Oromiyaa",
+        "Sidama": "Sidaamaa", "Somali": "Somaalee", "South Ethiopia": "Itoophiyaa Kibbaa", "South West Ethiopia Peoples": "Uummattoota Kibba Lixa Itoophiyaa", "Tigray": "Tigraay",
+      },
+    },
+    ti: {
+      level: { "Certificate": "ሰርቲፊኬት", "Diploma": "ዲፕሎማ", "Bachelor's": "ቀዳማይ ዲግሪ", "Master's": "ካልኣይ ዲግሪ", "PhD": "ሳልሳይ ዲግሪ (PhD)", "Specialty": "ስፐሻሊቲ" },
+      category: { "University": "ዩኒቨርሲቲ", "University College": "ዩኒቨርሲቲ ኮሌጅ", "College": "ኮሌጅ", "Institute": "ኢንስቲትዩት", "Polytechnic / TVET": "ፖሊቴክኒክ / ቴክኒክን ሞያን" },
+      field: {
+        "Agriculture & Environment": "ሕርሻን ከባቢን", "Arts & Design": "ስነ-ጥበብን ዲዛይንን", "Business & Economics": "ንግድን ቁጠባን",
+        "Computing, Data & IT": "ኮምፒዩቲንግ፣ ዳታን ኣይቲን", "Education": "ትምህርትን መምህርነትን", "Engineering & Technology": "ምህንድስናን ቴክኖሎጂን",
+        "Health & Medicine": "ጥዕናን ሕክምናን", "Languages & Communication": "ቋንቋን ርክብን", "Law & Governance": "ሕግን ምምሕዳርን",
+        "Natural Sciences": "ተፈጥሮኣዊ ሳይንስ", "Social Sciences & Humanities": "ማሕበራዊ ሳይንስን ሰብኣዊ ትምህርትን",
+        "Sport Science": "ሳይንስ ስፖርት", "Veterinary Science": "ሕክምና እንስሳ",
+      },
+      region: {
+        "Addis Ababa": "ኣዲስ ኣበባ", "Afar": "ዓፋር", "Amhara": "ኣምሓራ", "Benishangul-Gumuz": "ቤኒሻንጉል ጉሙዝ",
+        "Central Ethiopia": "ማእከላይ ኢትዮጵያ", "Dire Dawa": "ድሬዳዋ", "Gambela": "ጋምቤላ", "Harari": "ሓረሪ", "Oromia": "ኦሮምያ",
+        "Sidama": "ሲዳማ", "Somali": "ሶማሊ", "South Ethiopia": "ደቡብ ኢትዮጵያ", "South West Ethiopia Peoples": "ህዝብታት ደቡብ ምዕራብ ኢትዮጵያ", "Tigray": "ትግራይ",
       },
     },
   };
@@ -482,7 +600,7 @@
               <p class="small">${tr("As stated by {src}{asOf}.", { src: s.source ? `<a href="${esc(s.source)}" target="_blank" rel="noopener">${esc(domain(s.source))}</a>` : tr("the institution"), asOf: s.asOf ? ` (${esc(s.asOf)})` : "" })}</p></div>` : ""}
             ${(i.colleges || []).length ? `<div class="card"><h3>${esc(tr("Colleges & institutes"))}</h3><ul class="plain">${i.colleges.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
             ${(i.sources || []).length ? `<div class="card"><h3>${tr("Sources")}</h3><ul class="plain">${i.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label || domain(x.url))}</a>${x.kind === "secondary" ? ` <span class="small">${tr("(secondary)")}</span>` : ""}</li>`).join("")}</ul>
-              ${i.checked ? `<p class="small">${tr("Last checked {date}.", { date: esc(new Date(i.checked + "T00:00:00").toLocaleDateString(LANG === "am" ? "am-ET-u-ca-gregory" : "en-GB", { day: "numeric", month: "long", year: "numeric" })) })}</p>` : ""}</div>` : ""}
+              ${i.checked ? `<p class="small">${tr("Last checked {date}.", { date: esc(new Date(i.checked + "T00:00:00").toLocaleDateString(DATE_LOCALE, { day: "numeric", month: "long", year: "numeric" })) })}</p>` : ""}</div>` : ""}
           </aside>
         </div>
       </section>`;
