@@ -35,8 +35,13 @@ export const LEVELS = ["Certificate", "Diploma", "Bachelor's", "Master's", "PhD"
 // Ordered: the first rule that matches wins. Programme name is tried first, then the college.
 const RULES = [
   [/veterin|zoonos/i, "Veterinary Science"],
-  [/\bsport|physical education/i, "Sport Science"],
-  [/comput|software|information (science|system|technolog)|informatics|data scien|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
+  [/\bsport|physical education|coaching|athletics|exercise/i, "Sport Science"],
+  [/paleont|paleo-?environ/i, "Natural Sciences"],
+  [/honey|\bbee\b|apicult|dairy products/i, "Agriculture & Environment"],
+  [/histotechnolog/i, "Health & Medicine"],
+  [/political economy|conflict/i, "Social Sciences & Humanities"],
+  // "computational" in college names (e.g. "College of Natural and Computational Sciences") is not computing
+  [/comput(?!ational sci)|software|information (science|system|technolog)|informatics|data scien|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
   [/teach|\beducation|pedagog|curricul|pgdt|pgdhet|pgdsl|\bhdp\b|school (leadership|supervision)|counsel|special needs|inclusive|lifelong|non-formal/i, "Education"],
   [/medic|nurs|midwif|pharm|health|anesth|surg|pediatr|obstet|gyn|radiolog|optometr|patholog|dermat|orthop|ophthalm|epidem|biochem|laborator|maxillofac|emergency|oncolog|fetal|tropical|infectious|psychiatr|dental|physiother|internal medicine|venereol|human nutrition/i, "Health & Medicine"],
   [/\blaw\b|\bllb|\bllm|legal|governance|civics|human rights|public policy|public administration|peace|federalism|criminolog|land (administration|use|policy)/i, "Law & Governance"],
@@ -87,9 +92,11 @@ for (const file of process.argv.slice(2)) {
     const inst = data.institutions.find((i) => i.id === id);
     if (!inst) { report.push(`! ${id}: no institution with this id in data.js, skipped`); continue; }
 
-    for (const k of ["category", "city", "region", "founded", "summary", "colleges", "stats", "sources", "coverage", "coverageNote"])
+    // "name"/"abbr" correct outdated records (e.g. an institution that was renamed); the id never changes
+    for (const k of ["name", "abbr", "category", "city", "region", "founded", "summary", "colleges", "stats", "sources", "coverage", "coverageNote"])
       if (r[k] !== undefined && r[k] !== null && r[k] !== "") inst[k] = r[k];
-    inst.checked = r.checked || TODAY;
+    // Only stamp "last checked" when something was actually read from a source
+    if ((r.sources && r.sources.length) || Object.keys(r.programmes || {}).length) inst.checked = r.checked || TODAY;
 
     const seen = new Set();
     const fresh = [];

@@ -1,0 +1,275 @@
+{
+ "mekelle-university": {
+  "founded": 2000,
+  "summary": "Mekelle University was established in May 2000 by the Government of Ethiopia as an autonomous higher education institution, formed from the merger of Mekelle Business College and Mekelle University College. It describes itself as a research-intensive university.",
+  "colleges": ["College of Business and Economics", "College of Dryland Agriculture and Natural Resources", "College of Health Sciences", "College of Law and Governance", "College of Natural and Computational Sciences", "College of Social Sciences and Languages", "College of Veterinary Medicine", "Ethiopian Institute of Technology-Mekelle", "Mekelle Institute of Technology"],
+  "stats": {"undergraduate": 122, "masters": 204, "phd": 53, "source": "https://www.mu.edu.et/index.php/about", "asOf": "undated"},
+  "sources": [
+   {"label": "Mekelle University website", "url": "https://www.mu.edu.et/", "kind": "official"},
+   {"label": "About", "url": "https://www.mu.edu.et/index.php/about", "kind": "official"},
+   {"label": "Postgraduate programmes", "url": "https://www.mu.edu.et/index.php/postgraduate", "kind": "official"},
+   {"label": "Undergraduate programmes", "url": "https://www.mu.edu.et/index.php/undergraduate-programs", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Postgraduate programmes are listed in full; undergraduate programmes are listed for three colleges so far.",
+  "programmes": {
+   "https://www.mu.edu.et/index.php/postgraduate": {
+    "College of Dryland Agriculture and Natural Resources": {
+     "Master's": ["Dryland Agroforestry and Land Rehabilitation", "Green Development and Carbon Management", "Soil Science", "Sustainable Watershed Management", "Tropical Land Resource Management", "Integrated Water Resource Management", "Land Administration", "Horticulture", "Dryland Agronomy", "Plant Pathology", "Agricultural Entomology", "Weed Science", "Plant Breeding", "Livestock Production and Pastoral Development", "Animal Production", "Animal Breeding and Genetics", "Animal Nutrition", "Apiculture", "Honey Bee Products Processing Technology", "Wildlife Ecology and Conservation", "Agricultural Economics and Policy", "Agroecology and Sustainable Development", "Food Processing Technology", "Rural Development"],
+     "PhD": ["Soil Science", "Dryland Ecology and Resource Management", "Climate Change and Rural Development", "Plant Breeding and Seed System"]},
+    "Ethiopian Institute of Technology-Mekelle": {
+     "Master's": ["Computer Engineering", "Communication Engineering", "Industrial Control Engineering", "Electrical Power Engineering", "Structural Engineering", "Geotechnical Engineering", "Construction Technology and Management", "Hydraulic Engineering", "Irrigation and Drainage Engineering", "Road and Transport Engineering", "Environmental and Sustainable Infrastructure Engineering", "Thermofluid Engineering", "Sustainable Energy Engineering", "Production and Industrial Systems Engineering", "Product Development and Design", "Quality Engineering and Management", "Kaizen (Quality and Productivity Improvement)", "Automotive Engineering", "Manufacturing Engineering", "Materials Science and Engineering", "Mechatronics Engineering", "Architectural Design and Technology", "Urban Planning and Development", "Chemical Engineering (Process Engineering)", "Chemical Engineering (Environmental Engineering)", "Computer Science", "Software Engineering", "Control and Instrumentation Engineering"],
+     "PhD": ["Energy", "Manufacturing Engineering", "Design Engineering", "Quality and Productivity Management", "Civil Engineering (Water Resources Engineering)"]},
+    "Mekelle Institute of Technology": {
+     "Master's": ["Biotechnology", "Bioinformatics", "Bioprocess Engineering", "Cyber Security and Robotics", "Cybersecurity Management"]},
+    "College of Natural and Computational Sciences": {
+     "Master's": ["Aquatic Ecology and Fisheries", "Biology (Zoology)", "Biology (Botany)", "Pest Management", "Microbiology and Parasitology", "Analytical Chemistry", "Inorganic Chemistry", "Organic Chemistry", "Physical Chemistry", "Hydrogeology", "Engineering Geology", "Economic Geology", "Environmental Geoscience", "Structural Geology", "Mining Geology", "Mathematics", "Physics", "Sport Management", "Exercise Physiology", "Exercise and Sport Psychology", "Coaching Football", "Coaching Athletics", "Coaching Basketball", "Physical Education", "Applied Statistics", "Biometry", "Biology Education", "Chemistry Education", "Physics Education", "Mathematics Education"],
+     "PhD": ["Aquatic and Fish Ecology", "Environment and Ecology", "Animal Ecology", "Microbial Ecology", "Plant Ecology", "Hydrogeology", "Mathematics", "Physics (Condensed Matter Physics, Computational)", "Physics (Quantum Optics)", "Physics (Space Physics)", "Physics (Plasma Physics)", "Sport Management", "Exercise Physiology", "Biology", "Chemistry", "Physics"]},
+    "College of Business and Economics": {
+     "Master's": ["Business Administration", "Logistics and Supply Chain Management", "Development Studies", "Accounting and Auditing", "Finance and Investment", "Community Development and Leadership", "Marketing Management", "Economics", "Cooperative Marketing"],
+     "PhD": ["Logistics and Supply Chain Management", "Management", "Economics"]},
+    "College of Veterinary Medicine": {
+     "Master's": ["Tropical Veterinary Medicine", "Zoonosis and Food Safety", "Veterinary Clinical Laboratory Science", "Veterinary Reproduction and Obstetrics", "Veterinary Surgery and Diagnostic Imaging", "Meat Processing Technology", "Dairy Products Processing Technology"],
+     "PhD": ["Tropical Animal Health", "Food Safety and Zoonosis", "Animal Biotechnology", "Veterinary Surgery and Diagnostic Imaging"]},
+    "Institute of Paleo-Environment and Heritage Conservation": {
+     "Master's": ["Architectural Heritage Conservation and Management", "Heritage Management", "Archaeology", "Tourism Development", "Anthropology", "Hospitality Management"],
+     "PhD": ["Heritage Studies", "Anthropology"]},
+    "College of Law and Governance": {
+     "Master's": ["Alternative Dispute Resolution", "Constitutional Law", "Criminal Law and Criminal Justice", "International Human Rights Law", "Tax Law", "Legislative Studies and Legal Drafting", "Natural Resource Governance", "Taxation and Investment Law", "Business Law", "International Economic Law", "Construction Law", "Civics and Ethical Studies", "Public Sector Ethics and Corruption Studies", "Democracy and Multicultural Studies", "Political Economy", "Peace and Conflict Studies", "Foreign Policy and Diplomacy", "Federalism and Governance Studies"],
+     "PhD": ["Civics", "Law"]},
+    "Institute of Climate and Society": {
+     "Master's": ["Climate and Society", "Meteorology and Climate Risk Management"],
+     "PhD": ["Climate and Food Systems", "Climate and Forest Resources", "Meteorology and Climate Science"]},
+    "Institute of Water and Environment": {
+     "Master's": ["Irrigation Engineering and Management", "Integrated River Basin Management"],
+     "PhD": ["Water Resources Development and Management"]},
+    "Institute of Environment, Gender and Development Studies": {
+     "Master's": ["Environment, Gender and Development Studies"]},
+    "College of Health Sciences": {
+     "Master's": ["Adult Health Nursing", "Maternity and Reproductive Health Nursing", "Pediatric and Child Health Nursing", "Integrated Clinical and Community Mental Health", "Pharmacology", "Pharmaceutics", "Medicinal Chemistry", "Pharmaceutical Analysis and Quality Assurance", "Pharmacognosy", "Human Anatomy", "Medical Microbiology", "Clinical Biochemistry", "Medical Parasitology", "Physiotherapy", "Anesthesia", "Clinical Midwifery", "Midwifery Education", "General Public Health", "Biostatistics", "Biostatistics and Health Informatics", "Reproductive Health", "Hospital and Health Care Administration", "Field Epidemiology", "Monitoring and Evaluation", "Public Health Nutrition", "Microbiology and Immunology", "Pharmacy (Post-Baccalaureate PharmD)"],
+     "PhD": ["Public Health", "Nursing", "Clinical Pharmacology", "Medical Microbiology", "Clinical Anatomy and Neurobiology", "Clinical Biochemistry", "Clinical Research"],
+     "Specialty": ["Oral and Maxillofacial Surgery", "Orthodontics", "Prosthodontics", "Pathology", "General Surgery", "Pediatrics and Child Health", "Gynecology and Obstetrics", "Internal Medicine", "Forensic Medicine and Toxicology", "Clinical Radiology", "Endodontics", "Orthopedic and Trauma Surgery", "Neurosurgery", "Dermatovenereology", "Ophthalmology", "Anesthesiology, Critical Care and Pain Medicine", "Otolaryngology - Head and Neck Surgery", "Urogynecology (Subspecialty)", "Pain Medicine and Palliative Care (Subspecialty)"]},
+    "College of Social Sciences and Languages": {
+     "Master's": ["GIS and Remote Sensing", "Urban and Regional Development Planning", "Land Resource Management", "History and Culture Studies", "Sociology", "Social Work", "Ethnomusicology", "Early Childhood Care and Development", "Journalism and Communication", "Teaching English as a Foreign Language", "Sociolinguistics", "Literature and Culture Studies", "Tigrigna Language Teaching", "Applied Linguistics in Teaching Amharic", "Ethiopian Literature and Folklore"],
+     "PhD": ["History and Culture Studies", "Comparative Literature and Culture Studies", "Literature", "Teaching English as a Foreign Language", "Education (Tigrigna Language Teaching)", "Education (Amharic Language Education)", "Education (English)"]},
+    "Institute of Population Studies": {
+     "Master's": ["Population and Development", "Migration Studies"],
+     "PhD": ["Population Studies"]},
+    "Institute of Pedagogical Sciences": {
+     "Master's": ["Educational Planning and Management", "School Leadership", "Adult Education", "Curriculum and Teachers' Professional Development", "Inclusive Education"],
+     "PhD": ["Educational Policy and Strategic Management", "Higher Education Leadership and Management"]},
+    "Institute of Geoinformation and Earth Observation Sciences": {
+     "Master's": ["Geoinformatics", "Geo-information Science for Natural Resource Management"]}
+   },
+   "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs": {
+    "College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Cooperative Marketing", "Logistics and Supply Chain Management", "Public Administration and Development Management", "Cooperative Accounting and Auditing", "Economics", "Management", "Cooperative Business Management", "Land and Real Property Valuation", "Marketing Management"]}
+   },
+   "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate": {
+    "College of Natural and Computational Sciences": {"Bachelor's": ["Applied Geology", "Chemistry", "Sport Science", "Petroleum Engineering", "Physics", "Earth Sciences", "Statistics", "Biology", "Information Science", "Biology Laboratory Technology", "Mathematics"]}
+   },
+   "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs": {
+    "College of Health Sciences": {"Bachelor's": ["Anesthesia", "Environmental Health", "Medicine", "Pharmacy", "Anesthesia Nursing", "Health Informatics", "Midwifery", "Physiotherapy", "Comprehensive Nursing", "Health Officer", "Neonatal Nursing", "Psychiatric Nursing", "Dentistry", "Histotechnology", "Operation Theatre Nursing", "Radiography", "Dietetics", "Medical Laboratory Science", "Ophthalmic Nursing", "Emergency and Critical Care Nursing", "Medical Radiologic Technology", "Pediatrics and Child Health Nursing"]}
+   }
+  }
+ },
+
+ "gondar-college-of-medical-sciences": {
+  "name": "University of Gondar",
+  "abbr": "UoG",
+  "founded": 2004,
+  "summary": "The University of Gondar traces its origins to the Public Health College and Training Centre founded in 1954, today its College of Medicine and Health Sciences. It was established with its current status and autonomy in 2004 and describes itself as one of Ethiopia's research universities.",
+  "colleges": ["College of Medicine and Health Sciences", "College of Natural and Computational Sciences", "College of Informatics", "College of Business and Economics", "College of Social Sciences and Humanities", "College of Veterinary Medicine and Animal Sciences", "College of Agriculture and Environmental Sciences", "College of Education", "Institute of Public Health", "Institute of Technology", "Institute of Biotechnology", "School of Law"],
+  "stats": {"undergraduate": 95, "masters": 172, "phd": 62, "source": "https://registrar.uog.edu.et/active-programs/", "asOf": "undated"},
+  "sources": [
+   {"label": "University of Gondar website", "url": "https://uog.edu.et/", "kind": "official"},
+   {"label": "History", "url": "https://uog.edu.et/our-history/", "kind": "official"},
+   {"label": "Postgraduate programmes 2024/25", "url": "https://uog.edu.et/postgraduate-directorate/", "kind": "official"},
+   {"label": "Registrar: active programmes", "url": "https://registrar.uog.edu.et/active-programs/", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Postgraduate and specialty programmes are listed in full; undergraduate programmes are listed for the College of Medicine and Health Sciences only.",
+  "programmes": {
+   "https://uog.edu.et/postgraduate-directorate/": {
+    "College of Medicine and Health Sciences": {
+     "PhD": ["Public Health", "Reproductive Health", "Biostatistics", "Mental Health Epidemiology", "Epidemiology", "Nursing", "Health System Policy", "Medical Microbiology", "Health Economics", "Medical Parasitology", "Public Health Informatics", "Pharmacology", "Public Health Nutrition", "Midwifery and Women's Health", "Environmental Health Science", "Anesthesia", "Psychiatry"],
+     "Master's": ["Field Epidemiology", "Human Anatomy", "Epidemiology", "Physiotherapy", "General Public Health", "Medical Physiology", "Biostatistics", "Medical Biochemistry", "Clinical Epidemiology", "Integrated Clinical and Community Mental Health", "Health Service Management", "Medical Nursing", "Human Resource for Health", "Clinical Oncology Nursing", "Pediatric and Child Health Nursing", "Health Care and Hospital Administration", "Health Economics", "Surgical Nursing", "Monitoring and Evaluation", "Neonatal Nursing", "Health Informatics", "Emergency Medicine and Critical Care Nursing", "Public Health Nutrition", "Clinical Laboratory Management and Quality Assurance", "Applied Human Nutrition", "Clinical Chemistry", "Environmental Health", "Clinical Hematology and Immunohematology", "Occupational Health and Safety Management", "Immunology", "Medical Microbiology", "Veterinary Public Health", "Infectious and Tropical Disease", "Health Journalism", "Medical Parasitology", "Health Promotion and Behavioral Health Science", "Pharmacology", "Reproductive and Child Health", "Clinical Pharmacy", "Advanced Clinical Anesthesia", "Pharmaceutical Supply Chain Management", "Clinical Optometry", "Clinical Midwifery", "Clinical Tropical Infectious Disease and HIV Medicine"],
+     "Specialty": ["Internal Medicine", "Dermatovenereology", "Oral and Maxillofacial Surgery", "Ophthalmology", "Emergency and Critical Care Medicine", "Pathology", "General Surgery", "Gynecology and Obstetrics", "Psychiatry", "General Trauma Surgery", "Neurology", "Pediatric Hematology Oncology", "Pediatrics and Child Health", "Feto-Maternal Medicine", "Orthopedic and Trauma Surgery", "Urogynecology and Reconstructive Pelvic Surgery", "Radiology", "Gynecologic Oncology"]},
+    "College of Business and Economics": {
+     "PhD": ["Economics", "Tourism and Heritage Management", "Management"],
+     "Master's": ["Development Economics", "Accounting and Finance", "Financial Economics", "Logistics and Supply Chain Management", "Environmental and Natural Resource Economics", "Marketing Management", "Business Administration (MBA)", "Tourism and Heritage Management"]},
+    "College of Social Sciences and Humanities": {
+     "PhD": ["Teaching English as a Foreign Language", "Social Psychology", "English Literature", "Social Anthropology", "Applied Linguistics", "Environment and Development", "Sociology", "Social Work", "Geography and Environmental Studies (Urban and Regional Development Planning)", "Political Science", "Geography and Environmental Studies (Natural Resource Management)", "Teaching Amharic", "Clinical Psychology", "History", "Developmental Psychology"],
+     "Master's": ["Applied Linguistics and Communication", "Civics and Ethical Studies", "Teaching English as a Foreign Language", "Peace and Conflict Studies", "English Literature", "Political Science", "Sociology", "Teaching Amharic", "Urban and Regional Development Planning", "Applied Linguistics in Teaching Amharic", "Natural Resource and Environmental Management", "Amharic Literature and Folklore", "Geography and Environmental Studies", "Philology", "GIS and Remote Sensing", "Population and Reproductive Health", "Developmental Psychology", "Gender and Development Studies", "Counseling Psychology", "Historical Archaeology", "Social Psychology", "Art History", "Clinical Psychology", "History", "Social Anthropology", "Journalism", "Environment and Development Studies", "Early Childhood Care and Education", "Public Policy and Sustainable Development", "Music", "Social Work"]},
+    "College of Natural and Computational Sciences": {
+     "PhD": ["Botany", "Analytical Chemistry", "Applied Microbiology", "Organic Chemistry", "Genetics", "Inorganic Chemistry", "Entomology", "Physical Chemistry", "Aquatic Science and Aquaculture", "Material and Nano Chemistry", "Environmental Chemistry"],
+     "Master's": ["Aquatic Science and Aquaculture", "Atmospheric Physics", "Applied Microbiology", "Petrology", "Botany", "Paleontology and Paleoenvironment", "Ecological Zoology", "Exploration Geophysics", "Applied and Molecular Genetics", "Environmental Geology and Geohazards", "Organic Chemistry", "Mathematics (Algebra)", "Analytical Chemistry", "Mathematics (Differential Equations)", "Inorganic Chemistry", "Mathematics (Numerical Analysis)", "Physical Chemistry", "Mathematics (Analysis)", "Environmental Chemistry", "Mathematics (Optimization)", "Medical Physics", "Volleyball Coaching", "Nuclear Physics", "Biostatistics", "Statistical and Computational Physics", "Applied Statistics", "Condensed Matter Physics", "Biometry", "Quantum Optics", "Econometrics"]},
+    "School of Law": {
+     "Master's": ["Human Rights Law", "Environment and Water Law", "Criminal Justice"]},
+    "College of Veterinary Medicine and Animal Sciences": {
+     "PhD": ["Veterinary Epidemiology", "Veterinary Microbiology", "Veterinary Public Health", "Animal Nutrition", "Veterinary Parasitology"],
+     "Master's": ["Veterinary Epidemiology and Economics", "Animal Production", "Veterinary Pathology", "Veterinary Clinical Medicine", "Veterinary Microbiology", "Veterinary Obstetrics and Gynecology", "Veterinary Parasitology", "Veterinary Surgery and Imaging", "Veterinary Immunology", "Veterinary Comparative Anatomy", "Animal Genetics and Breeding", "Animal Physiology", "Animal Nutrition"]},
+    "Institute of Technology": {
+     "PhD": ["Thermal Engineering", "Process Engineering", "Electrical Power Engineering"],
+     "Master's": ["Water Supply and Sanitary Engineering", "Construction Engineering and Management", "Hydraulic Engineering", "Geotechnical Engineering", "Hydrology and Water Resource Management", "Structural Engineering", "Irrigation and Drainage Engineering", "Electrical Power Engineering", "Thermal Engineering", "Process Engineering", "Automotive Engineering", "Industrial Pollution Control Engineering", "Material Science and Engineering", "Environmental Engineering", "Manufacturing Engineering", "Sustainable Energy Engineering"]},
+    "College of Agriculture and Environmental Sciences": {
+     "PhD": ["Agricultural Economics", "Rural Development and Food Security", "Agronomy", "Forest and Livelihoods", "Plant Pathology"],
+     "Master's": ["Agribusiness and Value Chain Management", "Soil Science", "Agricultural Economics", "Integrated Watershed Management", "Horticulture", "Irrigation Water Management", "Agronomy", "Environmental Science and Management", "Plant Protection", "Climate Change and Renewable Energy", "Agricultural Entomology", "Forest and Nature Conservation", "Plant Breeding", "Forest Management and Utilization", "Rural Livelihood and Food Security", "Forest and Climate Change", "Agricultural Extension and Communication", "Agroforestry", "Rural Development and Innovation"]},
+    "College of Education": {
+     "PhD": ["Higher Education Administration", "Educational Policy and Planning", "Educational Leadership and Management"],
+     "Master's": ["Educational Planning and Management", "Special Needs and Inclusive Education", "School Leadership", "Curriculum and Instruction"]},
+    "Institute of Biotechnology": {
+     "PhD": ["Medical Biotechnology", "Animal Biotechnology", "Agricultural Biotechnology", "Industrial Biotechnology", "Plant Biotechnology", "Environmental Biotechnology"],
+     "Master's": ["General Biotechnology", "Agricultural Biotechnology", "Molecular Biology", "Plant Biotechnology", "Bioinformatics", "Animal Biotechnology", "Forensic Biotechnology", "Industrial Biotechnology", "Medical Biotechnology", "Environmental Biotechnology"]},
+    "College of Informatics": {
+     "PhD": ["Data Science", "Digital Transformation and Innovation", "Cyber Security"],
+     "Master's": ["Information Technology", "Information Systems", "Computer Science", "Data Science and Analytics"]}
+   },
+   "https://cmhs.uog.edu.et/bsc-programs/": {
+    "College of Medicine and Health Sciences": {"Bachelor's": ["Anesthesia", "Dentistry", "Medicine", "Occupational Therapy", "Physiotherapy", "Psychiatry Nursing", "Biochemistry", "Dietetics", "Medical Laboratory Sciences", "Comprehensive Nursing", "Emergency and Critical Care Nursing", "Pediatric Nursing", "Surgical Nursing", "Pharmacy", "Midwifery"]}
+   }
+  }
+ },
+
+ "wollo-university": {
+  "founded": 2005,
+  "summary": "Wollo University is a public applied-science university established in 2005 in Dessie, South Wollo Zone, Amhara. Its stated mission is to support the country's development through relevant academic programmes, applied research, innovation and community engagement.",
+  "colleges": ["College of Agriculture", "College of Business and Economics", "College of Informatics", "College of Medicine and Health Sciences", "College of Natural Science", "College of Social Science and Humanities", "School of Arts", "School of Law", "School of Veterinary Medicine", "School of Electrical and Biomedical Engineering", "School of Civil, Water Resource Engineering and Architecture", "School of Mechanical and Chemical Engineering", "School of Textile and Fashion", "Institute of Teachers' Education and Behavioral Science"],
+  "stats": {"undergraduate": 83, "postgraduate": 134, "phd": 7, "source": "https://wu.edu.et/about-us/", "asOf": "undated"},
+  "sources": [
+   {"label": "Wollo University website", "url": "https://www.wu.edu.et/", "kind": "official"},
+   {"label": "WU at a glance", "url": "https://wu.edu.et/about-us/", "kind": "official"},
+   {"label": "All programmes", "url": "https://wu.edu.et/programs", "kind": "official"}
+  ],
+  "coverage": "most",
+  "programmes": {
+   "https://wu.edu.et/programs": {
+    "College of Agriculture": {
+     "Bachelor's": ["Agricultural Economics", "Agribusiness and Value Chain Management", "Animal Science", "Forestry", "Natural Resources Management", "Plant Science", "Rural Development and Agricultural Extension", "Crop Science Extension", "Animal Production Extension", "Natural Resources Management Extension"],
+     "Master's": ["Agricultural Economics", "Agribusiness and Value Chain Management", "Agronomy", "Crop Protection", "Horticulture", "Plant Breeding", "Agricultural Entomology", "Urban Agriculture (Horticulture and Urban Greening)", "Animal Production", "Dairy Science and Technology", "Urban Agriculture (Animal Production and Management)", "Forest Management and Climate Change", "Rural Development Management", "Natural Resources Management (Land and Water Management)"],
+     "PhD": ["Agricultural Economics", "Plant Breeding"]},
+    "College of Business and Economics": {
+     "Bachelor's": ["Accounting and Finance", "Economics", "Management", "Marketing Management"],
+     "Master's": ["Accounting and Finance", "Business Administration (MBA)", "Cooperative Accounting and Auditing", "Cooperative Business Management", "Development Economics", "Marketing Management", "Economics", "Natural Resource and Environmental Economics", "Project Management", "Human Resource Management"]},
+    "College of Natural Science": {
+     "Bachelor's": ["Biology", "Biotechnology", "Chemistry", "Geology", "Mathematics", "Physics", "Sport Science", "Statistics"],
+     "Master's": ["Genetics", "Botany", "Ecological and Systematic Zoology", "Biotechnology", "Applied Microbiology", "Fishery and Aquatic Science", "Physics (Nuclear)", "Physics (Quantum)", "Physics (Space)", "Physics (Condensed Matter)", "Physics (Statistical)", "Physics (Atmospheric)", "Physics (Quantum Field Theory)", "Physics Education", "Chemistry (Organic)", "Chemistry (Physical)", "Inorganic Chemistry", "Analytical Chemistry", "Mathematics (Differential Equations)", "Mathematics (Numerical Analysis)", "Mathematics (Algebra)", "Mathematics (Analysis)", "Mathematics (Optimization)", "Mathematical Modelling", "Engineering Geology", "Hydrogeology", "Physical Education and Sport Science", "Teaching Physical Education", "Athletics Coaching", "Exercise Physiology", "Football Coaching", "Applied Statistics", "Biostatistics"],
+     "PhD": ["Ecological and Systematic Zoology", "Genetics", "Mathematics (Analysis)"]},
+    "College of Social Science and Humanities": {
+     "Bachelor's": ["Amharic Language and Literature", "Arabic Language and Literature", "Ge'ez Language and Literature", "English Language and Literature", "Afaan Oromoo and Literature", "Journalism and Communication", "Geography and Environmental Studies", "Tourism and Hotel Management", "Sociology", "Social Work", "History and Heritage Management", "Social Anthropology", "Civics and Ethical Studies", "Peace and Development Studies", "Political Science and International Relations"],
+     "Master's": ["Applied Linguistics in Teaching Amharic", "Folklore and Ethiopian Literature", "Amharic Education", "Applied Linguistics and Communication", "General Linguistics", "Teaching English as a Foreign Language", "Geography and Environmental Studies (Sustainable Natural Resource Management)", "Geography and Environmental Studies (Socio-economic Development Planning and Environment)", "GIS and Remote Sensing", "Geography", "Tourism Management", "History", "History and Heritage Management", "Governance and Development Studies", "Civics and Ethical Studies", "Social Anthropology", "Sociology", "Environmental Disaster Risk Management"],
+     "PhD": ["Teaching English as a Foreign Language"]},
+    "College of Medicine and Health Sciences": {
+     "Bachelor's": ["Anesthesia", "Emergency and Critical Care Nursing", "Psychiatry Nursing", "Environmental Health Science", "Surgical Nursing", "Medicine", "Pharmacy", "Occupational Health and Safety", "Health Informatics", "Medical Laboratory Sciences", "Midwifery", "Comprehensive Nursing", "Pediatrics and Child Health Nursing", "Public Health"],
+     "Master's": ["Water, Sanitation and Hygiene", "Environmental Health", "Water and Health", "Public Health (Environmental Health)", "Public Health (Water, Sanitation and Hygiene)", "Public Health (General Public Health)", "Public Health (Public Health Nutrition)", "Public Health (Reproductive and Family Health)", "Public Health (Biostatistics and Epidemiology)", "Public Health (Health Service Management)", "Public Health (Health Education and Promotion)", "Integrated Emergency Surgery and Obstetrics", "Medical Microbiology", "Social and Administrative Pharmacy", "Pharmaceutical Analysis and Quality Assurance", "Pharmacology", "Clinical Pharmacy", "Adult Health Nursing", "Clinical Midwifery", "Maternal and Reproductive Health Nursing", "Integrated Clinical and Community Mental Health Nursing", "Pediatric and Child Health Nursing", "Health Informatics", "Clinical Laboratory Science (Hematology and Immunohematology)", "Tropical and Infectious Diseases"],
+     "Specialty": ["General Surgery", "Gynecology and Obstetrics", "Internal Medicine", "Pediatrics and Child Health"]},
+    "College of Engineering": {
+     "Bachelor's": ["Fashion Design", "Garment Engineering", "Textile Engineering", "Leather Engineering", "Mechanical Engineering", "Chemical Engineering", "Food Engineering", "Mechatronics Engineering", "Industrial Engineering", "Architecture", "Water Resource and Irrigation Engineering", "Hydraulic and Water Resource Engineering", "Civil Engineering", "Construction Technology and Management", "Electrical and Computer Engineering", "Biomedical Engineering"],
+     "Master's": ["Automotive Engineering", "Production Engineering and Management", "Thermal Engineering", "Industrial Engineering", "Power Systems Engineering", "Computer Engineering", "Textile Manufacturing", "Textile Chemistry", "Geotechnical Engineering", "Hydraulic Engineering", "Environmental Engineering", "Structural Engineering", "Control and Instrumentation Engineering", "Communication Engineering", "Drainage and Irrigation Engineering"]},
+    "College of Informatics": {
+     "Bachelor's": ["Computer Science", "Information Systems", "Information Technology", "Software Engineering"],
+     "Master's": ["Computer Networking and Communication", "Data Science and Analytics", "Artificial Intelligence"]},
+    "School of Law": {
+     "Bachelor's": ["Law"],
+     "Master's": ["Business and Trade Law", "Constitutional Law"]},
+    "School of Veterinary Medicine": {
+     "Bachelor's": ["Veterinary Laboratory Technology", "Veterinary Medicine"],
+     "Master's": ["Veterinary Epidemiology and Animal Health Economics", "Veterinary Parasitology", "Veterinary Public Health"]},
+    "School of Arts": {
+     "Bachelor's": ["Theatre Arts", "Music"],
+     "Master's": ["Ethnomusicology"]},
+    "Institute of Teachers' Education and Behavioral Science": {
+     "Bachelor's": ["Early Childhood Care and Education", "Educational Planning and Management", "Psychology", "Special Needs and Inclusive Education"],
+     "Master's": ["Educational Leadership and Management", "Curriculum and Instruction", "Counselling Psychology", "Special Needs and Inclusive Education", "Early Childhood Care and Education", "Developmental Psychology"],
+     "PhD": ["Curriculum and Instruction"]}
+   },
+   "https://wu.edu.et/college-of-business-and-economics/": {
+    "College of Business and Economics": {"Bachelor's": ["Cooperative Business Management", "Cooperative Accounting and Auditing"]}
+   },
+   "https://wu.edu.et/college-of-natural-science/": {
+    "College of Natural Science": {"Bachelor's": ["Industrial Chemistry"]}
+   },
+   "https://wu.edu.et/college-of-health-medicine-and-health-sciences/": {
+    "College of Medicine and Health Sciences": {"Specialty": ["Orthopedics and Trauma Surgery"]}
+   }
+  }
+ },
+
+ "adama-science-and-technology-university": {
+  "founded": 1993,
+  "summary": "Adama Science and Technology University (ASTU) was first established in 1993 as Nazareth Technical College and took its current name in May 2011. Its academic programmes are organised into five colleges, and its School of Graduate Studies offers MSc and PhD programmes across them.",
+  "colleges": ["College of Applied Natural Sciences", "College of Civil Engineering and Architecture", "College of Electrical Engineering and Computing", "College of Mechanical, Chemical and Materials Engineering", "College of Humanities and Social Science"],
+  "sources": [
+   {"label": "ASTU website", "url": "https://www.astu.edu.et/", "kind": "official"},
+   {"label": "Background of ASTU", "url": "https://www.astu.edu.et/about-us/general-information/background-of-astu", "kind": "official"},
+   {"label": "Postgraduate programmes", "url": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Postgraduate programmes are listed; ASTU's undergraduate programme list is only published as a document we could not read.",
+  "programmes": {
+   "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs": {
+    "College of Applied Natural Sciences": {
+     "Master's": ["Biotechnology", "Microbiology", "Entomology", "Biodiversity Conservation", "Inorganic Chemistry", "Industrial Chemistry", "Medicinal Chemistry", "Synthetic Organic Chemistry", "Physical Chemistry", "Polymer Chemistry", "Analytical Chemistry", "Natural Product Chemistry", "Mathematical Modelling", "Numerical Analysis", "Applied Differential Equations", "Algebra", "Analysis", "Fluid Mechanics", "Material Physics", "Astrophysics", "Laser Spectroscopy", "Quantum Optics", "Meteorology", "Condensed Matter Physics", "Statistical Physics", "Engineering Geology", "Hydrogeology"],
+     "PhD": ["Animal Biotechnology", "Environmental Biotechnology", "Health Biotechnology", "Pharmaceutical Biotechnology", "Plant Biotechnology", "Medicinal Chemistry", "Synthetic Organic Chemistry", "Natural Product Chemistry", "Material Chemistry", "Bioinorganic Chemistry", "Mathematical Modelling", "Numerical Analysis", "Applied Differential Equations", "Optimization", "Combinatorics", "Algebra", "Fluid Mechanics", "Material Physics", "Laser Spectroscopy", "Condensed Matter Physics", "Quantum Optics and Information"]},
+    "College of Civil Engineering and Architecture": {
+     "Master's": ["Water Resources Engineering (Irrigation Engineering)", "Hydrology and Water Resources Management", "Water Supply and Environmental Engineering", "Hydraulic Engineering", "Environmental Architecture", "Urban Planning and Design", "Geoinformatics Engineering", "Cadaster and Land Administration", "Geotechnical Engineering", "Construction Engineering Management", "Structural Engineering"],
+     "PhD": ["Water Resources Engineering (Irrigation Engineering)", "Urban Housing and Development"]},
+    "College of Electrical Engineering and Computing": {
+     "Master's": ["Artificial Intelligence", "Computer Network and IoT Systems", "Smart Software Systems", "Data Science", "Computer Vision", "Cloud Computing and Distributed Systems", "Information System Engineering", "Software Engineering", "Information Technology", "Control Engineering", "Power Systems Engineering", "Power Electronics and Drives Engineering", "Communication Engineering", "Electronics Engineering"],
+     "PhD": ["Computer Science and Engineering", "Artificial Intelligence", "Electrical Power Engineering", "Control System Engineering", "Communication Engineering"]},
+    "College of Mechanical, Chemical and Materials Engineering": {
+     "Master's": ["Thermal Engineering", "Aerospace Engineering", "Manufacturing Engineering", "Automotive Engineering", "Agricultural Machinery Engineering", "Sugarcane Mechanization Engineering", "Material Science and Engineering", "Minerals and Metallurgical Engineering", "Chemical Engineering (Process Engineering)"],
+     "PhD": ["Thermal Engineering", "Manufacturing Engineering", "Automotive Engineering", "Agricultural Machinery Engineering", "Material Science and Engineering", "Chemical Engineering"]},
+    "College of Humanities and Social Science": {
+     "Master's": ["Technology and Innovation Management", "Conflict Management through Digital Technology"],
+     "PhD": ["Technology and Innovation Management"]}
+   }
+  }
+ },
+
+ "debre-berhan-university": {
+  "founded": 2007,
+  "summary": "Debre Berhan University is a public university established in 2007 (1999 E.C.) in Debre Berhan, North Shewa Zone, Amhara. It focuses on practice-oriented education, applied research, technology transfer and community engagement, and has been designated an applied science university since 2020.",
+  "colleges": ["College of Agriculture and Natural Resource Sciences", "College of Natural and Computational Science", "College of Social Science and Humanities", "College of Engineering", "College of Business and Economics", "College of Computing", "College of Education", "School of Law", "Asrat Woldeyes Health Science Campus"],
+  "sources": [
+   {"label": "Debre Berhan University website", "url": "https://www.dbu.edu.et/", "kind": "official"},
+   {"label": "DBU at a glance", "url": "https://www.dbu.edu.et/dbu_glance", "kind": "official"},
+   {"label": "Application procedure", "url": "https://www.dbu.edu.et/dbu_admission_app_procedure", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Programmes are listed for five colleges; the engineering, business, education and health science colleges don't publish programme lists on their pages yet.",
+  "programmes": {
+   "https://www.dbu.edu.et/colleges/canr": {
+    "College of Agriculture and Natural Resource Sciences": {
+     "Bachelor's": ["Agricultural Economics", "Animal Science", "Biotechnology", "Forestry", "Horticulture", "Natural Resource Management", "Plant Science"],
+     "Master's": ["Soil Science", "Crop Protection", "Agronomy", "Animal Production", "Animal Nutrition", "Dairy Science and Technology", "Veterinary Public Health", "Soil and Water Conservation", "GIS and Remote Sensing", "Climate Change", "Hydrology", "Environmental Science", "Horticulture", "Rural Transformation Management"],
+     "PhD": ["Animal Production", "GIS and Remote Sensing", "Soil Science"]}
+   },
+   "https://www.dbu.edu.et/colleges/cncs": {
+    "College of Natural and Computational Science": {
+     "Bachelor's": ["Chemistry", "Biology", "Physics", "Mathematics", "Sport Science"],
+     "Master's": ["Botanical Sciences", "Zoological Sciences", "Applied Microbiology", "Aquaculture and Fisheries Science", "Organic Chemistry", "Analytical Chemistry", "Inorganic Chemistry", "Nuclear Physics", "Solid State Physics", "Material Science and Engineering", "Astronomy and Astrophysics", "Differential Equations", "Mathematical Modelling", "Algebra", "Sport Management"],
+     "PhD": ["Mathematical Modelling", "Mathematics (Applied Algebra)", "Biology (Ecological and Systematic Zoology)", "Applied Chemistry", "Nuclear Science and Engineering"]}
+   },
+   "https://www.dbu.edu.et/colleges/cssh": {
+    "College of Social Science and Humanities": {
+     "Bachelor's": ["Amharic Language and Literature", "English Language and Literature", "Geography and Environmental Studies", "History and Heritage Management", "Psychology", "Sociology", "Civics and Ethical Studies", "Journalism and Communication"],
+     "Master's": ["Applied Linguistics in Teaching Amharic", "Teaching English as a Foreign Language", "Environment and Sustainable Development", "Urban Management and Development", "Developmental Psychology", "Special Needs and Inclusive Education", "Early Childhood Care and Education"],
+     "PhD": ["History and Heritage Management"]}
+   },
+   "https://www.dbu.edu.et/colleges/coc": {
+    "College of Computing": {
+     "Bachelor's": ["Software Engineering", "Computer Science", "Information Technology", "Information Systems", "Data Science"],
+     "Master's": ["Information Systems", "Network and Security"]}
+   },
+   "https://www.dbu.edu.et/colleges/sol": {
+    "School of Law": {
+     "Bachelor's": ["Law"],
+     "Master's": ["Business and Investment Law"]}
+   }
+  }
+ },
+
+ "arba-minch-university": {"coverage": "none", "coverageNote": "The university website (amu.edu.et) refused connections during research, so programmes are not listed yet.", "programmes": {}},
+ "dilla-university": {"coverage": "none", "coverageNote": "The university website (du.edu.et) refused connections during research, so programmes are not listed yet.", "programmes": {}},
+ "ambo-university": {"coverage": "none", "coverageNote": "The university website (ambou.edu.et) refused connections during research, so programmes are not listed yet.", "programmes": {}}
+}

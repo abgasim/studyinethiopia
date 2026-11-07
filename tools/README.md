@@ -58,3 +58,4 @@ Not yet placed (location unconfirmed): Ethiopian Federal Police College, Ethiopi
 | Batch | Institutions | Programmes |
 |---|---|---|
 | `2026-11-pilot*.json` | Haramaya (most), Bahir Dar (postgraduate + BiT undergraduate), Hawassa (partial), Jimma and Addis Ababa (profile only: sites unreachable) | 600 |
+| `2026-11-batch2.json` | Wollo (most), Mekelle and Gondar (all postgraduate, some undergraduate), ASTU (postgraduate only), Debre Berhan (5 colleges); Gondar renamed "University of Gondar". Arba Minch, Dilla, Ambo: sites refused connections, retry later | +984 (1,584 total) |

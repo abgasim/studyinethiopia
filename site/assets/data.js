@@ -26,7 +26,36 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/relation/7098959"
-   }
+   },
+   "founded": 1993,
+   "summary": "Adama Science and Technology University (ASTU) was first established in 1993 as Nazareth Technical College and took its current name in May 2011. Its academic programmes are organised into five colleges, and its School of Graduate Studies offers MSc and PhD programmes across them.",
+   "colleges": [
+    "College of Applied Natural Sciences",
+    "College of Civil Engineering and Architecture",
+    "College of Electrical Engineering and Computing",
+    "College of Mechanical, Chemical and Materials Engineering",
+    "College of Humanities and Social Science"
+   ],
+   "sources": [
+    {
+     "label": "ASTU website",
+     "url": "https://www.astu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Background of ASTU",
+     "url": "https://www.astu.edu.et/about-us/general-information/background-of-astu",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes",
+     "url": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Postgraduate programmes are listed; ASTU's undergraduate programme list is only published as a document we could not read.",
+   "checked": "2026-11-07"
   },
   {
    "id": "addis-ababa-university",
@@ -189,7 +218,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/266775102"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (ambou.edu.et) refused connections during research, so programmes are not listed yet."
   },
   {
    "id": "arba-minch-university",
@@ -214,7 +245,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/253440282"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (amu.edu.et) refused connections during research, so programmes are not listed yet."
   },
   {
    "id": "assosa-university",
@@ -400,7 +433,40 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298296167"
-   }
+   },
+   "founded": 2007,
+   "summary": "Debre Berhan University is a public university established in 2007 (1999 E.C.) in Debre Berhan, North Shewa Zone, Amhara. It focuses on practice-oriented education, applied research, technology transfer and community engagement, and has been designated an applied science university since 2020.",
+   "colleges": [
+    "College of Agriculture and Natural Resource Sciences",
+    "College of Natural and Computational Science",
+    "College of Social Science and Humanities",
+    "College of Engineering",
+    "College of Business and Economics",
+    "College of Computing",
+    "College of Education",
+    "School of Law",
+    "Asrat Woldeyes Health Science Campus"
+   ],
+   "sources": [
+    {
+     "label": "Debre Berhan University website",
+     "url": "https://www.dbu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "DBU at a glance",
+     "url": "https://www.dbu.edu.et/dbu_glance",
+     "kind": "official"
+    },
+    {
+     "label": "Application procedure",
+     "url": "https://www.dbu.edu.et/dbu_admission_app_procedure",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Programmes are listed for five colleges; the engineering, business, education and health science colleges don't publish programme lists on their pages yet.",
+   "checked": "2026-11-07"
   },
   {
    "id": "debre-markos-university",
@@ -460,7 +526,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298296169"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (du.edu.et) refused connections during research, so programmes are not listed yet."
   },
   {
    "id": "dire-dawa-university",
@@ -632,8 +700,8 @@ window.SIE_DATA = {
   },
   {
    "id": "gondar-college-of-medical-sciences",
-   "name": "Gondar College of Medical Sciences",
-   "abbr": "UOG",
+   "name": "University of Gondar",
+   "abbr": "UoG",
    "type": "public",
    "website": "http://www.uog.edu.et/",
    "about": [
@@ -652,7 +720,55 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/71556493"
-   }
+   },
+   "founded": 2004,
+   "summary": "The University of Gondar traces its origins to the Public Health College and Training Centre founded in 1954, today its College of Medicine and Health Sciences. It was established with its current status and autonomy in 2004 and describes itself as one of Ethiopia's research universities.",
+   "colleges": [
+    "College of Medicine and Health Sciences",
+    "College of Natural and Computational Sciences",
+    "College of Informatics",
+    "College of Business and Economics",
+    "College of Social Sciences and Humanities",
+    "College of Veterinary Medicine and Animal Sciences",
+    "College of Agriculture and Environmental Sciences",
+    "College of Education",
+    "Institute of Public Health",
+    "Institute of Technology",
+    "Institute of Biotechnology",
+    "School of Law"
+   ],
+   "stats": {
+    "undergraduate": 95,
+    "masters": 172,
+    "phd": 62,
+    "source": "https://registrar.uog.edu.et/active-programs/",
+    "asOf": "undated"
+   },
+   "sources": [
+    {
+     "label": "University of Gondar website",
+     "url": "https://uog.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "History",
+     "url": "https://uog.edu.et/our-history/",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes 2024/25",
+     "url": "https://uog.edu.et/postgraduate-directorate/",
+     "kind": "official"
+    },
+    {
+     "label": "Registrar: active programmes",
+     "url": "https://registrar.uog.edu.et/active-programs/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Postgraduate and specialty programmes are listed in full; undergraduate programmes are listed for the College of Medicine and Health Sciences only.",
+   "checked": "2026-11-07"
   },
   {
    "id": "grace-college-of-business-and-computer-science",
@@ -1111,7 +1227,52 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/relation/3290045"
-   }
+   },
+   "founded": 2000,
+   "summary": "Mekelle University was established in May 2000 by the Government of Ethiopia as an autonomous higher education institution, formed from the merger of Mekelle Business College and Mekelle University College. It describes itself as a research-intensive university.",
+   "colleges": [
+    "College of Business and Economics",
+    "College of Dryland Agriculture and Natural Resources",
+    "College of Health Sciences",
+    "College of Law and Governance",
+    "College of Natural and Computational Sciences",
+    "College of Social Sciences and Languages",
+    "College of Veterinary Medicine",
+    "Ethiopian Institute of Technology-Mekelle",
+    "Mekelle Institute of Technology"
+   ],
+   "stats": {
+    "undergraduate": 122,
+    "masters": 204,
+    "phd": 53,
+    "source": "https://www.mu.edu.et/index.php/about",
+    "asOf": "undated"
+   },
+   "sources": [
+    {
+     "label": "Mekelle University website",
+     "url": "https://www.mu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "About",
+     "url": "https://www.mu.edu.et/index.php/about",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes",
+     "url": "https://www.mu.edu.et/index.php/postgraduate",
+     "kind": "official"
+    },
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://www.mu.edu.et/index.php/undergraduate-programs",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Postgraduate programmes are listed in full; undergraduate programmes are listed for three colleges so far.",
+   "checked": "2026-11-07"
   },
   {
    "id": "meserete-kristos-college",
@@ -1530,7 +1691,51 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/281666535"
-   }
+   },
+   "founded": 2005,
+   "summary": "Wollo University is a public applied-science university established in 2005 in Dessie, South Wollo Zone, Amhara. Its stated mission is to support the country's development through relevant academic programmes, applied research, innovation and community engagement.",
+   "colleges": [
+    "College of Agriculture",
+    "College of Business and Economics",
+    "College of Informatics",
+    "College of Medicine and Health Sciences",
+    "College of Natural Science",
+    "College of Social Science and Humanities",
+    "School of Arts",
+    "School of Law",
+    "School of Veterinary Medicine",
+    "School of Electrical and Biomedical Engineering",
+    "School of Civil, Water Resource Engineering and Architecture",
+    "School of Mechanical and Chemical Engineering",
+    "School of Textile and Fashion",
+    "Institute of Teachers' Education and Behavioral Science"
+   ],
+   "stats": {
+    "undergraduate": 83,
+    "postgraduate": 134,
+    "phd": 7,
+    "source": "https://wu.edu.et/about-us/",
+    "asOf": "undated"
+   },
+   "sources": [
+    {
+     "label": "Wollo University website",
+     "url": "https://www.wu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "WU at a glance",
+     "url": "https://wu.edu.et/about-us/",
+     "kind": "official"
+    },
+    {
+     "label": "All programmes",
+     "url": "https://wu.edu.et/programs",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "checked": "2026-11-07"
   },
   {
    "id": "wondo-genet-college-of-forestry",
@@ -5550,7 +5755,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Peace and Conflict Studies",
    "college": "Faculty of Social Sciences",
-   "field": "Law & Governance",
+   "field": "Social Sciences & Humanities",
    "source": "https://bdu.edu.et/registrar/node/154"
   },
   {
@@ -6360,6 +6565,7878 @@ window.SIE_DATA = {
    "college": "School of Materials Science and Engineering",
    "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/bit/node/138"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Dryland Agroforestry and Land Rehabilitation",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Green Development and Carbon Management",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Sustainable Watershed Management",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Tropical Land Resource Management",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Integrated Water Resource Management",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Land Administration",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Dryland Agronomy",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Plant Pathology",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Agricultural Entomology",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Weed Science",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Livestock Production and Pastoral Development",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Animal Breeding and Genetics",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Apiculture",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Honey Bee Products Processing Technology",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Wildlife Ecology and Conservation",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Agricultural Economics and Policy",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Agroecology and Sustainable Development",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Food Processing Technology",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Rural Development",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Soil Science",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Dryland Ecology and Resource Management",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Climate Change and Rural Development",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Plant Breeding and Seed System",
+   "college": "College of Dryland Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Computer Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Industrial Control Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Construction Technology and Management",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Irrigation and Drainage Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Road and Transport Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Environmental and Sustainable Infrastructure Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Thermofluid Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Sustainable Energy Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Production and Industrial Systems Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Product Development and Design",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Quality Engineering and Management",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Kaizen (Quality and Productivity Improvement)",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Automotive Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Materials Science and Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Mechatronics Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Architectural Design and Technology",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Urban Planning and Development",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Chemical Engineering (Process Engineering)",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Chemical Engineering (Environmental Engineering)",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Software Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Control and Instrumentation Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Energy",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Manufacturing Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Design Engineering",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Quality and Productivity Management",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Civil Engineering (Water Resources Engineering)",
+   "college": "Ethiopian Institute of Technology-Mekelle",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biotechnology",
+   "college": "Mekelle Institute of Technology",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Bioinformatics",
+   "college": "Mekelle Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Bioprocess Engineering",
+   "college": "Mekelle Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Cyber Security and Robotics",
+   "college": "Mekelle Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Cybersecurity Management",
+   "college": "Mekelle Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Aquatic Ecology and Fisheries",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biology (Zoology)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biology (Botany)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pest Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Microbiology and Parasitology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Physical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Hydrogeology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Engineering Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Economic Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Environmental Geoscience",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Structural Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Mining Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Exercise Physiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Exercise and Sport Psychology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Coaching Football",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Coaching Athletics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Coaching Basketball",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Physical Education",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Applied Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biometry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biology Education",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Chemistry Education",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Physics Education",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Mathematics Education",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Aquatic and Fish Ecology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Environment and Ecology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Animal Ecology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Microbial Ecology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Plant Ecology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Hydrogeology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Physics (Condensed Matter Physics, Computational)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Physics (Quantum Optics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Physics (Space Physics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Physics (Plasma Physics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Exercise Physiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Development Studies",
+   "college": "College of Business and Economics",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Accounting and Auditing",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Finance and Investment",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Community Development and Leadership",
+   "college": "College of Business and Economics",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Cooperative Marketing",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Tropical Veterinary Medicine",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Zoonosis and Food Safety",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Veterinary Clinical Laboratory Science",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Veterinary Reproduction and Obstetrics",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Veterinary Surgery and Diagnostic Imaging",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Meat Processing Technology",
+   "college": "College of Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Dairy Products Processing Technology",
+   "college": "College of Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Tropical Animal Health",
+   "college": "College of Veterinary Medicine",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Food Safety and Zoonosis",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Animal Biotechnology",
+   "college": "College of Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Veterinary Surgery and Diagnostic Imaging",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Architectural Heritage Conservation and Management",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Heritage Management",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Archaeology",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Tourism Development",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Anthropology",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Hospitality Management",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Heritage Studies",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Anthropology",
+   "college": "Institute of Paleo-Environment and Heritage Conservation",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Alternative Dispute Resolution",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Constitutional Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Criminal Law and Criminal Justice",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "International Human Rights Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Tax Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Legislative Studies and Legal Drafting",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Natural Resource Governance",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Taxation and Investment Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Business Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "International Economic Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Construction Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Public Sector Ethics and Corruption Studies",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Democracy and Multicultural Studies",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Political Economy",
+   "college": "College of Law and Governance",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Peace and Conflict Studies",
+   "college": "College of Law and Governance",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Foreign Policy and Diplomacy",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Federalism and Governance Studies",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Civics",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Climate and Society",
+   "college": "Institute of Climate and Society",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Meteorology and Climate Risk Management",
+   "college": "Institute of Climate and Society",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Climate and Food Systems",
+   "college": "Institute of Climate and Society",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Climate and Forest Resources",
+   "college": "Institute of Climate and Society",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Meteorology and Climate Science",
+   "college": "Institute of Climate and Society",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Irrigation Engineering and Management",
+   "college": "Institute of Water and Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Integrated River Basin Management",
+   "college": "Institute of Water and Environment",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Water Resources Development and Management",
+   "college": "Institute of Water and Environment",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Environment, Gender and Development Studies",
+   "college": "Institute of Environment, Gender and Development Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Maternity and Reproductive Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pediatric and Child Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Integrated Clinical and Community Mental Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pharmacology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pharmaceutics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Medicinal Chemistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pharmaceutical Analysis and Quality Assurance",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pharmacognosy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Human Anatomy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Clinical Biochemistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Medical Parasitology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Physiotherapy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Anesthesia",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Clinical Midwifery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Midwifery Education",
+   "college": "College of Health Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Biostatistics and Health Informatics",
+   "college": "College of Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Reproductive Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Hospital and Health Care Administration",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Field Epidemiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Monitoring and Evaluation",
+   "college": "College of Health Sciences",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Public Health Nutrition",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Microbiology and Immunology",
+   "college": "College of Health Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Pharmacy (Post-Baccalaureate PharmD)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Public Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Clinical Pharmacology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Medical Microbiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Clinical Anatomy and Neurobiology",
+   "college": "College of Health Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Clinical Biochemistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Clinical Research",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Oral and Maxillofacial Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Orthodontics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Prosthodontics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Pathology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Pediatrics and Child Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Gynecology and Obstetrics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Forensic Medicine and Toxicology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Clinical Radiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Endodontics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Orthopedic and Trauma Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Neurosurgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Dermatovenereology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Ophthalmology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Anesthesiology, Critical Care and Pain Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Otolaryngology - Head and Neck Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Urogynecology (Subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Specialty",
+   "name": "Pain Medicine and Palliative Care (Subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development Planning",
+   "college": "College of Social Sciences and Languages",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Land Resource Management",
+   "college": "College of Social Sciences and Languages",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "History and Culture Studies",
+   "college": "College of Social Sciences and Languages",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Languages",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Languages",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Ethnomusicology",
+   "college": "College of Social Sciences and Languages",
+   "field": "Arts & Design",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Early Childhood Care and Development",
+   "college": "College of Social Sciences and Languages",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Sociolinguistics",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Literature and Culture Studies",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Tigrigna Language Teaching",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Ethiopian Literature and Folklore",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "History and Culture Studies",
+   "college": "College of Social Sciences and Languages",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Comparative Literature and Culture Studies",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Literature",
+   "college": "College of Social Sciences and Languages",
+   "field": "Languages & Communication",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Education (Tigrigna Language Teaching)",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Education (Amharic Language Education)",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Education (English)",
+   "college": "College of Social Sciences and Languages",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Population and Development",
+   "college": "Institute of Population Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Migration Studies",
+   "college": "Institute of Population Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Population Studies",
+   "college": "Institute of Population Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Educational Planning and Management",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "School Leadership",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Adult Education",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Curriculum and Teachers' Professional Development",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Inclusive Education",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Educational Policy and Strategic Management",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "PhD",
+   "name": "Higher Education Leadership and Management",
+   "college": "Institute of Pedagogical Sciences",
+   "field": "Education",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Geoinformatics",
+   "college": "Institute of Geoinformation and Earth Observation Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Master's",
+   "name": "Geo-information Science for Natural Resource Management",
+   "college": "Institute of Geoinformation and Earth Observation Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/postgraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Cooperative Marketing",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Cooperative Accounting and Auditing",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Cooperative Business Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Land and Real Property Valuation",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-business-and-economics-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Applied Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Petroleum Engineering",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Earth Sciences",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Information Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Biology Laboratory Technology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-natural-and-computational-sciences-undergraduate"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Environmental Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Health Informatics",
+   "college": "College of Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Physiotherapy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Comprehensive Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Health Officer",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Neonatal Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Psychiatric Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Dentistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Histotechnology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Operation Theatre Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Radiography",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Dietetics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Ophthalmic Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Emergency and Critical Care Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Medical Radiologic Technology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "mekelle-university",
+   "level": "Bachelor's",
+   "name": "Pediatrics and Child Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.mu.edu.et/index.php/undergraduate-programs/college-of-health-sciences-undergraduate-programs"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Reproductive Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Biostatistics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Mental Health Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Health System Policy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Medical Microbiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Health Economics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Medical Parasitology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Public Health Informatics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Pharmacology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Public Health Nutrition",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Midwifery and Women's Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Environmental Health Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Psychiatry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Field Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Human Anatomy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Physiotherapy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Physiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Biochemistry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Integrated Clinical and Community Mental Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Health Service Management",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Human Resource for Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Oncology Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Pediatric and Child Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Health Care and Hospital Administration",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Health Economics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Surgical Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Monitoring and Evaluation",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Neonatal Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Health Informatics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Emergency Medicine and Critical Care Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Public Health Nutrition",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Laboratory Management and Quality Assurance",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Applied Human Nutrition",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Chemistry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Hematology and Immunohematology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Occupational Health and Safety Management",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Immunology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Infectious and Tropical Disease",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Health Journalism",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Parasitology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Health Promotion and Behavioral Health Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Pharmacology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Reproductive and Child Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Advanced Clinical Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Pharmaceutical Supply Chain Management",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Optometry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Tropical Infectious Disease and HIV Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Dermatovenereology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Oral and Maxillofacial Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Ophthalmology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Emergency and Critical Care Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Pathology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Gynecology and Obstetrics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Psychiatry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "General Trauma Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Neurology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Pediatric Hematology Oncology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Pediatrics and Child Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Feto-Maternal Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Orthopedic and Trauma Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Urogynecology and Reconstructive Pelvic Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Radiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Specialty",
+   "name": "Gynecologic Oncology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Tourism and Heritage Management",
+   "college": "College of Business and Economics",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Financial Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental and Natural Resource Economics",
+   "college": "College of Business and Economics",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Tourism and Heritage Management",
+   "college": "College of Business and Economics",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Social Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "English Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Applied Linguistics",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Environment and Development",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Geography and Environmental Studies (Urban and Regional Development Planning)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Political Science",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Geography and Environmental Studies (Natural Resource Management)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Teaching Amharic",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Clinical Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "History",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Developmental Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Applied Linguistics and Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Peace and Conflict Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "English Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Teaching Amharic",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Urban and Regional Development Planning",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Natural Resource and Environmental Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Amharic Literature and Folklore",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Philology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Population and Reproductive Health",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Developmental Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Gender and Development Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Counseling Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Historical Archaeology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Social Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Art History",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Clinical Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "History",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Journalism",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environment and Development Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Public Policy and Sustainable Development",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Music",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Arts & Design",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Botany",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Organic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Genetics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Entomology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Physical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Aquatic Science and Aquaculture",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Material and Nano Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Environmental Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Aquatic Science and Aquaculture",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Atmospheric Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Petrology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Botany",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Paleontology and Paleoenvironment",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Ecological Zoology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Exploration Geophysics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Applied and Molecular Genetics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental Geology and Geohazards",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Mathematics (Algebra)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Mathematics (Differential Equations)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Mathematics (Numerical Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Physical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Mathematics (Optimization)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Volleyball Coaching",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Nuclear Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Statistical and Computational Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Applied Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Condensed Matter Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Biometry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Quantum Optics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Econometrics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Human Rights Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environment and Water Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Criminal Justice",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Veterinary Epidemiology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Veterinary Microbiology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Veterinary Public Health",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Animal Nutrition",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Veterinary Parasitology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Epidemiology and Economics",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Pathology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Clinical Medicine",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Microbiology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Obstetrics and Gynecology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Parasitology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Surgery and Imaging",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Immunology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Veterinary Comparative Anatomy",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Animal Genetics and Breeding",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Animal Physiology",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Thermal Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Process Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Electrical Power Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Water Supply and Sanitary Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Construction Engineering and Management",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Hydrology and Water Resource Management",
+   "college": "Institute of Technology",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Irrigation and Drainage Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Process Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Automotive Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Industrial Pollution Control Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Material Science and Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Sustainable Energy Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Rural Development and Food Security",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Forest and Livelihoods",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Plant Pathology",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Integrated Watershed Management",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Irrigation Water Management",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Business & Economics",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental Science and Management",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Plant Protection",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Climate Change and Renewable Energy",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agricultural Entomology",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Forest and Nature Conservation",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Forest Management and Utilization",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Rural Livelihood and Food Security",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Forest and Climate Change",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agricultural Extension and Communication",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agroforestry",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Rural Development and Innovation",
+   "college": "College of Agriculture and Environmental Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Higher Education Administration",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Educational Policy and Planning",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Educational Leadership and Management",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "School Leadership",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education",
+   "field": "Education",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Medical Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Animal Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Agricultural Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Industrial Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Plant Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Environmental Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "General Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Agricultural Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Molecular Biology",
+   "college": "Institute of Biotechnology",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Plant Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Bioinformatics",
+   "college": "Institute of Biotechnology",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Animal Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Forensic Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Industrial Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Natural Sciences",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Medical Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Health & Medicine",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Environmental Biotechnology",
+   "college": "Institute of Biotechnology",
+   "field": "Agriculture & Environment",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Data Science",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Digital Transformation and Innovation",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "PhD",
+   "name": "Cyber Security",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Information Systems",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Master's",
+   "name": "Data Science and Analytics",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://uog.edu.et/postgraduate-directorate/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Dentistry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Occupational Therapy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Physiotherapy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Psychiatry Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Biochemistry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Dietetics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Sciences",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Comprehensive Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Emergency and Critical Care Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Pediatric Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Surgical Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "gondar-college-of-medical-sciences",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://cmhs.uog.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Forestry",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Natural Resources Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Crop Science Extension",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Animal Production Extension",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Natural Resources Management Extension",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Crop Protection",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Agricultural Entomology",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Urban Agriculture (Horticulture and Urban Greening)",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Dairy Science and Technology",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Urban Agriculture (Animal Production and Management)",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Forest Management and Climate Change",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Rural Development Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Natural Resources Management (Land and Water Management)",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Plant Breeding",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Cooperative Accounting and Auditing",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Cooperative Business Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Natural Resource and Environmental Economics",
+   "college": "College of Business and Economics",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Human Resource Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural Science",
+   "field": "Sport Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural Science",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Genetics",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Botany",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Ecological and Systematic Zoology",
+   "college": "College of Natural Science",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Biotechnology",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Fishery and Aquatic Science",
+   "college": "College of Natural Science",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Nuclear)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Quantum)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Space)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Condensed Matter)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Statistical)",
+   "college": "College of Natural Science",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Atmospheric)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics (Quantum Field Theory)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physics Education",
+   "college": "College of Natural Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Chemistry (Organic)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Chemistry (Physical)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Mathematics (Differential Equations)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Mathematics (Numerical Analysis)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Mathematics (Algebra)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Mathematics (Optimization)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Mathematical Modelling",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Engineering Geology",
+   "college": "College of Natural Science",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Hydrogeology",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Physical Education and Sport Science",
+   "college": "College of Natural Science",
+   "field": "Sport Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Teaching Physical Education",
+   "college": "College of Natural Science",
+   "field": "Sport Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Athletics Coaching",
+   "college": "College of Natural Science",
+   "field": "Sport Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Exercise Physiology",
+   "college": "College of Natural Science",
+   "field": "Sport Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Football Coaching",
+   "college": "College of Natural Science",
+   "field": "Sport Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Applied Statistics",
+   "college": "College of Natural Science",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Natural Science",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Ecological and Systematic Zoology",
+   "college": "College of Natural Science",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Genetics",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Arabic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Ge'ez Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Afaan Oromoo and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Peace and Development Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Folklore and Ethiopian Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Amharic Education",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Applied Linguistics and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "General Linguistics",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (Sustainable Natural Resource Management)",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (Socio-economic Development Planning and Environment)",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Geography",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Tourism Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "History",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Governance and Development Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Social Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Environmental Disaster Risk Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Emergency and Critical Care Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Psychiatry Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Environmental Health Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Surgical Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Occupational Health and Safety",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Health Informatics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Sciences",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Comprehensive Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Pediatrics and Child Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Water, Sanitation and Hygiene",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Environmental Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Water and Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Environmental Health)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Water, Sanitation and Hygiene)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (General Public Health)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Public Health Nutrition)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Reproductive and Family Health)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Biostatistics and Epidemiology)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Health Service Management)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Public Health (Health Education and Promotion)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Integrated Emergency Surgery and Obstetrics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Social and Administrative Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Pharmaceutical Analysis and Quality Assurance",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Pharmacology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Clinical Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Clinical Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Maternal and Reproductive Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Integrated Clinical and Community Mental Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Pediatric and Child Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Health Informatics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Clinical Laboratory Science (Hematology and Immunohematology)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Tropical and Infectious Diseases",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Specialty",
+   "name": "Gynecology and Obstetrics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Specialty",
+   "name": "Pediatrics and Child Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Fashion Design",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Garment Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Textile Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Leather Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Food Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Mechatronics Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Industrial Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Water Resource and Irrigation Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resource Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Biomedical Engineering",
+   "college": "College of Engineering",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Automotive Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Production Engineering and Management",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Industrial Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Power Systems Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Computer Engineering",
+   "college": "College of Engineering",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Textile Manufacturing",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Textile Chemistry",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Environmental Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Control and Instrumentation Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Drainage and Irrigation Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Computer Networking and Communication",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Data Science and Analytics",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Artificial Intelligence",
+   "college": "College of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Business and Trade Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Constitutional Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Laboratory Technology",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Veterinary Epidemiology and Animal Health Economics",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Veterinary Parasitology",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Veterinary Public Health",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Theatre Arts",
+   "college": "School of Arts",
+   "field": "Arts & Design",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Music",
+   "college": "School of Arts",
+   "field": "Arts & Design",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Ethnomusicology",
+   "college": "School of Arts",
+   "field": "Arts & Design",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Early Childhood Care and Education",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Educational Leadership and Management",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Counselling Psychology",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Early Childhood Care and Education",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Master's",
+   "name": "Developmental Psychology",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "PhD",
+   "name": "Curriculum and Instruction",
+   "college": "Institute of Teachers' Education and Behavioral Science",
+   "field": "Education",
+   "source": "https://wu.edu.et/programs"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Cooperative Business Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/college-of-business-and-economics/"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Cooperative Accounting and Auditing",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wu.edu.et/college-of-business-and-economics/"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Bachelor's",
+   "name": "Industrial Chemistry",
+   "college": "College of Natural Science",
+   "field": "Natural Sciences",
+   "source": "https://wu.edu.et/college-of-natural-science/"
+  },
+  {
+   "institution": "wollo-university",
+   "level": "Specialty",
+   "name": "Orthopedics and Trauma Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wu.edu.et/college-of-health-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Biotechnology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Microbiology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Entomology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Biodiversity Conservation",
+   "college": "College of Applied Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Industrial Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Medicinal Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Synthetic Organic Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Physical Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Polymer Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Natural Product Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Mathematical Modelling",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Numerical Analysis",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Applied Differential Equations",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Algebra",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Analysis",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Fluid Mechanics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Material Physics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Astrophysics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Laser Spectroscopy",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Quantum Optics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Meteorology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Condensed Matter Physics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Statistical Physics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Engineering Geology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Hydrogeology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Animal Biotechnology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Environmental Biotechnology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Health Biotechnology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Pharmaceutical Biotechnology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Plant Biotechnology",
+   "college": "College of Applied Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Medicinal Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Synthetic Organic Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Natural Product Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Material Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Bioinorganic Chemistry",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Mathematical Modelling",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Numerical Analysis",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Applied Differential Equations",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Optimization",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Combinatorics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Algebra",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Fluid Mechanics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Material Physics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Laser Spectroscopy",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Condensed Matter Physics",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Quantum Optics and Information",
+   "college": "College of Applied Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Water Resources Engineering (Irrigation Engineering)",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Hydrology and Water Resources Management",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Business & Economics",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Water Supply and Environmental Engineering",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Environmental Architecture",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Urban Planning and Design",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geoinformatics Engineering",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Cadaster and Land Administration",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Law & Governance",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Construction Engineering Management",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Water Resources Engineering (Irrigation Engineering)",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Urban Housing and Development",
+   "college": "College of Civil Engineering and Architecture",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Artificial Intelligence",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Computer Network and IoT Systems",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Smart Software Systems",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Data Science",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Computer Vision",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Cloud Computing and Distributed Systems",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Information System Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Software Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Control Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Power Systems Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Power Electronics and Drives Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Electronics Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Computer Science and Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Artificial Intelligence",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Electrical Power Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Control System Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Communication Engineering",
+   "college": "College of Electrical Engineering and Computing",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Aerospace Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Automotive Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Agricultural Machinery Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Sugarcane Mechanization Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Material Science and Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Minerals and Metallurgical Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Chemical Engineering (Process Engineering)",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Thermal Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Manufacturing Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Automotive Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Agricultural Machinery Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Material Science and Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Chemical Engineering",
+   "college": "College of Mechanical, Chemical and Materials Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Technology and Innovation Management",
+   "college": "College of Humanities and Social Science",
+   "field": "Business & Economics",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "Master's",
+   "name": "Conflict Management through Digital Technology",
+   "college": "College of Humanities and Social Science",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "adama-science-and-technology-university",
+   "level": "PhD",
+   "name": "Technology and Innovation Management",
+   "college": "College of Humanities and Social Science",
+   "field": "Business & Economics",
+   "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Forestry",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Crop Protection",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Dairy Science and Technology",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Veterinary Public Health",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Veterinary Science",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Soil and Water Conservation",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Climate Change",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Hydrology",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Rural Transformation Management",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Soil Science",
+   "college": "College of Agriculture and Natural Resource Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/canr"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Botanical Sciences",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Zoological Sciences",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Aquaculture and Fisheries Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Nuclear Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Solid State Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Material Science and Engineering",
+   "college": "College of Natural and Computational Science",
+   "field": "Engineering & Technology",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Astronomy and Astrophysics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Differential Equations",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Mathematical Modelling",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Algebra",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Mathematical Modelling",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Mathematics (Applied Algebra)",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Biology (Ecological and Systematic Zoology)",
+   "college": "College of Natural and Computational Science",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Applied Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "Nuclear Science and Engineering",
+   "college": "College of Natural and Computational Science",
+   "field": "Engineering & Technology",
+   "source": "https://www.dbu.edu.et/colleges/cncs"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Environment and Sustainable Development",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Urban Management and Development",
+   "college": "College of Social Science and Humanities",
+   "field": "Business & Economics",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Developmental Psychology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "PhD",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.dbu.edu.et/colleges/cssh"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Data Science",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Information Systems",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Network and Security",
+   "college": "College of Computing",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dbu.edu.et/colleges/coc"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.dbu.edu.et/colleges/sol"
+  },
+  {
+   "institution": "debre-berhan-university",
+   "level": "Master's",
+   "name": "Business and Investment Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.dbu.edu.et/colleges/sol"
   }
  ],
  "studyAbroad": [
