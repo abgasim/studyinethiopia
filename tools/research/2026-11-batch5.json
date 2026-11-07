@@ -1,0 +1,228 @@
+{
+ "mizan-tepi-university": {
+  "founded": 2006,
+  "summary": "Mizan-Tepi University is a public university in South West Ethiopia, established in 2006; its homepage reports 17,848 enrolled students. Its colleges and schools offer undergraduate and postgraduate programmes in engineering, medicine and health sciences, business and economics, natural and computational sciences, social sciences and humanities, and computing.",
+  "colleges": ["College of Agriculture and Natural Resources", "College of Business and Economics", "College of Engineering and Technology", "College of Medicine and Health Sciences", "College of Natural and Computational Sciences", "College of Social Sciences and Humanities", "School of Computing and Informatics", "School of Law"],
+  "sources": [
+   {"label": "Mizan-Tepi University website", "url": "http://www.mtu.edu.et/", "kind": "official"},
+   {"label": "College of Engineering and Technology", "url": "http://www.mtu.edu.et/college-engineering.php", "kind": "official"},
+   {"label": "College of Medicine and Health Sciences", "url": "http://www.mtu.edu.et/college-medicine.php", "kind": "official"},
+   {"label": "College of Business and Economics", "url": "http://www.mtu.edu.et/college-business.php", "kind": "official"},
+   {"label": "College of Natural and Computational Sciences", "url": "http://www.mtu.edu.et/college-natural-sciences.php", "kind": "official"},
+   {"label": "College of Social Sciences and Humanities", "url": "http://www.mtu.edu.et/college-social-sciences.php", "kind": "official"},
+   {"label": "School of Computing and Informatics", "url": "http://www.mtu.edu.et/school-computing.php", "kind": "official"}
+  ],
+  "coverage": "most",
+  "coverageNote": "The agriculture college and School of Law pages do not list programme names, and post-basic health programmes are not included.",
+  "programmes": {
+   "http://www.mtu.edu.et/college-engineering.php": {"College of Engineering and Technology": {"Bachelor's": ["Surveying Engineering", "Construction Technology and Management", "Civil Engineering", "Electrical and Computer Engineering", "Mechanical Engineering", "Hydraulic and Water Resources Engineering", "Engineering Drawing and Design"]}},
+   "http://www.mtu.edu.et/college-medicine.php": {"College of Medicine and Health Sciences": {"Bachelor's": ["Nursing", "Public Health", "Pharmacy", "Midwifery", "Medical Laboratory Sciences", "Medicine", "Psychiatry", "Environmental Health"], "Master's": ["Epidemiology", "General Public Health", "Reproductive Health", "Human Nutrition", "Environmental Health"]}},
+   "http://www.mtu.edu.et/college-business.php": {"College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Cooperatives", "Economics", "Management", "Marketing Management"], "Master's": ["Accounting and Finance", "Development Economics", "Business Administration (MBA)"]}},
+   "http://www.mtu.edu.et/college-natural-sciences.php": {"College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Chemistry", "Geology", "Mathematics", "Physics", "Sport Science", "Statistics"], "Master's": ["Physics", "Mathematics", "Botanical Science"]}},
+   "http://www.mtu.edu.et/college-social-sciences.php": {"College of Social Sciences and Humanities": {"Bachelor's": ["Amharic Language and Literature", "English Language and Literature", "Civics and Ethical Studies", "Geography and Environmental Studies", "History and Heritage Management", "Psychology", "Pedagogy", "Sociology", "Social Work", "Governance and Development Studies", "Journalism and Communication"], "Master's": ["Land Resource Management", "Local and Regional Development Planning", "Teaching English as a Foreign Language (TEFL)", "Literature", "Linguistics", "Special Needs and Inclusive Education", "Counselling", "Educational Leadership and Management", "Applied Linguistics in Teaching Amharic"]}},
+   "http://www.mtu.edu.et/school-computing.php": {"School of Computing and Informatics": {"Bachelor's": ["Computer Science", "Information Technology", "Information Systems", "Software Engineering"]}}
+  }
+ },
+ "woldia-university": {
+  "summary": "Woldia University is a public university in Woldia, North Wollo. It publishes complete lists of its undergraduate programmes, more than sixty master's programmes and six PhD programmes, across colleges of agriculture, business, education, health, natural sciences and social sciences, an Institute of Technology, the St. Lalibela Institute of Heritage and Tourism Studies, and schools of land administration and law.",
+  "colleges": ["College of Agricultural Sciences", "College of Business and Economics", "College of Education and Behavioral Sciences", "College of Health Sciences", "College of Natural and Computational Sciences", "College of Social Science and Humanities", "Institute of Technology", "St. Lalibela Institute of Heritage and Tourism Studies", "School of Land Administration and Surveying", "School of Law"],
+  "sources": [
+   {"label": "Woldia University website", "url": "https://wldu.edu.et/", "kind": "official"},
+   {"label": "Undergraduate programmes", "url": "https://wldu.edu.et/undergraduate/", "kind": "official"},
+   {"label": "Postgraduate programmes", "url": "https://wldu.edu.et/postgraduate/", "kind": "official"},
+   {"label": "PhD programmes", "url": "https://wldu.edu.et/phd/", "kind": "official"}
+  ],
+  "coverage": "full",
+  "programmes": {
+   "https://wldu.edu.et/undergraduate/": {
+    "Institute of Technology": {"Bachelor's": ["Architecture", "Civil Engineering", "Construction Technology and Management", "Water Resource and Irrigation Engineering", "Electrical and Computer Engineering", "Computer Science", "Information Technology", "Software Engineering", "Mechanical Engineering", "Chemical Engineering"]},
+    "College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Biotechnology", "Chemistry", "Mathematics", "Geology", "Physics", "Sport Science", "Statistics"]},
+    "College of Health Sciences": {"Bachelor's": ["Medicine", "Public Health", "Nursing", "Midwifery", "Medical Laboratory Science", "Pharmacy"]},
+    "College of Agricultural Sciences": {"Bachelor's": ["Rural Development and Agricultural Extension", "Animal Science", "Plant Science", "Agricultural Economics", "Soil Resource and Watershed Management", "Veterinary Medicine"]},
+    "School of Land Administration and Surveying": {"Bachelor's": ["Land Administration and Surveying", "Real Property Valuation"]},
+    "School of Law": {"Bachelor's": ["Law"]},
+    "College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Economics", "Management", "Marketing Management"]},
+    "College of Education and Behavioral Sciences": {"Bachelor's": ["Adult Education and Community Development", "School and Counseling Psychology", "Pedagogical Science", "Special Needs and Inclusive Education", "Early Childhood Care and Education"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["English Language and Literature", "Amharic Language and Literature", "Sociology", "Political Science and International Relations", "Geography and Environmental Studies", "Journalism and Communication", "History and Heritage Management", "Theatrical Arts"]}
+   },
+   "https://wldu.edu.et/postgraduate/": {
+    "College of Business and Economics": {"Master's": ["Business Administration (MBA)", "Marketing Management", "Accounting and Finance", "Development Economics", "Natural Resource and Environmental Economics", "Project Management"]},
+    "Institute of Technology": {"Master's": ["Sustainable Energy Engineering", "Industrial Management", "Construction Engineering and Management", "Hydraulic Engineering", "Information Technology", "Computer Science", "Electrical Power Engineering", "Irrigation and Drainage Engineering", "Water Resource Engineering"]},
+    "College of Health Sciences": {"Master's": ["Reproductive Health", "Human Nutrition", "General Public Health", "Epidemiology", "Paediatric and Child Health Nursing", "Adult Health Nursing", "Maternity and Reproductive Health Nursing"]},
+    "College of Social Science and Humanities": {"Master's": ["Teaching English as a Foreign Language (TEFL)", "Linguistics and Multicultural Studies", "Ethiopian Literature and Folklore", "Development Studies", "Political Science", "Peace and Security Studies", "Food Security and Development", "Environment and Natural Resource Management", "Socio-economic Development Planning and Environment", "GIS and Remote Sensing"]},
+    "College of Agricultural Sciences": {"Master's": ["Soil Science", "Horticulture", "Animal Production", "Animal Nutrition", "Animal Genetics and Breeding", "Veterinary Public Health", "Veterinary Epidemiology and Economics", "Agricultural Economics"]},
+    "St. Lalibela Institute of Heritage and Tourism Studies": {"Master's": ["Museum Studies", "Cultural Tourism Management", "Cultural Heritage Management", "Cultural Heritage Conservation", "Archaeology"]},
+    "College of Natural and Computational Sciences": {"Master's": ["Analytical Chemistry", "Organic Chemistry", "Biotechnology", "Applied Microbiology", "Botanical Science", "Ecology and Systematic Zoology", "Mathematics (Algebra)", "Mathematics (Modelling)", "Physics (Quantum Field Theory)", "Physics (Condensed Matter Physics)", "Material Science", "Sport Management", "Insect Science", "Physical Chemistry", "Numerical Analysis", "Mathematical Analysis", "Combinatorics"]},
+    "College of Education and Behavioral Sciences": {"Master's": ["Educational Planning and Management", "Curriculum and Instruction", "Counselling Psychology", "Educational Psychology"]}
+   },
+   "https://wldu.edu.et/phd/": {
+    "College of Social Science and Humanities": {"PhD": ["English Language Teaching"]},
+    "College of Agricultural Sciences": {"PhD": ["Soil Science", "Horticulture", "Animal Genetics and Breeding"]},
+    "Institute of Technology": {"PhD": ["Construction Engineering and Management", "Computing and Information Sciences"]}
+   }
+  }
+ },
+ "st-paul-s-hospital-millennium-medical-college": {
+  "summary": "St. Paul's Hospital Millennium Medical College is a teaching hospital in Addis Ababa that combines specialised healthcare with the education of health professionals and research. It has a School of Medicine, a School of Nursing and a School of Public Health.",
+  "colleges": ["School of Medicine", "School of Nursing", "School of Public Health"],
+  "sources": [{"label": "SPHMMC website", "url": "https://sphmmc.edu.et/", "kind": "official"}],
+  "coverage": "none",
+  "coverageNote": "The college's academic and school pages returned “not found” in November 2026, so programme lists could not be read."
+ },
+ "ethiopian-federal-police-college": {
+  "coverage": "none",
+  "coverageNote": "The website (epuc.edu.et) could not be found in November 2026."
+ },
+ "wondo-genet-college-of-forestry": {
+  "founded": 1978,
+  "summary": "Wondo Genet College of Forestry and Natural Resources, established in 1978, is one of the founding colleges of Hawassa University and lies about 35 km south-east of Hawassa. It offers undergraduate, postgraduate and PhD programmes in regular and continuing education.",
+  "sources": [
+   {"label": "College website", "url": "https://wgcfnr.hu.edu.et/", "kind": "official"},
+   {"label": "Dean's message", "url": "https://wgcfnr.hu.edu.et/deans-message", "kind": "official"}
+  ],
+  "coverage": "none",
+  "coverageNote": "The college and Hawassa University websites do not list its individual programmes (November 2026)."
+ },
+ "unity-university": {
+  "founded": 1991,
+  "summary": "Unity University describes itself as the pioneer private higher education institution in Ethiopia; it began as a language school in 1991 and joined the MIDROC Technology Group in 2008. It has campuses in Gerji (Addis Ababa), Adama, Dessie and Burayu, and runs degree and TVET programmes.",
+  "sources": [
+   {"label": "Unity University website", "url": "https://uu.edu.et/", "kind": "official"},
+   {"label": "Accredited programmes", "url": "https://uu.edu.et/accreditation/", "kind": "official"}
+  ],
+  "coverage": "none",
+  "coverageNote": "The accredited-programme list on the website is an image, so programme names could not be read (November 2026)."
+ },
+ "st-mary-s-university": {
+  "summary": "St. Mary's University is a private university in Addis Ababa with an undergraduate campus, a School of Graduate Studies, a College of Open Distance Learning and a Faculty of International Programs. It offers degrees in accounting, business, economics, tourism and computer science, and master's programmes in business, informatics, development studies and quality management.",
+  "colleges": ["Faculty of Accounting and Finance", "Faculty of Business", "Faculty of Informatics", "School of Graduate Studies", "School of Business", "Institute of Agriculture and Development Studies", "Institute of Quality and Productivity Management", "College of Open Distance Learning", "Faculty of International Programs"],
+  "sources": [
+   {"label": "Undergraduate degree programmes", "url": "https://www.smuc.edu.et/undergraduate-degree-programs/", "kind": "official"},
+   {"label": "School of Graduate Studies", "url": "https://smuc.edu.et/school-of-graduate-studies/", "kind": "official"},
+   {"label": "School of Business", "url": "https://smuc.edu.et/school-of-business/", "kind": "official"},
+   {"label": "Institute of Agriculture and Development Studies", "url": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "The graduate school says it offers more than twenty programmes but names only some of them; distance-learning programmes are not yet included.",
+  "programmes": {
+   "https://www.smuc.edu.et/undergraduate-degree-programs/": {
+    "Faculty of Accounting and Finance": {"Bachelor's": ["Accounting and Finance"]},
+    "Faculty of Business": {"Bachelor's": ["Management", "Marketing Management", "Tourism and Hospitality Management", "Economics"]},
+    "Faculty of Informatics": {"Bachelor's": ["Computer Science"]}
+   },
+   "https://smuc.edu.et/school-of-business/": {"School of Business": {"Master's": ["Business Administration (MBA)", "Accounting and Finance (MBA)", "Marketing Management", "Project Management (MBA)"]}},
+   "https://smuc.edu.et/faculty-of-informatics-2/": {"Faculty of Informatics": {"Master's": ["Computer Science"]}},
+   "https://smuc.edu.et/institute-of-agriculture-and-development-studies/": {"Institute of Agriculture and Development Studies": {"Master's": ["Rural Development and Agricultural Economics", "Development Economics", "Social Work", "Development Management", "Sociology"]}},
+   "https://smuc.edu.et/institute-of-quality-and-productivity-management/": {"Institute of Quality and Productivity Management": {"Master's": ["Quality and Productivity Management"]}}
+  }
+ },
+ "rift-valley-university-college": {
+  "name": "Rift Valley University",
+  "category": "University",
+  "summary": "Rift Valley University describes itself as the largest private university in Ethiopia, with campuses in every regional state. It offers undergraduate and master's programmes in business, health and computing.",
+  "sources": [
+   {"label": "Undergraduate programmes", "url": "https://riftvalleyuniversity.org/undergraduate/", "kind": "official"},
+   {"label": "Graduate programmes", "url": "https://riftvalleyuniversity.org/graduate/", "kind": "official"},
+   {"label": "Campuses", "url": "https://riftvalleyuniversity.org/campuses/", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "The website mentions 45 undergraduate majors but lists only a few of them.",
+  "programmes": {
+   "https://riftvalleyuniversity.org/undergraduate/": {"": {"Bachelor's": ["Management", "Pharmacy", "Public Health", "Nursing", "Economics", "Accounting and Finance"]}},
+   "https://riftvalleyuniversity.org/graduate/": {"": {"Master's": ["General Public Health", "Computer Science", "Accounting and Finance", "Project Management", "Business Administration (MBA)"]}}
+  }
+ },
+ "admas-university-college": {
+  "coverage": "none",
+  "coverageNote": "The websites admasuniversity.com and admas.edu.et could not be found in November 2026."
+ },
+ "alpha-university-college": {
+  "summary": "Alpha University College offers regular and distance education. Its online application system lists first-degree distance programmes in business, economics, development and public administration, and master's programmes in accounting, project management and business administration.",
+  "sources": [{"label": "Online application form (programme list)", "url": "https://www.alphareg.net/alpha/frmapply.php", "kind": "official"}],
+  "coverage": "partial",
+  "coverageNote": "Only the distance-learning and postgraduate programmes are listed online; regular programmes are not.",
+  "programmes": {
+   "https://www.alphareg.net/alpha/frmapply.php": {"": {
+    "Bachelor's": ["Accounting", "Accounting and Finance", "Business Management", "Development Management", "Economics", "Management", "Marketing Management", "Public Administration and Development Management", "Procurement and Supplies Management", "Rural Development", "Social Work", "Urban Management", "Educational Planning Management and Leadership", "Tax and Customs Administration"],
+    "Master's": ["Accounting and Finance", "Project Management", "Business Administration (MBA)"]
+   }}
+  }
+ },
+ "hilcoe-school-of-computer-science-and-technology": {
+  "name": "HiLCoE School of Computer Science & Technology",
+  "summary": "HiLCoE is a specialised computer science and technology college in Addis Ababa that pioneered computer science education in Ethiopia. Its licence from the Education and Training Authority covers undergraduate programmes in Computer Science and Software Engineering, and it also offers master's programmes in both.",
+  "sources": [
+   {"label": "HiLCoE website", "url": "https://www.hilcoe.net/", "kind": "official"},
+   {"label": "BSc Computer Science", "url": "https://hilcoe.net/index.php/art-science/", "kind": "official"},
+   {"label": "About HiLCoE", "url": "https://hilcoe.net/index.php/about-us/", "kind": "official"}
+  ],
+  "coverage": "full",
+  "programmes": {
+   "https://hilcoe.net/index.php/art-science/": {"": {"Bachelor's": ["Computer Science"]}},
+   "https://www.hilcoe.net/": {"": {"Bachelor's": ["Software Engineering"], "Master's": ["Computer Science", "Software Engineering"]}}
+  }
+ },
+ "microlink-college": {"coverage": "none", "coverageNote": "The website (microlink.edu.et) could not be found in November 2026."},
+ "cpu-business-and-computer-technology-college": {"coverage": "none", "coverageNote": "The website refused connections from outside Ethiopia in November 2026."},
+ "pesc-information-systems-college": {"coverage": "none", "coverageNote": "The website's security certificate had expired in November 2026, so it could not be read."},
+ "zion-technology-and-business-college": {"coverage": "none", "coverageNote": "The website refused connections from outside Ethiopia in November 2026."},
+ "queens-college": {"coverage": "none", "coverageNote": "The website (queensuniversity.edu.et) could not be found in November 2026."},
+ "hope-university-college": {"coverage": "none", "coverageNote": "The website could not be opened securely in November 2026."},
+ "evangelical-theological-college": {
+  "summary": "Evangelical Theological College in Addis Ababa has prepared servants for the church for about 40 years. It offers diploma, associate and bachelor's programmes in theology, master's programmes in ministry, education and biblical studies, and a PhD in Educational Studies.",
+  "sources": [{"label": "Programmes", "url": "https://etcollege.org/our-programs/", "kind": "official"}],
+  "coverage": "full",
+  "programmes": {
+   "https://etcollege.org/our-programs/": {"": {
+    "Diploma": ["Theology", "Associate of Theology"],
+    "Bachelor's": ["Theology"],
+    "Master's": ["Holistic Child Development", "Educational Leadership", "Youth Ministry", "Christian-Muslim Relations", "Biblical Studies", "Biblical and Theological Studies"],
+    "PhD": ["Educational Studies"]
+   }}
+  }
+ },
+ "meserete-kristos-college": {"coverage": "none", "coverageNote": "The website could not be opened securely in November 2026."},
+ "mekane-yesus-seminary": {
+  "summary": "Mekane Yesus Seminary is the Lutheran theological seminary of the Ethiopian Evangelical Church Mekane Yesus in Addis Ababa, with roots going back to 1960. It has a College of Theological Studies, a School of Music and Media, and a Management and Leadership College with campuses in Addis Ababa and Bishoftu.",
+  "colleges": ["College of Theological Studies", "School of Music and Media", "Mekane Yesus Management and Leadership College"],
+  "website": "https://mys.edu.et/",
+  "sources": [{"label": "Mekane Yesus Seminary website", "url": "https://mys.edu.et/", "kind": "official"}],
+  "coverage": "partial",
+  "coverageNote": "Taken from the website's programme menu; levels of the music, media and some management programmes are not stated.",
+  "programmes": {
+   "https://mys.edu.et/": {
+    "College of Theological Studies": {"Diploma": ["Theology (Postgraduate Diploma)"], "Bachelor's": ["Theology"], "Master's": ["Theology", "Biblical Studies", "Practical Studies", "Missiology", "Systematic Studies", "Christian-Muslim Relations"], "PhD": ["Theology", "Ministry (Doctor of Ministry)"]},
+    "Mekane Yesus Management and Leadership College": {"Master's": ["Business Administration", "Organizational Leadership"]}
+   }
+  }
+ },
+ "ecusta-higher-leadership-institute": {
+  "name": "ECUSTA Higher Learning Institute",
+  "founded": 1997,
+  "summary": "ECUSTA Higher Learning Institute is a Lasallian Catholic institution in Addis Ababa, established in 1997. It offers accredited undergraduate programmes in medicine, medical laboratory science and social work.",
+  "sources": [
+   {"label": "Academic programmes", "url": "https://ecu.edu.et/programs", "kind": "official"},
+   {"label": "ECUSTA website", "url": "https://ecu.edu.et/", "kind": "official"}
+  ],
+  "coverage": "full",
+  "programmes": {"https://ecu.edu.et/programs": {"School of Medicine": {"Bachelor's": ["Medicine (MD)"]}, "": {"Bachelor's": ["Medical Laboratory Science", "Social Work"]}}}
+ },
+ "jethro-leadership-and-management-institute": {
+  "name": "Jethro Leadership & Management Institute (Jethro-LMI)",
+  "founded": 2009,
+  "summary": "Jethro-LMI is a leadership and organisational development institute in Addis Ababa, established in 2009. It offers management training, international professional certifications, research and consultancy rather than degree programmes.",
+  "sources": [{"label": "Jethro-LMI website", "url": "https://www.jethrolmi.com/", "kind": "official"}],
+  "coverage": "full",
+  "coverageNote": "Offers professional training and certifications, not degree programmes."
+ },
+ "hamlin-college-of-midwives": {"coverage": "none", "coverageNote": "The college's web page was no longer available in November 2026."},
+ "gage-university-college": {
+  "website": "https://guc.edu.et/",
+  "summary": "GAGE University College is a private college in Addis Ababa offering undergraduate programmes in business, computing and social sciences, and master's programmes in business, nursing, public health and nutrition.",
+  "sources": [{"label": "GAGE University College website", "url": "https://guc.edu.et/", "kind": "official"}],
+  "coverage": "partial",
+  "coverageNote": "Only the master's programmes are listed; undergraduate programme pages were not read.",
+  "programmes": {"https://guc.edu.et/": {"": {"Master's": ["Business Administration", "Accounting and Finance", "Project Management", "Adult Nursing", "Public Health", "Nutrition Science"]}}}
+ },
+ "washera-college": {"coverage": "none", "coverageNote": "The website (washera.edu.et) could not be found in November 2026."}
+}

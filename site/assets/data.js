@@ -174,7 +174,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://www.admasuniversity.com/",
    "about": [],
-   "category": "University College"
+   "category": "University College",
+   "coverage": "none",
+   "coverageNote": "The websites admasuniversity.com and admas.edu.et could not be found in November 2026."
   },
   {
    "id": "adwa-pan-african-university",
@@ -254,7 +256,18 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://www.alphareg.net/",
    "about": [],
-   "category": "University College"
+   "category": "University College",
+   "summary": "Alpha University College offers regular and distance education. Its online application system lists first-degree distance programmes in business, economics, development and public administration, and master's programmes in accounting, project management and business administration.",
+   "sources": [
+    {
+     "label": "Online application form (programme list)",
+     "url": "https://www.alphareg.net/alpha/frmapply.php",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Only the distance-learning and postgraduate programmes are listed online; regular programmes are not.",
+   "checked": "2026-11-07"
   },
   {
    "id": "ambo-university",
@@ -493,7 +506,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://www.cpucollege.com/index.php",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website refused connections from outside Ethiopia in November 2026."
   },
   {
    "id": "debre-berhan-university",
@@ -676,12 +691,28 @@ window.SIE_DATA = {
   },
   {
    "id": "ecusta-higher-leadership-institute",
-   "name": "ECUSTA Higher Leadership Institute",
+   "name": "ECUSTA Higher Learning Institute",
    "abbr": "ECUSTA",
    "type": "private",
    "website": "https://ecu.edu.et/",
    "about": [],
-   "category": "Institute"
+   "category": "Institute",
+   "founded": 1997,
+   "summary": "ECUSTA Higher Learning Institute is a Lasallian Catholic institution in Addis Ababa, established in 1997. It offers accredited undergraduate programmes in medicine, medical laboratory science and social work.",
+   "sources": [
+    {
+     "label": "Academic programmes",
+     "url": "https://ecu.edu.et/programs",
+     "kind": "official"
+    },
+    {
+     "label": "ECUSTA website",
+     "url": "https://ecu.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07"
   },
   {
    "id": "ethiopian-catholic-university",
@@ -724,7 +755,9 @@ window.SIE_DATA = {
    "type": "public",
    "website": "https://www.epuc.edu.et/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website (epuc.edu.et) could not be found in November 2026."
   },
   {
    "id": "ethiopian-institute-of-architecture-building-construction-and-city-development",
@@ -770,16 +803,37 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://etcollege.org/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "summary": "Evangelical Theological College in Addis Ababa has prepared servants for the church for about 40 years. It offers diploma, associate and bachelor's programmes in theology, master's programmes in ministry, education and biblical studies, and a PhD in Educational Studies.",
+   "sources": [
+    {
+     "label": "Programmes",
+     "url": "https://etcollege.org/our-programs/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07"
   },
   {
    "id": "gage-university-college",
    "name": "GAGE University College",
    "abbr": "GAGE",
    "type": "private",
-   "website": "http://gagecollege.net/",
+   "website": "https://guc.edu.et/",
    "about": [],
-   "category": "University College"
+   "category": "University College",
+   "summary": "GAGE University College is a private college in Addis Ababa offering undergraduate programmes in business, computing and social sciences, and master's programmes in business, nursing, public health and nutrition.",
+   "sources": [
+    {
+     "label": "GAGE University College website",
+     "url": "https://guc.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Only the master's programmes are listed; undergraduate programme pages were not read.",
+   "checked": "2026-11-07"
   },
   {
    "id": "gambella-teachers-and-health-science-college",
@@ -914,7 +968,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://hamlin.org.au/hamlin-college-midwives/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The college's web page was no longer available in November 2026."
   },
   {
    "id": "haramaya-university",
@@ -1054,12 +1110,32 @@ window.SIE_DATA = {
   },
   {
    "id": "hilcoe-school-of-computer-science-and-technology",
-   "name": "HiLCoE School of Computer Science and Technology",
+   "name": "HiLCoE School of Computer Science & Technology",
    "abbr": "HiLCoE",
    "type": "private",
    "website": "https://www.hilcoe.net/",
    "about": [],
-   "category": "Institute"
+   "category": "Institute",
+   "summary": "HiLCoE is a specialised computer science and technology college in Addis Ababa that pioneered computer science education in Ethiopia. Its licence from the Education and Training Authority covers undergraduate programmes in Computer Science and Software Engineering, and it also offers master's programmes in both.",
+   "sources": [
+    {
+     "label": "HiLCoE website",
+     "url": "https://www.hilcoe.net/",
+     "kind": "official"
+    },
+    {
+     "label": "BSc Computer Science",
+     "url": "https://hilcoe.net/index.php/art-science/",
+     "kind": "official"
+    },
+    {
+     "label": "About HiLCoE",
+     "url": "https://hilcoe.net/index.php/about-us/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07"
   },
   {
    "id": "hiwot-health-science-college",
@@ -1077,7 +1153,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "http://www.hopeuniversitycollege.org/",
    "about": [],
-   "category": "University College"
+   "category": "University College",
+   "coverage": "none",
+   "coverageNote": "The website could not be opened securely in November 2026."
   },
   {
    "id": "infolink-college",
@@ -1137,12 +1215,24 @@ window.SIE_DATA = {
   },
   {
    "id": "jethro-leadership-and-management-institute",
-   "name": "Jethro Leadership & Management Institute",
+   "name": "Jethro Leadership & Management Institute (Jethro-LMI)",
    "abbr": "JLMI",
    "type": "private",
    "website": "https://www.jethrolmi.com/",
    "about": [],
-   "category": "Institute"
+   "category": "Institute",
+   "founded": 2009,
+   "summary": "Jethro-LMI is a leadership and organisational development institute in Addis Ababa, established in 2009. It offers management training, international professional certifications, research and consultancy rather than degree programmes.",
+   "sources": [
+    {
+     "label": "Jethro-LMI website",
+     "url": "https://www.jethrolmi.com/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "coverageNote": "Offers professional training and certifications, not degree programmes.",
+   "checked": "2026-11-07"
   },
   {
    "id": "jijiga-university",
@@ -1410,9 +1500,25 @@ window.SIE_DATA = {
    "name": "Mekane Yesus Seminary",
    "abbr": "MYS",
    "type": "private",
-   "website": "https://www.eecmy.org",
+   "website": "https://mys.edu.et/",
    "about": [],
-   "category": "Institute"
+   "category": "Institute",
+   "summary": "Mekane Yesus Seminary is the Lutheran theological seminary of the Ethiopian Evangelical Church Mekane Yesus in Addis Ababa, with roots going back to 1960. It has a College of Theological Studies, a School of Music and Media, and a Management and Leadership College with campuses in Addis Ababa and Bishoftu.",
+   "colleges": [
+    "College of Theological Studies",
+    "School of Music and Media",
+    "Mekane Yesus Management and Leadership College"
+   ],
+   "sources": [
+    {
+     "label": "Mekane Yesus Seminary website",
+     "url": "https://mys.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Taken from the website's programme menu; levels of the music, media and some management programmes are not stated.",
+   "checked": "2026-11-07"
   },
   {
    "id": "mekelle-university",
@@ -1484,7 +1590,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "http://www.mkcollege.org/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website could not be opened securely in November 2026."
   },
   {
    "id": "mettu-university",
@@ -1552,7 +1660,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "http://microlink.edu.et/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website (microlink.edu.et) could not be found in November 2026."
   },
   {
    "id": "mizan-tepi-university",
@@ -1573,7 +1683,59 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/283675719"
-   }
+   },
+   "founded": 2006,
+   "summary": "Mizan-Tepi University is a public university in South West Ethiopia, established in 2006; its homepage reports 17,848 enrolled students. Its colleges and schools offer undergraduate and postgraduate programmes in engineering, medicine and health sciences, business and economics, natural and computational sciences, social sciences and humanities, and computing.",
+   "colleges": [
+    "College of Agriculture and Natural Resources",
+    "College of Business and Economics",
+    "College of Engineering and Technology",
+    "College of Medicine and Health Sciences",
+    "College of Natural and Computational Sciences",
+    "College of Social Sciences and Humanities",
+    "School of Computing and Informatics",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Mizan-Tepi University website",
+     "url": "http://www.mtu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Engineering and Technology",
+     "url": "http://www.mtu.edu.et/college-engineering.php",
+     "kind": "official"
+    },
+    {
+     "label": "College of Medicine and Health Sciences",
+     "url": "http://www.mtu.edu.et/college-medicine.php",
+     "kind": "official"
+    },
+    {
+     "label": "College of Business and Economics",
+     "url": "http://www.mtu.edu.et/college-business.php",
+     "kind": "official"
+    },
+    {
+     "label": "College of Natural and Computational Sciences",
+     "url": "http://www.mtu.edu.et/college-natural-sciences.php",
+     "kind": "official"
+    },
+    {
+     "label": "College of Social Sciences and Humanities",
+     "url": "http://www.mtu.edu.et/college-social-sciences.php",
+     "kind": "official"
+    },
+    {
+     "label": "School of Computing and Informatics",
+     "url": "http://www.mtu.edu.et/school-computing.php",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "coverageNote": "The agriculture college and School of Law pages do not list programme names, and post-basic health programmes are not included.",
+   "checked": "2026-11-07"
   },
   {
    "id": "national-college",
@@ -1659,7 +1821,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://pesccollege.com/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website's security certificate had expired in November 2026, so it could not be read."
   },
   {
    "id": "queens-college",
@@ -1668,16 +1832,39 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://queensuniversity.edu.et/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website (queensuniversity.edu.et) could not be found in November 2026."
   },
   {
    "id": "rift-valley-university-college",
-   "name": "Rift Valley University College",
+   "name": "Rift Valley University",
    "abbr": "RVUC",
    "type": "private",
    "website": "https://www.riftvalleyuniversity.org/",
    "about": [],
-   "category": "University College"
+   "category": "University",
+   "summary": "Rift Valley University describes itself as the largest private university in Ethiopia, with campuses in every regional state. It offers undergraduate and master's programmes in business, health and computing.",
+   "sources": [
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://riftvalleyuniversity.org/undergraduate/",
+     "kind": "official"
+    },
+    {
+     "label": "Graduate programmes",
+     "url": "https://riftvalleyuniversity.org/graduate/",
+     "kind": "official"
+    },
+    {
+     "label": "Campuses",
+     "url": "https://riftvalleyuniversity.org/campuses/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "The website mentions 45 undergraduate majors but lists only a few of them.",
+   "checked": "2026-11-07"
   },
   {
    "id": "royal-college",
@@ -1787,7 +1974,44 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://www.smuc.edu.et/index.php?lang=en",
    "about": [],
-   "category": "University"
+   "category": "University",
+   "summary": "St. Mary's University is a private university in Addis Ababa with an undergraduate campus, a School of Graduate Studies, a College of Open Distance Learning and a Faculty of International Programs. It offers degrees in accounting, business, economics, tourism and computer science, and master's programmes in business, informatics, development studies and quality management.",
+   "colleges": [
+    "Faculty of Accounting and Finance",
+    "Faculty of Business",
+    "Faculty of Informatics",
+    "School of Graduate Studies",
+    "School of Business",
+    "Institute of Agriculture and Development Studies",
+    "Institute of Quality and Productivity Management",
+    "College of Open Distance Learning",
+    "Faculty of International Programs"
+   ],
+   "sources": [
+    {
+     "label": "Undergraduate degree programmes",
+     "url": "https://www.smuc.edu.et/undergraduate-degree-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "School of Graduate Studies",
+     "url": "https://smuc.edu.et/school-of-graduate-studies/",
+     "kind": "official"
+    },
+    {
+     "label": "School of Business",
+     "url": "https://smuc.edu.et/school-of-business/",
+     "kind": "official"
+    },
+    {
+     "label": "Institute of Agriculture and Development Studies",
+     "url": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "The graduate school says it offers more than twenty programmes but names only some of them; distance-learning programmes are not yet included.",
+   "checked": "2026-11-07"
   },
   {
    "id": "st-paul-s-hospital-millennium-medical-college",
@@ -1796,7 +2020,23 @@ window.SIE_DATA = {
    "type": "private",
    "website": "https://sphmmc.edu.et/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "summary": "St. Paul's Hospital Millennium Medical College is a teaching hospital in Addis Ababa that combines specialised healthcare with the education of health professionals and research. It has a School of Medicine, a School of Nursing and a School of Public Health.",
+   "colleges": [
+    "School of Medicine",
+    "School of Nursing",
+    "School of Public Health"
+   ],
+   "sources": [
+    {
+     "label": "SPHMMC website",
+     "url": "https://sphmmc.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "The college's academic and school pages returned “not found” in November 2026, so programme lists could not be read.",
+   "checked": "2026-11-07"
   },
   {
    "id": "tech-zone-engineering-and-business-college",
@@ -1814,7 +2054,24 @@ window.SIE_DATA = {
    "type": "private",
    "website": "http://www.uu.edu.et/",
    "about": [],
-   "category": "University"
+   "category": "University",
+   "founded": 1991,
+   "summary": "Unity University describes itself as the pioneer private higher education institution in Ethiopia; it began as a language school in 1991 and joined the MIDROC Technology Group in 2008. It has campuses in Gerji (Addis Ababa), Adama, Dessie and Burayu, and runs degree and TVET programmes.",
+   "sources": [
+    {
+     "label": "Unity University website",
+     "url": "https://uu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Accredited programmes",
+     "url": "https://uu.edu.et/accreditation/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "The accredited-programme list on the website is an image, so programme names could not be read (November 2026).",
+   "checked": "2026-11-07"
   },
   {
    "id": "universal-technology-college",
@@ -1863,7 +2120,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "http://www.washera.edu.et/",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website (washera.edu.et) could not be found in November 2026."
   },
   {
    "id": "wolaita-sodo-university",
@@ -1954,7 +2213,44 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/1293233626"
-   }
+   },
+   "summary": "Woldia University is a public university in Woldia, North Wollo. It publishes complete lists of its undergraduate programmes, more than sixty master's programmes and six PhD programmes, across colleges of agriculture, business, education, health, natural sciences and social sciences, an Institute of Technology, the St. Lalibela Institute of Heritage and Tourism Studies, and schools of land administration and law.",
+   "colleges": [
+    "College of Agricultural Sciences",
+    "College of Business and Economics",
+    "College of Education and Behavioral Sciences",
+    "College of Health Sciences",
+    "College of Natural and Computational Sciences",
+    "College of Social Science and Humanities",
+    "Institute of Technology",
+    "St. Lalibela Institute of Heritage and Tourism Studies",
+    "School of Land Administration and Surveying",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Woldia University website",
+     "url": "https://wldu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://wldu.edu.et/undergraduate/",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes",
+     "url": "https://wldu.edu.et/postgraduate/",
+     "kind": "official"
+    },
+    {
+     "label": "PhD programmes",
+     "url": "https://wldu.edu.et/phd/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07"
   },
   {
    "id": "wolkite-university",
@@ -2123,7 +2419,24 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/1150981107"
-   }
+   },
+   "founded": 1978,
+   "summary": "Wondo Genet College of Forestry and Natural Resources, established in 1978, is one of the founding colleges of Hawassa University and lies about 35 km south-east of Hawassa. It offers undergraduate, postgraduate and PhD programmes in regular and continuing education.",
+   "sources": [
+    {
+     "label": "College website",
+     "url": "https://wgcfnr.hu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Dean's message",
+     "url": "https://wgcfnr.hu.edu.et/deans-message",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "The college and Hawassa University websites do not list its individual programmes (November 2026).",
+   "checked": "2026-11-07"
   },
   {
    "id": "zion-technology-and-business-college",
@@ -2132,7 +2445,9 @@ window.SIE_DATA = {
    "type": "private",
    "website": "http://www.zioncollegetbc.com/index.php",
    "about": [],
-   "category": "College"
+   "category": "College",
+   "coverage": "none",
+   "coverageNote": "The website refused connections from outside Ethiopia in November 2026."
   }
  ],
  "programmes": [
@@ -2573,7 +2888,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Electrical and Computer Engineering",
    "college": "Haramaya Institute of Technology",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://www.haramaya.edu.et/admissions/programs/regular-programs/"
   },
   {
@@ -4757,7 +5072,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "Computer Engineering (Intelligent and Adaptive Systems)",
    "college": "Bahir Dar Institute of Technology",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/registrar/node/154"
   },
   {
@@ -6725,7 +7040,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Computer Engineering",
    "college": "Bahir Dar Institute of Technology",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/bit/node/139"
   },
   {
@@ -6853,7 +7168,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Computer Engineering (Artificial Intelligence and Data Engineering)",
    "college": "Faculty of Electrical and Computer Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/bit/node/166"
   },
   {
@@ -6861,7 +7176,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Computer Engineering (Computer Networks and Cyber Security)",
    "college": "Faculty of Electrical and Computer Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/bit/node/166"
   },
   {
@@ -6893,7 +7208,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "Food and Nutritional Science",
    "college": "Faculty of Chemical and Food Engineering",
-   "field": "Agriculture & Environment",
+   "field": "Health & Medicine",
    "source": "https://bdu.edu.et/bit/node/138"
   },
   {
@@ -6909,7 +7224,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "Computer Engineering (Data Communication Networks and Security)",
    "college": "Faculty of Electrical and Computer Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/bit/node/138"
   },
   {
@@ -6917,7 +7232,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "Computer Engineering (Architectures and High Performance Computing)",
    "college": "Faculty of Electrical and Computer Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/bit/node/138"
   },
   {
@@ -7165,7 +7480,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Computer Engineering",
    "college": "Ethiopian Institute of Technology-Mekelle",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -8117,7 +8432,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Tax Law",
    "college": "College of Law and Governance",
-   "field": "Law & Governance",
+   "field": "Business & Economics",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -8141,7 +8456,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Taxation and Investment Law",
    "college": "College of Law and Governance",
-   "field": "Law & Governance",
+   "field": "Business & Economics",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -13037,7 +13352,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Electrical and Computer Engineering",
    "college": "College of Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://wu.edu.et/programs"
   },
   {
@@ -13093,7 +13408,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Computer Engineering",
    "college": "College of Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://wu.edu.et/programs"
   },
   {
@@ -15621,7 +15936,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Electrical and Computer Engineering",
    "college": "College of Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
   },
   {
@@ -16237,7 +16552,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Food Science and Nutrition",
    "college": "Continuing and Distance Education Programme",
-   "field": "Agriculture & Environment",
+   "field": "Health & Medicine",
    "source": "https://www.jju.edu.et/Registrar.php"
   },
   {
@@ -16533,7 +16848,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Electrical and Computer Engineering",
    "college": "College of Engineering and Technology",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://su.edu.et/undergraduate-program/"
   },
   {
@@ -17045,7 +17360,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Electrical and Computer Engineering",
    "college": "College of Engineering",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://asu.edu.et/engineering-college/"
   },
   {
@@ -18285,7 +18600,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Food Science and Nutrition",
    "college": "College of Agriculture and Natural Resources",
-   "field": "Agriculture & Environment",
+   "field": "Health & Medicine",
    "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
   },
   {
@@ -18477,7 +18792,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Nutrition and Food Science",
    "college": "School of Graduate Studies",
-   "field": "Agriculture & Environment",
+   "field": "Health & Medicine",
    "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
   },
   {
@@ -18589,7 +18904,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Electrical and Computer Engineering",
    "college": "College of Engineering and Technology",
-   "field": "Computing, Data & IT",
+   "field": "Engineering & Technology",
    "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
   },
   {
@@ -18799,6 +19114,2118 @@ window.SIE_DATA = {
    "college": "College of Social Sciences and Humanities",
    "field": "Social Sciences & Humanities",
    "source": "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Surveying Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resources Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Engineering Drawing and Design",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "http://www.mtu.edu.et/college-engineering.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Sciences",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Psychiatry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Environmental Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Reproductive Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Human Nutrition",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Environmental Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "http://www.mtu.edu.et/college-medicine.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Cooperatives",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "http://www.mtu.edu.et/college-business.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Botanical Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "http://www.mtu.edu.et/college-natural-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Pedagogy",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Governance and Development Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Land Resource Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Local and Regional Development Planning",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Linguistics",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Counselling",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Educational Leadership and Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "http://www.mtu.edu.et/college-social-sciences.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "School of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "http://www.mtu.edu.et/school-computing.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "School of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "http://www.mtu.edu.et/school-computing.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "School of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "http://www.mtu.edu.et/school-computing.php"
+  },
+  {
+   "institution": "mizan-tepi-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "School of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "http://www.mtu.edu.et/school-computing.php"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Water Resource and Irrigation Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Soil Resource and Watershed Management",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine",
+   "college": "College of Agricultural Sciences",
+   "field": "Veterinary Science",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Land Administration and Surveying",
+   "college": "School of Land Administration and Surveying",
+   "field": "Law & Governance",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Real Property Valuation",
+   "college": "School of Land Administration and Surveying",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Adult Education and Community Development",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "School and Counseling Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Pedagogical Science",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Bachelor's",
+   "name": "Theatrical Arts",
+   "college": "College of Social Science and Humanities",
+   "field": "Arts & Design",
+   "source": "https://wldu.edu.et/undergraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Natural Resource and Environmental Economics",
+   "college": "College of Business and Economics",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Sustainable Energy Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Industrial Management",
+   "college": "Institute of Technology",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Construction Engineering and Management",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Irrigation and Drainage Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Water Resource Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Reproductive Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Human Nutrition",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Epidemiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Paediatric and Child Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Maternity and Reproductive Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Linguistics and Multicultural Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Ethiopian Literature and Folklore",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Development Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Peace and Security Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Food Security and Development",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Environment and Natural Resource Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Socio-economic Development Planning and Environment",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Animal Genetics and Breeding",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Veterinary Public Health",
+   "college": "College of Agricultural Sciences",
+   "field": "Veterinary Science",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Veterinary Epidemiology and Economics",
+   "college": "College of Agricultural Sciences",
+   "field": "Veterinary Science",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Museum Studies",
+   "college": "St. Lalibela Institute of Heritage and Tourism Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Cultural Tourism Management",
+   "college": "St. Lalibela Institute of Heritage and Tourism Studies",
+   "field": "Business & Economics",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Cultural Heritage Management",
+   "college": "St. Lalibela Institute of Heritage and Tourism Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Cultural Heritage Conservation",
+   "college": "St. Lalibela Institute of Heritage and Tourism Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Archaeology",
+   "college": "St. Lalibela Institute of Heritage and Tourism Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Botanical Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Ecology and Systematic Zoology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Mathematics (Algebra)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Mathematics (Modelling)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Physics (Quantum Field Theory)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Physics (Condensed Matter Physics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Material Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Insect Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Physical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Numerical Analysis",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Mathematical Analysis",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Combinatorics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Counselling Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "Master's",
+   "name": "Educational Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://wldu.edu.et/postgraduate/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "PhD",
+   "name": "English Language Teaching",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://wldu.edu.et/phd/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "PhD",
+   "name": "Soil Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/phd/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "PhD",
+   "name": "Horticulture",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/phd/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "PhD",
+   "name": "Animal Genetics and Breeding",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://wldu.edu.et/phd/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "PhD",
+   "name": "Construction Engineering and Management",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://wldu.edu.et/phd/"
+  },
+  {
+   "institution": "woldia-university",
+   "level": "PhD",
+   "name": "Computing and Information Sciences",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://wldu.edu.et/phd/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "Faculty of Accounting and Finance",
+   "field": "Business & Economics",
+   "source": "https://www.smuc.edu.et/undergraduate-degree-programs/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "Faculty of Business",
+   "field": "Business & Economics",
+   "source": "https://www.smuc.edu.et/undergraduate-degree-programs/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "Faculty of Business",
+   "field": "Business & Economics",
+   "source": "https://www.smuc.edu.et/undergraduate-degree-programs/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hospitality Management",
+   "college": "Faculty of Business",
+   "field": "Business & Economics",
+   "source": "https://www.smuc.edu.et/undergraduate-degree-programs/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "Faculty of Business",
+   "field": "Business & Economics",
+   "source": "https://www.smuc.edu.et/undergraduate-degree-programs/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "Faculty of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.smuc.edu.et/undergraduate-degree-programs/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "School of Business",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/school-of-business/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Accounting and Finance (MBA)",
+   "college": "School of Business",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/school-of-business/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "School of Business",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/school-of-business/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Project Management (MBA)",
+   "college": "School of Business",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/school-of-business/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "Faculty of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://smuc.edu.et/faculty-of-informatics-2/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Rural Development and Agricultural Economics",
+   "college": "Institute of Agriculture and Development Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "Institute of Agriculture and Development Studies",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Social Work",
+   "college": "Institute of Agriculture and Development Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Development Management",
+   "college": "Institute of Agriculture and Development Studies",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Sociology",
+   "college": "Institute of Agriculture and Development Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://smuc.edu.et/institute-of-agriculture-and-development-studies/"
+  },
+  {
+   "institution": "st-mary-s-university",
+   "level": "Master's",
+   "name": "Quality and Productivity Management",
+   "college": "Institute of Quality and Productivity Management",
+   "field": "Business & Economics",
+   "source": "https://smuc.edu.et/institute-of-quality-and-productivity-management/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://riftvalleyuniversity.org/undergraduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://riftvalleyuniversity.org/undergraduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://riftvalleyuniversity.org/undergraduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://riftvalleyuniversity.org/undergraduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://riftvalleyuniversity.org/undergraduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://riftvalleyuniversity.org/undergraduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://riftvalleyuniversity.org/graduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://riftvalleyuniversity.org/graduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://riftvalleyuniversity.org/graduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://riftvalleyuniversity.org/graduate/"
+  },
+  {
+   "institution": "rift-valley-university-college",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://riftvalleyuniversity.org/graduate/"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Accounting",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Business Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Development Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "",
+   "field": "Law & Governance",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Procurement and Supplies Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Rural Development",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Urban Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Educational Planning Management and Leadership",
+   "college": "",
+   "field": "Education",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Bachelor's",
+   "name": "Tax and Customs Administration",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "alpha-university-college",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.alphareg.net/alpha/frmapply.php"
+  },
+  {
+   "institution": "hilcoe-school-of-computer-science-and-technology",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://hilcoe.net/index.php/art-science/"
+  },
+  {
+   "institution": "hilcoe-school-of-computer-science-and-technology",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.hilcoe.net/"
+  },
+  {
+   "institution": "hilcoe-school-of-computer-science-and-technology",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.hilcoe.net/"
+  },
+  {
+   "institution": "hilcoe-school-of-computer-science-and-technology",
+   "level": "Master's",
+   "name": "Software Engineering",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.hilcoe.net/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Diploma",
+   "name": "Theology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Diploma",
+   "name": "Associate of Theology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Bachelor's",
+   "name": "Theology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Master's",
+   "name": "Holistic Child Development",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Master's",
+   "name": "Educational Leadership",
+   "college": "",
+   "field": "Education",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Master's",
+   "name": "Youth Ministry",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Master's",
+   "name": "Christian-Muslim Relations",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Master's",
+   "name": "Biblical Studies",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "Master's",
+   "name": "Biblical and Theological Studies",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "evangelical-theological-college",
+   "level": "PhD",
+   "name": "Educational Studies",
+   "college": "",
+   "field": "Education",
+   "source": "https://etcollege.org/our-programs/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Diploma",
+   "name": "Theology (Postgraduate Diploma)",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Bachelor's",
+   "name": "Theology",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Theology",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Biblical Studies",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Practical Studies",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Missiology",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Systematic Studies",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Christian-Muslim Relations",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "PhD",
+   "name": "Theology",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "PhD",
+   "name": "Ministry (Doctor of Ministry)",
+   "college": "College of Theological Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "Mekane Yesus Management and Leadership College",
+   "field": "Business & Economics",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "mekane-yesus-seminary",
+   "level": "Master's",
+   "name": "Organizational Leadership",
+   "college": "Mekane Yesus Management and Leadership College",
+   "field": "Business & Economics",
+   "source": "https://mys.edu.et/"
+  },
+  {
+   "institution": "ecusta-higher-leadership-institute",
+   "level": "Bachelor's",
+   "name": "Medicine (MD)",
+   "college": "School of Medicine",
+   "field": "Health & Medicine",
+   "source": "https://ecu.edu.et/programs"
+  },
+  {
+   "institution": "ecusta-higher-leadership-institute",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://ecu.edu.et/programs"
+  },
+  {
+   "institution": "ecusta-higher-leadership-institute",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ecu.edu.et/programs"
+  },
+  {
+   "institution": "gage-university-college",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://guc.edu.et/"
+  },
+  {
+   "institution": "gage-university-college",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://guc.edu.et/"
+  },
+  {
+   "institution": "gage-university-college",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://guc.edu.et/"
+  },
+  {
+   "institution": "gage-university-college",
+   "level": "Master's",
+   "name": "Adult Nursing",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://guc.edu.et/"
+  },
+  {
+   "institution": "gage-university-college",
+   "level": "Master's",
+   "name": "Public Health",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://guc.edu.et/"
+  },
+  {
+   "institution": "gage-university-college",
+   "level": "Master's",
+   "name": "Nutrition Science",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://guc.edu.et/"
   }
  ],
  "studyAbroad": [

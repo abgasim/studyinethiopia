@@ -39,6 +39,10 @@ const RULES = [
   [/paleont|paleo-?environ/i, "Natural Sciences"],
   [/honey|\bbee\b|apicult|dairy products/i, "Agriculture & Environment"],
   [/histotechnolog/i, "Health & Medicine"],
+  [/computer engineering/i, "Engineering & Technology"],
+  [/\btax|customs/i, "Business & Economics"],
+  [/ministry|biblical|bible|christian|muslim|missiolog|religio/i, "Social Sciences & Humanities"],
+  [/(?<!animal )nutrition/i, "Health & Medicine"],
   [/political economy|conflict|geo-?informat|geographic information|\bgis\b/i, "Social Sciences & Humanities"],
   [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter/i, "Natural Sciences"],
   // "computational" in college names (e.g. "College of Natural and Computational Sciences") is not computing
