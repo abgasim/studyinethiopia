@@ -23,8 +23,9 @@
   const LANG = ["am", "om", "ti"].includes(document.documentElement.lang) ? document.documentElement.lang : "en";
   // Gregorian dates in each language (Ethiopian-calendar locales would otherwise show EC dates)
   const DATE_LOCALE = { en: "en-GB", am: "am-ET-u-ca-gregory", ti: "ti-ET-u-ca-gregory", om: "om-ET-u-ca-gregory" }[LANG];
-  const appScript = document.querySelector('script[src$="app.js"]');
-  const ASSETS = appScript ? appScript.getAttribute("src").replace(/app\.js$/, "") : "assets/";
+  // The published site adds a fingerprint (app.js?v=…), so match "app.js" anywhere in the address
+  const appScript = document.querySelector('script[src*="assets/app.js"]');
+  const ASSETS = appScript ? appScript.getAttribute("src").replace(/app\.js(\?.*)?$/, "") : "assets/";
 
   const I18N = {
     am: {
