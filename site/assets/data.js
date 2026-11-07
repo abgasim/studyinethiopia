@@ -2710,10 +2710,10 @@ window.SIE_DATA = {
    "summary": "Werabe University is a public university in the Siltie Zone of the Central Ethiopia region. Its homepage reports about 10,500 students and 49 programmes, with colleges of agriculture, social sciences, humanities, business, natural sciences and health, an Institute of Technology, and schools of education and law.",
    "colleges": [
     "College of Agriculture and Natural Resource",
+    "College of Natural and Computational Science",
+    "College of Business and Economics",
     "College of Social Sciences",
     "College of Humanities",
-    "College of Business and Economics",
-    "College of Natural and Computational Science",
     "College of Medicine and Health Sciences",
     "Institute of Technology",
     "School of Education and Behavioral Sciences",
@@ -2724,10 +2724,55 @@ window.SIE_DATA = {
      "label": "Werabe University website",
      "url": "https://www.wru.edu.et/",
      "kind": "official"
+    },
+    {
+     "label": "College of Agriculture and Natural Resource",
+     "url": "https://www.wru.edu.et/colleges/canr/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Natural and Computational Science",
+     "url": "https://www.wru.edu.et/colleges/cncs/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Business and Economics",
+     "url": "https://www.wru.edu.et/colleges/cobe/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Social Sciences",
+     "url": "https://www.wru.edu.et/colleges/css/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Humanities",
+     "url": "https://www.wru.edu.et/colleges/coh/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Medicine and Health Sciences",
+     "url": "https://www.wru.edu.et/colleges/cmhs/",
+     "kind": "official"
+    },
+    {
+     "label": "Institute of Technology",
+     "url": "https://www.wru.edu.et/colleges/iot/",
+     "kind": "official"
+    },
+    {
+     "label": "School of Education and Behavioral Sciences",
+     "url": "https://www.wru.edu.et/colleges/sebs/",
+     "kind": "official"
+    },
+    {
+     "label": "School of Law",
+     "url": "https://www.wru.edu.et/colleges/sol/",
+     "kind": "official"
     }
    ],
-   "coverage": "none",
-   "coverageNote": "The website's programme page was empty in November 2026.",
+   "coverage": "most",
+   "coverageNote": "For the natural sciences, business, social sciences and humanities colleges, the website lists departments rather than programmes; these are shown as bachelor's programmes. Some master's programmes of the business and humanities colleges are not named.",
    "checked": "2026-11-07",
    "lat": 7.85345,
    "lng": 38.1873,
@@ -24927,6 +24972,494 @@ window.SIE_DATA = {
    "college": "College of Natural and Computational Science",
    "field": "Natural Sciences",
    "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Soil Resource and Watershed Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Forestry and Saemaul Sustainable Development",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Watershed Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/canr/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.wru.edu.et/colleges/cncs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wru.edu.et/colleges/cobe/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wru.edu.et/colleges/cobe/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.wru.edu.et/colleges/cobe/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wru.edu.et/colleges/cobe/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wru.edu.et/colleges/cobe/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wru.edu.et/colleges/cobe/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Sciences",
+   "field": "Law & Governance",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Environment and Sustainable Development",
+   "college": "College of Social Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development Planning",
+   "college": "College of Social Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/css/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wru.edu.et/colleges/coh/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wru.edu.et/colleges/coh/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Siltigna Language, Literature and Communication",
+   "college": "College of Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wru.edu.et/colleges/coh/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wru.edu.et/colleges/coh/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Arabic Language and Communication",
+   "college": "College of Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wru.edu.et/colleges/coh/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Nutrition",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Specialty",
+   "name": "Obstetrics and Gynecology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wru.edu.et/colleges/cmhs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Water Supply and Environmental Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Computer Networks and Security",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wru.edu.et/colleges/iot/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "School of Education and Behavioral Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wru.edu.et/colleges/sebs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "School of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wru.edu.et/colleges/sebs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "School of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wru.edu.et/colleges/sebs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Diploma",
+   "name": "Higher Diploma Program for Teacher Educators (HDP)",
+   "college": "School of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wru.edu.et/colleges/sebs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Diploma",
+   "name": "Postgraduate Diploma in Teaching (PGDT)",
+   "college": "School of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wru.edu.et/colleges/sebs/"
+  },
+  {
+   "institution": "werabe-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.wru.edu.et/colleges/sol/"
   }
  ],
  "studyAbroad": [

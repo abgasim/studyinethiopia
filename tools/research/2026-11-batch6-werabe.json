@@ -1,0 +1,45 @@
+{
+ "werabe-university": {
+  "colleges": ["College of Agriculture and Natural Resource", "College of Natural and Computational Science", "College of Business and Economics", "College of Social Sciences", "College of Humanities", "College of Medicine and Health Sciences", "Institute of Technology", "School of Education and Behavioral Sciences", "School of Law"],
+  "sources": [
+   {"label": "Werabe University website", "url": "https://www.wru.edu.et/", "kind": "official"},
+   {"label": "College of Agriculture and Natural Resource", "url": "https://www.wru.edu.et/colleges/canr/", "kind": "official"},
+   {"label": "College of Natural and Computational Science", "url": "https://www.wru.edu.et/colleges/cncs/", "kind": "official"},
+   {"label": "College of Business and Economics", "url": "https://www.wru.edu.et/colleges/cobe/", "kind": "official"},
+   {"label": "College of Social Sciences", "url": "https://www.wru.edu.et/colleges/css/", "kind": "official"},
+   {"label": "College of Humanities", "url": "https://www.wru.edu.et/colleges/coh/", "kind": "official"},
+   {"label": "College of Medicine and Health Sciences", "url": "https://www.wru.edu.et/colleges/cmhs/", "kind": "official"},
+   {"label": "Institute of Technology", "url": "https://www.wru.edu.et/colleges/iot/", "kind": "official"},
+   {"label": "School of Education and Behavioral Sciences", "url": "https://www.wru.edu.et/colleges/sebs/", "kind": "official"},
+   {"label": "School of Law", "url": "https://www.wru.edu.et/colleges/sol/", "kind": "official"}
+  ],
+  "coverage": "most",
+  "coverageNote": "For the natural sciences, business, social sciences and humanities colleges, the website lists departments rather than programmes; these are shown as bachelor's programmes. Some master's programmes of the business and humanities colleges are not named.",
+  "programmes": {
+   "https://www.wru.edu.et/colleges/canr/": {"College of Agriculture and Natural Resource": {
+    "Bachelor's": ["Animal Science", "Natural Resource Management", "Plant Science", "Agricultural Economics", "Horticulture", "Rural Development and Agricultural Extension", "Soil Resource and Watershed Management", "Forestry and Saemaul Sustainable Development"],
+    "Master's": ["Agricultural Economics", "Watershed Management"]}},
+   "https://www.wru.edu.et/colleges/cncs/": {"College of Natural and Computational Science": {
+    "Bachelor's": ["Mathematics", "Geology", "Biotechnology", "Biology", "Chemistry", "Physics", "Statistics", "Sport Science"]}},
+   "https://www.wru.edu.et/colleges/cobe/": {"College of Business and Economics": {
+    "Bachelor's": ["Economics", "Accounting and Finance", "Public Administration and Development Management", "Management", "Marketing Management", "Tourism and Hotel Management"]}},
+   "https://www.wru.edu.et/colleges/css/": {"College of Social Sciences": {
+    "Bachelor's": ["Sociology", "Political Science and International Relations", "Civics and Ethical Studies", "Geography and Environmental Studies", "History and Heritage Management", "Social Anthropology"],
+    "Master's": ["Environment and Sustainable Development", "Urban and Regional Development Planning"]}},
+   "https://www.wru.edu.et/colleges/coh/": {"College of Humanities": {
+    "Bachelor's": ["English Language and Literature", "Amharic Language and Literature", "Siltigna Language, Literature and Communication", "Journalism and Communication", "Arabic Language and Communication"]}},
+   "https://www.wru.edu.et/colleges/cmhs/": {"College of Medicine and Health Sciences": {
+    "Bachelor's": ["Medicine", "Pharmacy", "Anesthesia", "Nursing", "Public Health", "Medical Laboratory Science", "Midwifery"],
+    "Master's": ["Nutrition", "Epidemiology"],
+    "Specialty": ["General Surgery", "Obstetrics and Gynecology"]}},
+   "https://www.wru.edu.et/colleges/iot/": {"Institute of Technology": {
+    "Bachelor's": ["Water Supply and Environmental Engineering", "Electrical and Computer Engineering", "Mechanical Engineering", "Computer Science", "Information Technology", "Information Systems"],
+    "Master's": ["Computer Networks and Security"]}},
+   "https://www.wru.edu.et/colleges/sebs/": {"School of Education and Behavioral Sciences": {
+    "Bachelor's": ["Psychology", "Educational Planning and Management"],
+    "Master's": ["Curriculum and Instruction"],
+    "Diploma": ["Higher Diploma Program for Teacher Educators (HDP)", "Postgraduate Diploma in Teaching (PGDT)"]}},
+   "https://www.wru.edu.et/colleges/sol/": {"School of Law": {"Bachelor's": ["Law"]}}
+  }
+ }
+}
