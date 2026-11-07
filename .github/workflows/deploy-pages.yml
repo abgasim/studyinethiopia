@@ -31,6 +31,8 @@ jobs:
           mkdir -p _site
           cp -r site/. _site/
           rm -f _site/README.md
+          # Sitemap for search engines, rebuilt from data.js so admin edits are included
+          node tools/build-sitemap.mjs _site
           # Cache-busting: browsers may keep files for 10 minutes, so stamp each shared
           # file reference with a fingerprint of its contents (e.g. data.js?v=3f9a1c2b).
           # When a file changes (including data.js published from the admin portal),

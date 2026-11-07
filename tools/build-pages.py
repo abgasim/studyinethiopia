@@ -185,6 +185,9 @@ def build(lang, page):
                  f'<ul>{"".join(items)}</ul></details>')
     note = f'\n  <div class="lang-note"><div class="wrap">{c["note"]}</div></div>' if c.get("note") else ""
     alternates = "\n".join(f'  <link rel="alternate" hreflang="{info["html_lang"]}" href="{page_url(l, page)}">' for l, info in LANGS.items())
+    # Institution profiles are one page per ?id=; app.js adds the canonical link for the id shown
+    # (a static one here would point every profile at the same address).
+    canonical = "" if page == "institution" else f'  <link rel="canonical" href="{page_url(lang, page)}">\n'
 
     scripts = f'\n  <script src="{up}assets/data.js"></script>' if needs_data else ""
     scripts += f'\n  <script src="{up}assets/app.js"></script>'
@@ -196,8 +199,7 @@ def build(lang, page):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{full_title}</title>
   <meta name="description" content="{desc}">
-  <link rel="canonical" href="{page_url(lang, page)}">
-  <meta property="og:type" content="website">
+{canonical}  <meta property="og:type" content="website">
   <meta property="og:site_name" content="Study in Ethiopia">
   <meta property="og:title" content="{full_title}">
   <meta property="og:description" content="{desc}">

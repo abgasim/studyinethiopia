@@ -535,10 +535,21 @@
     if (!root) return;
     const i = instById.get(new URLSearchParams(location.search).get("id"));
     if (!i) {
+      // Keep search engines from indexing the empty "not found" page
+      document.head.insertAdjacentHTML("beforeend", '<meta name="robots" content="noindex">');
       root.innerHTML = `<div class="wrap section"><div class="empty"><p><strong>${tr("Institution not found.")}</strong></p><p><a href="institutions.html">${tr("Back to all institutions")}</a></p></div></div>`;
       return;
     }
     document.title = `${i.name} · Study in Ethiopia`;
+    // Each profile is its own page for search engines: canonical + language alternates carry the ?id=
+    const q = "?id=" + encodeURIComponent(i.id);
+    document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((l) => { l.href = l.href.split("?")[0] + q; });
+    const selfAlt = document.querySelector(`link[rel="alternate"][hreflang="${document.documentElement.lang}"]`);
+    if (selfAlt) document.head.insertAdjacentHTML("beforeend", `<link rel="canonical" href="${esc(selfAlt.href)}">`);
+    const og = document.querySelector('meta[property="og:url"]');
+    if (og) og.content = og.content.split("?")[0] + q;
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc && i.summary) desc.content = i.summary.slice(0, 300);
     const progs = progsOf(i.id);
     const meta = [placeOf(i), i.founded ? tr("Established {y}", { y: i.founded }) : ""].filter(Boolean).join(" · ");
     // Short sourced summary goes first; the older long "about" text is folded away below the programmes
