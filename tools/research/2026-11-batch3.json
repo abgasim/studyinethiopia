@@ -1,0 +1,156 @@
+{
+ "wolaita-sodo-university": {
+  "founded": 2007,
+  "summary": "Wolaita Sodo University was established in 2007 as one of Ethiopia's second-generation universities. It describes itself as one of the country's applied science universities, with a vision to become a technology-driven centre of excellence in agriculture by 2030.",
+  "colleges": ["College of Agriculture", "College of Business and Economics", "College of Education and Behavioural Studies", "College of Engineering", "College of Natural and Computational Sciences", "College of Social Sciences and Humanities", "College of Medicine and Health Sciences", "School of Informatics", "School of Law", "School of Veterinary Medicine", "Wolaita Sodo Institute of Technology"],
+  "stats": {"undergraduate": 62, "masters": 85, "phd": 10, "source": "https://www.wsu.edu.et/pages/about_us-sm-kk", "asOf": "undated"},
+  "sources": [
+   {"label": "Wolaita Sodo University website", "url": "https://www.wsu.edu.et/", "kind": "official"},
+   {"label": "About us", "url": "https://www.wsu.edu.et/pages/about_us-sm-kk", "kind": "official"},
+   {"label": "Programmes (admission)", "url": "https://www.wsu.edu.et/pages/admis_progs-sm-kk", "kind": "official"}
+  ],
+  "coverage": "most",
+  "programmes": {
+   "https://www.wsu.edu.et/pages/admis_progs-sm-kk": {
+    "College of Medicine and Health Sciences": {
+     "Bachelor's": ["Medicine", "Public Health", "Anesthesia", "Neonatal Nursing", "Operation Theatre Nursing", "Emergency and Critical Care Nursing", "Pediatrics and Child Health Nursing", "Surgical Nursing", "Midwifery", "Nursing", "Pharmacy", "Medical Laboratory Science"],
+     "Master's": ["Public Health (General)", "Public Health (Human Nutrition)", "Public Health (Epidemiology and Biostatistics)", "Public Health (Reproductive Health)", "Public Health (Health Service Management)", "Clinical Anesthesia", "Clinical Pharmacy", "Medical Microbiology", "Adult Health Nursing", "Integrated Emergency Surgery and Obstetrics"],
+     "PhD": ["Public Health"],
+     "Specialty": ["General Surgery", "Gynecology and Obstetrics", "Internal Medicine", "Pediatrics"]},
+    "College of Agriculture": {
+     "Bachelor's": ["Natural Resource Management", "Animal and Range Science", "Plant Science", "Agribusiness and Value Chain Management", "Horticulture", "Agricultural Economics", "Rural Development and Agricultural Extension"],
+     "Master's": ["Agricultural Knowledge Management and Communication", "Rural Development and Planning", "Agronomy", "Watershed Management", "Gender and Development", "Horticulture", "Animal Production", "Plant Breeding", "Animal Nutrition", "Agricultural Economics", "Plant Pathology", "Soil Science", "Plant Protection", "Sustainable Forest and Nature Management"],
+     "PhD": ["Rural Development", "Agricultural Economics", "Agronomy", "Soil Science", "Horticulture", "Animal Production"]},
+    "School of Informatics": {
+     "Bachelor's": ["Computer Science", "Information Systems", "Information Technology"],
+     "Master's": ["Information Technology", "Artificial Intelligence", "Computer Science"]},
+    "College of Natural and Computational Sciences": {
+     "Bachelor's": ["Biology", "Biotechnology", "Chemistry", "Environmental Science", "Geology", "Mathematics", "Physics", "Sport Science", "Statistics"],
+     "Master's": ["Applied Microbiology", "Applied Genetics", "Zoology", "Analytical Chemistry", "Laser Spectroscopy", "Football Coaching", "Sport Management", "Volleyball Coaching", "Mathematics (Functional Analysis)", "Chemistry (Organic and Inorganic Chemistry)", "Mathematics (Mathematical Modelling, Numerical Analysis and Fluid Dynamics)", "Environmental Science", "Biostatistics", "Botanical Sciences"],
+     "PhD": ["Animal Ecology and Conservation Biology"]},
+    "College of Business and Economics": {
+     "Bachelor's": ["Economics", "Management", "Accounting and Finance", "Public Administration and Development Management", "Marketing Management", "Hotel and Tourism Management"],
+     "Master's": ["Development Policy Analysis", "Business Management", "Accounting and Finance", "Policy Analysis", "International Economics", "Development Economics", "Marketing Management", "Project Management"]},
+    "College of Engineering": {
+     "Bachelor's": ["Architecture", "Civil Engineering", "Construction Technology and Management", "Electrical and Computer Engineering", "Hydraulic and Water Resource Engineering", "Mechanical Engineering"],
+     "Master's": ["Thermal Engineering", "Manufacturing Engineering", "Power Engineering", "Communication Engineering", "Irrigation Engineering", "Hydraulic Engineering", "Urban Planning and Development", "Geotechnical Engineering"]},
+    "College of Social Sciences and Humanities": {
+     "Bachelor's": ["Geography and Environmental Studies", "Archaeology and Heritage Management", "English Language and Literature", "Amharic Language and Literature", "History and Heritage Management", "Civics and Ethical Studies", "Sociology", "Public Relations and Communication Studies", "Wolaita Language and Literature", "Dawuro Language and Literature", "Social Anthropology", "Film and Television Production", "Social Work", "Geographic Information Systems"],
+     "Master's": ["Teaching English as a Foreign Language", "Applied Linguistics and Communication", "Climate Change and Sustainable Development", "Sociology", "Socio-economic Development", "Wolaita Language and Literature", "History and Heritage Management", "Linguistics", "Literature in English"],
+     "PhD": ["English Language Teaching"]},
+    "College of Education and Behavioural Studies": {
+     "Bachelor's": ["Educational Planning and Leadership", "Psychology", "Early Childhood Care and Education"],
+     "Master's": ["Educational Leadership and Management", "Counseling Psychology", "Curriculum and Instruction", "Adult Education and Community Development", "Social Psychology"],
+     "PhD": ["Educational Leadership and Policy"]},
+    "School of Veterinary Medicine": {
+     "Bachelor's": ["Veterinary Medicine"],
+     "Master's": ["Veterinary Clinical Medicine"]},
+    "School of Law": {
+     "Bachelor's": ["Law"],
+     "Master's": ["Criminal Justice and Human Rights"]}
+   }
+  }
+ },
+
+ "jijiga-university": {
+  "founded": 2007,
+  "summary": "Jigjiga University is a public university in Jigjiga, capital of the Somali Regional State, founded in March 2007. It has eight colleges, schools and an institute, and runs postgraduate programmes through its School of Graduate Studies, established in 2012.",
+  "colleges": ["College of Engineering and Technology", "College of Medicine and Health Science", "College of Dryland Agriculture", "College of Education and Behavioral Studies", "College of Veterinary Medicine", "College of Business and Economics", "College of Social Sciences and Humanities", "College of Natural and Computational Science", "School of Law", "School of Graduate Studies"],
+  "stats": {"undergraduate": 40, "source": "https://www.jju.edu.et/factsfigure.php", "asOf": "2016/17"},
+  "sources": [
+   {"label": "Jigjiga University website", "url": "https://www.jju.edu.et/", "kind": "official"},
+   {"label": "About us", "url": "https://www.jju.edu.et/about.php", "kind": "official"},
+   {"label": "School of Graduate Studies", "url": "https://www.jju.edu.et/SGS.php", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Several colleges list departments without stating the degree level, so their programmes are not included yet.",
+  "programmes": {
+   "https://www.jju.edu.et/SGS.php": {
+    "School of Graduate Studies": {"Master's": ["Educational Leadership", "Business Administration", "Public Health", "Pastoral Economics and Development", "Disaster Risk Management and Sustainable Development", "Early Childhood Care and Education", "Teaching English as a Foreign Language", "Dryland Agronomy"]}
+   },
+   "https://www.jju.edu.et/CSSH.php": {
+    "College of Social Sciences and Humanities": {
+     "Bachelor's": ["Sociology", "Journalism and Communication", "Ethiopian Languages and Literature", "English Language and Literature", "Geography and Environmental Studies", "History and Heritage Management", "Political Science and International Relations", "Arabic Language and Literature"],
+     "Master's": ["Disaster Risk Management"]}
+   },
+   "https://www.jju.edu.et/cvm.php": {
+    "College of Veterinary Medicine": {"Bachelor's": ["Veterinary Medicine", "Animal Health"]}
+   },
+   "https://www.jju.edu.et/coEBS.php": {
+    "College of Education and Behavioral Studies": {"Diploma": ["Preschool Education"]}
+   },
+   "https://www.jju.edu.et/coMHS.php": {
+    "College of Medicine and Health Science": {"Bachelor's": ["Medicine", "Neonatal Nursing"]}
+   },
+   "https://www.jju.edu.et/SL.php": {
+    "School of Law": {"Diploma": ["Law"], "Bachelor's": ["Law"]}
+   },
+   "https://www.jju.edu.et/Registrar.php": {
+    "Continuing and Distance Education Programme": {"Bachelor's": ["Management", "Public Administration", "Accounting and Finance", "Civil Engineering", "Information Technology", "Food Science and Nutrition", "Arabic Language"]}
+   }
+  }
+ },
+
+ "mettu-university": {
+  "name": "Mattu University",
+  "abbr": "MaU",
+  "founded": 2011,
+  "summary": "Mattu University is a public university established in 2011 in Mattu (Mettu), Oromia, about 600 km from Addis Ababa. It states that it runs 56 undergraduate and 42 graduate programmes across its Mattu and Bedele campuses.",
+  "colleges": ["College of Engineering and Technology", "College of Natural and Computational Sciences", "College of Health Sciences", "College of Business and Economics", "College of Social Sciences and Humanities", "College of Education and Behavioral Sciences", "School of Law", "College of Agriculture"],
+  "stats": {"undergraduate": 56, "postgraduate": 42, "source": "https://www.meu.edu.et/menu/1/about-us", "asOf": "undated"},
+  "sources": [
+   {"label": "Mattu University website", "url": "https://www.meu.edu.et/", "kind": "official"},
+   {"label": "About us", "url": "https://www.meu.edu.et/menu/1/about-us", "kind": "official"},
+   {"label": "Colleges and schools", "url": "https://www.meu.edu.et/menu/colleges-schools", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Most colleges publish programme counts but not programme names; only a few colleges and departments are listed so far.",
+  "programmes": {
+   "https://www.meu.edu.et/college/1/College of Engineering and Technology": {
+    "College of Engineering and Technology": {"Master's": ["Electrical Power Engineering", "Electrical Communication Engineering", "Industrial Engineering", "Road and Transport Engineering", "Information Technology", "Computer Science"]}
+   },
+   "https://www.meu.edu.et/college/4/College of business and Economics": {
+    "College of Business and Economics": {"Master's": ["Development Economics", "Accounting and Finance", "Project Management", "Marketing Management", "Business Administration"], "PhD": ["Management (Marketing)", "Management (Human Resource Management)"]}
+   },
+   "https://www.meu.edu.et/department/26/Department of Management": {
+    "College of Business and Economics": {"Bachelor's": ["Management"]}
+   },
+   "https://www.meu.edu.et/department/20/Department of Nursing": {
+    "College of Health Sciences": {"Bachelor's": ["Nursing"], "Master's": ["Adult Health Nursing", "Maternity and Reproductive Health Nursing"]}
+   },
+   "https://www.meu.edu.et/department/8/Department of Computer Science": {
+    "College of Engineering and Technology": {"Bachelor's": ["Computer Science"]}
+   }
+  }
+ },
+
+ "debre-markos-university": {
+  "summary": "Debre Markos University provides undergraduate and graduate programmes, along with short-term training, research and consultancy services. Its units include the Institute of Technology, the Institute of Land Administration and the Sport Science Academy.",
+  "colleges": ["College of Natural and Computational Science", "College of Social Science and Humanities", "College of Business and Economics", "College of Agriculture and Natural Resources", "Institute of Technology", "Institute of Land Administration", "Institute of Education and Behavioral Sciences", "School of Law", "Sport Science Academy"],
+  "sources": [
+   {"label": "Debre Markos University website", "url": "https://www.dmu.edu.et/", "kind": "official"},
+   {"label": "About DMU", "url": "https://www.dmu.edu.et/?page_id=2799", "kind": "official"}
+  ],
+  "coverage": "none",
+  "coverageNote": "Debre Markos University's programme pages show no programme names, and its college websites refused connections during research.",
+  "programmes": {}
+ },
+
+ "institute-of-land-administration": {
+  "category": "Institute",
+  "city": "Debre Markos",
+  "region": "Amhara",
+  "summary": "The Institute of Land Administration is part of Debre Markos University. It launched its BSc programme in Land Administration in the 2015/16 academic year.",
+  "sources": [{"label": "Institute of Land Administration (Debre Markos University)", "url": "http://ila.dmu.edu.et/", "kind": "official"}],
+  "coverage": "partial",
+  "coverageNote": "The institute's postgraduate pages could not be reached during research.",
+  "programmes": {
+   "http://ila.dmu.edu.et/": {"Institute of Land Administration": {"Bachelor's": ["Land Administration"]}}
+  }
+ },
+
+ "bule-hora-university": {"coverage": "none", "coverageNote": "The university website (bhu.edu.et) refused connections during research, so programmes are not listed yet.", "programmes": {}},
+ "wachemo-university": {"coverage": "none", "coverageNote": "The university website (wcu.edu.et) was unavailable during research, so programmes are not listed yet.", "programmes": {}},
+ "wolkite-university": {"coverage": "none", "coverageNote": "The university website (wku.edu.et) has an expired security certificate, so it could not be read; programmes are not listed yet.", "programmes": {}},
+ "debre-tabor-university": {"coverage": "none", "coverageNote": "The university website (dtu.edu.et) redirected to an unrelated page during research, so programmes are not listed yet.", "programmes": {}}
+}

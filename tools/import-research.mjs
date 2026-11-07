@@ -34,7 +34,7 @@ export const LEVELS = ["Certificate", "Diploma", "Bachelor's", "Master's", "PhD"
 
 // Ordered: the first rule that matches wins. Programme name is tried first, then the college.
 const RULES = [
-  [/veterin|zoonos/i, "Veterinary Science"],
+  [/veterin|zoonos|animal health/i, "Veterinary Science"],
   [/\bsport|physical education|coaching|athletics|exercise/i, "Sport Science"],
   [/paleont|paleo-?environ/i, "Natural Sciences"],
   [/honey|\bbee\b|apicult|dairy products/i, "Agriculture & Environment"],

@@ -380,7 +380,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/294749162"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (bhu.edu.et) refused connections during research, so programmes are not listed yet."
   },
   {
    "id": "central-health-college",
@@ -487,7 +489,34 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298296174"
-   }
+   },
+   "summary": "Debre Markos University provides undergraduate and graduate programmes, along with short-term training, research and consultancy services. Its units include the Institute of Technology, the Institute of Land Administration and the Sport Science Academy.",
+   "colleges": [
+    "College of Natural and Computational Science",
+    "College of Social Science and Humanities",
+    "College of Business and Economics",
+    "College of Agriculture and Natural Resources",
+    "Institute of Technology",
+    "Institute of Land Administration",
+    "Institute of Education and Behavioral Sciences",
+    "School of Law",
+    "Sport Science Academy"
+   ],
+   "sources": [
+    {
+     "label": "Debre Markos University website",
+     "url": "https://www.dmu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "About DMU",
+     "url": "https://www.dmu.edu.et/?page_id=2799",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "Debre Markos University's programme pages show no programme names, and its college websites refused connections during research.",
+   "checked": "2026-11-07"
   },
   {
    "id": "debre-tabor-university",
@@ -505,7 +534,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/1150570832"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (dtu.edu.et) redirected to an unrelated page during research, so programmes are not listed yet."
   },
   {
    "id": "dilla-university",
@@ -985,7 +1016,27 @@ window.SIE_DATA = {
    "type": "public",
    "website": "https://www.dmu.edu.et",
    "about": [],
-   "category": "Institute"
+   "category": "Institute",
+   "city": "Debre Markos",
+   "region": "Amhara",
+   "summary": "The Institute of Land Administration is part of Debre Markos University. It launched its BSc programme in Land Administration in the 2015/16 academic year.",
+   "sources": [
+    {
+     "label": "Institute of Land Administration (Debre Markos University)",
+     "url": "http://ila.dmu.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "The institute's postgraduate pages could not be reached during research.",
+   "checked": "2026-11-07",
+   "lat": 10.33587,
+   "lng": 37.72856,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/298296174"
+   }
   },
   {
    "id": "international-leadership-institute",
@@ -1026,7 +1077,46 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298290931"
-   }
+   },
+   "founded": 2007,
+   "summary": "Jigjiga University is a public university in Jigjiga, capital of the Somali Regional State, founded in March 2007. It has eight colleges, schools and an institute, and runs postgraduate programmes through its School of Graduate Studies, established in 2012.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Medicine and Health Science",
+    "College of Dryland Agriculture",
+    "College of Education and Behavioral Studies",
+    "College of Veterinary Medicine",
+    "College of Business and Economics",
+    "College of Social Sciences and Humanities",
+    "College of Natural and Computational Science",
+    "School of Law",
+    "School of Graduate Studies"
+   ],
+   "stats": {
+    "undergraduate": 40,
+    "source": "https://www.jju.edu.et/factsfigure.php",
+    "asOf": "2016/17"
+   },
+   "sources": [
+    {
+     "label": "Jigjiga University website",
+     "url": "https://www.jju.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "About us",
+     "url": "https://www.jju.edu.et/about.php",
+     "kind": "official"
+    },
+    {
+     "label": "School of Graduate Studies",
+     "url": "https://www.jju.edu.et/SGS.php",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Several colleges list departments without stating the degree level, so their programmes are not included yet.",
+   "checked": "2026-11-07"
   },
   {
    "id": "jimma-university",
@@ -1285,8 +1375,8 @@ window.SIE_DATA = {
   },
   {
    "id": "mettu-university",
-   "name": "Mettu University",
-   "abbr": "MEU",
+   "name": "Mattu University",
+   "abbr": "MaU",
    "type": "public",
    "website": "https://www.meu.edu.et/",
    "about": [
@@ -1302,7 +1392,45 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/321378115"
-   }
+   },
+   "founded": 2011,
+   "summary": "Mattu University is a public university established in 2011 in Mattu (Mettu), Oromia, about 600 km from Addis Ababa. It states that it runs 56 undergraduate and 42 graduate programmes across its Mattu and Bedele campuses.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Natural and Computational Sciences",
+    "College of Health Sciences",
+    "College of Business and Economics",
+    "College of Social Sciences and Humanities",
+    "College of Education and Behavioral Sciences",
+    "School of Law",
+    "College of Agriculture"
+   ],
+   "stats": {
+    "undergraduate": 56,
+    "postgraduate": 42,
+    "source": "https://www.meu.edu.et/menu/1/about-us",
+    "asOf": "undated"
+   },
+   "sources": [
+    {
+     "label": "Mattu University website",
+     "url": "https://www.meu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "About us",
+     "url": "https://www.meu.edu.et/menu/1/about-us",
+     "kind": "official"
+    },
+    {
+     "label": "Colleges and schools",
+     "url": "https://www.meu.edu.et/menu/colleges-schools",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Most colleges publish programme counts but not programme names; only a few colleges and departments are listed so far.",
+   "checked": "2026-11-07"
   },
   {
    "id": "microlink-college",
@@ -1565,7 +1693,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/4601173879"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (wcu.edu.et) was unavailable during research, so programmes are not listed yet."
   },
   {
    "id": "washera-college",
@@ -1599,7 +1729,48 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/relation/20682993"
-   }
+   },
+   "founded": 2007,
+   "summary": "Wolaita Sodo University was established in 2007 as one of Ethiopia's second-generation universities. It describes itself as one of the country's applied science universities, with a vision to become a technology-driven centre of excellence in agriculture by 2030.",
+   "colleges": [
+    "College of Agriculture",
+    "College of Business and Economics",
+    "College of Education and Behavioural Studies",
+    "College of Engineering",
+    "College of Natural and Computational Sciences",
+    "College of Social Sciences and Humanities",
+    "College of Medicine and Health Sciences",
+    "School of Informatics",
+    "School of Law",
+    "School of Veterinary Medicine",
+    "Wolaita Sodo Institute of Technology"
+   ],
+   "stats": {
+    "undergraduate": 62,
+    "masters": 85,
+    "phd": 10,
+    "source": "https://www.wsu.edu.et/pages/about_us-sm-kk",
+    "asOf": "undated"
+   },
+   "sources": [
+    {
+     "label": "Wolaita Sodo University website",
+     "url": "https://www.wsu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "About us",
+     "url": "https://www.wsu.edu.et/pages/about_us-sm-kk",
+     "kind": "official"
+    },
+    {
+     "label": "Programmes (admission)",
+     "url": "https://www.wsu.edu.et/pages/admis_progs-sm-kk",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "checked": "2026-11-07"
   },
   {
    "id": "woldia-university",
@@ -1646,7 +1817,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/283675671"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (wku.edu.et) has an expired security certificate, so it could not be read; programmes are not listed yet."
   },
   {
    "id": "wollega-university",
@@ -7619,7 +7792,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "Tropical Animal Health",
    "college": "College of Veterinary Medicine",
-   "field": "Health & Medicine",
+   "field": "Veterinary Science",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -14437,6 +14610,1598 @@ window.SIE_DATA = {
    "college": "School of Law",
    "field": "Law & Governance",
    "source": "https://www.dbu.edu.et/colleges/sol"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Neonatal Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Operation Theatre Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Emergency and Critical Care Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Pediatrics and Child Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Surgical Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Public Health (General)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Public Health (Human Nutrition)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Public Health (Epidemiology and Biostatistics)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Public Health (Reproductive Health)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Public Health (Health Service Management)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Clinical Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Clinical Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Integrated Emergency Surgery and Obstetrics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Specialty",
+   "name": "Gynecology and Obstetrics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Specialty",
+   "name": "Pediatrics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Animal and Range Science",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Agricultural Knowledge Management and Communication",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Rural Development and Planning",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Watershed Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Gender and Development",
+   "college": "College of Agriculture",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Plant Pathology",
+   "college": "College of Agriculture",
+   "field": "Health & Medicine",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Plant Protection",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Sustainable Forest and Nature Management",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Rural Development",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Agronomy",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Soil Science",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Horticulture",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Animal Production",
+   "college": "College of Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "School of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "School of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "School of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "School of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Artificial Intelligence",
+   "college": "School of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "School of Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Environmental Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Applied Genetics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Zoology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Laser Spectroscopy",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Football Coaching",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Volleyball Coaching",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Mathematics (Functional Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Chemistry (Organic and Inorganic Chemistry)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Mathematics (Mathematical Modelling, Numerical Analysis and Fluid Dynamics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Botanical Sciences",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Animal Ecology and Conservation Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Hotel and Tourism Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Development Policy Analysis",
+   "college": "College of Business and Economics",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Business Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Policy Analysis",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "International Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resource Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Power Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Irrigation Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Urban Planning and Development",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Archaeology and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Public Relations and Communication Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Wolaita Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Dawuro Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Film and Television Production",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Geographic Information Systems",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Applied Linguistics and Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Climate Change and Sustainable Development",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Socio-economic Development",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Business & Economics",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Wolaita Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Linguistics",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Literature in English",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "English Language Teaching",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Leadership",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Educational Leadership and Management",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Counseling Psychology",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Adult Education and Community Development",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Social Psychology",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "PhD",
+   "name": "Educational Leadership and Policy",
+   "college": "College of Education and Behavioural Studies",
+   "field": "Education",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Veterinary Clinical Medicine",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "wolaita-sodo-university",
+   "level": "Master's",
+   "name": "Criminal Justice and Human Rights",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Educational Leadership",
+   "college": "School of Graduate Studies",
+   "field": "Education",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Public Health",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Pastoral Economics and Development",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Disaster Risk Management and Sustainable Development",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Early Childhood Care and Education",
+   "college": "School of Graduate Studies",
+   "field": "Education",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "School of Graduate Studies",
+   "field": "Education",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Dryland Agronomy",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.jju.edu.et/SGS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Ethiopian Languages and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Arabic Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Master's",
+   "name": "Disaster Risk Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.jju.edu.et/CSSH.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.jju.edu.et/cvm.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Animal Health",
+   "college": "College of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.jju.edu.et/cvm.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Diploma",
+   "name": "Preschool Education",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://www.jju.edu.et/coEBS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Science",
+   "field": "Health & Medicine",
+   "source": "https://www.jju.edu.et/coMHS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Neonatal Nursing",
+   "college": "College of Medicine and Health Science",
+   "field": "Health & Medicine",
+   "source": "https://www.jju.edu.et/coMHS.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Diploma",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.jju.edu.et/SL.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.jju.edu.et/SL.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Business & Economics",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Public Administration",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Law & Governance",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Business & Economics",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Engineering & Technology",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Computing, Data & IT",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Food Science and Nutrition",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Agriculture & Environment",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "jijiga-university",
+   "level": "Bachelor's",
+   "name": "Arabic Language",
+   "college": "Continuing and Distance Education Programme",
+   "field": "Languages & Communication",
+   "source": "https://www.jju.edu.et/Registrar.php"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.meu.edu.et/college/1/College of Engineering and Technology"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Electrical Communication Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.meu.edu.et/college/1/College of Engineering and Technology"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Industrial Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.meu.edu.et/college/1/College of Engineering and Technology"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Road and Transport Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.meu.edu.et/college/1/College of Engineering and Technology"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.meu.edu.et/college/1/College of Engineering and Technology"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.meu.edu.et/college/1/College of Engineering and Technology"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "PhD",
+   "name": "Management (Marketing)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "PhD",
+   "name": "Management (Human Resource Management)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/college/4/College of business and Economics"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.meu.edu.et/department/26/Department of Management"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.meu.edu.et/department/20/Department of Nursing"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.meu.edu.et/department/20/Department of Nursing"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Master's",
+   "name": "Maternity and Reproductive Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.meu.edu.et/department/20/Department of Nursing"
+  },
+  {
+   "institution": "mettu-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.meu.edu.et/department/8/Department of Computer Science"
+  },
+  {
+   "institution": "institute-of-land-administration",
+   "level": "Bachelor's",
+   "name": "Land Administration",
+   "college": "Institute of Land Administration",
+   "field": "Law & Governance",
+   "source": "http://ila.dmu.edu.et/"
   }
  ],
  "studyAbroad": [
