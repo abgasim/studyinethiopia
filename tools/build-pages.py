@@ -18,6 +18,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
 PAGES_DIR = os.path.join(ROOT, "tools", "pages")
 DOMAIN = "https://www.studyinethiopia.com"
+FACEBOOK = "https://www.facebook.com/studyinethiopia"
+SHARE_IMAGE = DOMAIN + "/assets/img/student-reading.jpg"  # 854x640, used for link previews
+OG_LOCALE = {"en": "en_US", "am": "am_ET", "om": "om_ET", "ti": "ti_ET"}
 
 # dir: output folder under site/ ("" = site root). name: shown in the language switch.
 LANGS = {
@@ -92,7 +95,7 @@ CHROME = {
         "explore_links": [("institutions.html", "Universities &amp; colleges"), ("programmes.html", "Find a programme"),
                           ("apply.html", "Study in Ethiopia from abroad"), ("study-abroad.html", "Study abroad"), ("learn.html", "Online courses")],
         "about_links": [("about.html", "About SiE"), ("resources.html", "Official sources")],
-        "built_by": "Built by ABGASIM", "dark": "Dark mode", "portal": "Portal",
+        "facebook": "Facebook", "built_by": "Built by ABGASIM", "dark": "Dark mode", "portal": "Portal",
     },
     "am": {
         "nav": [("institutions.html", "ተቋማት"), ("programmes.html", "ፕሮግራሞች"), ("apply.html", "እንዴት ማመልከት"),
@@ -103,7 +106,7 @@ CHROME = {
         "explore_links": [("institutions.html", "ዩኒቨርሲቲዎችና ኮሌጆች"), ("programmes.html", "ፕሮግራም ይፈልጉ"),
                           ("apply.html", "ከውጭ ሀገር መጥተው በኢትዮጵያ ይማሩ"), ("study-abroad.html", "በውጭ ሀገር መማር"), ("learn.html", "የኦንላይን ኮርሶች")],
         "about_links": [("about.html", "ስለ SiE"), ("resources.html", "ይፋዊ ምንጮች")],
-        "built_by": "በABGASIM የተሰራ", "dark": "ጨለማ ገጽታ", "portal": "ፖርታል",
+        "facebook": "ፌስቡክ", "built_by": "በABGASIM የተሰራ", "dark": "ጨለማ ገጽታ", "portal": "ፖርታል",
         "note": "ይህ ትርጉም አዲስ ነው። ስህተት ካዩ ያሳውቁን።",
     },
     "om": {
@@ -115,7 +118,7 @@ CHROME = {
         "explore_links": [("institutions.html", "Yuunivarsiitiiwwanii fi kolleejjota"), ("programmes.html", "Sagantaa barbaadi"),
                           ("apply.html", "Biyya alaa dhuftanii Itoophiyaatti barachuu"), ("study-abroad.html", "Biyya alaatti barachuu"), ("learn.html", "Koorsiiwwan interneetii")],
         "about_links": [("about.html", "Waa'ee SiE"), ("resources.html", "Maddoota mootummaa")],
-        "built_by": "ABGASIM'n kan ijaarame", "dark": "Haala dukkanaa", "portal": "Poortaalii",
+        "facebook": "Feesbuukii", "built_by": "ABGASIM'n kan ijaarame", "dark": "Haala dukkanaa", "portal": "Poortaalii",
         "note": "Hiikkaan kun haaraa dha. Dogoggora yoo argitan nutti himaa.",
     },
     "ti": {
@@ -127,7 +130,7 @@ CHROME = {
         "explore_links": [("institutions.html", "ዩኒቨርሲቲታትን ኮሌጃትን"), ("programmes.html", "ፕሮግራም ድለዩ"),
                           ("apply.html", "ካብ ወጻኢ መጺኹም ኣብ ኢትዮጵያ ተማሃሩ"), ("study-abroad.html", "ኣብ ወጻኢ ምምሃር"), ("learn.html", "ናይ ኦንላይን ኮርሳት")],
         "about_links": [("about.html", "ብዛዕባ SiE"), ("resources.html", "ወግዓውያን ምንጭታት")],
-        "built_by": "ብABGASIM ዝተሰርሐ", "dark": "ጸልማት ገጽ", "portal": "ፖርታል",
+        "facebook": "ፌስቡክ", "built_by": "ብABGASIM ዝተሰርሐ", "dark": "ጸልማት ገጽ", "portal": "ፖርታል",
         "note": "እዚ ትርጉም ሓድሽ እዩ። ጌጋ እንተረኺብኩም ሓብሩና።",
     },
 }
@@ -194,6 +197,17 @@ def build(lang, page):
   <title>{full_title}</title>
   <meta name="description" content="{desc}">
   <link rel="canonical" href="{page_url(lang, page)}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Study in Ethiopia">
+  <meta property="og:title" content="{full_title}">
+  <meta property="og:description" content="{desc}">
+  <meta property="og:url" content="{page_url(lang, page)}">
+  <meta property="og:image" content="{SHARE_IMAGE}">
+  <meta property="og:image:width" content="854">
+  <meta property="og:image:height" content="640">
+  <meta property="og:locale" content="{OG_LOCALE[lang]}">
+{chr(10).join(f'  <meta property="og:locale:alternate" content="{OG_LOCALE[l]}">' for l in LANGS if l != lang)}
+  <meta name="twitter:card" content="summary_large_image">
 {alternates}
   <link rel="alternate" hreflang="x-default" href="{page_url("en", page)}">
   <link rel="icon" href="{up}favicon.ico">
@@ -240,6 +254,7 @@ def build(lang, page):
           <h4>{c["about_h"]}</h4>
           <ul>
 {about}
+            <li><a href="{FACEBOOK}" target="_blank" rel="noopener">{c["facebook"]} ↗</a></li>
             <li><a href="https://abgasim.com/" target="_blank" rel="noopener">{c["built_by"]}</a></li>
           </ul>
         </div>
