@@ -133,3 +133,8 @@ body.locked .admin { display: none; }
 .howto ol { padding-left: 20px; display: grid; gap: 6px; margin: 12px 0; }
 .howto p { margin: 0; }
 .back-site { font-size: .9rem; text-decoration: none; margin-top: 6px; }
+
+/* Searchable drop-down (e.g. institution list in the programme editor) */
+.fld .opt-search { font: inherit; font-size: .92rem; padding: 8px 12px; border-radius: 10px 10px 0 0; border: 1px solid var(--line); border-bottom: 0; background: var(--surface); color: var(--ink); width: 100%; }
+.fld .opt-search + select { border-radius: 0 0 10px 10px; }
+.fld .opt-search:focus { outline: none; border-color: var(--green); }

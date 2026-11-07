@@ -153,9 +153,14 @@
       sort: (a, b) => instName(a.institution).localeCompare(instName(b.institution)) ||
         LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level) || a.name.localeCompare(b.name),
       search: (p) => [p.name, p.level, p.field, instName(p.institution)],
-      filters: () => [["", "All institutions"], ...data.institutions
-        .filter((i) => progCount(i.id) || filter === "inst:" + i.id).sort((a, b) => a.name.localeCompare(b.name))
-        .map((i) => ["inst:" + i.id, `${i.name} (${progCount(i.id)})`, (p) => p.institution === i.id])],
+      // Every institution is listed (grouped), so you can pick one with no programmes yet and press "Add"
+      filters: () => {
+        const sorted = data.institutions.slice().sort((a, b) => a.name.localeCompare(b.name));
+        const item = (i, group) => ["inst:" + i.id, `${i.name} (${progCount(i.id)})`, (p) => p.institution === i.id, group];
+        return [["", "All institutions"],
+          ...sorted.filter((i) => progCount(i.id)).map((i) => item(i, "Has programmes")),
+          ...sorted.filter((i) => !progCount(i.id)).map((i) => item(i, "No programmes yet"))];
+      },
       columns: [
         { label: "Programme", main: (p) => p.name, sub: (p) => p.level },
         { label: "Institution", get: (p) => instName(p.institution), warn: (p) => !instById(p.institution) },
@@ -164,8 +169,10 @@
         { label: "Source", get: (p) => (p.source ? domain(p.source) : "Added by hand"), sm: true },
       ],
       fields: [
-        { k: "institution", label: "Institution", type: "select", required: true,
-          options: () => [["", "Choose an institution…"], ...data.institutions.slice().sort((a, b) => a.name.localeCompare(b.name)).map((i) => [i.id, i.name])] },
+        { k: "institution", label: "Institution", type: "select", required: true, searchable: true,
+          hint: "Type in the box to narrow the list, e.g. “jim” for Jimma.",
+          options: () => [["", "Choose an institution…"], ...data.institutions.slice().sort((a, b) => a.name.localeCompare(b.name))
+            .map((i) => [i.id, `${i.name}${i.city ? " · " + i.city : ""}${progCount(i.id) ? ` (${progCount(i.id)} programmes)` : ""}`])] },
         { row: [
           { k: "level", label: "Level", type: "select", required: true, options: LEVELS.map((l) => [l, l]) },
           { k: "name", label: "Programme name", type: "text", required: true, hint: "e.g. Civil Engineering",
@@ -325,7 +332,13 @@
 
     const flist = sec.filters ? opts(sec.filters) : [];
     if (!flist.some((x) => x[0] === filter)) filter = "";
-    $("#filter").innerHTML = flist.map(([v, l]) => `<option value="${esc(v)}"${v === filter ? " selected" : ""}>${esc(l)}</option>`).join("");
+    // Options can carry a group name (4th element) to render as <optgroup>
+    let html = "", group = null;
+    flist.forEach(([v, l, , g]) => {
+      if (g !== group) { if (group) html += "</optgroup>"; if (g) html += `<optgroup label="${esc(g)}">`; group = g; }
+      html += `<option value="${esc(v)}"${v === filter ? " selected" : ""}>${esc(l)}</option>`;
+    });
+    $("#filter").innerHTML = html + (group ? "</optgroup>" : "");
 
     const rows = rowsFor(sec);
     const total = data[sec.key].length;
@@ -371,6 +384,8 @@
       case "select":
         input = `<select id="${id}" name="${f.k}">${opts(f.options).map(([ov, ol]) => `<option value="${esc(ov)}"${String(v ?? "") === ov ? " selected" : ""}>${esc(ol)}</option>`).join("")}</select>`;
         if (f.preview) input = `<div class="with-preview">${input}<img alt="" data-preview="${f.k}" src="${esc(f.preview(v))}" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>`;
+        // Long lists (e.g. 98 institutions) get a search box that filters the options as you type
+        if (f.searchable) input = `<input type="search" class="opt-search" data-for="${id}" placeholder="Search ${esc(f.label.toLowerCase())}…" autocomplete="off" aria-label="Search ${esc(f.label.toLowerCase())}">${input}`;
         break;
       case "logo":
         input = `<div class="with-preview"><input id="${id}" name="${f.k}" type="text" value="${esc(v)}" placeholder="e.g. edx"><img alt="" data-preview="${f.k}" src="assets/img/logos/${esc(v)}.png" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>`;
@@ -769,6 +784,20 @@
     $("#dl-college").innerHTML = cols.map((c) => `<option value="${esc(c)}">`).join("");
   });
   $("#editor").addEventListener("input", (e) => {
+    // Searchable drop-downs: hide options that don't match; pick the only match automatically
+    if (e.target.classList.contains("opt-search")) {
+      const sel = document.getElementById(e.target.dataset.for);
+      const q = norm(e.target.value.trim());
+      const matches = [];
+      [...sel.options].forEach((o) => {
+        const show = !o.value || !q || norm(o.textContent).includes(q);
+        o.hidden = !show;
+        if (show && o.value) matches.push(o);
+      });
+      if (matches.length === 1) { sel.value = matches[0].value; sel.dispatchEvent(new Event("change", { bubbles: true })); }
+      else if (sel.selectedOptions[0] && sel.selectedOptions[0].hidden) sel.value = "";
+      return;
+    }
     // live logo/flag preview
     const f = e.target.closest(".fld"); if (!f) return;
     const img = f.querySelector("img[data-preview]"); if (!img) return;
