@@ -94,7 +94,13 @@ const report = [];
 for (const file of process.argv.slice(2)) {
   const research = JSON.parse(fs.readFileSync(file, "utf8"));
   for (const [id, r] of Object.entries(research)) {
-    const inst = data.institutions.find((i) => i.id === id);
+    let inst = data.institutions.find((i) => i.id === id);
+    // A new institution is created only when the research says what it is ("type": public/private and a name)
+    if (!inst && r.name && (r.type === "public" || r.type === "private")) {
+      inst = { id, name: r.name, type: r.type };
+      data.institutions.push(inst);
+      report.push(`+ ${id}: new institution`);
+    }
     if (!inst) { report.push(`! ${id}: no institution with this id in data.js, skipped`); continue; }
 
     // "name"/"abbr" correct outdated records (e.g. an institution that was renamed); the id never changes

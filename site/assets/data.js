@@ -2448,6 +2448,587 @@ window.SIE_DATA = {
    "category": "College",
    "coverage": "none",
    "coverageNote": "The website refused connections from outside Ethiopia in November 2026."
+  },
+  {
+   "id": "addis-ababa-science-and-technology-university",
+   "name": "Addis Ababa Science and Technology University",
+   "type": "public",
+   "abbr": "AASTU",
+   "website": "https://www.aastu.edu.et/",
+   "category": "University",
+   "city": "Addis Ababa",
+   "region": "Addis Ababa",
+   "summary": "Addis Ababa Science and Technology University is one of Ethiopia's two specialised science and technology universities, established under the first Growth and Transformation Plan. It has colleges of engineering, natural and applied sciences, and social science and humanities, with departments ranging from architecture, civil, chemical, electromechanical, mining and software engineering to biotechnology, industrial chemistry, geology and food science.",
+   "colleges": [
+    "College of Engineering",
+    "College of Natural and Applied Sciences",
+    "College of Social Science and Humanities"
+   ],
+   "sources": [
+    {
+     "label": "College of Engineering",
+     "url": "https://www.aastu.edu.et/college-of-engineering",
+     "kind": "official"
+    },
+    {
+     "label": "College of Natural and Applied Sciences",
+     "url": "https://www.aastu.edu.et/cnas/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Social Science and Humanities",
+     "url": "https://www.aastu.edu.et/cssh",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "The college pages list departments rather than named degree programmes, so only two programmes are listed so far.",
+   "checked": "2026-11-07",
+   "lat": 9.03581,
+   "lng": 38.75243,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/27565076"
+   }
+  },
+  {
+   "id": "injibara-university",
+   "name": "Injibara University",
+   "type": "public",
+   "abbr": "INU",
+   "website": "https://www.inu.edu.et/",
+   "category": "University",
+   "city": "Injibara",
+   "region": "Amhara",
+   "summary": "Injibara University is a public university in Injibara, Awi Zone of the Amhara region. It offers 58 undergraduate programmes in seven colleges and a School of Law, and 44 postgraduate programmes including a PhD in Developmental Psychology.",
+   "colleges": [
+    "College of Agriculture, Food and Climate Sciences",
+    "College of Business and Economics",
+    "College of Education and Behavioral Sciences",
+    "College of Engineering and Technology",
+    "College of Medicine and Health Sciences",
+    "College of Natural and Computational Sciences",
+    "College of Social Science and Humanities",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Undergraduate programmes (PDF list)",
+     "url": "https://www.inu.edu.et/undergraduate-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes (PDF list)",
+     "url": "https://www.inu.edu.et/postgraduate-programs/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07",
+   "lat": 10.95923,
+   "lng": 36.93407,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/595140591"
+   }
+  },
+  {
+   "id": "debark-university",
+   "name": "Debark University",
+   "type": "public",
+   "abbr": "DKU",
+   "website": "https://www.dku.edu.et/",
+   "category": "University",
+   "city": "Debark",
+   "region": "Amhara",
+   "summary": "Debark University is a public university in Debark, North Gondar, near the Simien Mountains. It has colleges of natural and computational sciences, social science and humanities, health science, business and economics, and agriculture and environmental science, plus a School of Law.",
+   "colleges": [
+    "College of Natural and Computational Sciences",
+    "College of Social Science and Humanities",
+    "College of Health Science",
+    "College of Business and Economics",
+    "College of Agriculture and Environmental Science",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Debark University website",
+     "url": "https://www.dku.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Natural and Computational Sciences: BSc programmes",
+     "url": "https://cncs.dku.edu.et/bsc-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "Natural and Computational Sciences: master's programmes",
+     "url": "https://cncs.dku.edu.et/master-program/",
+     "kind": "official"
+    },
+    {
+     "label": "College of Business and Economics",
+     "url": "https://cbe.dku.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Programmes of the social science, health, agriculture and law units are not yet included.",
+   "checked": "2026-11-07",
+   "lat": 13.1585,
+   "lng": 37.89904,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/1150957542"
+   }
+  },
+  {
+   "id": "mekdela-amba-university",
+   "name": "Mekdela Amba University",
+   "type": "public",
+   "abbr": "MAU",
+   "category": "University",
+   "region": "Amhara",
+   "summary": "Mekdela Amba University is a public university in South Wollo, Amhara region, named after the historic Mekdela Amba.",
+   "coverage": "none",
+   "coverageNote": "The website (mau.edu.et) refused access from outside Ethiopia in November 2026."
+  },
+  {
+   "id": "oda-bultum-university",
+   "name": "Oda Bultum University",
+   "type": "public",
+   "abbr": "OBU",
+   "category": "University",
+   "city": "Chiro",
+   "region": "Oromia",
+   "summary": "Oda Bultum University is a public university in Chiro, West Hararghe Zone, Oromia.",
+   "coverage": "none",
+   "coverageNote": "The website (obu.edu.et) refused connections from outside Ethiopia in November 2026.",
+   "lat": 9.08748,
+   "lng": 40.86633,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/316868800"
+   }
+  },
+  {
+   "id": "bonga-university",
+   "name": "Bonga University",
+   "type": "public",
+   "website": "https://www.bongau.edu.et/",
+   "category": "University",
+   "city": "Bonga",
+   "region": "South West Ethiopia Peoples",
+   "summary": "Bonga University is a public university in Bonga, the historic centre of the Kafa coffee-growing area, and offers a distinctive PhD in Coffee Science and Technology. Its homepage reports 58 programmes and about 6,400 students across colleges of business, engineering, agriculture, natural sciences, health, social sciences, and continuing and distance education.",
+   "colleges": [
+    "College of Business and Economics",
+    "College of Engineering and Technology",
+    "College of Agriculture and Natural Resources",
+    "College of Natural and Computational Sciences",
+    "College of Health Sciences",
+    "College of Social Sciences and Humanities",
+    "College of Continuing and Distance Education"
+   ],
+   "sources": [
+    {
+     "label": "Bonga University website",
+     "url": "https://www.bongau.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://www.bongau.edu.et/prog.php?cat=Undergraduate",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes",
+     "url": "https://www.bongau.edu.et/pg.php",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "The last two pages of the undergraduate list (from “O” to “Z”) are not yet included.",
+   "checked": "2026-11-07",
+   "lat": 7.26454,
+   "lng": 36.24605,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/283675711"
+   }
+  },
+  {
+   "id": "jinka-university",
+   "name": "Jinka University",
+   "type": "public",
+   "abbr": "JKU",
+   "website": "https://jku.edu.et/",
+   "category": "University",
+   "city": "Jinka",
+   "region": "South Ethiopia",
+   "summary": "Jinka University is a public university in Jinka, in the Omo Valley of southern Ethiopia. Its homepage reports 26 programmes and about 6,400 students across colleges of business, natural sciences, social sciences, health, veterinary medicine and agriculture, and a School of Law.",
+   "colleges": [
+    "College of Business and Economics",
+    "College of Natural and Computational Science",
+    "College of Social Sciences and Humanities",
+    "College of Medicine and Health Sciences",
+    "College of Veterinary Medicine and Animal Science",
+    "College of Agriculture and Natural Resource",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Programmes",
+     "url": "https://jku.edu.et/programs/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "The website lists programmes for only some departments; others show none yet.",
+   "checked": "2026-11-07",
+   "lat": 5.78618,
+   "lng": 36.56544,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/540265111"
+   }
+  },
+  {
+   "id": "werabe-university",
+   "name": "Werabe University",
+   "type": "public",
+   "abbr": "WRU",
+   "website": "https://www.wru.edu.et/",
+   "category": "University",
+   "city": "Werabe",
+   "region": "Central Ethiopia",
+   "summary": "Werabe University is a public university in the Siltie Zone of the Central Ethiopia region. Its homepage reports about 10,500 students and 49 programmes, with colleges of agriculture, social sciences, humanities, business, natural sciences and health, an Institute of Technology, and schools of education and law.",
+   "colleges": [
+    "College of Agriculture and Natural Resource",
+    "College of Social Sciences",
+    "College of Humanities",
+    "College of Business and Economics",
+    "College of Natural and Computational Science",
+    "College of Medicine and Health Sciences",
+    "Institute of Technology",
+    "School of Education and Behavioral Sciences",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Werabe University website",
+     "url": "https://www.wru.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "The website's programme page was empty in November 2026.",
+   "checked": "2026-11-07",
+   "lat": 7.85345,
+   "lng": 38.1873,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/1235476485"
+   }
+  },
+  {
+   "id": "kebri-dehar-university",
+   "name": "Kebri Dehar University",
+   "type": "public",
+   "abbr": "KDU",
+   "category": "University",
+   "city": "Kebri Dehar",
+   "region": "Somali",
+   "summary": "Kebri Dehar University is a public university in Kebri Dehar, Somali region.",
+   "coverage": "none",
+   "coverageNote": "The old website address now redirects elsewhere, and the university's programme list could not be confirmed (November 2026).",
+   "lat": 6.73895,
+   "lng": 44.28041,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/1973381634"
+   }
+  },
+  {
+   "id": "salale-university",
+   "name": "Salale University",
+   "type": "public",
+   "abbr": "SLU",
+   "website": "https://slu.edu.et/",
+   "category": "University",
+   "city": "Fiche",
+   "region": "Oromia",
+   "founded": 2015,
+   "summary": "Salale University is a public university in Fiche, North Shewa Zone of Oromia, about 112 km north of Addis Ababa, established in 2015. It has six colleges, a School of Law and a referral hospital, and publishes full lists of its undergraduate and master's programmes.",
+   "colleges": [
+    "College of Natural Sciences",
+    "College of Engineering and Technology",
+    "College of Agricultural and Natural Resources",
+    "College of Social Science and Humanities",
+    "College of Business and Economics",
+    "College of Health Sciences",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://slu.edu.et/SLU_WEB/bsc-programs.php",
+     "kind": "official"
+    },
+    {
+     "label": "Postgraduate programmes",
+     "url": "https://slu.edu.et/SLU_WEB/msc-programs.php",
+     "kind": "official"
+    },
+    {
+     "label": "Salale University website",
+     "url": "https://slu.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07",
+   "lat": 9.77196,
+   "lng": 38.73886,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/2082499580"
+   }
+  },
+  {
+   "id": "raya-university",
+   "name": "Raya University",
+   "type": "public",
+   "abbr": "RU",
+   "website": "https://www.rayu.edu.et/",
+   "category": "University",
+   "city": "Maichew",
+   "region": "Tigray",
+   "founded": 2015,
+   "summary": "Raya University is a public university in Maichew, Southern Zone of Tigray, established in 2015 and designated a comprehensive university by the Ministry of Education in 2021. It has six colleges and a School of Law.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Natural and Computational Sciences",
+    "College of Business and Economics",
+    "College of Social Science and Humanities",
+    "College of Agriculture and Natural Resources",
+    "College of Medicine and Health Science",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://www.rayu.edu.et/undergraduate-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "Raya University website",
+     "url": "https://www.rayu.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "coverageNote": "The postgraduate programme page did not show its list.",
+   "checked": "2026-11-07",
+   "lat": 12.78412,
+   "lng": 39.53934,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/706520810"
+   }
+  },
+  {
+   "id": "gambella-university",
+   "name": "Gambella University",
+   "type": "public",
+   "abbr": "GMU",
+   "website": "https://www.gmu.edu.et/",
+   "category": "University",
+   "city": "Gambela",
+   "region": "Gambela",
+   "founded": 2014,
+   "summary": "Gambella University is a public university in Gambela town, founded in 2014. It has colleges of agriculture and natural resources, business and economics, engineering and technology, and natural and computational science, a Faculty of Social Sciences and Humanities, and a School of Law.",
+   "colleges": [
+    "College of Agriculture and Natural Resource",
+    "College of Business and Economics",
+    "College of Engineering and Technology",
+    "College of Natural and Computational Science",
+    "Faculty of Social Sciences and Humanities",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Fact sheet",
+     "url": "https://www.gmu.edu.et/fact-sheets",
+     "kind": "official"
+    },
+    {
+     "label": "College of Natural and Computational Science",
+     "url": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2",
+     "kind": "official"
+    },
+    {
+     "label": "College of Business and Economics",
+     "url": "https://www.gmu.edu.et/academics/college-of-business-and-economics3",
+     "kind": "official"
+    },
+    {
+     "label": "College of Agriculture and Natural Resource",
+     "url": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Engineering, social sciences and law pages list departments but not programmes.",
+   "checked": "2026-11-07",
+   "lat": 8.25037,
+   "lng": 34.58773,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/321376181"
+   }
+  },
+  {
+   "id": "arsi-university",
+   "name": "Arsi University",
+   "type": "public",
+   "website": "https://www.arsiun.edu.et/",
+   "category": "University",
+   "city": "Asella",
+   "region": "Oromia",
+   "summary": "Arsi University is a public university in Asella, Arsi Zone of Oromia. It has colleges of business and economics, health science, education and behavioural science, social science and humanities, and agricultural and environmental science, plus a School of Law.",
+   "colleges": [
+    "College of Business and Economics",
+    "College of Health Science",
+    "College of Education and Behavioral Science",
+    "College of Social Science and Humanities",
+    "College of Agricultural and Environmental Science",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Arsi University website",
+     "url": "https://www.arsiun.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Colleges",
+     "url": "https://arsiun.edu.et/colleges/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "Programme lists are on the colleges' own websites, which could not be read in November 2026.",
+   "checked": "2026-11-07",
+   "lat": 7.95,
+   "lng": 39.13333,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/way/180714249"
+   }
+  },
+  {
+   "id": "borana-university",
+   "name": "Borana University",
+   "type": "public",
+   "abbr": "BRU",
+   "website": "https://bru.edu.et/",
+   "category": "University",
+   "city": "Yabelo",
+   "region": "Oromia",
+   "summary": "Borana University is a public university in Yabelo, Borana Zone of Oromia, with the motto “Dedicated to Resilient Pastoral Future”. It focuses on pastoral and dryland studies alongside engineering, business, natural sciences, social sciences, veterinary medicine and law, and has an extension site in Moyale.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Pastoral Studies and Dryland Agriculture",
+    "College of Business and Economics",
+    "College of Natural and Computational Science",
+    "College of Social Science and Humanities",
+    "Institute of Indigenous Democracy and Cultural Studies",
+    "School of Law",
+    "School of Veterinary Medicine"
+   ],
+   "sources": [
+    {
+     "label": "List of programmes",
+     "url": "https://bru.edu.et/list-of-programs/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "full",
+   "checked": "2026-11-07",
+   "lat": 4.89257,
+   "lng": 38.09499,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/1920864375"
+   }
+  },
+  {
+   "id": "dambi-dollo-university",
+   "name": "Dambi Dollo University",
+   "type": "public",
+   "abbr": "DaDU",
+   "website": "https://www.dadu.edu.et/",
+   "category": "University",
+   "city": "Dembi Dolo",
+   "region": "Oromia",
+   "summary": "Dambi Dollo University is a public university in Dembi Dolo, Kellem Wollega Zone of Oromia. It has colleges of engineering, agriculture, business, social sciences, education and natural sciences, a Sport Academy, schools of veterinary medicine and law, and an Institute of Health Sciences.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Agriculture and Natural Resource Management",
+    "College of Business and Economics",
+    "College of Social Science and Humanities",
+    "College of Education and Behavioral Sciences",
+    "College of Natural and Computational Science",
+    "Sport Academy",
+    "School of Veterinary Medicine",
+    "School of Law",
+    "Institute of Health Sciences"
+   ],
+   "sources": [
+    {
+     "label": "Dambi Dollo University website",
+     "url": "https://www.dadu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Engineering and Technology programmes",
+     "url": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college",
+     "kind": "official"
+    },
+    {
+     "label": "Natural and Computational Science programmes",
+     "url": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college",
+     "kind": "official"
+    },
+    {
+     "label": "All programmes",
+     "url": "https://www.dadu.edu.et/programs/all-programs",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Only the engineering, natural science and law programme pages are included so far.",
+   "checked": "2026-11-07",
+   "lat": 8.53527,
+   "lng": 34.80034,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/1150899366"
+   }
   }
  ],
  "programmes": [
@@ -21226,6 +21807,3126 @@ window.SIE_DATA = {
    "college": "",
    "field": "Health & Medicine",
    "source": "https://guc.edu.et/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Construction Management (MBA)",
+   "college": "College of Social Science and Humanities",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/cssh"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Industrial Management (MBA)",
+   "college": "College of Social Science and Humanities",
+   "field": "Business & Economics",
+   "source": "https://www.aastu.edu.et/cssh"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Food Science and Post-harvest Technology",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Forestry",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Laboratory Technology",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Veterinary Science",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Lifelong Learning and Community Development",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Teacher Education Curriculum Studies",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resource Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Environmental Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Pediatrics and Child Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Psychiatry",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Awngi Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Land Administration and Surveying",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.inu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Animal Genetics and Breeding",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Integrated Watershed Management",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Irrigation Engineering and Management",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Plant Pathology",
+   "college": "College of Agriculture, Food and Climate Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Counselling Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Developmental Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Educational Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "PhD",
+   "name": "Developmental Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Clinical Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Maternity and Reproductive Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Health Promotion",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Epidemiology (MPH)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "General Public Health (MPH)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Public Health Nutrition (MPH)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Reproductive Health (MPH)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Ecology and Systematic Zoology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Differential Equations",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Mathematical Modelling",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Numerical Analysis",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Astrophysics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Condensed Matter Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Governance and Development Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Applied Linguistics",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "General Linguistics",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Ethiopian Literature and Folklore",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Environment and Natural Resources Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development Planning",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "History",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Journalism and Communication Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "injibara-university",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.inu.edu.et/postgraduate-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://cncs.dku.edu.et/bsc-programs/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Ecology and Systematic Zoology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Algebra and Cryptography",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Differential Equations",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Solid State Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Space Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://cncs.dku.edu.et/master-program/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "debark-university",
+   "level": "Master's",
+   "name": "Tourism and Hospitality Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://cbe.dku.edu.et/"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Climate Change and Food Security",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Apiculture",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Biodiversity Conservation",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Coffee Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Forest and Nature Conservation",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "PhD",
+   "name": "Coffee Science and Technology",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Engineering & Technology",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Natural Resource and Environmental Economics",
+   "college": "College of Business and Economics",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Master's",
+   "name": "Information Science (Agricultural Knowledge Management)",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.bongau.edu.et/pg.php"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Banking and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "",
+   "field": "Law & Governance",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Coffee Science and Technology",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Curriculum and Instruction",
+   "college": "",
+   "field": "Education",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine (DVM)",
+   "college": "",
+   "field": "Veterinary Science",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "",
+   "field": "Languages & Communication",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Forestry",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Kafi Noonoo Language",
+   "college": "",
+   "field": "Languages & Communication",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "",
+   "field": "Law & Governance",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "bonga-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.bongau.edu.et/prog.php?cat=Undergraduate"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "https://jku.edu.et/programs/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://jku.edu.et/programs/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://jku.edu.et/programs/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://jku.edu.et/programs/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://jku.edu.et/programs/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://jku.edu.et/programs/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://jku.edu.et/"
+  },
+  {
+   "institution": "jinka-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://jku.edu.et/"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Natural Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural Sciences",
+   "field": "Sport Science",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resources Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Forestry",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Science",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Veterinary Science",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Afaan Oromo and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/bsc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Applied Genetics and Biotechnology",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Dairy Science and Technology",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Integrated Watershed Management",
+   "college": "College of Agricultural and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Teaching Afaan Oromoo",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Environment and Climate Change Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Governance and Development Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Social Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development Planning",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Epidemiology (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "General Public Health (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Maternity and Neonatal Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Reproductive Health (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Pediatrics and Child Health Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Nutrition (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "Judicial Studies",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "salale-university",
+   "level": "Master's",
+   "name": "International Trade and Investment Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://slu.edu.et/SLU_WEB/msc-programs.php"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Manufacturing Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Automotive Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Comprehensive Nursing",
+   "college": "College of Medicine and Health Science",
+   "field": "Health & Medicine",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Science",
+   "field": "Health & Medicine",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Sciences",
+   "college": "College of Medicine and Health Science",
+   "field": "Health & Medicine",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "raya-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.rayu.edu.et/undergraduate-programs/"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Natural and Computational Science",
+   "field": "Health & Medicine",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Banking and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Project Planning and Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.gmu.edu.et/academics/college-of-business-and-economics3"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Wildlife and Ecotourism Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Disaster Risk Management and Sustainable Development",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Soil Resource and Watershed Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Environmental Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Bachelor's",
+   "name": "Fishery and Aquatic Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Development Studies",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "gambella-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Afaan Oromo, Literature and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Pastoral Studies and Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Pastoral Studies and Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Pastoral Studies and Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Pastoral Studies and Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Pastoral Studies and Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine (DVM)",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Animal Nutrition and Feed Technology",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Climate Change and Sustainable Development",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Rural Development",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "",
+   "field": "Education",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Disaster Risk Management",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Social Anthropology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "borana-university",
+   "level": "Master's",
+   "name": "Human Rights and Customary Legal Studies (LLM)",
+   "college": "",
+   "field": "Law & Governance",
+   "source": "https://bru.edu.et/list-of-programs/"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.dadu.edu.et/programs/all-programs"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.dadu.edu.et/programs/all-programs"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resources Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Urban and Regional Planning",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "PhD",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "PhD",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Physics Laboratory Technology",
+   "college": "College of Natural and Computational Science",
+   "field": "Health & Medicine",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Laser Spectroscopy",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Nuclear Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Solid State Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Statistical Physics",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "PhD",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "PhD",
+   "name": "Materials Science and Metallurgical Engineering",
+   "college": "College of Natural and Computational Science",
+   "field": "Engineering & Technology",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
+  },
+  {
+   "institution": "dambi-dollo-university",
+   "level": "PhD",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
   }
  ],
  "studyAbroad": [

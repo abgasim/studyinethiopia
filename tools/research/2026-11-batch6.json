@@ -1,0 +1,251 @@
+{
+ "addis-ababa-science-and-technology-university": {
+  "name": "Addis Ababa Science and Technology University", "abbr": "AASTU", "type": "public", "category": "University",
+  "website": "https://www.aastu.edu.et/", "city": "Addis Ababa", "region": "Addis Ababa",
+  "summary": "Addis Ababa Science and Technology University is one of Ethiopia's two specialised science and technology universities, established under the first Growth and Transformation Plan. It has colleges of engineering, natural and applied sciences, and social science and humanities, with departments ranging from architecture, civil, chemical, electromechanical, mining and software engineering to biotechnology, industrial chemistry, geology and food science.",
+  "colleges": ["College of Engineering", "College of Natural and Applied Sciences", "College of Social Science and Humanities"],
+  "sources": [
+   {"label": "College of Engineering", "url": "https://www.aastu.edu.et/college-of-engineering", "kind": "official"},
+   {"label": "College of Natural and Applied Sciences", "url": "https://www.aastu.edu.et/cnas/", "kind": "official"},
+   {"label": "College of Social Science and Humanities", "url": "https://www.aastu.edu.et/cssh", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "The college pages list departments rather than named degree programmes, so only two programmes are listed so far.",
+  "programmes": {"https://www.aastu.edu.et/cssh": {"College of Social Science and Humanities": {"Master's": ["Construction Management (MBA)", "Industrial Management (MBA)"]}}}
+ },
+ "injibara-university": {
+  "name": "Injibara University", "abbr": "INU", "type": "public", "category": "University",
+  "website": "https://www.inu.edu.et/", "city": "Injibara", "region": "Amhara",
+  "summary": "Injibara University is a public university in Injibara, Awi Zone of the Amhara region. It offers 58 undergraduate programmes in seven colleges and a School of Law, and 44 postgraduate programmes including a PhD in Developmental Psychology.",
+  "colleges": ["College of Agriculture, Food and Climate Sciences", "College of Business and Economics", "College of Education and Behavioral Sciences", "College of Engineering and Technology", "College of Medicine and Health Sciences", "College of Natural and Computational Sciences", "College of Social Science and Humanities", "School of Law"],
+  "sources": [
+   {"label": "Undergraduate programmes (PDF list)", "url": "https://www.inu.edu.et/undergraduate-programs/", "kind": "official"},
+   {"label": "Postgraduate programmes (PDF list)", "url": "https://www.inu.edu.et/postgraduate-programs/", "kind": "official"}
+  ],
+  "coverage": "full",
+  "programmes": {
+   "https://www.inu.edu.et/undergraduate-programs/": {
+    "College of Agriculture, Food and Climate Sciences": {"Bachelor's": ["Agribusiness and Value Chain Management", "Agricultural Economics", "Animal Science", "Food Science and Post-harvest Technology", "Forestry", "Horticulture", "Natural Resource Management", "Plant Science", "Rural Development and Agricultural Extension", "Veterinary Laboratory Technology"]},
+    "College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Economics", "Management", "Marketing Management", "Public Administration and Development Management", "Tourism and Hotel Management"]},
+    "College of Education and Behavioral Sciences": {"Bachelor's": ["Early Childhood Care and Education", "Educational Planning and Management", "Lifelong Learning and Community Development", "Psychology", "Special Needs and Inclusive Education", "Teacher Education Curriculum Studies"]},
+    "College of Engineering and Technology": {"Bachelor's": ["Civil Engineering", "Computer Science", "Electrical and Computer Engineering", "Hydraulic and Water Resource Engineering", "Information Systems", "Information Technology", "Software Engineering"]},
+    "College of Medicine and Health Sciences": {"Bachelor's": ["Anesthesia", "Environmental Health", "Medical Laboratory Science", "Medicine", "Midwifery", "Nursing", "Pediatrics and Child Health Nursing", "Pharmacy", "Psychiatry"]},
+    "College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Biotechnology", "Chemistry", "Geology", "Mathematics", "Physics", "Sport Science", "Statistics"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["Civics and Ethical Studies", "English Language and Literature", "Amharic Language and Literature", "Awngi Language and Literature", "Geography and Environmental Studies", "History and Heritage Management", "Journalism and Communication", "Land Administration and Surveying", "Political Science and International Relations", "Social Anthropology", "Sociology"]},
+    "School of Law": {"Bachelor's": ["Law"]}
+   },
+   "https://www.inu.edu.et/postgraduate-programs/": {
+    "College of Agriculture, Food and Climate Sciences": {"Master's": ["Animal Genetics and Breeding", "Animal Nutrition", "Animal Production", "Horticulture", "Integrated Watershed Management", "Irrigation Engineering and Management", "Soil Science", "Agronomy", "Plant Pathology"]},
+    "College of Business and Economics": {"Master's": ["Accounting and Finance", "Business Administration (MBA)"]},
+    "College of Education and Behavioral Sciences": {"Master's": ["Educational Planning and Management", "Counselling Psychology", "Developmental Psychology", "Educational Psychology", "Special Needs and Inclusive Education", "Curriculum and Instruction"], "PhD": ["Developmental Psychology"]},
+    "College of Medicine and Health Sciences": {"Master's": ["Clinical Midwifery", "Maternity and Reproductive Health Nursing", "Adult Health Nursing", "Health Promotion", "Epidemiology (MPH)", "General Public Health (MPH)", "Public Health Nutrition (MPH)", "Reproductive Health (MPH)"]},
+    "College of Natural and Computational Sciences": {"Master's": ["Applied Microbiology", "Ecology and Systematic Zoology", "Analytical Chemistry", "Differential Equations", "Mathematical Modelling", "Numerical Analysis", "Astrophysics", "Condensed Matter Physics"]},
+    "College of Social Science and Humanities": {"Master's": ["Governance and Development Studies", "Applied Linguistics", "General Linguistics", "Teaching English as a Foreign Language (TEFL)", "Ethiopian Literature and Folklore", "Environment and Natural Resources Management", "Urban and Regional Development Planning", "History", "Journalism and Communication Studies", "Political Science"]}
+   }
+  }
+ },
+ "debark-university": {
+  "name": "Debark University", "abbr": "DKU", "type": "public", "category": "University",
+  "website": "https://www.dku.edu.et/", "city": "Debark", "region": "Amhara",
+  "summary": "Debark University is a public university in Debark, North Gondar, near the Simien Mountains. It has colleges of natural and computational sciences, social science and humanities, health science, business and economics, and agriculture and environmental science, plus a School of Law.",
+  "colleges": ["College of Natural and Computational Sciences", "College of Social Science and Humanities", "College of Health Science", "College of Business and Economics", "College of Agriculture and Environmental Science", "School of Law"],
+  "sources": [
+   {"label": "Debark University website", "url": "https://www.dku.edu.et/", "kind": "official"},
+   {"label": "Natural and Computational Sciences: BSc programmes", "url": "https://cncs.dku.edu.et/bsc-programs/", "kind": "official"},
+   {"label": "Natural and Computational Sciences: master's programmes", "url": "https://cncs.dku.edu.et/master-program/", "kind": "official"},
+   {"label": "College of Business and Economics", "url": "https://cbe.dku.edu.et/", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Programmes of the social science, health, agriculture and law units are not yet included.",
+  "programmes": {
+   "https://cncs.dku.edu.et/bsc-programs/": {"College of Natural and Computational Sciences": {"Bachelor's": ["Physics", "Chemistry", "Biology", "Mathematics", "Statistics", "Computer Science", "Information Technology", "Sport Science", "Geology", "Software Engineering"]}},
+   "https://cncs.dku.edu.et/master-program/": {"College of Natural and Computational Sciences": {"Master's": ["Ecology and Systematic Zoology", "Applied Microbiology", "Analytical Chemistry", "Biostatistics", "Algebra and Cryptography", "Differential Equations", "Solid State Physics", "Space Physics", "Information Technology"]}},
+   "https://cbe.dku.edu.et/": {"College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Economics", "Management", "Marketing Management", "Tourism and Hotel Management"], "Master's": ["Accounting and Finance", "Business Administration", "Tourism and Hospitality Management"]}}
+  }
+ },
+ "mekdela-amba-university": {
+  "name": "Mekdela Amba University", "abbr": "MAU", "type": "public", "category": "University", "region": "Amhara",
+  "summary": "Mekdela Amba University is a public university in South Wollo, Amhara region, named after the historic Mekdela Amba.",
+  "coverage": "none",
+  "coverageNote": "The website (mau.edu.et) refused access from outside Ethiopia in November 2026."
+ },
+ "oda-bultum-university": {
+  "name": "Oda Bultum University", "abbr": "OBU", "type": "public", "category": "University", "city": "Chiro", "region": "Oromia",
+  "summary": "Oda Bultum University is a public university in Chiro, West Hararghe Zone, Oromia.",
+  "coverage": "none",
+  "coverageNote": "The website (obu.edu.et) refused connections from outside Ethiopia in November 2026."
+ },
+ "bonga-university": {
+  "name": "Bonga University", "type": "public", "category": "University",
+  "website": "https://www.bongau.edu.et/", "city": "Bonga", "region": "South West Ethiopia Peoples",
+  "summary": "Bonga University is a public university in Bonga, the historic centre of the Kafa coffee-growing area, and offers a distinctive PhD in Coffee Science and Technology. Its homepage reports 58 programmes and about 6,400 students across colleges of business, engineering, agriculture, natural sciences, health, social sciences, and continuing and distance education.",
+  "colleges": ["College of Business and Economics", "College of Engineering and Technology", "College of Agriculture and Natural Resources", "College of Natural and Computational Sciences", "College of Health Sciences", "College of Social Sciences and Humanities", "College of Continuing and Distance Education"],
+  "sources": [
+   {"label": "Bonga University website", "url": "https://www.bongau.edu.et/", "kind": "official"},
+   {"label": "Undergraduate programmes", "url": "https://www.bongau.edu.et/prog.php?cat=Undergraduate", "kind": "official"},
+   {"label": "Postgraduate programmes", "url": "https://www.bongau.edu.et/pg.php", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "The last two pages of the undergraduate list (from “O” to “Z”) are not yet included.",
+  "programmes": {
+   "https://www.bongau.edu.et/pg.php": {
+    "College of Agriculture and Natural Resources": {"Master's": ["Climate Change and Food Security", "Natural Resource Management", "Animal Production", "Apiculture", "Biodiversity Conservation", "Coffee Science", "Agronomy", "Forest and Nature Conservation"], "PhD": ["Coffee Science and Technology"]},
+    "College of Business and Economics": {"Master's": ["Project Management", "Accounting and Finance", "Business Administration (MBA)", "Development Economics", "Natural Resource and Environmental Economics"]},
+    "College of Engineering and Technology": {"Master's": ["Information Science (Agricultural Knowledge Management)"]}
+   },
+   "https://www.bongau.edu.et/prog.php?cat=Undergraduate": {"": {"Bachelor's": ["Accounting and Finance", "Agribusiness and Value Chain Management", "Agricultural Economics", "Animal Science", "Electrical and Computer Engineering", "Banking and Finance", "Biology", "Chemistry", "Civics and Ethical Studies", "Civil Engineering", "Coffee Science and Technology", "Computer Science", "Curriculum and Instruction", "Veterinary Medicine (DVM)", "Economics", "English Language and Literature", "Forestry", "Geography and Environmental Studies", "Geology", "History and Heritage Management", "Horticulture", "Kafi Noonoo Language", "Law", "Management", "Marketing Management", "Mathematics", "Mechanical Engineering", "Midwifery", "Natural Resource Management", "Nursing"]}}
+  }
+ },
+ "jinka-university": {
+  "name": "Jinka University", "abbr": "JKU", "type": "public", "category": "University",
+  "website": "https://jku.edu.et/", "city": "Jinka", "region": "South Ethiopia",
+  "summary": "Jinka University is a public university in Jinka, in the Omo Valley of southern Ethiopia. Its homepage reports 26 programmes and about 6,400 students across colleges of business, natural sciences, social sciences, health, veterinary medicine and agriculture, and a School of Law.",
+  "colleges": ["College of Business and Economics", "College of Natural and Computational Science", "College of Social Sciences and Humanities", "College of Medicine and Health Sciences", "College of Veterinary Medicine and Animal Science", "College of Agriculture and Natural Resource", "School of Law"],
+  "sources": [{"label": "Programmes", "url": "https://jku.edu.et/programs/", "kind": "official"}],
+  "coverage": "partial",
+  "coverageNote": "The website lists programmes for only some departments; others show none yet.",
+  "programmes": {
+   "https://jku.edu.et/programs/": {"College of Social Sciences and Humanities": {"Bachelor's": ["Civics and Ethical Studies", "English Language and Literature", "Geography and Environmental Studies", "History and Heritage Management", "Psychology", "Social Anthropology"]}},
+   "https://jku.edu.et/": {"": {"Bachelor's": ["Chemistry", "Mathematics"]}}
+  }
+ },
+ "werabe-university": {
+  "name": "Werabe University", "abbr": "WRU", "type": "public", "category": "University",
+  "website": "https://www.wru.edu.et/", "city": "Werabe", "region": "Central Ethiopia",
+  "summary": "Werabe University is a public university in the Siltie Zone of the Central Ethiopia region. Its homepage reports about 10,500 students and 49 programmes, with colleges of agriculture, social sciences, humanities, business, natural sciences and health, an Institute of Technology, and schools of education and law.",
+  "colleges": ["College of Agriculture and Natural Resource", "College of Social Sciences", "College of Humanities", "College of Business and Economics", "College of Natural and Computational Science", "College of Medicine and Health Sciences", "Institute of Technology", "School of Education and Behavioral Sciences", "School of Law"],
+  "sources": [{"label": "Werabe University website", "url": "https://www.wru.edu.et/", "kind": "official"}],
+  "coverage": "none",
+  "coverageNote": "The website's programme page was empty in November 2026."
+ },
+ "kebri-dehar-university": {
+  "name": "Kebri Dehar University", "abbr": "KDU", "type": "public", "category": "University", "city": "Kebri Dehar", "region": "Somali",
+  "summary": "Kebri Dehar University is a public university in Kebri Dehar, Somali region.",
+  "coverage": "none",
+  "coverageNote": "The old website address now redirects elsewhere, and the university's programme list could not be confirmed (November 2026)."
+ },
+ "salale-university": {
+  "name": "Salale University", "abbr": "SLU", "type": "public", "category": "University",
+  "website": "https://slu.edu.et/", "city": "Fiche", "region": "Oromia", "founded": 2015,
+  "summary": "Salale University is a public university in Fiche, North Shewa Zone of Oromia, about 112 km north of Addis Ababa, established in 2015. It has six colleges, a School of Law and a referral hospital, and publishes full lists of its undergraduate and master's programmes.",
+  "colleges": ["College of Natural Sciences", "College of Engineering and Technology", "College of Agricultural and Natural Resources", "College of Social Science and Humanities", "College of Business and Economics", "College of Health Sciences", "School of Law"],
+  "sources": [
+   {"label": "Undergraduate programmes", "url": "https://slu.edu.et/SLU_WEB/bsc-programs.php", "kind": "official"},
+   {"label": "Postgraduate programmes", "url": "https://slu.edu.et/SLU_WEB/msc-programs.php", "kind": "official"},
+   {"label": "Salale University website", "url": "https://slu.edu.et/", "kind": "official"}
+  ],
+  "coverage": "full",
+  "programmes": {
+   "https://slu.edu.et/SLU_WEB/bsc-programs.php": {
+    "College of Natural Sciences": {"Bachelor's": ["Biology", "Chemistry", "Computer Science", "Geology", "Mathematics", "Physics", "Sport Science", "Statistics"]},
+    "College of Engineering and Technology": {"Bachelor's": ["Civil Engineering", "Electrical and Computer Engineering", "Hydraulic and Water Resources Engineering"]},
+    "College of Agricultural and Natural Resources": {"Bachelor's": ["Agribusiness and Value Chain Management", "Agricultural Economics", "Animal Science", "Forestry", "Horticulture", "Natural Resource Management", "Plant Science", "Rural Development and Agricultural Extension", "Veterinary Science"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["Afaan Oromo and Literature", "Amharic Language and Literature", "Civics and Ethical Studies", "English Language and Literature", "Geography and Environmental Studies", "History and Heritage Management", "Journalism and Communication"]},
+    "College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Economics", "Logistics and Supply Chain Management", "Management", "Marketing Management", "Public Administration and Development Management", "Tourism and Hotel Management"]},
+    "College of Health Sciences": {"Bachelor's": ["Medical Laboratory Science", "Medicine", "Midwifery", "Nursing", "Pharmacy", "Public Health"]},
+    "School of Law": {"Bachelor's": ["Law"]}
+   },
+   "https://slu.edu.et/SLU_WEB/msc-programs.php": {
+    "College of Natural Sciences": {"Master's": ["Chemistry", "Applied Genetics and Biotechnology", "Mathematics", "Physics"]},
+    "College of Agricultural and Natural Resources": {"Master's": ["Agricultural Economics", "Agronomy", "Animal Nutrition", "Animal Production", "Dairy Science and Technology", "Horticulture", "Integrated Watershed Management"]},
+    "College of Social Science and Humanities": {"Master's": ["Teaching Afaan Oromoo", "Applied Linguistics in Teaching Amharic", "Civics and Ethical Studies", "Environment and Climate Change Management", "Governance and Development Studies", "History and Heritage Management", "Social Anthropology", "Teaching English as a Foreign Language (TEFL)", "Urban and Regional Development Planning"]},
+    "College of Business and Economics": {"Master's": ["Accounting and Finance", "Business Administration (MBA)", "Economics", "Project Management"]},
+    "College of Health Sciences": {"Master's": ["Adult Health Nursing", "Epidemiology (MPH)", "General Public Health (MPH)", "Medical Microbiology", "Maternity and Neonatal Health", "Reproductive Health (MPH)", "Pediatrics and Child Health Nursing", "Nutrition (MPH)"]},
+    "School of Law": {"Master's": ["Judicial Studies", "International Trade and Investment Law"]}
+   }
+  }
+ },
+ "raya-university": {
+  "name": "Raya University", "abbr": "RU", "type": "public", "category": "University",
+  "website": "https://www.rayu.edu.et/", "city": "Maichew", "region": "Tigray", "founded": 2015,
+  "summary": "Raya University is a public university in Maichew, Southern Zone of Tigray, established in 2015 and designated a comprehensive university by the Ministry of Education in 2021. It has six colleges and a School of Law.",
+  "colleges": ["College of Engineering and Technology", "College of Natural and Computational Sciences", "College of Business and Economics", "College of Social Science and Humanities", "College of Agriculture and Natural Resources", "College of Medicine and Health Science", "School of Law"],
+  "sources": [
+   {"label": "Undergraduate programmes", "url": "https://www.rayu.edu.et/undergraduate-programs/", "kind": "official"},
+   {"label": "Raya University website", "url": "https://www.rayu.edu.et/", "kind": "official"}
+  ],
+  "coverage": "most",
+  "coverageNote": "The postgraduate programme page did not show its list.",
+  "programmes": {
+   "https://www.rayu.edu.et/undergraduate-programs/": {
+    "College of Engineering and Technology": {"Bachelor's": ["Computer Science", "Information Technology", "Electrical and Computer Engineering", "Mechanical Engineering", "Manufacturing Engineering", "Automotive Engineering"]},
+    "College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Chemistry", "Mathematics", "Physics", "Statistics"]},
+    "College of Business and Economics": {"Bachelor's": ["Economics", "Management", "Accounting and Finance"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["History and Heritage Management", "English Language and Literature", "Geography and Environmental Studies", "Civics and Ethical Studies", "Psychology", "Sociology"]},
+    "College of Agriculture and Natural Resources": {"Bachelor's": ["Animal Science", "Horticulture", "Plant Science", "Agricultural Economics"]},
+    "College of Medicine and Health Science": {"Bachelor's": ["Comprehensive Nursing", "Midwifery", "Medical Laboratory Sciences"]},
+    "School of Law": {"Bachelor's": ["Law"]}
+   }
+  }
+ },
+ "gambella-university": {
+  "name": "Gambella University", "abbr": "GMU", "type": "public", "category": "University",
+  "website": "https://www.gmu.edu.et/", "city": "Gambela", "region": "Gambela", "founded": 2014,
+  "summary": "Gambella University is a public university in Gambela town, founded in 2014. It has colleges of agriculture and natural resources, business and economics, engineering and technology, and natural and computational science, a Faculty of Social Sciences and Humanities, and a School of Law.",
+  "colleges": ["College of Agriculture and Natural Resource", "College of Business and Economics", "College of Engineering and Technology", "College of Natural and Computational Science", "Faculty of Social Sciences and Humanities", "School of Law"],
+  "sources": [
+   {"label": "Fact sheet", "url": "https://www.gmu.edu.et/fact-sheets", "kind": "official"},
+   {"label": "College of Natural and Computational Science", "url": "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2", "kind": "official"},
+   {"label": "College of Business and Economics", "url": "https://www.gmu.edu.et/academics/college-of-business-and-economics3", "kind": "official"},
+   {"label": "College of Agriculture and Natural Resource", "url": "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Engineering, social sciences and law pages list departments but not programmes.",
+  "programmes": {
+   "https://www.gmu.edu.et/academics/college-of-natural-and-computational-science2": {"College of Natural and Computational Science": {"Bachelor's": ["Biology", "Chemistry", "Computer Science", "Mathematics", "Physics", "Public Health", "Sport Science", "Statistics"], "Master's": ["Mathematics"]}},
+   "https://www.gmu.edu.et/academics/college-of-business-and-economics3": {"College of Business and Economics": {"Bachelor's": ["Marketing Management", "Logistics and Supply Chain Management", "Accounting and Finance", "Tourism and Hotel Management", "Banking and Finance", "Public Administration and Development Management", "Economics", "Management"], "Master's": ["Business Administration (MBA)", "Project Planning and Management"]}},
+   "https://www.gmu.edu.et/academics/college-of-agriculture-and-natural-resource6": {"College of Agriculture and Natural Resource": {"Bachelor's": ["Agricultural Economics", "Plant Science", "Natural Resource Management", "Animal Science", "Wildlife and Ecotourism Management", "Disaster Risk Management and Sustainable Development", "Rural Development and Agricultural Extension", "Soil Resource and Watershed Management", "Horticulture", "Agribusiness and Value Chain Management", "Environmental Science", "Fishery and Aquatic Science"], "Master's": ["Animal Production", "Environmental Science", "Development Studies", "Animal Nutrition"]}}
+  }
+ },
+ "arsi-university": {
+  "name": "Arsi University", "type": "public", "category": "University",
+  "website": "https://www.arsiun.edu.et/", "city": "Asella", "region": "Oromia",
+  "summary": "Arsi University is a public university in Asella, Arsi Zone of Oromia. It has colleges of business and economics, health science, education and behavioural science, social science and humanities, and agricultural and environmental science, plus a School of Law.",
+  "colleges": ["College of Business and Economics", "College of Health Science", "College of Education and Behavioral Science", "College of Social Science and Humanities", "College of Agricultural and Environmental Science", "School of Law"],
+  "sources": [
+   {"label": "Arsi University website", "url": "https://www.arsiun.edu.et/", "kind": "official"},
+   {"label": "Colleges", "url": "https://arsiun.edu.et/colleges/", "kind": "official"}
+  ],
+  "coverage": "none",
+  "coverageNote": "Programme lists are on the colleges' own websites, which could not be read in November 2026."
+ },
+ "borana-university": {
+  "name": "Borana University", "abbr": "BRU", "type": "public", "category": "University",
+  "website": "https://bru.edu.et/", "city": "Yabelo", "region": "Oromia",
+  "summary": "Borana University is a public university in Yabelo, Borana Zone of Oromia, with the motto “Dedicated to Resilient Pastoral Future”. It focuses on pastoral and dryland studies alongside engineering, business, natural sciences, social sciences, veterinary medicine and law, and has an extension site in Moyale.",
+  "colleges": ["College of Engineering and Technology", "College of Pastoral Studies and Dryland Agriculture", "College of Business and Economics", "College of Natural and Computational Science", "College of Social Science and Humanities", "Institute of Indigenous Democracy and Cultural Studies", "School of Law", "School of Veterinary Medicine"],
+  "sources": [{"label": "List of programmes", "url": "https://bru.edu.et/list-of-programs/", "kind": "official"}],
+  "coverage": "full",
+  "programmes": {
+   "https://bru.edu.et/list-of-programs/": {
+    "College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Management", "Economics"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["Geography and Environmental Studies", "Social Anthropology", "Afaan Oromo, Literature and Communication", "Civics and Ethical Studies", "English Language and Literature", "Psychology"]},
+    "College of Pastoral Studies and Dryland Agriculture": {"Bachelor's": ["Agricultural Economics", "Rural Development and Agricultural Extension", "Animal Science", "Plant Science", "Natural Resource Management"]},
+    "College of Natural and Computational Science": {"Bachelor's": ["Physics", "Statistics", "Mathematics", "Biology", "Chemistry"]},
+    "College of Engineering and Technology": {"Bachelor's": ["Electrical and Computer Engineering", "Civil Engineering", "Computer Science"]},
+    "School of Veterinary Medicine": {"Bachelor's": ["Veterinary Medicine (DVM)"]},
+    "School of Law": {"Bachelor's": ["Law"]},
+    "": {"Master's": ["Animal Nutrition and Feed Technology", "Climate Change and Sustainable Development", "Rural Development", "Accounting and Finance", "Development Economics", "Business Administration (MBA)", "Teaching English as a Foreign Language (TEFL)", "Disaster Risk Management", "Social Anthropology", "Environmental Science", "Inorganic Chemistry", "Human Rights and Customary Legal Studies (LLM)"]}
+   }
+  }
+ },
+ "dambi-dollo-university": {
+  "name": "Dambi Dollo University", "abbr": "DaDU", "type": "public", "category": "University",
+  "website": "https://www.dadu.edu.et/", "city": "Dembi Dolo", "region": "Oromia",
+  "summary": "Dambi Dollo University is a public university in Dembi Dolo, Kellem Wollega Zone of Oromia. It has colleges of engineering, agriculture, business, social sciences, education and natural sciences, a Sport Academy, schools of veterinary medicine and law, and an Institute of Health Sciences.",
+  "colleges": ["College of Engineering and Technology", "College of Agriculture and Natural Resource Management", "College of Business and Economics", "College of Social Science and Humanities", "College of Education and Behavioral Sciences", "College of Natural and Computational Science", "Sport Academy", "School of Veterinary Medicine", "School of Law", "Institute of Health Sciences"],
+  "sources": [
+   {"label": "Dambi Dollo University website", "url": "https://www.dadu.edu.et/", "kind": "official"},
+   {"label": "Engineering and Technology programmes", "url": "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college", "kind": "official"},
+   {"label": "Natural and Computational Science programmes", "url": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college", "kind": "official"},
+   {"label": "All programmes", "url": "https://www.dadu.edu.et/programs/all-programs", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Only the engineering, natural science and law programme pages are included so far.",
+  "programmes": {
+   "https://www.dadu.edu.et/programs/all-programs": {"School of Law": {"Bachelor's": ["Law"], "Master's": ["Law"]}},
+   "https://www.dadu.edu.et/programs/undergraduate-programs-of-engineering-and-technology-college": {"College of Engineering and Technology": {"Bachelor's": ["Architecture", "Civil Engineering", "Computer Science", "Electrical and Computer Engineering", "Hydraulic and Water Resources Engineering", "Information Technology", "Mechanical Engineering", "Software Engineering", "Urban and Regional Planning"], "Master's": ["Information Technology"], "PhD": ["Civil Engineering", "Mechanical Engineering"]}},
+   "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college": {"College of Natural and Computational Science": {"Bachelor's": ["Biology", "Biotechnology", "Chemistry", "Geology", "Physics", "Physics Laboratory Technology", "Mathematics", "Sport Science", "Statistics"], "Master's": ["Laser Spectroscopy", "Nuclear Physics", "Physics", "Solid State Physics", "Statistical Physics", "Mathematics"], "PhD": ["Chemistry", "Materials Science and Metallurgical Engineering", "Mathematics"]}}
+  }
+ }
+}

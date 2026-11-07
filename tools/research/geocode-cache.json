@@ -278,5 +278,104 @@
   "code": "ET-SI",
   "type": "village",
   "osm": "https://www.openstreetmap.org/node/1150981107"
+ },
+ "Injibara": {
+  "lat": 10.95923,
+  "lng": 36.93407,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/595140591"
+ },
+ "Debark": {
+  "lat": 13.1585,
+  "lng": 37.89904,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1150957542"
+ },
+ "Chiro": {
+  "lat": 9.08748,
+  "lng": 40.86633,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/316868800"
+ },
+ "Bonga": {
+  "lat": 7.26454,
+  "lng": 36.24605,
+  "region": "South West Ethiopia Peoples",
+  "code": "ET-SW",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/283675711"
+ },
+ "Jinka": {
+  "lat": 5.78618,
+  "lng": 36.56544,
+  "region": "South Ethiopia",
+  "code": "",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/540265111"
+ },
+ "Werabe": null,
+ "Kebri Dehar": {
+  "lat": 6.73895,
+  "lng": 44.28041,
+  "region": "Somali",
+  "code": "ET-SO",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1973381634"
+ },
+ "Fiche": {
+  "lat": 9.77196,
+  "lng": 38.73886,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/2082499580"
+ },
+ "Maychew": {
+  "lat": 12.78412,
+  "lng": 39.53934,
+  "region": "Tigray",
+  "code": "ET-TI",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/706520810"
+ },
+ "Asella": {
+  "lat": 7.95,
+  "lng": 39.13333,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/way/180714249"
+ },
+ "Yabelo": {
+  "lat": 4.89257,
+  "lng": 38.09499,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1920864375"
+ },
+ "Dembi Dolo": null,
+ "Worabe": {
+  "lat": 7.85345,
+  "lng": 38.1873,
+  "region": "Central Ethiopia",
+  "code": "",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/1235476485"
+ },
+ "Dembidolo": null,
+ "Dembi Dollo": {
+  "lat": 8.53527,
+  "lng": 34.80034,
+  "region": "Oromia",
+  "code": "ET-OR",
+  "type": "city",
+  "osm": "https://www.openstreetmap.org/node/1150899366"
  }
 }
