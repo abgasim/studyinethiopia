@@ -133,7 +133,39 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298296178"
-   }
+   },
+   "founded": 2011,
+   "summary": "Adigrat University is a public university in Tigray established in 2011. It has six colleges, the Belese Institute and a School of Law, offering undergraduate and postgraduate programmes in regular, extension and summer modes.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Medicine and Health Sciences",
+    "College of Agriculture and Environmental Sciences",
+    "College of Business and Economics",
+    "College of Natural and Computational Sciences",
+    "College of Social Sciences and Humanities",
+    "Belese Institute",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Adigrat University website",
+     "url": "https://www.adu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "About us",
+     "url": "https://adu.edu.et/about-us/",
+     "kind": "official"
+    },
+    {
+     "label": "Colleges",
+     "url": "https://adu.edu.et/academics/colleges/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Undergraduate programmes are listed from the college pages, which name departments rather than exact degree titles; postgraduate programmes are not named on the site.",
+   "checked": "2026-11-07"
   },
   {
    "id": "admas-university-college",
@@ -178,7 +210,33 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298296175"
-   }
+   },
+   "summary": "Aksum University in Aksum, Tigray, has six colleges and two institutes, including the Aksum Institute of Technology, officially launched in 2019, and the Institute of Archaeology and Tourism.",
+   "colleges": [
+    "College of Health Science",
+    "College of Natural and Computational Science",
+    "College of Business and Economics",
+    "College of Social Science and Languages",
+    "College of Behavioral Science and Education",
+    "College of Agriculture",
+    "Aksum Institute of Technology",
+    "Institute of Archaeology and Tourism"
+   ],
+   "sources": [
+    {
+     "label": "Aksum University website",
+     "url": "https://aku.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Programmes offered",
+     "url": "https://aku.edu.et/program-offered/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "Aksum University's programme page lists subject areas without saying whether they are Bachelor's or Master's programmes, so they are not listed here yet.",
+   "checked": "2026-11-07"
   },
   {
    "id": "alkan-health-science-college",
@@ -272,7 +330,33 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/321761901"
-   }
+   },
+   "founded": 2011,
+   "summary": "Assosa University is a third-generation public university in Assosa, the capital of Benishangul-Gumuz Regional State, established in May 2011 by Council of Ministers decree 215/2011. It has seven colleges and a School of Law offering Bachelor's and Master's programmes.",
+   "colleges": [
+    "College of Engineering",
+    "College of Business and Economics",
+    "College of Health Science",
+    "College of Agriculture and Natural Resources",
+    "College of Social Science and Humanities",
+    "College of Natural and Computational Sciences",
+    "College of Computing and Informatics",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Assosa University website",
+     "url": "http://asu.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Brief history",
+     "url": "https://asu.edu.et/brief-history-of-assosa-university/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "checked": "2026-11-07"
   },
   {
    "id": "atlas-health-science-college",
@@ -577,7 +661,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/relation/13422225"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (ddu.edu.et) has an expired security certificate, so programmes are not listed yet."
   },
   {
    "id": "dynamic-international-university-college",
@@ -627,7 +713,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/27565076"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (ecsu.edu.et) had a security error during research, so programmes are not listed yet."
   },
   {
    "id": "ethiopian-federal-police-college",
@@ -1199,10 +1287,10 @@ window.SIE_DATA = {
   },
   {
    "id": "kotebe-metropolitan-university",
-   "name": "Kotebe Metropolitan University",
-   "abbr": "KMU",
+   "name": "Kotebe University of Education",
+   "abbr": "KUE",
    "type": "public",
-   "website": "https://www.kmu.edu.et",
+   "website": "https://kue.edu.et/",
    "about": [
     "Kotebe Metropolitan University (KMU), the former Kotebe College of Teacher Education, was set up within the Haile Selassie I University (HSIU) in 1959 under the name College. In 1969, the College left HSIU and went to the present Addis Ababa technical and Vocational College where it came to be known as Teacher Training College. Later, the name was changed to Addis Ababa College of Teacher Education. It was in 1976 that the College transferred to the present site and got its name, Kotebe College of Teacher Education.",
     "Upon the approval of the Commission of Higher Education, the college launched a degree program in six areas of study: English Language and Literature, Ethiopian Languages and Literature, Geography, History, Health and Physical Education, and Mathematics in 1989.",
@@ -1223,7 +1311,30 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/27565076"
-   }
+   },
+   "summary": "Kotebe University of Education, formerly Kotebe Metropolitan University, traces its roots to a college of education established within Haile Selassie I University in 1959. It focuses on teacher education, with six colleges offering Bachelor's (many as double majors), Master's and PhD programmes.",
+   "colleges": [
+    "College of Business, Technology and Vocational Education",
+    "College of Educational Sciences",
+    "College of Language Education",
+    "College of Science and Mathematics Education",
+    "College of Social Science Education",
+    "College of Sport, Health and Wellbeing Education"
+   ],
+   "sources": [
+    {
+     "label": "Kotebe University of Education website",
+     "url": "https://kue.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Background",
+     "url": "https://www.kue.edu.et/background-2/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "checked": "2026-11-07"
   },
   {
    "id": "kunuz-college",
@@ -1263,7 +1374,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/1800190312"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (mwu.edu.et) showed no readable content during research, so programmes are not listed yet."
   },
   {
    "id": "maichew-technical-college",
@@ -1535,7 +1648,9 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/318126326"
-   }
+   },
+   "coverage": "none",
+   "coverageNote": "The university website (osu.edu.et) redirected to an unrelated page during research, so programmes are not listed yet."
   },
   {
    "id": "pesc-information-systems-college",
@@ -1592,7 +1707,51 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/1235451313"
-   }
+   },
+   "founded": 2006,
+   "summary": "Samara University is a public university in Samara, Afar Regional State, established in 2006 according to its historical background page. It has colleges and schools across agriculture, health, engineering, business, the social sciences and languages, and publishes separate undergraduate and graduate programme lists.",
+   "colleges": [
+    "College of Social Science and Humanities",
+    "College of Dryland Agriculture",
+    "College of Natural and Computational Sciences",
+    "College of Medicine and Health Sciences",
+    "College of Business and Economics",
+    "College of Veterinary Medicine and Animal Sciences",
+    "College of Engineering and Technology",
+    "College of Languages and Communication",
+    "School of Law and Governance",
+    "School of Tourism and Hospitality Management",
+    "School of Earth Science"
+   ],
+   "stats": {
+    "masters": 23,
+    "source": "https://su.edu.et/about-su/",
+    "asOf": "2023/24"
+   },
+   "sources": [
+    {
+     "label": "Samara University website",
+     "url": "https://su.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Historical background",
+     "url": "https://su.edu.et/historical-background/",
+     "kind": "official"
+    },
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://su.edu.et/undergraduate-program/",
+     "kind": "official"
+    },
+    {
+     "label": "Graduate programmes",
+     "url": "https://su.edu.et/graduate-programs/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "most",
+   "checked": "2026-11-07"
   },
   {
    "id": "selam-nursing-college",
@@ -1843,7 +2002,45 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/298296163"
-   }
+   },
+   "founded": 2007,
+   "summary": "Wollega University is a public university established in 2007, about 330 km west of Addis Ababa, with campuses in Nekemte (main), Gimbi and Shambu. It aims to become one of the top ten universities of applied sciences in Africa by 2042.",
+   "colleges": [
+    "College of Education and Behavioral Sciences",
+    "College of Engineering and Technology",
+    "College of Business and Economics",
+    "College of Natural and Computational Science",
+    "Institute of Language Studies and Journalism",
+    "Institute of Health Sciences",
+    "School of Veterinary Medicine",
+    "School of Medicine",
+    "School of Law",
+    "School of Nursing and Midwifery",
+    "School of Graduate Studies",
+    "Faculty of Agriculture",
+    "Faculty of Technology",
+    "Faculty of Social Sciences and Humanities"
+   ],
+   "sources": [
+    {
+     "label": "Wollega University website",
+     "url": "https://www.wollegauniversity.edu.et/",
+     "kind": "official"
+    },
+    {
+     "label": "Undergraduate programmes",
+     "url": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs",
+     "kind": "official"
+    },
+    {
+     "label": "Graduate programmes",
+     "url": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs",
+     "kind": "official"
+    }
+   ],
+   "coverage": "partial",
+   "coverageNote": "Undergraduate and Master's programmes are listed from the university's programme pages; PhD programmes are not published there.",
+   "checked": "2026-11-07"
   },
   {
    "id": "wollo-university",
@@ -2736,7 +2933,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Geo-Information Sciences",
    "college": "College of Social Sciences and Humanities",
-   "field": "Computing, Data & IT",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.haramaya.edu.et/admissions/programs/regular-programs/"
   },
   {
@@ -5872,7 +6069,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Geo-information Science",
    "college": "Faculty of Social Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Social Sciences & Humanities",
    "source": "https://bdu.edu.et/registrar/node/154"
   },
   {
@@ -7568,7 +7765,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "Physics (Condensed Matter Physics, Computational)",
    "college": "College of Natural and Computational Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Natural Sciences",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -8544,7 +8741,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "GIS and Remote Sensing",
    "college": "College of Social Sciences and Languages",
-   "field": "Languages & Communication",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -8800,7 +8997,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Geoinformatics",
    "college": "Institute of Geoinformation and Earth Observation Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -8808,7 +9005,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Geo-information Science for Natural Resource Management",
    "college": "Institute of Geoinformation and Earth Observation Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.mu.edu.et/index.php/postgraduate"
   },
   {
@@ -13672,7 +13869,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Geoinformatics Engineering",
    "college": "College of Civil Engineering and Architecture",
-   "field": "Computing, Data & IT",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
   },
   {
@@ -14144,7 +14341,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "GIS and Remote Sensing",
    "college": "College of Agriculture and Natural Resource Sciences",
-   "field": "Agriculture & Environment",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.dbu.edu.et/colleges/canr"
   },
   {
@@ -14200,7 +14397,7 @@ window.SIE_DATA = {
    "level": "PhD",
    "name": "GIS and Remote Sensing",
    "college": "College of Agriculture and Natural Resource Sciences",
-   "field": "Agriculture & Environment",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.dbu.edu.et/colleges/canr"
   },
   {
@@ -15616,7 +15813,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Geographic Information Systems",
    "college": "College of Social Sciences and Humanities",
-   "field": "Computing, Data & IT",
+   "field": "Social Sciences & Humanities",
    "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
   },
   {
@@ -16202,6 +16399,2406 @@ window.SIE_DATA = {
    "college": "Institute of Land Administration",
    "field": "Law & Governance",
    "source": "http://ila.dmu.edu.et/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Dryland Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Water Resource and Irrigation Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Family Health (Post Basic)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Health Informatics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Biomedical Sciences",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Arabic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Qafar Af and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Professional Education",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Archaeology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Veterinary Science",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Veterinary Medicine and Animal Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Earth Science",
+   "college": "School of Earth Science",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "School of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "School of Tourism and Hospitality Management",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/undergraduate-program/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Public Health (General Public Health)",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Public Health (Reproductive Health)",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Public Health (Public Health Nutrition)",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Project Planning and Management",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Disaster Risk Management and Pastoral Development",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Environmental Planning and Management",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Animal Production and Pastoral Development",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Natural Resource Management",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "School of Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "School of Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Road and Transport Engineering",
+   "college": "School of Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Computer Networking",
+   "college": "School of Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Hydrogeology",
+   "college": "School of Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Mining Geology",
+   "college": "School of Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Veterinary Public Health",
+   "college": "School of Graduate Studies",
+   "field": "Veterinary Science",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Veterinary Epidemiology and Economics",
+   "college": "School of Graduate Studies",
+   "field": "Veterinary Science",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Plant Ecology and Conservation",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Mathematics (Differential Equations)",
+   "college": "School of Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Laser Spectroscopy",
+   "college": "School of Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Quantum Field Theory",
+   "college": "School of Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "School of Graduate Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Sociology",
+   "college": "School of Graduate Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Applied Linguistics and Communication (Qafar Af)",
+   "college": "School of Graduate Studies",
+   "field": "Languages & Communication",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Applied Linguistics (Teaching Qafar Af)",
+   "college": "School of Graduate Studies",
+   "field": "Education",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "samara-university",
+   "level": "Master's",
+   "name": "Educational Management and Pastoralist Education",
+   "college": "School of Graduate Studies",
+   "field": "Education",
+   "source": "https://su.edu.et/graduate-programs/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Water Resource and Irrigation Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Surveying Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Communication Engineering and Networking",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://asu.edu.et/engineering-college/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Public Administration",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://asu.edu.et/business-and-economics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Comprehensive Nursing",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Public Health (General Public Health)",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Public Health (Reproductive Health)",
+   "college": "College of Health Science",
+   "field": "Health & Medicine",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Health Informatics",
+   "college": "College of Health Science",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/health-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Soil and Watershed Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Environmental Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Veterinary Science",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Plant Protection",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Animal Genetics and Breeding",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Animal Health",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Veterinary Science",
+   "source": "https://asu.edu.et/agriculturenr/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Benishangul Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Gumuz Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Borna Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Geographic Information Systems",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (Sustainable Natural Resource and Environmental Management)",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (Urban and Regional Development Planning)",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://asu.edu.et/social-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Zoological Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Football Coaching",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://asu.edu.et/natural-science/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/computing-and-informatics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/computing-and-informatics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Information Science",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/computing-and-informatics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://asu.edu.et/computing-and-informatics/"
+  },
+  {
+   "institution": "assosa-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://asu.edu.et/asu_website/school-of-law"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance Education and Economics Education (Double Major)",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance Education and Marketing Management Education (Double Major)",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Environmental Education and Community Health Education (Double Major)",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management Education and Economics Education (Double Major)",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Science Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Building Construction Technology Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Manufacturing Technology Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Career and Technical Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Performing and Visual Arts Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Environmental Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Educational Finance",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "Environmental Education",
+   "college": "College of Business, Technology and Vocational Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-business-technology-vocational-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Psychology and English Language Education (Double Major)",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Sign Language Interpretation and Speech Therapy (Double Major)",
+   "college": "College of Educational Sciences",
+   "field": "Languages & Communication",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education and English Language Education (Double Major)",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Early Childhood Development Education and Social Work Education (Double Major)",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Educational Psychology",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Counseling Psychology",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Curriculum and Instructional Technology",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Curriculum Materials Design and Development",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Early Childhood Development and Education",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Educational Supervision and Quality Assurance",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "Educational Leadership and Policy Studies",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "Curriculum and Instruction",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "Early Childhood Development Education",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "Developmental Psychology and Education",
+   "college": "College of Educational Sciences",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-educational-sciences/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language Education and English Language Education (Double Major)",
+   "college": "College of Language Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Afaan Oromo Language Education and English Language Education (Double Major)",
+   "college": "College of Language Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Journalism, Communication and Media Studies and English Language Education (Double Major)",
+   "college": "College of Language Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Teaching Amharic",
+   "college": "College of Language Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Oromo Language and Literature",
+   "college": "College of Language Education",
+   "field": "Languages & Communication",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Ethiopian Literature and Folklore",
+   "college": "College of Language Education",
+   "field": "Languages & Communication",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "English Language Teaching",
+   "college": "College of Language Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-oflanguages-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Biology Education and Chemistry Education (Double Major)",
+   "college": "College of Science and Mathematics Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Physics Education and Information Technology Education (Double Major)",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Mathematics Education and Information Technology Education (Double Major)",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Information Technology Education and Computer Maintenance and Networking (Double Major)",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Web Design and Computer Graphics Education",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "General Science Education",
+   "college": "College of Science and Mathematics Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Information Technology Education",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Ecosystem and Biodiversity Conservation",
+   "college": "College of Science and Mathematics Education",
+   "field": "Agriculture & Environment",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Statistical Sciences",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Data Science and Artificial Intelligence",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "PhD",
+   "name": "Statistics",
+   "college": "College of Science and Mathematics Education",
+   "field": "Computing, Data & IT",
+   "source": "https://www.kue.edu.et/college-of-science-mathematics-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Citizenship Education and History Education (Double Major)",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Moral Education and Special Needs and Inclusive Education (Double Major)",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Geography Education and Economics Education (Double Major)",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "History Education and Educational Leadership and Management (Double Major)",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Social Work Education and Social Anthropology Education (Double Major)",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Social Studies Education",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Geo-information Science and Earth Observation",
+   "college": "College of Social Science Education",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Citizenship Education",
+   "college": "College of Social Science Education",
+   "field": "Education",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Social Work",
+   "college": "College of Social Science Education",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.kue.edu.et/college-of-social-science-education/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Physical Education and Biology Education (Double Major)",
+   "college": "College of Sport, Health and Wellbeing Education",
+   "field": "Sport Science",
+   "source": "https://www.kue.edu.et/institute-of-hpe-sport/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Bachelor's",
+   "name": "Community Health Services and Physical Education (Double Major)",
+   "college": "College of Sport, Health and Wellbeing Education",
+   "field": "Sport Science",
+   "source": "https://www.kue.edu.et/institute-of-hpe-sport/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Physical Education",
+   "college": "College of Sport, Health and Wellbeing Education",
+   "field": "Sport Science",
+   "source": "https://www.kue.edu.et/institute-of-hpe-sport/"
+  },
+  {
+   "institution": "kotebe-metropolitan-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "College of Sport, Health and Wellbeing Education",
+   "field": "Sport Science",
+   "source": "https://www.kue.edu.et/institute-of-hpe-sport/"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Urban Planning",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Science",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Geographic Information Systems",
+   "college": "College of Natural and Computational Science",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Science",
+   "field": "Natural Sciences",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Environmental Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Geo-Environmental Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Science",
+   "field": "Sport Science",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine (DVM)",
+   "college": "College of Health and Medical Science",
+   "field": "Veterinary Science",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Laboratory Technology",
+   "college": "College of Health and Medical Science",
+   "field": "Veterinary Science",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Animal Health Science",
+   "college": "College of Health and Medical Science",
+   "field": "Veterinary Science",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Health Officer",
+   "college": "College of Health and Medical Science",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Health and Medical Science",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Health and Medical Science",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Health and Medical Science",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Health and Medical Science",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Resource Economics and Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Soil Resource and Watershed Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Water Resource and Irrigation Management",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Biosystems Engineering",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Engineering & Technology",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Soil and Water Engineering",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Engineering & Technology",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Sugar Technology",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Engineering & Technology",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Food Science and Nutrition",
+   "college": "College of Agriculture and Natural Resources",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "College of Social Science and Education",
+   "field": "Law & Governance",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "College of Social Science and Education",
+   "field": "Education",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "English Language",
+   "college": "College of Social Science and Education",
+   "field": "Languages & Communication",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language",
+   "college": "College of Social Science and Education",
+   "field": "Languages & Communication",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Oromo Language and Literature",
+   "college": "College of Social Science and Education",
+   "field": "Languages & Communication",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Oromo Arts and Folklore",
+   "college": "College of Social Science and Education",
+   "field": "Languages & Communication",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language",
+   "college": "College of Social Science and Education",
+   "field": "Education",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Oromo Language and Literature",
+   "college": "College of Social Science and Education",
+   "field": "Languages & Communication",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Diploma",
+   "name": "Secondary School Teaching (PGDT)",
+   "college": "College of Social Science and Education",
+   "field": "Education",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Diploma",
+   "name": "School Leadership",
+   "college": "College of Social Science and Education",
+   "field": "Education",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Education",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Sociology and Social Anthropology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "History",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Accounting",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Bachelor's",
+   "name": "Banking and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Public Administration",
+   "college": "School of Graduate Studies",
+   "field": "Law & Governance",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Banking and Finance (MBA)",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Nutrition and Food Science",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Sugarcane Agronomy",
+   "college": "School of Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "School of Graduate Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Public Health (General)",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Public Health (Reproductive Health)",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Public Health (Microbiology)",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "School of Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Accounting",
+   "college": "School of Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "wollega-university",
+   "level": "Master's",
+   "name": "Medical Anthropology",
+   "college": "School of Graduate Studies",
+   "field": "Health & Medicine",
+   "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Urban Planning and Design",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://adu.edu.et/academics/colleges/college-of-business-and-economics/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://adu.edu.et/academics/colleges/college-of-business-and-economics/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://adu.edu.et/academics/colleges/college-of-business-and-economics/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://adu.edu.et/academics/colleges/college-of-business-and-economics/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://adu.edu.et/academics/colleges/college-of-business-and-economics/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://adu.edu.et/academics/colleges/college-of-business-and-economics/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://adu.edu.et/academics/colleges/college-of-natural-and-computational-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://adu.edu.et/academics/colleges/college-of-natural-and-computational-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://adu.edu.et/academics/colleges/college-of-natural-and-computational-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://adu.edu.et/academics/colleges/college-of-natural-and-computational-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://adu.edu.et/academics/colleges/college-of-natural-and-computational-sciences/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "History",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Philosophy",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Political Science",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/"
+  },
+  {
+   "institution": "adigrat-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/"
   }
  ],
  "studyAbroad": [

@@ -1,0 +1,151 @@
+{
+ "samara-university": {
+  "founded": 2006,
+  "summary": "Samara University is a public university in Samara, Afar Regional State, established in 2006 according to its historical background page. It has colleges and schools across agriculture, health, engineering, business, the social sciences and languages, and publishes separate undergraduate and graduate programme lists.",
+  "colleges": ["College of Social Science and Humanities", "College of Dryland Agriculture", "College of Natural and Computational Sciences", "College of Medicine and Health Sciences", "College of Business and Economics", "College of Veterinary Medicine and Animal Sciences", "College of Engineering and Technology", "College of Languages and Communication", "School of Law and Governance", "School of Tourism and Hospitality Management", "School of Earth Science"],
+  "stats": {"masters": 23, "source": "https://su.edu.et/about-su/", "asOf": "2023/24"},
+  "sources": [
+   {"label": "Samara University website", "url": "https://su.edu.et/", "kind": "official"},
+   {"label": "Historical background", "url": "https://su.edu.et/historical-background/", "kind": "official"},
+   {"label": "Undergraduate programmes", "url": "https://su.edu.et/undergraduate-program/", "kind": "official"},
+   {"label": "Graduate programmes", "url": "https://su.edu.et/graduate-programs/", "kind": "official"}
+  ],
+  "coverage": "most",
+  "programmes": {
+   "https://su.edu.et/undergraduate-program/": {
+    "College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Economics", "Management", "Marketing Management", "Logistics and Supply Chain Management"]},
+    "College of Dryland Agriculture": {"Bachelor's": ["Agribusiness and Value Chain Management", "Horticulture", "Plant Science", "Agricultural Economics", "Natural Resource Management", "Rural Development and Agricultural Extension"]},
+    "College of Engineering and Technology": {"Bachelor's": ["Civil Engineering", "Chemical Engineering", "Computer Science", "Information Technology", "Mechanical Engineering", "Electrical and Computer Engineering", "Construction Technology and Management", "Water Resource and Irrigation Engineering"]},
+    "College of Medicine and Health Sciences": {"Bachelor's": ["Family Health (Post Basic)", "Health Informatics", "Midwifery", "Nursing", "Public Health", "Biomedical Sciences", "Medicine"]},
+    "College of Natural and Computational Sciences": {"Bachelor's": ["Statistics", "Biology", "Chemistry", "Physics", "Mathematics", "Sport Science"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["Sociology", "Geography and Environmental Studies", "English Language and Literature", "Arabic Language and Literature", "Anthropology", "Amharic Language and Literature", "Qafar Af and Literature", "Professional Education", "History and Heritage Management", "Journalism and Communication", "Archaeology"]},
+    "College of Veterinary Medicine and Animal Sciences": {"Bachelor's": ["Veterinary Medicine", "Animal Science"]},
+    "School of Earth Science": {"Bachelor's": ["Earth Science"]},
+    "School of Law and Governance": {"Bachelor's": ["Law", "Civics and Ethical Studies"]},
+    "School of Tourism and Hospitality Management": {"Bachelor's": ["Tourism and Hotel Management"]}
+   },
+   "https://su.edu.et/graduate-programs/": {
+    "School of Graduate Studies": {"Master's": ["Public Health (General Public Health)", "Public Health (Reproductive Health)", "Public Health (Public Health Nutrition)", "Business Administration", "Project Planning and Management", "Development Economics", "Accounting and Finance", "Marketing Management", "Disaster Risk Management and Pastoral Development", "Environmental Planning and Management", "Agronomy", "Animal Production and Pastoral Development", "Natural Resource Management", "Computer Science", "Structural Engineering", "Road and Transport Engineering", "Computer Networking", "Hydrogeology", "Mining Geology", "Veterinary Public Health", "Veterinary Epidemiology and Economics", "Plant Ecology and Conservation", "Mathematics (Differential Equations)", "Laser Spectroscopy", "Quantum Field Theory", "Political Science", "Sociology", "Applied Linguistics and Communication (Qafar Af)", "Applied Linguistics (Teaching Qafar Af)", "Educational Management and Pastoralist Education"]}
+   }
+  }
+ },
+
+ "assosa-university": {
+  "founded": 2011,
+  "summary": "Assosa University is a third-generation public university in Assosa, the capital of Benishangul-Gumuz Regional State, established in May 2011 by Council of Ministers decree 215/2011. It has seven colleges and a School of Law offering Bachelor's and Master's programmes.",
+  "colleges": ["College of Engineering", "College of Business and Economics", "College of Health Science", "College of Agriculture and Natural Resources", "College of Social Science and Humanities", "College of Natural and Computational Sciences", "College of Computing and Informatics", "School of Law"],
+  "sources": [
+   {"label": "Assosa University website", "url": "http://asu.edu.et/", "kind": "official"},
+   {"label": "Brief history", "url": "https://asu.edu.et/brief-history-of-assosa-university/", "kind": "official"}
+  ],
+  "coverage": "most",
+  "programmes": {
+   "https://asu.edu.et/engineering-college/": {"College of Engineering": {"Bachelor's": ["Civil Engineering", "Electrical and Computer Engineering", "Mechanical Engineering", "Construction Technology and Management", "Water Resource and Irrigation Engineering", "Surveying Engineering"], "Master's": ["Hydraulic Engineering", "Communication Engineering and Networking"]}},
+   "https://asu.edu.et/business-and-economics/": {"College of Business and Economics": {"Bachelor's": ["Management", "Public Administration and Development Management", "Accounting and Finance", "Economics", "Tourism and Hotel Management"], "Master's": ["Business Administration", "Project Management", "Accounting and Finance", "Public Administration", "Development Economics"]}},
+   "https://asu.edu.et/health-science/": {"College of Health Science": {"Bachelor's": ["Public Health", "Comprehensive Nursing", "Midwifery", "Pharmacy", "Medical Laboratory Science"], "Master's": ["Public Health (General Public Health)", "Public Health (Reproductive Health)", "Health Informatics"]}},
+   "https://asu.edu.et/agriculturenr/": {"College of Agriculture and Natural Resources": {"Bachelor's": ["Agricultural Economics", "Animal Science", "Plant Science", "Natural Resource Management", "Soil and Watershed Management", "Environmental Science", "Veterinary Science"], "Master's": ["Animal Production", "Plant Protection", "Agronomy", "Soil Science", "Animal Genetics and Breeding", "Animal Health"]}},
+   "https://asu.edu.et/social-science/": {"College of Social Science and Humanities": {"Bachelor's": ["Geography and Environmental Studies", "Civics and Ethical Studies", "English Language and Literature", "Benishangul Language and Literature", "Gumuz Language and Literature", "Borna Language and Literature", "Psychology", "Sociology", "Journalism and Communication", "Geographic Information Systems"], "Master's": ["Teaching English as a Foreign Language", "Geography and Environmental Studies (Sustainable Natural Resource and Environmental Management)", "Geography and Environmental Studies (Urban and Regional Development Planning)"]}},
+   "https://asu.edu.et/natural-science/": {"College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Chemistry", "Geology", "Mathematics", "Physics", "Sport Science", "Statistics"], "Master's": ["Zoological Science", "Football Coaching", "Environmental Science"]}},
+   "https://asu.edu.et/computing-and-informatics/": {"College of Computing and Informatics": {"Bachelor's": ["Computer Science", "Information Technology", "Information Science"], "Master's": ["Information Technology"]}},
+   "https://asu.edu.et/asu_website/school-of-law": {"School of Law": {"Bachelor's": ["Law"]}}
+  }
+ },
+
+ "kotebe-metropolitan-university": {
+  "name": "Kotebe University of Education",
+  "abbr": "KUE",
+  "website": "https://kue.edu.et/",
+  "summary": "Kotebe University of Education, formerly Kotebe Metropolitan University, traces its roots to a college of education established within Haile Selassie I University in 1959. It focuses on teacher education, with six colleges offering Bachelor's (many as double majors), Master's and PhD programmes.",
+  "colleges": ["College of Business, Technology and Vocational Education", "College of Educational Sciences", "College of Language Education", "College of Science and Mathematics Education", "College of Social Science Education", "College of Sport, Health and Wellbeing Education"],
+  "sources": [
+   {"label": "Kotebe University of Education website", "url": "https://kue.edu.et/", "kind": "official"},
+   {"label": "Background", "url": "https://www.kue.edu.et/background-2/", "kind": "official"}
+  ],
+  "coverage": "most",
+  "programmes": {
+   "https://www.kue.edu.et/college-of-business-technology-vocational-education/": {"College of Business, Technology and Vocational Education": {
+     "Bachelor's": ["Accounting and Finance Education and Economics Education (Double Major)", "Accounting and Finance Education and Marketing Management Education (Double Major)", "Environmental Education and Community Health Education (Double Major)", "Marketing Management Education and Economics Education (Double Major)", "Agricultural Science Education", "Building Construction Technology Education", "Manufacturing Technology Education", "Career and Technical Education", "Performing and Visual Arts Education"],
+     "Master's": ["Environmental Education", "Educational Finance"], "PhD": ["Environmental Education"]}},
+   "https://www.kue.edu.et/college-of-educational-sciences/": {"College of Educational Sciences": {
+     "Bachelor's": ["Psychology and English Language Education (Double Major)", "Sign Language Interpretation and Speech Therapy (Double Major)", "Special Needs and Inclusive Education and English Language Education (Double Major)", "Early Childhood Development Education and Social Work Education (Double Major)"],
+     "Master's": ["Educational Psychology", "Counseling Psychology", "Curriculum and Instructional Technology", "Curriculum Materials Design and Development", "Special Needs and Inclusive Education", "Early Childhood Development and Education", "Educational Supervision and Quality Assurance"],
+     "PhD": ["Educational Leadership and Policy Studies", "Curriculum and Instruction", "Early Childhood Development Education", "Developmental Psychology and Education"]}},
+   "https://www.kue.edu.et/college-oflanguages-education/": {"College of Language Education": {
+     "Bachelor's": ["Amharic Language Education and English Language Education (Double Major)", "Afaan Oromo Language Education and English Language Education (Double Major)", "Journalism, Communication and Media Studies and English Language Education (Double Major)"],
+     "Master's": ["Teaching Amharic", "Oromo Language and Literature", "Ethiopian Literature and Folklore"], "PhD": ["English Language Teaching"]}},
+   "https://www.kue.edu.et/college-of-science-mathematics-education/": {"College of Science and Mathematics Education": {
+     "Bachelor's": ["Biology Education and Chemistry Education (Double Major)", "Physics Education and Information Technology Education (Double Major)", "Mathematics Education and Information Technology Education (Double Major)", "Information Technology Education and Computer Maintenance and Networking (Double Major)", "Web Design and Computer Graphics Education", "General Science Education"],
+     "Master's": ["Information Technology Education", "Ecosystem and Biodiversity Conservation", "Statistical Sciences", "Computer Science", "Data Science and Artificial Intelligence"], "PhD": ["Statistics"]}},
+   "https://www.kue.edu.et/college-of-social-science-education/": {"College of Social Science Education": {
+     "Bachelor's": ["Citizenship Education and History Education (Double Major)", "Moral Education and Special Needs and Inclusive Education (Double Major)", "Geography Education and Economics Education (Double Major)", "History Education and Educational Leadership and Management (Double Major)", "Social Work Education and Social Anthropology Education (Double Major)", "Social Studies Education"],
+     "Master's": ["Geo-information Science and Earth Observation", "Citizenship Education", "Social Work"]}},
+   "https://www.kue.edu.et/institute-of-hpe-sport/": {"College of Sport, Health and Wellbeing Education": {
+     "Bachelor's": ["Physical Education and Biology Education (Double Major)", "Community Health Services and Physical Education (Double Major)"],
+     "Master's": ["Physical Education", "Sport Management"]}}
+  }
+ },
+
+ "wollega-university": {
+  "founded": 2007,
+  "summary": "Wollega University is a public university established in 2007, about 330 km west of Addis Ababa, with campuses in Nekemte (main), Gimbi and Shambu. It aims to become one of the top ten universities of applied sciences in Africa by 2042.",
+  "colleges": ["College of Education and Behavioral Sciences", "College of Engineering and Technology", "College of Business and Economics", "College of Natural and Computational Science", "Institute of Language Studies and Journalism", "Institute of Health Sciences", "School of Veterinary Medicine", "School of Medicine", "School of Law", "School of Nursing and Midwifery", "School of Graduate Studies", "Faculty of Agriculture", "Faculty of Technology", "Faculty of Social Sciences and Humanities"],
+  "sources": [
+   {"label": "Wollega University website", "url": "https://www.wollegauniversity.edu.et/", "kind": "official"},
+   {"label": "Undergraduate programmes", "url": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs", "kind": "official"},
+   {"label": "Graduate programmes", "url": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Undergraduate and Master's programmes are listed from the university's programme pages; PhD programmes are not published there.",
+  "programmes": {
+   "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs": {
+    "College of Engineering and Technology": {"Bachelor's": ["Architecture", "Urban Planning", "Computer Science", "Information Technology"]},
+    "College of Natural and Computational Science": {"Bachelor's": ["Biology", "Chemistry", "Statistics", "Mathematics", "Geographic Information Systems", "Geology", "Environmental Science", "Geo-Environmental Science", "Sport Science", "Sport Management"]},
+    "College of Health and Medical Science": {"Bachelor's": ["Veterinary Medicine (DVM)", "Veterinary Laboratory Technology", "Animal Health Science", "Health Officer", "Medicine", "Pharmacy", "Nursing", "Midwifery"]},
+    "College of Agriculture and Natural Resources": {"Bachelor's": ["Agricultural Resource Economics and Management", "Agribusiness and Value Chain Management", "Natural Resource Management", "Soil Resource and Watershed Management", "Water Resource and Irrigation Management", "Biosystems Engineering", "Soil and Water Engineering", "Sugar Technology", "Food Science and Nutrition"]},
+    "College of Social Science and Education": {"Bachelor's": ["Law", "Educational Planning and Management", "English Language", "Amharic Language", "Oromo Language and Literature", "Oromo Arts and Folklore"], "Master's": ["Teaching English as a Foreign Language", "Oromo Language and Literature"], "Diploma": ["Secondary School Teaching (PGDT)", "School Leadership"]},
+    "College of Social Science and Humanities": {"Bachelor's": ["Political Science and International Relations", "Civics and Ethical Education", "Geography and Environmental Studies", "Sociology and Social Anthropology", "History"]},
+    "College of Business and Economics": {"Bachelor's": ["Accounting", "Banking and Finance"]}
+   },
+   "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs": {
+    "School of Graduate Studies": {"Master's": ["Business Administration (MBA)", "Public Administration", "Agricultural Economics", "Development Economics", "Banking and Finance (MBA)", "Oromo Language and Literature", "Teaching English as a Foreign Language", "Plant Breeding", "Nutrition and Food Science", "Sugarcane Agronomy", "Political Science", "Public Health (General)", "Public Health (Reproductive Health)", "Public Health (Microbiology)", "Physics", "Accounting", "Medical Anthropology"]}
+   }
+  }
+ },
+
+ "adigrat-university": {
+  "founded": 2011,
+  "summary": "Adigrat University is a public university in Tigray established in 2011. It has six colleges, the Belese Institute and a School of Law, offering undergraduate and postgraduate programmes in regular, extension and summer modes.",
+  "colleges": ["College of Engineering and Technology", "College of Medicine and Health Sciences", "College of Agriculture and Environmental Sciences", "College of Business and Economics", "College of Natural and Computational Sciences", "College of Social Sciences and Humanities", "Belese Institute", "School of Law"],
+  "sources": [
+   {"label": "Adigrat University website", "url": "https://www.adu.edu.et/", "kind": "official"},
+   {"label": "About us", "url": "https://adu.edu.et/about-us/", "kind": "official"},
+   {"label": "Colleges", "url": "https://adu.edu.et/academics/colleges/", "kind": "official"}
+  ],
+  "coverage": "partial",
+  "coverageNote": "Undergraduate programmes are listed from the college pages, which name departments rather than exact degree titles; postgraduate programmes are not named on the site.",
+  "programmes": {
+   "https://adu.edu.et/academics/colleges/college-of-engineering-and-technology/": {"College of Engineering and Technology": {"Bachelor's": ["Architecture", "Chemical Engineering", "Civil Engineering", "Computer Science", "Construction Technology and Management", "Electrical and Computer Engineering", "Information Technology", "Mechanical Engineering", "Software Engineering", "Urban Planning and Design"]}},
+   "https://adu.edu.et/academics/colleges/college-of-medicine-and-health-sciences/": {"College of Medicine and Health Sciences": {"Bachelor's": ["Medical Laboratory Science", "Medicine", "Midwifery", "Nursing", "Pharmacy", "Public Health"]}},
+   "https://adu.edu.et/academics/colleges/college-of-business-and-economics/": {"College of Business and Economics": {"Bachelor's": ["Accounting and Finance", "Economics", "Logistics and Supply Chain Management", "Management", "Marketing Management", "Tourism and Hotel Management"]}},
+   "https://adu.edu.et/academics/colleges/college-of-natural-and-computational-sciences/": {"College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Chemistry", "Mathematics", "Physics", "Statistics"]}},
+   "https://adu.edu.et/academics/colleges/college-of-social-sciences-and-humanities/": {"College of Social Sciences and Humanities": {"Bachelor's": ["History", "Philosophy", "Political Science", "Psychology", "Sociology"]}}
+  }
+ },
+
+ "aksum-university": {
+  "summary": "Aksum University in Aksum, Tigray, has six colleges and two institutes, including the Aksum Institute of Technology, officially launched in 2019, and the Institute of Archaeology and Tourism.",
+  "colleges": ["College of Health Science", "College of Natural and Computational Science", "College of Business and Economics", "College of Social Science and Languages", "College of Behavioral Science and Education", "College of Agriculture", "Aksum Institute of Technology", "Institute of Archaeology and Tourism"],
+  "sources": [
+   {"label": "Aksum University website", "url": "https://aku.edu.et/", "kind": "official"},
+   {"label": "Programmes offered", "url": "https://aku.edu.et/program-offered/", "kind": "official"}
+  ],
+  "coverage": "none",
+  "coverageNote": "Aksum University's programme page lists subject areas without saying whether they are Bachelor's or Master's programmes, so they are not listed here yet.",
+  "programmes": {}
+ },
+
+ "madda-walabu-university": {"coverage": "none", "coverageNote": "The university website (mwu.edu.et) showed no readable content during research, so programmes are not listed yet.", "programmes": {}},
+ "oromia-state-university": {"coverage": "none", "coverageNote": "The university website (osu.edu.et) redirected to an unrelated page during research, so programmes are not listed yet.", "programmes": {}},
+ "ethiopian-civil-service-university": {"coverage": "none", "coverageNote": "The university website (ecsu.edu.et) had a security error during research, so programmes are not listed yet.", "programmes": {}},
+ "dire-dawa-university": {"coverage": "none", "coverageNote": "The university website (ddu.edu.et) has an expired security certificate, so programmes are not listed yet.", "programmes": {}}
+}

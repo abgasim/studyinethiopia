@@ -39,7 +39,8 @@ const RULES = [
   [/paleont|paleo-?environ/i, "Natural Sciences"],
   [/honey|\bbee\b|apicult|dairy products/i, "Agriculture & Environment"],
   [/histotechnolog/i, "Health & Medicine"],
-  [/political economy|conflict/i, "Social Sciences & Humanities"],
+  [/political economy|conflict|geo-?informat|geographic information|\bgis\b/i, "Social Sciences & Humanities"],
+  [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter/i, "Natural Sciences"],
   // "computational" in college names (e.g. "College of Natural and Computational Sciences") is not computing
   [/comput(?!ational sci)|software|information (science|system|technolog)|informatics|data scien|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
   [/teach|\beducation|pedagog|curricul|pgdt|pgdhet|pgdsl|\bhdp\b|school (leadership|supervision)|counsel|special needs|inclusive|lifelong|non-formal/i, "Education"],
@@ -93,7 +94,7 @@ for (const file of process.argv.slice(2)) {
     if (!inst) { report.push(`! ${id}: no institution with this id in data.js, skipped`); continue; }
 
     // "name"/"abbr" correct outdated records (e.g. an institution that was renamed); the id never changes
-    for (const k of ["name", "abbr", "category", "city", "region", "founded", "summary", "colleges", "stats", "sources", "coverage", "coverageNote"])
+    for (const k of ["name", "abbr", "website", "category", "city", "region", "founded", "summary", "colleges", "stats", "sources", "coverage", "coverageNote"])
       if (r[k] !== undefined && r[k] !== null && r[k] !== "") inst[k] = r[k];
     // Only stamp "last checked" when something was actually read from a source
     if ((r.sources && r.sources.length) || Object.keys(r.programmes || {}).length) inst.checked = r.checked || TODAY;
