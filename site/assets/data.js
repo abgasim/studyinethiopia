@@ -2880,14 +2880,15 @@ window.SIE_DATA = {
    "region": "Somali",
    "summary": "Kebri Dehar University is a public university in Kebri Dehar, Somali region.",
    "coverage": "none",
-   "coverageNote": "The old website address now redirects elsewhere, and the university's programme list could not be confirmed (November 2026).",
+   "coverageNote": "The university's website (uok.edu.et, where the old kdu.edu.et address now leads) refuses connections from outside Ethiopia (November 2026).",
    "lat": 6.73895,
    "lng": 44.28041,
    "location": {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/1973381634"
-   }
+   },
+   "website": "https://uok.edu.et/"
   },
   {
    "id": "salale-university",
