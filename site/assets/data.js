@@ -1554,8 +1554,8 @@ window.SIE_DATA = {
     "url": "https://www.openstreetmap.org/node/1800190312"
    },
    "coverage": "full",
-   "coverageNote": "Programme names come from the website's page list; the website's content service was down in November 2026, so programme pages may appear empty.",
-   "summary": "Madda Walabu University is a public university in Robe, Bale Zone of Oromia, founded in 1999 E.C. (2006/07) and named after Madda Walabu, a place about 227 km from Robe. It has colleges of agriculture and natural resources, business and economics, computing, education and behavioural studies, engineering, medicine and health sciences, natural and computational sciences, and social sciences and humanities, and a School of Law, offering over 120 bachelor’s, master’s, specialty and PhD programmes.",
+   "coverageNote": "From the university’s official programme catalogue (November 2026). One undergraduate entry listed only as “EDPM” is not included.",
+   "summary": "Madda Walabu University is a public university in Bale Robe, Oromia, founded in 1999 E.C. (2006/07) and named after Madda Walabu, a place about 227 km from Robe. It teaches on three campuses: Bale Robe main campus (engineering, computing, sciences, agriculture, business, education, social sciences and law), Goba campus (medicine and health sciences, including two medical specialties) and Shashemene campus (health and business programmes), with 46 undergraduate, about 40 master’s and 6 PhD programmes.",
    "colleges": [
     "College of Agriculture and Natural Resources",
     "College of Business and Economics",
@@ -1569,13 +1569,13 @@ window.SIE_DATA = {
    ],
    "sources": [
     {
-     "label": "Madda Walabu University website",
-     "url": "https://www.mwu.edu.et/",
+     "label": "All programmes",
+     "url": "https://www.mwu.edu.et/program",
      "kind": "official"
     },
     {
-     "label": "Academic programmes",
-     "url": "https://www.mwu.edu.et/program",
+     "label": "Madda Walabu University website",
+     "url": "https://www.mwu.edu.et/",
      "kind": "official"
     }
    ],
@@ -26548,507 +26548,11 @@ window.SIE_DATA = {
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Applied Linguistics in Teaching Amharic",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-amharic-language-literature/program-pg-ma-in-applied-linguistics-in-teaching-amharic"
-  },
-  {
-   "institution": "madda-walabu-university",
    "level": "Bachelor's",
-   "name": "Amharic Language and Literature",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Languages & Communication",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-amharic-language-literature/program-ug-amharic-language-and-literature"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "History",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-history-heritage-management/program-pg-ma-in-history"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "History and Heritage Management",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-history-heritage-management/program-ug-history-and-heritage-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Civics and Ethical Studies",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Law & Governance",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-civics-ethical-studies/program-ug-civics-and-ethical-education"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Journalism and Communication",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Languages & Communication",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-journalism-communication/program-ug-journalism-and-communication"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Afaan Oromo and Literature",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Languages & Communication",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-afaan-oromo-literature/program-pg-ma-in-afan-oromo-and-literature"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Afaan Oromo and Literature",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Languages & Communication",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-afaan-oromo-literature/program-ug-afan-oromo-and-literature"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "GIS and Land Resource Management",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geographic-information-science/program-pg-msc-in-gis-land-use-planning-and-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Geographic Information Science",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geographic-information-science/program-ug-geographic-information-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "PhD",
-   "name": "Geography and Environmental Studies",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-phd-phd-in-geography-and-environment"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Geography and Environmental Studies",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-pg-ma-in-geography-and-environmental-studies"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Climate Change and Disaster Risk Management",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-pg-msc-in-climate-change-and-disaster-risk-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Urban Planning and Management",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-pg-ma-in-urban-planning-and-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Geography and Environmental Studies",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-ug-geography-and-environmental-studies"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Sociology",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-sociology/program-ug-sociology"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "PhD",
-   "name": "English Language Teaching",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-phd-phd-in-english-language-teaching"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "General Linguistics",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Languages & Communication",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-pg-ma-in-general-linguistics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Teaching English as a Foreign Language (TEFL)",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-pg-ma-in-tefl"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "English Language and Literature",
-   "college": "College of Social Sciences and Humanities",
-   "field": "Languages & Communication",
-   "source": "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-ug-english-language-and-literature"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Specialty",
-   "name": "General Surgery",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program-pg-specialty-in-surgery"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Law",
-   "college": "School of Law",
-   "field": "Law & Governance",
-   "source": "https://www.mwu.edu.et/program/academics-structure/school-law/program-ug-law"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Plant Pathology",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-plant-science/program-pg-msc-in-plant-pathology"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Plant Science",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-plant-science/program-ug-plant-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Agronomy",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-plant-science/program-pg-msc-in-agronomy"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Physics (Solid State Physics)",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-physics/program-pg-msc-in-physics-solid-state-physics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Physics (Quantum Optics)",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-physics/program-pg-msc-in-physics-quantum-optics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Physics",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-physics/program-pg-msc-in-physics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Physics",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/academics-structure/department-physics/program-ug-physics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Water Resource and Irrigation Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-water-resource-and-irrigation-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Tourism Management",
+   "name": "Accounting and Finance",
    "college": "",
    "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-ug-tourism-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Surveying Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-survey-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Sport Science",
-   "college": "",
-   "field": "Sport Science",
-   "source": "https://www.mwu.edu.et/program/program-ug-sport-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Statistics",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-ug-statistics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Rural Development and Agricultural Extension",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-rural-development-and-agri-extension"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Public Health",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-ug-public-health"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Psychology",
-   "college": "",
-   "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/program-ug-psychology"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Pharmacy",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-ug-pharmacy"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Nursing",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-ug-nursing"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Natural Resource Management",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-natural-resource-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Midwifery",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-ug-midwifery"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Medicine",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-ug-medicine"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Mechanical Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-mechanical-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Medical Laboratory Science",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-ug-medical-laboratory-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Mathematics",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-ug-mathematics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Marketing Management",
-   "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-ug-marketing-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Management",
-   "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-ug-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Information Systems",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-ug-information-systems"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Informatics",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-ug-informatics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Information Science",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-ug-information-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Forestry",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-forestry"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Environmental Science",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-environmental-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Electrical and Computer Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-electrical-and-computer-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Ecotourism and Biodiversity Conservation",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-ecotourism-and-biodiversity-conservation"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Economics",
-   "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-ug-economics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Construction Technology and Management",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-construction-technology-and-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Computer Science",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-ug-computer-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Chemistry",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-ug-chemistry"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Civil Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-civil-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Biology",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-ug-biology"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Animal and Range Sciences",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-animal-and-range-sciences"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Agronomy",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-agronomy"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Agricultural Economics",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-ug-agricultural-economics"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
@@ -27056,279 +26560,375 @@ window.SIE_DATA = {
    "name": "Adult Education",
    "college": "",
    "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-ug-adult-education"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
    "level": "Bachelor's",
-   "name": "Accounting and Finance",
+   "name": "Afaan Oromo and Literature",
    "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-ug-accounting-and-finance"
+   "field": "Languages & Communication",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "PhD",
-   "name": "Public Health",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-phd-phd-in-public-health"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "PhD",
-   "name": "Curriculum Design and Development",
-   "college": "",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-phd-phd-in-curriculum-design-and-development"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "PhD",
-   "name": "Microbiology",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-phd-phd-in-microbiology"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "PhD",
-   "name": "Accounting and Finance",
-   "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-phd-phd-in-accounting-and-finance"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Specialty",
-   "name": "Gynecology and Obstetrics",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-specialty-in-gynecology-and-obstetrics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Diploma",
-   "name": "Postgraduate Diploma in Teaching (PGDT)",
-   "college": "",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-pg-pgdt-curriculum"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Reproductive Public Health",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-reproductive-public-health"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Sport Science",
-   "college": "",
-   "field": "Sport Science",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-sport-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Range Ecology and Biodiversity",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
    "college": "",
    "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-range-ecology-and-biodiversity"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Epidemiology",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
    "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-public-health-in-epidemiology"
+   "field": "Languages & Communication",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Mathematics",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Organic Chemistry",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-organic-chemistry"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Mathematics (Analysis)",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-analysis"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Mathematics (Differential Equations)",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-differential"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Mathematics (Algebra)",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-algebra"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Football Coaching",
-   "college": "",
-   "field": "Sport Science",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-football-coaching"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "General Public Health",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-general-public-health"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Environmental Science",
+   "level": "Bachelor's",
+   "name": "Animal and Range Sciences",
    "college": "",
    "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-environmental-science"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Ecological and Biodiversity Conservation",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-ecological-and-biodiversity-conservation"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Computer Science",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-computer-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Data Science",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-data-science"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Chemistry",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-chemistry"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
+   "level": "Bachelor's",
    "name": "Biology",
    "college": "",
    "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-biology"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Applied Microbiology",
+   "level": "Bachelor's",
+   "name": "Chemistry",
    "college": "",
    "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-applied-microbiology"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Athletics Coaching",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
    "college": "",
-   "field": "Sport Science",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-athletics-coaching"
+   "field": "Law & Governance",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Animal Production",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Ecotourism and Biodiversity Conservation",
    "college": "",
    "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-animal-production"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Analytical Chemistry",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
    "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-analytical-chemistry"
+   "field": "Engineering & Technology",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Adult Health Nursing",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
    "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-adult-health-nursing"
+   "field": "Languages & Communication",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Medical Microbiology",
+   "level": "Bachelor's",
+   "name": "Environmental Science",
    "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-medical-microbiology"
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Business Administration (MBA)",
+   "level": "Bachelor's",
+   "name": "Forestry",
    "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-pg-mba"
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Marketing and Management",
-   "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-marketing-and-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Developmental Psychology",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
    "college": "",
    "field": "Social Sciences & Humanities",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-developmental-psychology"
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Information Science",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "",
+   "field": "Languages & Communication",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "",
+   "field": "Law & Governance",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "",
+   "field": "Sport Science",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "",
+   "field": "Computing, Data & IT",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Surveying Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Tourism Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Bachelor's",
+   "name": "Water Resource and Irrigation Engineering",
+   "college": "",
+   "field": "Engineering & Technology",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
    "level": "Master's",
-   "name": "Development Economics",
+   "name": "Accounting and Finance",
    "college": "",
    "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-developmental-economics"
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Afan Oromo and Literature",
+   "college": "",
+   "field": "Languages & Communication",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Teaching Amharic",
+   "college": "",
+   "field": "Education",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
@@ -27336,191 +26936,343 @@ window.SIE_DATA = {
    "name": "Curriculum and Teachers Professional Development",
    "college": "",
    "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-curriculum-and-teachers-professional-development"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
    "level": "Master's",
+   "name": "Development Economics",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Developmental Psychology",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Marketing and Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "",
+   "field": "Education",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Urban Planning and Management",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "",
+   "field": "Business & Economics",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Athletics Coaching",
+   "college": "",
+   "field": "Sport Science",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Biology",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Chemistry",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Ecological and Biodiversity Conservation",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Football Coaching",
+   "college": "",
+   "field": "Sport Science",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "GIS, Land Use Planning and Management",
+   "college": "",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Mathematics (Algebra)",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Mathematics (Analysis)",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Mathematics (Differential Equations)",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Physics (Quantum Optics)",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Physics (Solid State Physics)",
+   "college": "",
+   "field": "Natural Sciences",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Plant Pathology",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Epidemiology",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Range Ecology and Biodiversity",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Reproductive Public Health",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Master's",
+   "name": "Sport Science",
+   "college": "",
+   "field": "Sport Science",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Specialty",
+   "name": "Gynecology and Obstetrics",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "",
+   "field": "Health & Medicine",
+   "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "madda-walabu-university",
+   "level": "PhD",
    "name": "Accounting and Finance",
    "college": "",
    "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-accounting-and-finance"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Adult Education and Community Development",
+   "level": "PhD",
+   "name": "Curriculum Design and Development",
    "college": "",
    "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-adult-education-and-community-development"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Civics and Ethical Studies",
-   "college": "",
-   "field": "Law & Governance",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-civics-and-ethical-studies"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Educational Planning and Management",
+   "level": "PhD",
+   "name": "English Language Teaching",
    "college": "",
    "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-educational-planning-and-management"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Educational Psychology",
+   "level": "PhD",
+   "name": "Geography and Environmental Studies",
    "college": "",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-educational-psychology"
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Governance and Development Studies",
-   "college": "",
-   "field": "Law & Governance",
-   "source": "https://www.mwu.edu.et/program/program-pg-ma-in-governance-and-development-studies"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Health Service Management (MHP)",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-mhp-health-service-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Public Health Nutrition (MPH)",
-   "college": "",
-   "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-mph-public-health-nutrition"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Botanical Science",
+   "level": "PhD",
+   "name": "Microbiology",
    "college": "",
    "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-botanical-science"
+   "source": "https://www.mwu.edu.et/program"
   },
   {
    "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Hydraulic Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-hydraulic-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Manufacturing Systems Engineering",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-manufacturing-systems-engineering"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Maternity and Reproductive Health",
+   "level": "PhD",
+   "name": "Public Health",
    "college": "",
    "field": "Health & Medicine",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-maternity-and-reproductive-health"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Mathematics (Optimization)",
-   "college": "",
-   "field": "Natural Sciences",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-optimization"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Mechanical Design",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-mechanical-design"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Rural Development",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-rural-development"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Watershed Management",
-   "college": "",
-   "field": "Agriculture & Environment",
-   "source": "https://www.mwu.edu.et/program/program-pg-msc-in-watershed-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Master's",
-   "name": "Tourism and Hospitality Management",
-   "college": "",
-   "field": "Business & Economics",
-   "source": "https://www.mwu.edu.et/program/program-pg-tourism-hospitality-management"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Architecture and Urban Planning",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-architecture-urban-planning"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Business Education",
-   "college": "",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-ug-business-education-summer"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Early Childhood Care and Education",
-   "college": "",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-ug-early-childhood-care-education"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Engineering Drawing and Design",
-   "college": "",
-   "field": "Engineering & Technology",
-   "source": "https://www.mwu.edu.et/program/program-ug-engineering-drawing-design-summer"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Information Technology",
-   "college": "",
-   "field": "Computing, Data & IT",
-   "source": "https://www.mwu.edu.et/program/program-ug-information-technology"
-  },
-  {
-   "institution": "madda-walabu-university",
-   "level": "Bachelor's",
-   "name": "Lifelong Learning and Community Development",
-   "college": "",
-   "field": "Education",
-   "source": "https://www.mwu.edu.et/program/program-ug-lifelong-learning-community-development"
+   "source": "https://www.mwu.edu.et/program"
   }
  ],
  "studyAbroad": [

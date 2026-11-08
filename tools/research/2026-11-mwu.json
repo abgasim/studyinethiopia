@@ -1,7 +1,7 @@
 {
  "madda-walabu-university": {
   "website": "https://www.mwu.edu.et/",
-  "summary": "Madda Walabu University is a public university in Robe, Bale Zone of Oromia, founded in 1999 E.C. (2006/07) and named after Madda Walabu, a place about 227 km from Robe. It has colleges of agriculture and natural resources, business and economics, computing, education and behavioural studies, engineering, medicine and health sciences, natural and computational sciences, and social sciences and humanities, and a School of Law, offering over 120 bachelor’s, master’s, specialty and PhD programmes.",
+  "summary": "Madda Walabu University is a public university in Bale Robe, Oromia, founded in 1999 E.C. (2006/07) and named after Madda Walabu, a place about 227 km from Robe. It teaches on three campuses: Bale Robe main campus (engineering, computing, sciences, agriculture, business, education, social sciences and law), Goba campus (medicine and health sciences, including two medical specialties) and Shashemene campus (health and business programmes), with 46 undergraduate, about 40 master’s and 6 PhD programmes.",
   "colleges": [
    "College of Agriculture and Natural Resources",
    "College of Business and Economics",
@@ -15,877 +15,119 @@
   ],
   "sources": [
    {
-    "label": "Madda Walabu University website",
-    "url": "https://www.mwu.edu.et/",
+    "label": "All programmes",
+    "url": "https://www.mwu.edu.et/program",
     "kind": "official"
    },
    {
-    "label": "Academic programmes",
-    "url": "https://www.mwu.edu.et/program",
+    "label": "Madda Walabu University website",
+    "url": "https://www.mwu.edu.et/",
     "kind": "official"
    }
   ],
   "coverage": "full",
-  "coverageNote": "Programme names come from the website's page list; the website's content service was down in November 2026, so programme pages may appear empty.",
+  "coverageNote": "From the university’s official programme catalogue (November 2026). One undergraduate entry listed only as “EDPM” is not included.",
   "programmes": {
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-amharic-language-literature/program-pg-ma-in-applied-linguistics-in-teaching-amharic": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "Applied Linguistics in Teaching Amharic"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-amharic-language-literature/program-ug-amharic-language-and-literature": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Amharic Language and Literature"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-history-heritage-management/program-pg-ma-in-history": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "History"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-history-heritage-management/program-ug-history-and-heritage-management": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "History and Heritage Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-civics-ethical-studies/program-ug-civics-and-ethical-education": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Civics and Ethical Studies"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-journalism-communication/program-ug-journalism-and-communication": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Journalism and Communication"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-afaan-oromo-literature/program-pg-ma-in-afan-oromo-and-literature": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "Afaan Oromo and Literature"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-afaan-oromo-literature/program-ug-afan-oromo-and-literature": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Afaan Oromo and Literature"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geographic-information-science/program-pg-msc-in-gis-land-use-planning-and-management": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "GIS and Land Resource Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geographic-information-science/program-ug-geographic-information-science": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Geographic Information Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-phd-phd-in-geography-and-environment": {
-    "College of Social Sciences and Humanities": {
-     "PhD": [
-      "Geography and Environmental Studies"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-pg-ma-in-geography-and-environmental-studies": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "Geography and Environmental Studies"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-pg-msc-in-climate-change-and-disaster-risk-management": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "Climate Change and Disaster Risk Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-pg-ma-in-urban-planning-and-management": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "Urban Planning and Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-geography-environmental-studies/program-ug-geography-and-environmental-studies": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Geography and Environmental Studies"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-sociology/program-ug-sociology": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "Sociology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-phd-phd-in-english-language-teaching": {
-    "College of Social Sciences and Humanities": {
-     "PhD": [
-      "English Language Teaching"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-pg-ma-in-general-linguistics": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "General Linguistics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-pg-ma-in-tefl": {
-    "College of Social Sciences and Humanities": {
-     "Master's": [
-      "Teaching English as a Foreign Language (TEFL)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/college-social-sciences-humanities/department-english-language-literature/program-ug-english-language-and-literature": {
-    "College of Social Sciences and Humanities": {
-     "Bachelor's": [
-      "English Language and Literature"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program-pg-specialty-in-surgery": {
-    "": {
-     "Specialty": [
-      "General Surgery"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/school-law/program-ug-law": {
-    "School of Law": {
-     "Bachelor's": [
-      "Law"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-plant-science/program-pg-msc-in-plant-pathology": {
-    "": {
-     "Master's": [
-      "Plant Pathology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-plant-science/program-ug-plant-science": {
+   "https://www.mwu.edu.et/program": {
     "": {
      "Bachelor's": [
-      "Plant Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-plant-science/program-pg-msc-in-agronomy": {
-    "": {
-     "Master's": [
-      "Agronomy"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-physics/program-pg-msc-in-physics-solid-state-physics": {
-    "": {
-     "Master's": [
-      "Physics (Solid State Physics)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-physics/program-pg-msc-in-physics-quantum-optics": {
-    "": {
-     "Master's": [
-      "Physics (Quantum Optics)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-physics/program-pg-msc-in-physics": {
-    "": {
-     "Master's": [
-      "Physics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/academics-structure/department-physics/program-ug-physics": {
-    "": {
-     "Bachelor's": [
-      "Physics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-water-resource-and-irrigation-engineering": {
-    "": {
-     "Bachelor's": [
+      "Accounting and Finance",
+      "Adult Education",
+      "Afaan Oromo and Literature",
+      "Agricultural Economics",
+      "Amharic Language and Literature",
+      "Animal and Range Sciences",
+      "Biology",
+      "Chemistry",
+      "Civics and Ethical Studies",
+      "Civil Engineering",
+      "Computer Science",
+      "Construction Technology and Management",
+      "Economics",
+      "Ecotourism and Biodiversity Conservation",
+      "Electrical and Computer Engineering",
+      "English Language and Literature",
+      "Environmental Science",
+      "Forestry",
+      "Geography and Environmental Studies",
+      "History and Heritage Management",
+      "Information Science",
+      "Information Systems",
+      "Journalism and Communication",
+      "Law",
+      "Management",
+      "Marketing Management",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Medical Laboratory Science",
+      "Medicine",
+      "Midwifery",
+      "Natural Resource Management",
+      "Nursing",
+      "Pharmacy",
+      "Physics",
+      "Plant Science",
+      "Psychology",
+      "Public Health",
+      "Rural Development and Agricultural Extension",
+      "Sociology",
+      "Sport Science",
+      "Statistics",
+      "Surveying Engineering",
+      "Tourism Management",
       "Water Resource and Irrigation Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-tourism-management": {
-    "": {
-     "Bachelor's": [
-      "Tourism Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-survey-engineering": {
-    "": {
-     "Bachelor's": [
-      "Surveying Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-sport-science": {
-    "": {
-     "Bachelor's": [
+     ],
+     "Master's": [
+      "Accounting and Finance",
+      "Afan Oromo and Literature",
+      "Applied Linguistics in Teaching Amharic",
+      "Curriculum and Teachers Professional Development",
+      "Development Economics",
+      "Developmental Psychology",
+      "Geography and Environmental Studies",
+      "Marketing and Management",
+      "Teaching English as a Foreign Language (TEFL)",
+      "Urban Planning and Management",
+      "Business Administration (MBA)",
+      "Adult Health Nursing",
+      "Agronomy",
+      "Analytical Chemistry",
+      "Animal Production",
+      "Applied Microbiology",
+      "Athletics Coaching",
+      "Biology",
+      "Chemistry",
+      "Ecological and Biodiversity Conservation",
+      "Environmental Science",
+      "Football Coaching",
+      "General Public Health",
+      "GIS, Land Use Planning and Management",
+      "Mathematics",
+      "Mathematics (Algebra)",
+      "Mathematics (Analysis)",
+      "Mathematics (Differential Equations)",
+      "Organic Chemistry",
+      "Physics",
+      "Physics (Quantum Optics)",
+      "Physics (Solid State Physics)",
+      "Plant Pathology",
+      "Epidemiology",
+      "Range Ecology and Biodiversity",
+      "Medical Microbiology",
+      "Reproductive Public Health",
       "Sport Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-statistics": {
-    "": {
-     "Bachelor's": [
-      "Statistics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-rural-development-and-agri-extension": {
-    "": {
-     "Bachelor's": [
-      "Rural Development and Agricultural Extension"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-public-health": {
-    "": {
-     "Bachelor's": [
-      "Public Health"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-psychology": {
-    "": {
-     "Bachelor's": [
-      "Psychology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-pharmacy": {
-    "": {
-     "Bachelor's": [
-      "Pharmacy"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-nursing": {
-    "": {
-     "Bachelor's": [
-      "Nursing"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-natural-resource-management": {
-    "": {
-     "Bachelor's": [
-      "Natural Resource Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-midwifery": {
-    "": {
-     "Bachelor's": [
-      "Midwifery"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-medicine": {
-    "": {
-     "Bachelor's": [
-      "Medicine"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-mechanical-engineering": {
-    "": {
-     "Bachelor's": [
-      "Mechanical Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-medical-laboratory-science": {
-    "": {
-     "Bachelor's": [
-      "Medical Laboratory Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-mathematics": {
-    "": {
-     "Bachelor's": [
-      "Mathematics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-marketing-management": {
-    "": {
-     "Bachelor's": [
-      "Marketing Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-management": {
-    "": {
-     "Bachelor's": [
-      "Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-information-systems": {
-    "": {
-     "Bachelor's": [
-      "Information Systems"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-informatics": {
-    "": {
-     "Bachelor's": [
-      "Informatics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-information-science": {
-    "": {
-     "Bachelor's": [
-      "Information Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-forestry": {
-    "": {
-     "Bachelor's": [
-      "Forestry"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-environmental-science": {
-    "": {
-     "Bachelor's": [
-      "Environmental Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-electrical-and-computer-engineering": {
-    "": {
-     "Bachelor's": [
-      "Electrical and Computer Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-ecotourism-and-biodiversity-conservation": {
-    "": {
-     "Bachelor's": [
-      "Ecotourism and Biodiversity Conservation"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-economics": {
-    "": {
-     "Bachelor's": [
-      "Economics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-construction-technology-and-management": {
-    "": {
-     "Bachelor's": [
-      "Construction Technology and Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-computer-science": {
-    "": {
-     "Bachelor's": [
-      "Computer Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-chemistry": {
-    "": {
-     "Bachelor's": [
-      "Chemistry"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-civil-engineering": {
-    "": {
-     "Bachelor's": [
-      "Civil Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-biology": {
-    "": {
-     "Bachelor's": [
-      "Biology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-animal-and-range-sciences": {
-    "": {
-     "Bachelor's": [
-      "Animal and Range Sciences"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-agronomy": {
-    "": {
-     "Bachelor's": [
-      "Agronomy"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-agricultural-economics": {
-    "": {
-     "Bachelor's": [
-      "Agricultural Economics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-adult-education": {
-    "": {
-     "Bachelor's": [
-      "Adult Education"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-accounting-and-finance": {
-    "": {
-     "Bachelor's": [
-      "Accounting and Finance"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-phd-phd-in-public-health": {
-    "": {
-     "PhD": [
-      "Public Health"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-phd-phd-in-curriculum-design-and-development": {
-    "": {
-     "PhD": [
-      "Curriculum Design and Development"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-phd-phd-in-microbiology": {
-    "": {
-     "PhD": [
-      "Microbiology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-phd-phd-in-accounting-and-finance": {
-    "": {
-     "PhD": [
-      "Accounting and Finance"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-specialty-in-gynecology-and-obstetrics": {
-    "": {
+     ],
      "Specialty": [
-      "Gynecology and Obstetrics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-pgdt-curriculum": {
-    "": {
-     "Diploma": [
-      "Postgraduate Diploma in Teaching (PGDT)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-reproductive-public-health": {
-    "": {
-     "Master's": [
-      "Reproductive Public Health"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-sport-science": {
-    "": {
-     "Master's": [
-      "Sport Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-range-ecology-and-biodiversity": {
-    "": {
-     "Master's": [
-      "Range Ecology and Biodiversity"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-public-health-in-epidemiology": {
-    "": {
-     "Master's": [
-      "Epidemiology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics": {
-    "": {
-     "Master's": [
-      "Mathematics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-organic-chemistry": {
-    "": {
-     "Master's": [
-      "Organic Chemistry"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-analysis": {
-    "": {
-     "Master's": [
-      "Mathematics (Analysis)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-differential": {
-    "": {
-     "Master's": [
-      "Mathematics (Differential Equations)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-algebra": {
-    "": {
-     "Master's": [
-      "Mathematics (Algebra)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-football-coaching": {
-    "": {
-     "Master's": [
-      "Football Coaching"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-general-public-health": {
-    "": {
-     "Master's": [
-      "General Public Health"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-environmental-science": {
-    "": {
-     "Master's": [
-      "Environmental Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-ecological-and-biodiversity-conservation": {
-    "": {
-     "Master's": [
-      "Ecological and Biodiversity Conservation"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-computer-science": {
-    "": {
-     "Master's": [
-      "Computer Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-data-science": {
-    "": {
-     "Master's": [
-      "Data Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-chemistry": {
-    "": {
-     "Master's": [
-      "Chemistry"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-biology": {
-    "": {
-     "Master's": [
-      "Biology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-applied-microbiology": {
-    "": {
-     "Master's": [
-      "Applied Microbiology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-athletics-coaching": {
-    "": {
-     "Master's": [
-      "Athletics Coaching"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-animal-production": {
-    "": {
-     "Master's": [
-      "Animal Production"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-analytical-chemistry": {
-    "": {
-     "Master's": [
-      "Analytical Chemistry"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-adult-health-nursing": {
-    "": {
-     "Master's": [
-      "Adult Health Nursing"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-medical-microbiology": {
-    "": {
-     "Master's": [
-      "Medical Microbiology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-mba": {
-    "": {
-     "Master's": [
-      "Business Administration (MBA)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-marketing-and-management": {
-    "": {
-     "Master's": [
-      "Marketing and Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-developmental-psychology": {
-    "": {
-     "Master's": [
-      "Developmental Psychology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-developmental-economics": {
-    "": {
-     "Master's": [
-      "Development Economics"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-curriculum-and-teachers-professional-development": {
-    "": {
-     "Master's": [
-      "Curriculum and Teachers Professional Development"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-accounting-and-finance": {
-    "": {
-     "Master's": [
-      "Accounting and Finance"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-adult-education-and-community-development": {
-    "": {
-     "Master's": [
-      "Adult Education and Community Development"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-civics-and-ethical-studies": {
-    "": {
-     "Master's": [
-      "Civics and Ethical Studies"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-educational-planning-and-management": {
-    "": {
-     "Master's": [
-      "Educational Planning and Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-educational-psychology": {
-    "": {
-     "Master's": [
-      "Educational Psychology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-ma-in-governance-and-development-studies": {
-    "": {
-     "Master's": [
-      "Governance and Development Studies"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-mhp-health-service-management": {
-    "": {
-     "Master's": [
-      "Health Service Management (MHP)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-mph-public-health-nutrition": {
-    "": {
-     "Master's": [
-      "Public Health Nutrition (MPH)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-accounting-and-finance": {
-    "": {
-     "Master's": [
-      "Accounting and Finance"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-botanical-science": {
-    "": {
-     "Master's": [
-      "Botanical Science"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-hydraulic-engineering": {
-    "": {
-     "Master's": [
-      "Hydraulic Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-manufacturing-systems-engineering": {
-    "": {
-     "Master's": [
-      "Manufacturing Systems Engineering"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-maternity-and-reproductive-health": {
-    "": {
-     "Master's": [
-      "Maternity and Reproductive Health"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-mathematics-optimization": {
-    "": {
-     "Master's": [
-      "Mathematics (Optimization)"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-mechanical-design": {
-    "": {
-     "Master's": [
-      "Mechanical Design"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-rural-development": {
-    "": {
-     "Master's": [
-      "Rural Development"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-msc-in-watershed-management": {
-    "": {
-     "Master's": [
-      "Watershed Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-pg-tourism-hospitality-management": {
-    "": {
-     "Master's": [
-      "Tourism and Hospitality Management"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-architecture-urban-planning": {
-    "": {
-     "Bachelor's": [
-      "Architecture and Urban Planning"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-business-education-summer": {
-    "": {
-     "Bachelor's": [
-      "Business Education"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-early-childhood-care-education": {
-    "": {
-     "Bachelor's": [
-      "Early Childhood Care and Education"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-engineering-drawing-design-summer": {
-    "": {
-     "Bachelor's": [
-      "Engineering Drawing and Design"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-information-technology": {
-    "": {
-     "Bachelor's": [
-      "Information Technology"
-     ]
-    }
-   },
-   "https://www.mwu.edu.et/program/program-ug-lifelong-learning-community-development": {
-    "": {
-     "Bachelor's": [
-      "Lifelong Learning and Community Development"
+      "Gynecology and Obstetrics",
+      "General Surgery"
+     ],
+     "PhD": [
+      "Accounting and Finance",
+      "Curriculum Design and Development",
+      "English Language Teaching",
+      "Geography and Environmental Studies",
+      "Microbiology",
+      "Public Health"
      ]
     }
    }
