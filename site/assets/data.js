@@ -1389,7 +1389,7 @@ window.SIE_DATA = {
    "name": "Jimma University",
    "abbr": "JU",
    "type": "public",
-   "website": "https://www.ju.edu.et/",
+   "website": "https://ju.edu.et/",
    "about": [
     "Jimma University was founded on the amalgamation of the Jimma Institute of Health Science and the Jimma College of Agriculture in the 1980s. Both institutions had been national leaders in their respective fields, and with the merger, the development of a new, multifaceted, and development-oriented institution was able to emerge from the two former specialty institutions. Throughout the 1990’s Ethiopia as a nation was determined to overcome the significant development challenges facing the country. Such challenges were found in all sectors of society and in all regions. Given this reality, new institutions needed to be developed in a manner that would be conducive to the development of the nation. A well-conceived and applicable higher education institutional development scheme was necessary for the broader development of the country. Numerous new higher education institutions were founded all over the country while existing institutions were strengthened and expanded upon.  No institution of higher education in the country represents this expansion and strengthening of programs more than Jimma University.",
     "While outside the capital, Jimma University has had the ability to maintain a standard of education not found elsewhere in the country. Jimma University has become a hub of intellectual and academic activity that attracts thought leaders, innovators, educators, and leaders from around the country. Jimma University is frequently named the top-ranked public institution in the nation, and this comes from the quality of each academic program.",
@@ -1401,17 +1401,17 @@ window.SIE_DATA = {
    "city": "Jimma",
    "region": "Oromia",
    "founded": 1952,
-   "summary": "Jimma University traces its origins to Jimma College of Agriculture, founded in 1952. It took its current name in 1999 after merging with the Jimma Institute of Health Sciences, and offers undergraduate and postgraduate programmes across health, technology, agriculture, business, natural and social sciences, and law.",
+   "summary": "Jimma University is a large public research university in Jimma, Oromia. Its Institute of Health Sciences, Jimma Institute of Technology and seven colleges and academies offer about 85 undergraduate programmes, nearly 190 master’s programmes, about 80 PhD programmes and 24 medical specialty and subspecialty certificates, from medicine, dentistry and aerospace engineering to Gadaa studies, music and visual arts.",
    "colleges": [
-    "Institute of Health",
+    "Institute of Health Sciences",
     "Jimma Institute of Technology",
-    "Institute of Education and Professional Development Studies",
-    "College of Agriculture and Veterinary Medicine",
-    "College of Business and Economics",
     "College of Natural Sciences",
+    "College of Business and Economics",
+    "College of Agriculture and Veterinary Medicine",
     "College of Social Sciences and Humanities",
     "College of Law and Governance",
-    "School of Graduate Studies"
+    "College of Education and Behavioral Studies",
+    "Sport Science Academy"
    ],
    "stats": {
     "undergraduate": 56,
@@ -1420,14 +1420,19 @@ window.SIE_DATA = {
    },
    "sources": [
     {
-     "label": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Jimma_University",
-     "kind": "secondary"
+     "label": "List of all programmes",
+     "url": "https://ju.edu.et/list-all-programmes-jimma-university/",
+     "kind": "official"
+    },
+    {
+     "label": "Jimma University website",
+     "url": "https://ju.edu.et/",
+     "kind": "official"
     }
    ],
-   "coverage": "none",
+   "coverage": "full",
    "coverageNote": "The university website (ju.edu.et) could not be reached during research (certificate error), so programmes are not listed yet.",
-   "checked": "2026-11-06",
+   "checked": "2026-11-08",
    "lat": 7.67562,
    "lng": 36.84788,
    "location": {
@@ -29052,6 +29057,2918 @@ window.SIE_DATA = {
    "college": "School of Law",
    "field": "Law & Governance",
    "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Medicine (MD)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Dental Medicine (DDM)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Environmental Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Physiotherapy",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Operation Theatre Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Neonatal Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Epidemiology (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Field Epidemiology (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "General Public Health (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Health Promotion and Behaviors (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Reproductive Health (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Anesthesia",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Health Professional Education",
+   "college": "Institute of Health Sciences",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Adult Health Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Biochemistry",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Anatomy",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Laboratory Science (Clinical Chemistry)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Laboratory Science (Hematology and Immunohematology)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Laboratory Science (Laboratory Management)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Pharmacy",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Environmental Health Science",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Environmental Science and Technology",
+   "college": "Institute of Health Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Human Nutrition",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Integrated Clinical and Community Mental Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Maternity Health Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Medical Parasitology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Medical Physiology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Midwifery Education",
+   "college": "Institute of Health Sciences",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Midwifery",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Pediatrics and Child Health Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Bioinformatics",
+   "college": "Institute of Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Pharmaceutical Quality Assurance and Regulatory Affairs",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Pharmaceutical Supply Chain Management",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Health Systems Management (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Health Monitoring and Evaluation",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Health Economics (MPH)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Emergency and Critical Care Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Neonatal Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Psychiatry Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Pharmaceutics",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Pharmacology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Dietetics",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Health Systems and Policy",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Applied Ecology",
+   "college": "Institute of Health Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Medical Microbiology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Human Nutrition",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Environmental Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Health Communication and Health Behavior",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Nursing",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Midwifery and Women’s Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Epidemiology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Reproductive Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Tropical and Infectious Disease",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Pharmaceutical Sciences",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Physiology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Evidence Based Healthcare",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Oral and Maxillofacial Surgery",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Orthodontics",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Pediatrics and Child Health",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Gynecology and Obstetrics",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Surgery",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Ophthalmology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Pathology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Anesthesiology and Critical Care",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Clinical Psychiatry",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Emergency and Critical Care Medicine",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Radiology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Dermatovenereology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Orthopedics and Traumatology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Endodontic and Operative Dentistry",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Clinical Oncology",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "General Pediatric Surgery",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Orthopedics",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Urogynecology and Reconstructive Pelvic Surgery (subspecialty)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Pediatric Hemato-oncology (subspecialty)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Neonatology (subspecialty)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Maternal Fetal Medicine (subspecialty)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Gastroenterology and Hepatology (subspecialty)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Specialty",
+   "name": "Pediatric Surgery (subspecialty)",
+   "college": "Institute of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Aerospace Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Biomedical Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Hydraulics and Water Resources Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Information Science",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Material Science and Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Water Supply and Environmental Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Bio-Instrumentation",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Artificial Intelligence",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Automotive Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Biochemical Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Bio-Medical Imaging",
+   "college": "Jimma Institute of Technology",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Computer Networking",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Construction Engineering and Management",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Control and Instrumentation Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Data Science",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Electrical and Computer Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Environmental Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Food Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Healthcare Technology Engineering and Management",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Highway Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Material Science Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Mechanical Systems Design",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Mechatronics Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Process Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Software Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Sustainable Energy Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Textile Engineering (Textile Chemistry)",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Thermal Systems Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Information Science (Electronic and Digital Resources Management)",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Information Science (Information Knowledge Management)",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Nanotechnology",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Ceramic Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Metallurgy Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Polymer Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Ceramic Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Information Science",
+   "college": "Jimma Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Environmental Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Manufacturing Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Material Science Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Mechanical Design Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Metallurgy Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Polymer Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Sustainable Energy Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Thermal Systems Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Water Resource Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Communication Engineering",
+   "college": "Jimma Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Biology (Teacher Education)",
+   "college": "College of Natural Sciences",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Chemistry (Teacher Education)",
+   "college": "College of Natural Sciences",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Mathematics (Teacher Education)",
+   "college": "College of Natural Sciences",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Physics (Teacher Education)",
+   "college": "College of Natural Sciences",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Applied Entomology",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Aquaculture and Fisheries Management",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Astrophysics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Biomedical Sciences",
+   "college": "College of Natural Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Natural Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Botanical Sciences",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Condensed Matter Physics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Ecology and Systematic Zoology",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Environmental Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Food Safety and Quality",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Industrial Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Materials Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Physical Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Statistical Physics",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Mathematics (Differential Equations)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Mathematics (Numerical Analysis)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Applied Microbiology",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Aquaculture and Fisheries Management",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Biomedical Sciences",
+   "college": "College of Natural Sciences",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Chemistry (Analytical Chemistry)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Inorganic Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Mathematics (Differential Equations: Dynamical Systems)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Mathematics (Numerical Analysis)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Physical Chemistry",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Physics (Condensed Matter)",
+   "college": "College of Natural Sciences",
+   "field": "Natural Sciences",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Plant Ecology",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Wildlife Ecology and Management",
+   "college": "College of Natural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Banking and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Hospitality and Tourism",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Agribusiness Management (Executive MBA)",
+   "college": "College of Business and Economics",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Hospitality and Tourism Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Project Management and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Public Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Public Management (MPM)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Banking and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Economics (Economic Policy Analysis)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Energy Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Finance and Investment",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Industrial Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Transport Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Financial Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Industrial Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Management (General)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Management (Human Resource Management)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Management (Marketing Management)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value-Chain Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Animal Health",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Food Science and Post-Harvest Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine (DVM)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Natural Resources Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Extension (Mid-career)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Animal Breeding and Genetics",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Animal Nutrition",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Natural Resource Management (Watershed Management)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Natural Resource Management (Forest and Nature Management)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Natural Resource Management (Wildlife and Ecotourism Management)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Soil Sciences",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Plant Pathology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Plant Biotechnology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Agricultural Entomology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Weed Science",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Plant Protection",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Postharvest Science and Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Postharvest Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Food Science and Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Rural Development and Agricultural Extension (Gender and Rural Development)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Rural Development and Agricultural Extension (Agricultural Communication and Innovation)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Rural Development and Agricultural Extension (Rural Development and Environment)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Rural Development and Agricultural Extension (Rural Development)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Veterinary Epidemiology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Veterinary Public Health",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Veterinary Microbiology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Animal Biotechnology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Veterinary Laboratory Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Veterinary Surgery",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Veterinary Pathology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Land Use Planning And Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Integrated Pest Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Food Science and Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Animal Nutrition",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Plant Breeding",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Plant Pathology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Health & Medicine",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Livestock Production and Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Agricultural Entomology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Natural Resource Management (Biodiversity Management)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Dairy Science and Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Ecotourism and Protected Area Management",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Business & Economics",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Postharvest Technology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Engineering & Technology",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Natural Resource Management (Climate Change Adaptation and Mitigation)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Veterinary Microbiology",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Rural Development and Agricultural Extension (Agricultural and Rural Innovation)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Rural Development and Agricultural Extension (Agricultural and Rural Policy)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Rural Development and Agricultural Extension (Environmental Sustainability)",
+   "college": "College of Agriculture and Veterinary Medicine",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Afaan Oromo and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Media and Communication Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Music",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Arts & Design",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Oromo Folklore and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Theatre Arts",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Arts & Design",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Visual Arts",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Arts & Design",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Afaan Oromo and Literature (Teacher Education)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature (Teacher Education)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature (Teacher Education)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies (Teacher Education)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management (Teacher Education)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Afaan Oromo and Literature (Teaching)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Amharic Language and Literature (Teaching)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Applied Linguistics and Development Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Applied Linguistics in Ethiopian Languages and Cultural Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Broadcast Journalism",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Development Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Ethiopian Literature and Folklore (Amharic)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "History",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Intercultural Communications and Public Diplomacy",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Land Resource Analysis and Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Language Planning and Language Policy",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Linguistics",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Oromo Folklore",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Public Relations and Corporate Communications",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Sociology (Family and Gender Stream)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Sociology (Social Policy Stream)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Teaching English as Foreign Language (TEFL)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Translation and Interpretation",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development Planning",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Geographic Information System and Remote Sensing (GIS and RS)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Clinical Social Work (MSW)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Social Development and Community Practice (MSW)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Afaan Oromo Linguistics",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Afaan Oromo Teaching",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Comparative Literary Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Folklore",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Gadaa Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "History",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Oromo Folklore",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Oromo Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Teaching English as Foreign Language (TEFL)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Governance and Development Studies",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Civics (Teacher Education)",
+   "college": "College of Law and Governance",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Commercial and Investment Law (LLM)",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Human Rights and Criminal Law (LLM)",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Peace and Conflict Studies",
+   "college": "College of Law and Governance",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Governance and Development Studies (Governance)",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Governance and Development Studies (Development Management)",
+   "college": "College of Law and Governance",
+   "field": "Law & Governance",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Early Childhood Care",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Counselling Psychology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Developmental Psychology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Educational Leadership",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Educational Psychology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "School Leadership",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Social Psychology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Instructional Design and Technology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Education (Specializing in Curriculum and Instruction)",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Educational Leadership and Policy Studies",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Psychology (specializing in Counseling Psychology)",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "PhD",
+   "name": "Psychology (specializing in Educational Psychology)",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Sport Science (Teacher Education)",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Athletics Coaching",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Basketball Coaching",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Football Coaching",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Handball Coaching",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "jimma-university",
+   "level": "Master's",
+   "name": "Volleyball Coaching",
+   "college": "Sport Science Academy",
+   "field": "Sport Science",
+   "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
   }
  ],
  "studyAbroad": [

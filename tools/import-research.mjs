@@ -39,7 +39,7 @@ const RULES = [
   [/paleont|paleo-?environ/i, "Natural Sciences"],
   [/honey|\bbee\b|apicult|dairy products/i, "Agriculture & Environment"],
   [/histotechnolog/i, "Health & Medicine"],
-  [/computer engineering|geomatics.*engineering|geo-?informatics engineering|biomedical engineering/i, "Engineering & Technology"],
+  [/computer engineering|geomatics.*engineering|geo-?informatics engineering|biomedical engineering|healthcare technology engineering/i, "Engineering & Technology"],
   [/\btax|customs/i, "Business & Economics"],
   [/ministry|biblical|bible|christian|muslim|missiolog|religio/i, "Social Sciences & Humanities"],
   [/(?<!animal )nutrition/i, "Health & Medicine"],
@@ -47,7 +47,7 @@ const RULES = [
   [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter|statistical physics/i, "Natural Sciences"],
   // "computational" in college names (e.g. "College of Natural and Computational Sciences") is not computing
   [/comput(?!ational sci)|software|information (science|system|technolog)|informatics|data scien|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
-  [/teach|\beducation|pedagog|curricul|pgdt|pgdhet|pgdsl|\bhdp\b|school (leadership|supervision)|counsel|special needs|inclusive|lifelong|non-formal/i, "Education"],
+  [/teach|\beducation|instructional design|pedagog|curricul|pgdt|pgdhet|pgdsl|\bhdp\b|school (leadership|supervision)|counsel|special needs|inclusive|lifelong|non-formal/i, "Education"],
   [/medic|nurs|midwif|pharm|health|anesth|surg|pediatr|obstet|gyn|radiolog|optometr|patholog|dermat|orthop|ophthalm|epidem|biochem|laborator|maxillofac|emergency|oncolog|fetal|tropical|infectious|psychiatr|dental|physiother|internal medicine|venereol|human nutrition/i, "Health & Medicine"],
   [/\blaw\b|\bllb|\bllm|legal|governance|civics|human rights|public policy|public administration|peace|federalism|criminolog|land (administration|use|policy)/i, "Law & Governance"],
   [/engineer|textile|leather|footwear|garment|fashion|architect|construction|geomatic|surveying/i, "Engineering & Technology"],
