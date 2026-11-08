@@ -20,6 +20,16 @@ PAGES_DIR = os.path.join(ROOT, "tools", "pages")
 DOMAIN = "https://www.studyinethiopia.com"
 FACEBOOK = "https://www.facebook.com/studyinethiopia"
 SHARE_IMAGE = DOMAIN + "/assets/img/student-reading.jpg"  # 854x640, used for link previews
+
+# Visitor statistics (GoatCounter: no cookies). Set to your site code, e.g. "studyinethiopia" for
+# https://studyinethiopia.goatcounter.com; leave empty to publish pages without the counter.
+GOATCOUNTER = ""
+# Count each page by its path only, except institution profiles which keep ?id= (one entry per
+# institution); search pages like programmes.html?q=… are counted as one page.
+GOATCOUNTER_JS = ('<script>window.goatcounter={path:function(){var p=location.pathname;'
+                  'var id=/institution\\.html$/.test(p)&&new URLSearchParams(location.search).get("id");'
+                  'return id?p+"?id="+id:p}}</script>\n'
+                  '  <script data-goatcounter="https://{code}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>')
 OG_LOCALE = {"en": "en_US", "am": "am_ET", "om": "om_ET", "ti": "ti_ET"}
 
 # dir: output folder under site/ ("" = site root). name: shown in the language switch.
@@ -191,6 +201,7 @@ def build(lang, page):
     alternates = "\n".join(f'  <link rel="alternate" hreflang="{info["html_lang"]}" href="{page_url(l, page)}">' for l, info in LANGS.items())
     # Institution profiles are one page per ?id=; app.js adds the canonical link for the id shown
     # (a static one here would point every profile at the same address).
+    counter = ("\n  " + GOATCOUNTER_JS.replace("{code}", GOATCOUNTER)) if GOATCOUNTER else ""
     canonical = "" if page == "institution" else f'  <link rel="canonical" href="{page_url(lang, page)}">\n'
 
     scripts = f'\n  <script src="{up}assets/data.js" data-split="{needs_data}"></script>' if needs_data else ""
@@ -221,7 +232,7 @@ def build(lang, page):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS.get(lang, FONTS["en"])}" rel="stylesheet">
   <link rel="stylesheet" href="{up}assets/style.css">
-  <script>try{{var t=localStorage.getItem("sie-theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>
+  <script>try{{var t=localStorage.getItem("sie-theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>{counter}
 </head>
 <body data-page="{data_page}">
   <a class="skip" href="#main">{c["skip"]}</a>
