@@ -1,0 +1,178 @@
+{
+ "wolkite-university": {
+  "website": "https://www.wku.edu.et/",
+  "summary": "Wolkite University is a public university in Wolkite, Gurage Zone. It has colleges of engineering and technology, computing and informatics, natural and computational sciences, agriculture and natural resources, business and economics, social sciences and humanities, medicine and health sciences, and education and behavioural studies, plus a School of Law. Alongside about 60 undergraduate programmes, including textile, garment and fashion design engineering, theatre arts and music, it offers 36 master’s and 3 PhD programmes.",
+  "colleges": [
+   "College of Engineering and Technology",
+   "College of Computing and Informatics",
+   "College of Natural and Computational Sciences",
+   "College of Agriculture and Natural Resource",
+   "College of Business and Economics",
+   "College of Social Science and Humanities",
+   "College of Medicine and Health Sciences",
+   "College of Education and Behavioral Studies",
+   "School of Law"
+  ],
+  "sources": [
+   {
+    "label": "Programmes (registrar)",
+    "url": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes",
+    "kind": "official"
+   },
+   {
+    "label": "Wolkite University website",
+    "url": "https://www.wku.edu.et/",
+    "kind": "official"
+   }
+  ],
+  "coverage": "full",
+  "coverageNote": "Undergraduate programmes are listed by department, as on the university’s programme page.",
+  "programmes": {
+   "https://www.wku.edu.et/index.php/en/academic/registrar/programmes": {
+    "College of Engineering and Technology": {
+     "Bachelor's": [
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Fashion Design Engineering",
+      "Construction Technology and Management",
+      "Mechanical Engineering",
+      "Food Engineering",
+      "Textile Engineering",
+      "Garment Engineering",
+      "Electrical Engineering",
+      "Hydraulic and Water Resources Engineering",
+      "Architecture"
+     ],
+     "Master's": [
+      "Food Engineering"
+     ]
+    },
+    "College of Computing and Informatics": {
+     "Bachelor's": [
+      "Computer Science",
+      "Software Engineering",
+      "Information Technology",
+      "Information Systems"
+     ],
+     "Master's": [
+      "Computer Science and Engineering (Computer Science)"
+     ]
+    },
+    "College of Natural and Computational Sciences": {
+     "Bachelor's": [
+      "Mathematics",
+      "Chemistry",
+      "Physics",
+      "Biology",
+      "Biotechnology",
+      "Statistics",
+      "Sport Science"
+     ],
+     "Master's": [
+      "Physics (Condensed Matter Physics)",
+      "Biology (Botanical Science)",
+      "Biology (Zoological Science)",
+      "Chemistry (Analytical Chemistry)",
+      "Statistics (Biostatistics)",
+      "Statistics (Applied Statistics)",
+      "Mathematics (Analysis)",
+      "Mathematics (Numerical Analysis)",
+      "Mathematics (Differential Equations)",
+      "Mathematics (Optimization)",
+      "Mathematics (Combinatorics)",
+      "Mathematics (Algebra)",
+      "Plant Biotechnology",
+      "Animal Biotechnology",
+      "Biotechnology"
+     ],
+     "PhD": [
+      "Condensed Matter Physics",
+      "Material Science (Physics)",
+      "Statistical Physics"
+     ]
+    },
+    "College of Agriculture and Natural Resource": {
+     "Bachelor's": [
+      "Agribusiness and Value Chain Management",
+      "Agricultural Economics",
+      "Animal Science",
+      "Plant Science",
+      "Wildlife and Ecotourism Management",
+      "Horticulture",
+      "Natural Resource Management"
+     ],
+     "Master's": [
+      "Horticulture",
+      "Soil Science",
+      "Agronomy",
+      "Animal Production",
+      "Wildlife Ecology and Development",
+      "Agribusiness and Value Chain Management"
+     ]
+    },
+    "College of Business and Economics": {
+     "Bachelor's": [
+      "Management",
+      "Marketing Management",
+      "Economics",
+      "Accounting and Finance"
+     ],
+     "Master's": [
+      "Business Administration (MBA)",
+      "Accounting and Finance",
+      "Development Economics"
+     ]
+    },
+    "College of Social Science and Humanities": {
+     "Bachelor's": [
+      "English Language and Literature",
+      "Civics and Ethical Studies",
+      "Sociology",
+      "Governance and Development Studies",
+      "Theatre Arts",
+      "Geography and Environmental Studies",
+      "Music"
+     ],
+     "Master's": [
+      "Political Science",
+      "Development Planning and Management Studies",
+      "Teaching English as a Foreign Language (TEFL)",
+      "Civics and Ethical Studies"
+     ]
+    },
+    "College of Medicine and Health Sciences": {
+     "Bachelor's": [
+      "Medicine",
+      "Pharmacy",
+      "Nursing",
+      "Public Health",
+      "Midwifery",
+      "Medical Laboratory Science",
+      "Biomedical Science",
+      "Anesthesia"
+     ],
+     "Master's": [
+      "Reproductive Health (MPH)",
+      "Public Health Nutrition (MPH)",
+      "Clinical Midwifery",
+      "Maternity and Reproductive Health Nursing",
+      "Medical Parasitology",
+      "Medical Microbiology"
+     ]
+    },
+    "College of Education and Behavioral Studies": {
+     "Bachelor's": [
+      "Psychology",
+      "Curriculum and Instruction",
+      "Educational Planning and Management"
+     ]
+    },
+    "School of Law": {
+     "Bachelor's": [
+      "Law"
+     ]
+    }
+   }
+  }
+ }
+}

@@ -44,7 +44,7 @@ const RULES = [
   [/ministry|biblical|bible|christian|muslim|missiolog|religio/i, "Social Sciences & Humanities"],
   [/(?<!animal )nutrition/i, "Health & Medicine"],
   [/political economy|conflict|geo-?informat|geographic information|\bgis\b/i, "Social Sciences & Humanities"],
-  [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter/i, "Natural Sciences"],
+  [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter|statistical physics/i, "Natural Sciences"],
   // "computational" in college names (e.g. "College of Natural and Computational Sciences") is not computing
   [/comput(?!ational sci)|software|information (science|system|technolog)|informatics|data scien|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
   [/teach|\beducation|pedagog|curricul|pgdt|pgdhet|pgdsl|\bhdp\b|school (leadership|supervision)|counsel|special needs|inclusive|lifelong|non-formal/i, "Education"],

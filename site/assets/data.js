@@ -2395,7 +2395,7 @@ window.SIE_DATA = {
    "name": "Wolkite University",
    "abbr": "WKU",
    "type": "public",
-   "website": "https://www.wku.edu.et/index.php/en/",
+   "website": "https://www.wku.edu.et/",
    "about": [
     "Wolkite University (WKU) is one of the third-generation higher institutions that have been founded in 2012. It is established for the purpose of providing and promoting higher education learning, research, and outreach programs in the country to ensure the realization of the national vision of reaching the level of middle-income countries by 2020. The University is located in the Southern Nation Nationalities Regional State, in the Gurage zone, 158 km southwest of the capital city, Addis Ababa, on the way to Jima. In November 2009 the late prime minister, his Excellency Mr. Meles Zenawi, laid the foundation stone of the University in a plain landscape that is quite ideal for academic pursuit. It is situated at Gubreye sub-city, 14 km away from Wolkite town, of the Gubreye-Butajira road. The major link road to the University is a direct route to Wolkite-Jimma, Wolkite-Hossana, and Wolkite-Butajira.",
     "The University began its formal activities at Wolkite town with the appointment of the first president, Dr. Admasu Shibru, in February 2012, while other key officials of the University were appointed later. Thanks to the local community who agreed to give away their lands (196 hectares) to the University without any form of exchange for compensation, the main campus’s preparations had begun as early as 2010 the first phase of construction (36 blocks) that includes buildings for cafeterias, student dormitories, various academic buildings, and other infrastructures were begun in May 2010. During the establishment phase, the construction was administered by the Wolkite town housing development project office. After July 2012 administration of the construction was fully transferred to the University project office. Since then, the construction of additional facilities and various academic buildings has been conducted in rapid succession.",
@@ -2411,8 +2411,33 @@ window.SIE_DATA = {
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/283675671"
    },
-   "coverage": "none",
-   "coverageNote": "The university website (wku.edu.et) has an expired security certificate, so it could not be read; programmes are not listed yet."
+   "coverage": "full",
+   "coverageNote": "Undergraduate programmes are listed by department, as on the university’s programme page.",
+   "summary": "Wolkite University is a public university in Wolkite, Gurage Zone. It has colleges of engineering and technology, computing and informatics, natural and computational sciences, agriculture and natural resources, business and economics, social sciences and humanities, medicine and health sciences, and education and behavioural studies, plus a School of Law. Alongside about 60 undergraduate programmes, including textile, garment and fashion design engineering, theatre arts and music, it offers 36 master’s and 3 PhD programmes.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Computing and Informatics",
+    "College of Natural and Computational Sciences",
+    "College of Agriculture and Natural Resource",
+    "College of Business and Economics",
+    "College of Social Science and Humanities",
+    "College of Medicine and Health Sciences",
+    "College of Education and Behavioral Studies",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "Programmes (registrar)",
+     "url": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes",
+     "kind": "official"
+    },
+    {
+     "label": "Wolkite University website",
+     "url": "https://www.wku.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-08"
   },
   {
    "id": "wollega-university",
@@ -14761,7 +14786,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Statistical Physics",
    "college": "College of Applied Natural Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Natural Sciences",
    "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
   },
   {
@@ -25129,7 +25154,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Statistical Physics",
    "college": "College of Natural and Computational Science",
-   "field": "Computing, Data & IT",
+   "field": "Natural Sciences",
    "source": "https://www.dadu.edu.et/programs/postgraduate-programs-of-natural-and-computational-science-college"
   },
   {
@@ -28299,6 +28324,734 @@ window.SIE_DATA = {
    "college": "",
    "field": "Agriculture & Environment",
    "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Fashion Design Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Food Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Textile Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Garment Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Electrical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resources Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Food Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Computer Science and Engineering (Computer Science)",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Physics (Condensed Matter Physics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Biology (Botanical Science)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Biology (Zoological Science)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Chemistry (Analytical Chemistry)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Statistics (Biostatistics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Statistics (Applied Statistics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Mathematics (Numerical Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Mathematics (Differential Equations)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Mathematics (Optimization)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Mathematics (Combinatorics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Mathematics (Algebra)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Plant Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Animal Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "PhD",
+   "name": "Condensed Matter Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "PhD",
+   "name": "Material Science (Physics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "PhD",
+   "name": "Statistical Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Wildlife and Ecotourism Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Wildlife Ecology and Development",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Science and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Governance and Development Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Theatre Arts",
+   "college": "College of Social Science and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Music",
+   "college": "College of Social Science and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "College of Social Science and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Development Planning and Management Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Business & Economics",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Science and Humanities",
+   "field": "Education",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Civics and Ethical Studies",
+   "college": "College of Social Science and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Biomedical Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Reproductive Health (MPH)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Public Health Nutrition (MPH)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Clinical Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Maternity and Reproductive Health Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Medical Parasitology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education and Behavioral Studies",
+   "field": "Education",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
+  },
+  {
+   "institution": "wolkite-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.wku.edu.et/index.php/en/academic/registrar/programmes"
   }
  ],
  "studyAbroad": [
