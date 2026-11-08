@@ -62,7 +62,7 @@ window.SIE_DATA = {
    "name": "Addis Ababa University",
    "abbr": "AAU",
    "type": "public",
-   "website": "http://www.aau.edu.et",
+   "website": "https://www.aau.edu.et/",
    "about": [
     "Addis Ababa University (AAU), which was established in 1950 as the University College of Addis Ababa (UCAA), is the oldest and the largest higher learning and research institution in Ethiopia. Since its inception, the University has been the leading center in teaching-learning, research, and community services.",
     "Beginning with enrollment capacity of 33 students in 1950, AAU now has 47,610 students (29,872 undergraduate, 15,398 Master’s and 2,340 PhD students) and 8,709 staff (3,110 academics, 4,346 admin support staff and 1253 health Professionals). In its 14 campuses, the University runs 70 undergraduate and 293 graduate programs (72 PhD and 221 Masters), and various specializations in Health Sciences.",
@@ -74,32 +74,32 @@ window.SIE_DATA = {
    "city": "Addis Ababa",
    "region": "Addis Ababa",
    "founded": 1950,
-   "summary": "Addis Ababa University is Ethiopia's oldest university, founded as a two-year college on 20 March 1950. It has campuses across Addis Ababa and one in Bishoftu, with colleges, institutes and schools covering most academic fields.",
+   "summary": "Addis Ababa University, founded in 1950 as the University College of Addis Ababa, is Ethiopia’s oldest and largest university. Its eight colleges (natural and computational sciences, business and economics, education and language studies, health sciences, veterinary medicine and agriculture, social sciences, art and humanities, technology and built environment, and the School of Law) and seven research institutes offer over 50 undergraduate, about 180 master’s and over 100 PhD programmes, plus more than 50 medical specialty and subspecialty programmes.",
    "colleges": [
     "College of Business and Economics",
-    "College of Development Studies",
-    "College of Education and Behavioral Studies",
-    "College of Health Sciences",
-    "College of Humanities, Language Studies, Journalism and Communication",
-    "College of Law and Governance Studies",
+    "College of Education and Language Studies",
     "College of Natural and Computational Sciences",
-    "College of Social Sciences",
-    "College of Veterinary Medicine and Agriculture",
-    "Skunder Boghossian College of Performing and Visual Arts",
-    "Addis Ababa Institute of Technology",
-    "Ethiopian Institute of Architecture, Building Construction and City Development",
-    "Institute of Ethiopian Studies"
+    "College of Health Sciences",
+    "College of Social Sciences, Art and Humanities",
+    "College of Veterinary Medicine & Agriculture",
+    "College of Technology and Built Environment",
+    "School of Law"
    ],
    "sources": [
     {
-     "label": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Addis_Ababa_University",
-     "kind": "secondary"
+     "label": "Colleges and programmes",
+     "url": "https://www.aau.edu.et/college/CNCS/programs",
+     "kind": "official"
+    },
+    {
+     "label": "Addis Ababa University website",
+     "url": "https://www.aau.edu.et/",
+     "kind": "official"
     }
    ],
-   "coverage": "none",
-   "coverageNote": "The university website (aau.edu.et) shows no readable content to automated readers, so programmes are not listed yet.",
-   "checked": "2026-11-06",
+   "coverage": "full",
+   "coverageNote": "Taken from the programme catalogue behind the university website’s college “Programs” pages (November 2026).",
+   "checked": "2026-11-08",
    "lat": 9.03581,
    "lng": 38.75243,
    "location": {
@@ -11459,7 +11459,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Philology",
    "college": "College of Social Sciences and Humanities",
-   "field": "Social Sciences & Humanities",
+   "field": "Languages & Communication",
    "source": "https://uog.edu.et/postgraduate-directorate/"
   },
   {
@@ -13915,7 +13915,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Public Health (Biostatistics and Epidemiology)",
    "college": "College of Medicine and Health Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Health & Medicine",
    "source": "https://wu.edu.et/programs"
   },
   {
@@ -16083,7 +16083,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Public Health (Epidemiology and Biostatistics)",
    "college": "College of Medicine and Health Sciences",
-   "field": "Computing, Data & IT",
+   "field": "Health & Medicine",
    "source": "https://www.wsu.edu.et/pages/admis_progs-sm-kk"
   },
   {
@@ -32709,6 +32709,3190 @@ window.SIE_DATA = {
    "college": "School of Post Graduate Studies",
    "field": "Computing, Data & IT",
    "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Public Management and Policy",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Business Leadership",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "International Business and Strategy",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Industrial Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Financial Economics and Investment Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Public Management and Policy",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Business Leadership",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "International Business",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Business Information Systems",
+   "college": "College of Business and Economics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Project Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Business Administration and Information Systems",
+   "college": "College of Business and Economics",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Sport Science",
+   "college": "College of Education and Language Studies",
+   "field": "Sport Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Early Childhood Care and Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Speech and Language Therapy (A Joint Program)",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Science and Mathematics Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Teaching Amharic",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Teaching French As a Foreign Language",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Afan Oromo and Literature",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Language Sciences",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Human Resources and Organizational Development (HROD)",
+   "college": "College of Education and Language Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Education Leadership and Management",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Philology",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Applied Developmental Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Teaching Afan Oromo",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Curriculum and Instruction",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Translation",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Counseling Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Social Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Teaching Chinese to Speakers of Other Languages (MTCSOL)",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "English Language Teaching",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civics and Ethical Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Ethiopian Literature and Folklore",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Science and Mathematics Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Ethiopian Literature and Folklore",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Teaching Amharic",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Early Childhood Education and Development",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Ethiopian Philology",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Social Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Counseling Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "International Comparative Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Disaster Risk Management and Development",
+   "college": "College of Education and Language Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Sport Science",
+   "college": "College of Education and Language Studies",
+   "field": "Sport Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Special Needs Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Educational Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Language Sciences",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "English Literature",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Curriculum Studies",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "English Language Teaching",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Educational Policy, Leadership and Management",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Applied Developmental Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Afan Oromo and Folklore",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Higher Education Studies",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Education and Language Studies",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Educational Planning and Management",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Physical Education",
+   "college": "College of Education and Language Studies",
+   "field": "Sport Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Arabic Language and Communication",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Ethiopian Sign Language and Interpreting",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Oromo Literature and Communication",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language, Literature and Folklore",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Chinese Language",
+   "college": "College of Education and Language Studies",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Exercise and Sport",
+   "college": "College of Education and Language Studies",
+   "field": "Sport Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Language Studies",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Economic Geology (Mineral Resources)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Zoological Science (Wildlife Ecology and Conservation)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Geophysics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Material Sciences",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Environmental Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Zoological Science (Insect Science)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Genetics and Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Infection Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Information Technology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Zoological Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Geospatial Sciences",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Food Science and Human Nutrition",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Water Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Aquatic Ecosystems Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Plant Biology and Biodiversity Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Water and Health",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Hydrogeology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Zoological Science (Insect Science)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Geosciences",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Geological Engineering",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Geophysics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Genetics and Molecular Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Economic Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Material Sciences and Engineering",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Water Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Language Technology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Plant Biology and Biodiversity Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Information Science and Systems",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Applied Geoinformatics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Data Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Zoological Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Water Sanitation and Health",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Aquatic Ecosystems Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Computational Data Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Food Science and Nutrition",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Community Nutrition and Dietetics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Zoological Sciences (Ecological and Systematic Zoology)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Infection Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Policy-Interface on Biodiversity and Ecosystem Service",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Bioinformatics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Hydrogeology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Wastewater Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Pharmacognosy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Cardio Vascular Perfusion",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Field Epidemiology (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Epidemiology and Biostatistics (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Social and Administrative Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Health Informatics",
+   "college": "College of Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Health Economics (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Reproductive, Family and Population Health (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Neonatal Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Clinical Laboratory Sciences (Clinical Chemistry)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Laboratory Management and Quality Assurance",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Clinical Laboratory Sciences",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Pharmacology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Medical Physiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Clinical Psychology",
+   "college": "College of Health Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Regulatory Affairs (Medicine Regulation)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Health Systems Management and Health Policy (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Clinical Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Public Health (General)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Medical Anatomy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Medicinal Chemistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Emergency Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Medical Biochemistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Anesthesia",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Environmental and Occupational Health (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Health Promotion and Health Education (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Education",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Clinical Trials",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Public Health Nutrition (MPH)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Advanced Nursing Practice",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Pharmaceutical Analysis and Quality Assurance",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Medical Microbiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Cardiothoracic Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Family Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Psychiatry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Urogynecology and Pelvic Floor Reconstructive Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Orthopedic Trauma Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Emergency and Critical Care Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Plastic and Reconstructive Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Infectious Disease (Pediatric and Adult Tracks) (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Obstetrics and Gynecology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pediatrics Nephrology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Endocrine and Breast Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Vascular Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Plastic and Reconstructive Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pediatric Emergency and Critical Care (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Musculoskeletal Radiology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Adult Clinical Hematology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pediatric Radiology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Maternal and Fetal Medicine (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Colorectal Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Thoracic Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Radiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Neurosurgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pulmonary and Critical Care Medicine (Pediatric and Adult Tracks) (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Nuclear Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "ENT",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Reproductive Endocrinology and Infertility (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Body Imaging (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Gastroenterology and Hepatology (with Two Tracks Pediatrics and Adult) (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Clinical Pediatric Hematology and Oncology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Adult Nephrology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Anesthesiology Critical Care and Pain Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Neonatology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Ophthalmology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Adult Cardiology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Glaucoma (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Child and Adolescent Psychiatry (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Endocrinology and Metabolism (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Clinical Oncology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Neuroradiology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pediatrics Neurology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Cardio Thoracic Anesthesia (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Oral and Maxillofacial Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pathology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pediatric and Child Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Neurology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Gynecology Oncology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Urology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Dermatovenereology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Cardiothoracic Radiology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Pediatrics Cardiology (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Orthopedics and Trauma Surgery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Specialty",
+   "name": "Hepatobiliary Surgery (subspecialty)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Mental Health Epidemiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Public Health Nutrition",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Medical Biochemistry",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Pharmaceutics",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Medical Anatomy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Pharmacology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Translational Medicine",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Pharmacognosy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Social and Administrative Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Medical Physiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Public Health",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Clinical Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Medical Microbiology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Dental Medicine (DMD)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Medical Radiologic Technology",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Sciences",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Medicine (MD)",
+   "college": "College of Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development and Planning",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Archeology and Museum Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Multimedia Theatre",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Fine Arts",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Journalism and Communication with a Specialty Broadcast Journalism",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Pharmaceuticals",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Indigenous Knowledge Systems of Ethiopia",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Managing Peace and Security in Africa (Executive)",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "History",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "African Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Political Science",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Journalism and Communication with a Specialty Multimedia Journalism",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Tourism Development and Management",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Philosophy",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Public Relations and Strategic Communication",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Environment and Natural Resource Management",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing and Digital Cartography",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Global Studies Focusing on Peace and Security in Africa (Joint)",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Ethnomusicology",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Constitutional and Federalism Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "International Relations and Diplomacy",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Peace and Security Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Population Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Regional and Local Development Analysis and Planning",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Film Production",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Gender Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Human Rights (with Tracks LLM/MA)",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Development Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Social Work",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Population Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Environment and Natural Resources Management",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "History",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Archeology and Heritage Management",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "African Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Performing Arts",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Media and Communications Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Urban, Regional Development Planning and Governance",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Development Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Philosophy",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Social Work and Social Development",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Political Science",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Sustainable Development (Center)",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Peace and Security",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Human Rights",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Federalism and Governance Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Fine Arts and Design",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Theater Arts with Film Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Public Relations and Strategic Communication",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication (Broadcast Journalism) with Journalism and Communication (Multimedia)",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Geography and Development Studies",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Music",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Arts & Design",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Sciences, Art and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Veterinary Pharmacology and Toxicology",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "One Health",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Food Security and Development",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Poultry Health and Management",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Veterinary Microbiology and Parasitology",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Veterinary Biotechnology with Focus on Animal Health",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Veterinary Clinical Sciences",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Tropical Infectious Diseases, Vet Epidemiology and Public Health",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine (DVM)",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Bachelor of Degree in Veterinary Science (BVSc)",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "One Health",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Health & Medicine",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Animal Production",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Veterinary Sciences",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Veterinary Science",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Food Security and Development",
+   "college": "College of Veterinary Medicine & Agriculture",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civil Engineering (Road and Transport Engineering) [with Track in Transport and Traffic Engineering and Traffic Safety System Track]",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Water Resources Engineering and Management",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Railway Engineering (Civil Infrastructure)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Industrial Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Control and Automation (Sugar Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Landscape Architecture",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Chemical Engineering (Food Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Mechanical Engineering (Manufacturing Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Chemical Engineering (Environmental Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Integrated Architectural Design",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Cyber Security",
+   "college": "College of Technology and Built Environment",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Conservation of Urban and Architectural Heritage",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Railway Engineering (Rolling Stock Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Computer Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civil and Environmental Engineering (Dam and Hydropower Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Geomatics Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civil Engineering (Geotechnical Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Chemical Engineering (Process Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Biomedical Engineering (Biomechanics and Rehabilitation)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civil Engineering (Structural Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Biomedical Engineering (Instrumentation and Imaging)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Infrastructure Planning and Management",
+   "college": "College of Technology and Built Environment",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Chemical Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Mechanical Engineering (Mechanical Design Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Artificial Intelligence",
+   "college": "College of Technology and Built Environment",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civil and Environmental Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Railway Engineering (Traction and Train Control)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Renewable Energy Technology Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Control Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Civil and Environmental Engineering (Hydraulics Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Mechanical Engineering (Thermal Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Sustainable Housing and Environment",
+   "college": "College of Technology and Built Environment",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Property Valuation and Management",
+   "college": "College of Technology and Built Environment",
+   "field": "Business & Economics",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Urban Planning and Design",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Biomedical Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Cyber Security",
+   "college": "College of Technology and Built Environment",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Urban and Regional Planning",
+   "college": "College of Technology and Built Environment",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Environmental and Landscape Planning",
+   "college": "College of Technology and Built Environment",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Railway Engineering and Management (Civil Infrastructure and Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Chemical Engineering (Process Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil Engineering (Road and Transportation Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Chemical Engineering (Food Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil Engineering (Structural Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Railway Engineering and Management (Rolling Stock Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil and Environmental Engineering (Hydraulics and Hydrology Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil Engineering (Construction Engineering and Management)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Railway Engineering and Management (Traction and Train Control Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Mechanical Engineering (Thermal Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Communication Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Mechanical Engineering (Applied Mechanics)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil Engineering (Geotechnical Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Mechanical Engineering (Manufacturing Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil and Environmental Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Industrial Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Control Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Water Resources Engineering and Management",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Computer Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Railway Engineering and Management (Railway System Management)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Electrical Power Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Civil Engineering (Irrigation and Drainage Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Chemical Engineering (Environmental Engineering)",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Biomedical Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology Management",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Architecture and Design",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering and Computing Technology",
+   "college": "College of Technology and Built Environment",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Urban Planning and Design",
+   "college": "College of Technology and Built Environment",
+   "field": "Engineering & Technology",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "PhD",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Criminal Justice (LLM)",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Business and Property Law (LLM)",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Master's",
+   "name": "Public International Law (LLM)",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
+  },
+  {
+   "institution": "addis-ababa-university",
+   "level": "Bachelor's",
+   "name": "Bachelor of Laws",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.aau.edu.et/college/CNCS/programs"
   }
  ],
  "studyAbroad": [

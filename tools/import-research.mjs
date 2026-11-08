@@ -43,6 +43,8 @@ const RULES = [
   [/\btax|customs/i, "Business & Economics"],
   [/ministry|biblical|bible|christian|muslim|missiolog|religio/i, "Social Sciences & Humanities"],
   [/food science/i, "Agriculture & Environment"],
+  [/epidemiolog/i, "Health & Medicine"],
+  [/philolog/i, "Languages & Communication"],
   [/(?<!animal )nutrition/i, "Health & Medicine"],
   [/political economy|conflict|geo-?informat|geographic information|\bgis\b/i, "Social Sciences & Humanities"],
   [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter|statistical physics/i, "Natural Sciences"],
