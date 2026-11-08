@@ -2770,14 +2770,15 @@ window.SIE_DATA = {
    "region": "Oromia",
    "summary": "Oda Bultum University is a public university in Chiro, West Hararghe Zone, Oromia.",
    "coverage": "none",
-   "coverageNote": "The website (obu.edu.et) refused connections from outside Ethiopia in November 2026.",
+   "coverageNote": "The university's website (obu.edu.et) refuses connections from outside Ethiopia (November 2026).",
    "lat": 9.08748,
    "lng": 40.86633,
    "location": {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/316868800"
-   }
+   },
+   "website": "https://obu.edu.et/"
   },
   {
    "id": "bonga-university",
