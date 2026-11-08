@@ -54,7 +54,7 @@ const RULES = [
   [/history|heritage|museum|geograph|geospatial/i, "Social Sciences & Humanities"],
   [/^economics\b|valuation|property/i, "Business & Economics"],
   [/agri|agro|animal|plant|soil|crop|horticult|seed|weed|dairy|\brange|forest|rural|pest|entomolog|poultry|meat|natural resource|food|fisher|aquacult|aquatic|wetland|wildlife|ecosystem|watershed|land resource|livestock|apicult|environment|climate|disaster|ecolog|biodivers/i, "Agriculture & Environment"],
-  [/biology|chemistry|physics|mathemat|geolog|geophys|petrolog|biotechnolog|microbiolog|botany|zoology|astronom|optic|earth science|natural (and computational )?scien/i, "Natural Sciences"],
+  [/biology|chemistry|physics|mathemat|geolog|geophys|petrolog|biotechnolog|microbiolog|botan|zoology|astronom|optic|earth science|natural (and computational )?scien/i, "Natural Sciences"],
   [/business|account|financ|econom|management|marketing|\bmba|cooperative|banking|logistic|procurement|tourism|hotel|supply chain|entrepreneur|auditing/i, "Business & Economics"],
   [/technolog|hydraul|hydrolog|manufactur|mechanic|electric|energy|material|mining|mineral|urban planning|water|sanitation|nano|polymer|process/i, "Engineering & Technology"],
   [/language|literature|linguist|english|amharic|afaan|afan|oromo|french|journalism|communication|media|sidaamu|tigrigna|translation|folklore|ge.ez/i, "Languages & Communication"],
