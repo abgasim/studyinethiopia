@@ -1,0 +1,217 @@
+{
+ "wachemo-university": {
+  "website": "https://www.wcu.edu.et/",
+  "summary": "Wachemo University is a public university in Hosaena, Hadiya Zone, with a second campus in Durame, the Nigist Eleni Mohammed Memorial teaching hospital and several satellite centres. It has about 23,000 students in regular, weekend and summer programmes across seven colleges and schools of medicine, veterinary medicine, computing, engineering and law, offering over 60 undergraduate and 60 postgraduate programmes, two PhDs and five medical specialties.",
+  "colleges": [
+   "College of Engineering and Technology",
+   "College of Natural and Computational Sciences",
+   "College of Medicine and Health Sciences",
+   "College of Agricultural Sciences",
+   "College of Business and Economics",
+   "College of Social Sciences and Humanities",
+   "College of Education and Behavioral Sciences",
+   "School of Law",
+   "School of Veterinary Medicine"
+  ],
+  "sources": [
+   {
+    "label": "Academic programmes",
+    "url": "https://www.wcu.edu.et/AcademicProgram.aspx",
+    "kind": "official"
+   },
+   {
+    "label": "Wachemo University website",
+    "url": "https://www.wcu.edu.et/",
+    "kind": "official"
+   }
+  ],
+  "coverage": "full",
+  "programmes": {
+   "https://www.wcu.edu.et/AcademicProgram.aspx": {
+    "College of Engineering and Technology": {
+     "Bachelor's": [
+      "Architecture",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Science",
+      "Construction Technology and Management",
+      "Electrical and Computer Engineering",
+      "Electro-Mechanical Engineering",
+      "Surveying Engineering",
+      "Information Systems",
+      "Information Technology",
+      "Mechanical Engineering",
+      "Software Engineering",
+      "Hydraulic and Water Resource Engineering",
+      "Biomedical Engineering"
+     ],
+     "Master's": [
+      "Electrical Power Engineering",
+      "Electrical and Communication Engineering",
+      "Computer Science",
+      "Process Engineering",
+      "Geo-informatics",
+      "Geo-informatics Engineering",
+      "Computer Engineering",
+      "Thermal Engineering",
+      "Structural Engineering",
+      "Water Supply and Sanitary Engineering",
+      "Information Technology",
+      "Construction Technology and Management",
+      "Road and Transport Engineering"
+     ]
+    },
+    "College of Natural and Computational Sciences": {
+     "Bachelor's": [
+      "Biology",
+      "Chemistry",
+      "Mathematics",
+      "Statistics",
+      "Biotechnology",
+      "Geology",
+      "Sport Science",
+      "Industrial Chemistry"
+     ],
+     "Master's": [
+      "Applied Statistics",
+      "Organic Chemistry",
+      "Football Coaching",
+      "Volleyball Coaching",
+      "Sport Management",
+      "Biostatistics",
+      "Physics (Quantum Optics)",
+      "Physics (Condensed Matter)",
+      "Biotechnology",
+      "Botanical Science",
+      "Applied Microbiology",
+      "Mathematics Education",
+      "Exercise Physiology",
+      "Mathematics (Analysis)",
+      "Animal Biotechnology"
+     ]
+    },
+    "College of Medicine and Health Sciences": {
+     "Bachelor's": [
+      "Anesthesia",
+      "Medicine",
+      "Midwifery",
+      "Comprehensive Nursing",
+      "Public Health",
+      "Health Informatics",
+      "Medical Laboratory Technology",
+      "Pharmacy",
+      "Surgical Nursing (post-basic)",
+      "Paediatrics and Child Health Nursing (post-basic)",
+      "Dental Medicine"
+     ],
+     "Master's": [
+      "General Public Health",
+      "Health Education and Promotion",
+      "Epidemiology",
+      "Reproductive Health",
+      "Clinical Pharmacy"
+     ],
+     "Specialty": [
+      "Gynecology",
+      "General Surgery",
+      "Pediatrics and Child Health",
+      "Internal Medicine",
+      "Orthopedics and Trauma Surgery"
+     ]
+    },
+    "College of Agricultural Sciences": {
+     "Bachelor's": [
+      "Animal Science",
+      "Horticulture",
+      "Natural Resource Management",
+      "Plant Science",
+      "Environmental Science",
+      "Food Science and Postharvest Technology",
+      "Agricultural Economics",
+      "Rural Development and Agricultural Extension"
+     ],
+     "Master's": [
+      "Animal Production",
+      "Animal Breeding and Genetics",
+      "Agroforestry",
+      "Agronomy",
+      "Agricultural Economics",
+      "Environmental Science",
+      "Rural Development and Agricultural Extension",
+      "Soil Science",
+      "Plant Breeding",
+      "Livelihood and Food Security",
+      "Integrated Watershed Management"
+     ]
+    },
+    "College of Business and Economics": {
+     "Bachelor's": [
+      "Accounting and Finance",
+      "Management",
+      "Economics",
+      "Marketing Management",
+      "Public Administration and Development Management",
+      "Tourism and Hotel Management"
+     ],
+     "Master's": [
+      "Accounting and Finance",
+      "Development Economics",
+      "Business Administration (MBA)",
+      "Development Management"
+     ]
+    },
+    "College of Social Sciences and Humanities": {
+     "Bachelor's": [
+      "Political Science and International Relations",
+      "English Language and Literature",
+      "Geography and Environmental Studies",
+      "Hadiyyisa Language and Literature",
+      "Sociology",
+      "History and Heritage Management",
+      "Governance and Development Studies",
+      "Journalism and Communication",
+      "Kambatissa Language and Literature"
+     ],
+     "Master's": [
+      "Teaching English as a Foreign Language (TEFL)",
+      "Peace and Conflict Studies",
+      "Geography and Environmental Science (Sustainable Natural Resource Management)",
+      "Geography (Socio-economic Development and Environmental Planning)",
+      "Social Anthropology",
+      "Applied Linguistics and Communication in Hadiyyisa"
+     ]
+    },
+    "College of Education and Behavioral Sciences": {
+     "Bachelor's": [
+      "Psychology",
+      "Educational Leadership and Management",
+      "Special Needs and Inclusive Education"
+     ],
+     "Master's": [
+      "Educational Leadership and Management"
+     ]
+    },
+    "School of Law": {
+     "Bachelor's": [
+      "Law"
+     ],
+     "Master's": [
+      "Environmental Law and Policy"
+     ]
+    },
+    "School of Veterinary Medicine": {
+     "Bachelor's": [
+      "Veterinary Medicine (DVM)",
+      "Veterinary Science"
+     ]
+    },
+    "": {
+     "PhD": [
+      "Educational Leadership and Policy Studies",
+      "Soil Science"
+     ]
+    }
+   }
+  }
+ }
+}

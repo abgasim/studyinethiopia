@@ -2209,7 +2209,7 @@ window.SIE_DATA = {
    "name": "Wachemo University",
    "abbr": "WCHU",
    "type": "public",
-   "website": "http://www.wcu.edu.et/",
+   "website": "https://www.wcu.edu.et/",
    "about": [
     "Established in 2009 G.C. and registered in 2012 G.C. enrolling 538 students for a degree program in four faculties and 12 departments. Today our university having four Campuses: Main Campus in Hadiya Zone, Duramee Campus Kembata Tembaro Zone, and NogistElini Mohamed Teaching Hospital in Hossana Town. Currently, three campuses of our University accommodate more than 13,000 UnderGraduate Regular, 8000 Extension students. on top of that, we have PG Program under seven departments. Totally, are running all teaching-learning, research, and communities services having more than 21,000 students."
    ],
@@ -2223,8 +2223,33 @@ window.SIE_DATA = {
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/4601173879"
    },
-   "coverage": "none",
-   "coverageNote": "The university website (wcu.edu.et) was unavailable during research, so programmes are not listed yet."
+   "coverage": "full",
+   "coverageNote": "The university website (wcu.edu.et) was unavailable during research, so programmes are not listed yet.",
+   "summary": "Wachemo University is a public university in Hosaena, Hadiya Zone, with a second campus in Durame, the Nigist Eleni Mohammed Memorial teaching hospital and several satellite centres. It has about 23,000 students in regular, weekend and summer programmes across seven colleges and schools of medicine, veterinary medicine, computing, engineering and law, offering over 60 undergraduate and 60 postgraduate programmes, two PhDs and five medical specialties.",
+   "colleges": [
+    "College of Engineering and Technology",
+    "College of Natural and Computational Sciences",
+    "College of Medicine and Health Sciences",
+    "College of Agricultural Sciences",
+    "College of Business and Economics",
+    "College of Social Sciences and Humanities",
+    "College of Education and Behavioral Sciences",
+    "School of Law",
+    "School of Veterinary Medicine"
+   ],
+   "sources": [
+    {
+     "label": "Academic programmes",
+     "url": "https://www.wcu.edu.et/AcademicProgram.aspx",
+     "kind": "official"
+    },
+    {
+     "label": "Wachemo University website",
+     "url": "https://www.wcu.edu.et/",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-08"
   },
   {
    "id": "washera-college",
@@ -5456,7 +5481,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Biomedical Engineering",
    "college": "Bahir Dar Institute of Technology",
-   "field": "Health & Medicine",
+   "field": "Engineering & Technology",
    "source": "https://bdu.edu.et/registrar/node/154"
   },
   {
@@ -14152,7 +14177,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Biomedical Engineering",
    "college": "College of Engineering",
-   "field": "Health & Medicine",
+   "field": "Engineering & Technology",
    "source": "https://wu.edu.et/programs"
   },
   {
@@ -14976,7 +15001,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Geoinformatics Engineering",
    "college": "College of Civil Engineering and Architecture",
-   "field": "Social Sciences & Humanities",
+   "field": "Engineering & Technology",
    "source": "https://www.astu.edu.et/academics/graduate-schools/postgraduate-programs"
   },
   {
@@ -27274,6 +27299,1006 @@ window.SIE_DATA = {
    "college": "",
    "field": "Health & Medicine",
    "source": "https://www.mwu.edu.et/program"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Electro-Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Surveying Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Information Systems",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Hydraulic and Water Resource Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Biomedical Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Electrical Power Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Electrical and Communication Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Process Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Geo-informatics",
+   "college": "College of Engineering and Technology",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Geo-informatics Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Computer Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Water Supply and Sanitary Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "College of Engineering and Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Construction Technology and Management",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Road and Transport Engineering",
+   "college": "College of Engineering and Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Industrial Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Applied Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Organic Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Football Coaching",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Volleyball Coaching",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Sport Management",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Biostatistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Physics (Quantum Optics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Physics (Condensed Matter)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Botanical Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Applied Microbiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Mathematics Education",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Exercise Physiology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Mathematics (Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Animal Biotechnology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Comprehensive Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Health Informatics",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Technology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Surgical Nursing (post-basic)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Paediatrics and Child Health Nursing (post-basic)",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Dental Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "General Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Health Education and Promotion",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Epidemiology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Reproductive Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Clinical Pharmacy",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Specialty",
+   "name": "Gynecology",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Specialty",
+   "name": "General Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Specialty",
+   "name": "Pediatrics and Child Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Specialty",
+   "name": "Internal Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Specialty",
+   "name": "Orthopedics and Trauma Surgery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Environmental Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Food Science and Postharvest Technology",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Animal Production",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Animal Breeding and Genetics",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Agroforestry",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Agronomy",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Agricultural Economics",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Environmental Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Soil Science",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Plant Breeding",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Livelihood and Food Security",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Integrated Watershed Management",
+   "college": "College of Agricultural Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Tourism and Hotel Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Development Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Hadiyyisa Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Sociology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Governance and Development Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Kambatissa Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Peace and Conflict Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Science (Sustainable Natural Resource Management)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Geography (Socio-economic Development and Environmental Planning)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Social Anthropology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Applied Linguistics and Communication in Hadiyyisa",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Educational Leadership and Management",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Special Needs and Inclusive Education",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Educational Leadership and Management",
+   "college": "College of Education and Behavioral Sciences",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Master's",
+   "name": "Environmental Law and Policy",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Medicine (DVM)",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "Bachelor's",
+   "name": "Veterinary Science",
+   "college": "School of Veterinary Medicine",
+   "field": "Veterinary Science",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "PhD",
+   "name": "Educational Leadership and Policy Studies",
+   "college": "",
+   "field": "Education",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
+  },
+  {
+   "institution": "wachemo-university",
+   "level": "PhD",
+   "name": "Soil Science",
+   "college": "",
+   "field": "Agriculture & Environment",
+   "source": "https://www.wcu.edu.et/AcademicProgram.aspx"
   }
  ],
  "studyAbroad": [
