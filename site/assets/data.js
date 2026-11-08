@@ -2626,32 +2626,28 @@ window.SIE_DATA = {
    "category": "University",
    "city": "Addis Ababa",
    "region": "Addis Ababa",
-   "summary": "Addis Ababa Science and Technology University is one of Ethiopia's two specialised science and technology universities, established under the first Growth and Transformation Plan. It has colleges of engineering, natural and applied sciences, and social science and humanities, with departments ranging from architecture, civil, chemical, electromechanical, mining and software engineering to biotechnology, industrial chemistry, geology and food science.",
+   "summary": "Addis Ababa Science and Technology University is one of Ethiopia’s two specialised science and technology universities, set up under the first Growth and Transformation Plan. Its College of Engineering and College of Natural and Applied Sciences offer 13 undergraduate programmes, and its School of Post Graduate Studies runs 41 MSc and 41 PhD tracks, including aeronautical, nuclear and space engineering, artificial intelligence and robotics, big data analytics and cyber security.",
    "colleges": [
     "College of Engineering",
     "College of Natural and Applied Sciences",
-    "College of Social Science and Humanities"
+    "College of Social Science and Humanities",
+    "School of Post Graduate Studies"
    ],
    "sources": [
     {
-     "label": "College of Engineering",
-     "url": "https://www.aastu.edu.et/college-of-engineering",
+     "label": "Programmes (registrar)",
+     "url": "https://www.aastu.edu.et/registrar/programs/",
      "kind": "official"
     },
     {
-     "label": "College of Natural and Applied Sciences",
-     "url": "https://www.aastu.edu.et/cnas/",
-     "kind": "official"
-    },
-    {
-     "label": "College of Social Science and Humanities",
-     "url": "https://www.aastu.edu.et/cssh",
+     "label": "Registrar",
+     "url": "https://www.aastu.edu.et/registrar/",
      "kind": "official"
     }
    ],
-   "coverage": "partial",
+   "coverage": "full",
    "coverageNote": "The college pages list departments rather than named degree programmes, so only two programmes are listed so far.",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "lat": 9.03581,
    "lng": 38.75243,
    "location": {
@@ -17399,7 +17395,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Food Science and Nutrition",
    "college": "Continuing and Distance Education Programme",
-   "field": "Health & Medicine",
+   "field": "Agriculture & Environment",
    "source": "https://www.jju.edu.et/Registrar.php"
   },
   {
@@ -19447,7 +19443,7 @@ window.SIE_DATA = {
    "level": "Bachelor's",
    "name": "Food Science and Nutrition",
    "college": "College of Agriculture and Natural Resources",
-   "field": "Health & Medicine",
+   "field": "Agriculture & Environment",
    "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/undergraduate-programs"
   },
   {
@@ -19639,7 +19635,7 @@ window.SIE_DATA = {
    "level": "Master's",
    "name": "Nutrition and Food Science",
    "college": "School of Graduate Studies",
-   "field": "Health & Medicine",
+   "field": "Agriculture & Environment",
    "source": "https://www.wollegauniversity.edu.et/index.php/academics/programs/graduate-programs"
   },
   {
@@ -22073,22 +22069,6 @@ window.SIE_DATA = {
    "college": "",
    "field": "Health & Medicine",
    "source": "https://guc.edu.et/"
-  },
-  {
-   "institution": "addis-ababa-science-and-technology-university",
-   "level": "Master's",
-   "name": "Construction Management (MBA)",
-   "college": "College of Social Science and Humanities",
-   "field": "Engineering & Technology",
-   "source": "https://www.aastu.edu.et/cssh"
-  },
-  {
-   "institution": "addis-ababa-science-and-technology-university",
-   "level": "Master's",
-   "name": "Industrial Management (MBA)",
-   "college": "College of Social Science and Humanities",
-   "field": "Business & Economics",
-   "source": "https://www.aastu.edu.et/cssh"
   },
   {
    "institution": "injibara-university",
@@ -31969,6 +31949,766 @@ window.SIE_DATA = {
    "college": "Sport Science Academy",
    "field": "Sport Science",
    "source": "https://ju.edu.et/list-all-programmes-jimma-university/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Electrical and Computer Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Electromechanical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Environmental Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Mining Engineering",
+   "college": "College of Engineering",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Engineering",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Biotechnology",
+   "college": "College of Natural and Applied Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Food Science and Applied Nutrition",
+   "college": "College of Natural and Applied Sciences",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Applied Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Bachelor's",
+   "name": "Industrial Chemistry",
+   "college": "College of Natural and Applied Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Aeronautical Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Analytical Chemistry and Instrumentation",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Architecture (Advanced Architectural Design)",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Industrial and Environmental Biotechnology",
+   "college": "School of Post Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Agricultural Biotechnology",
+   "college": "School of Post Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Chemical Process and Product Design",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Bio Energy Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Food Process Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Smart Materials Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Construction Technology and Management",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Hydraulic Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Road and Transport Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Water Supply and Sanitary Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Communication System Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Computer Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Industrial Control Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Power System Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Mechatronics Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Environmental Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Food Science and Nutrition",
+   "college": "School of Post Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Economic Geology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Engineering Geology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Geochemistry)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Hydrogeology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Petrology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Sedimentary Geology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Geology (Structural Geology and Tectonics)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Industrial Chemistry",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Automotive Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Mechanical Design",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Surface Mining",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Mineral Processing",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Nuclear Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Space Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Software Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Industrial Management (MBA)",
+   "college": "School of Post Graduate Studies",
+   "field": "Business & Economics",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "Master's",
+   "name": "Construction Management (MBA)",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Aerospace Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Artificial Intelligence and Robotics",
+   "college": "School of Post Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Big Data Analytics",
+   "college": "School of Post Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Agricultural Biotechnology",
+   "college": "School of Post Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Environmental Biotechnology",
+   "college": "School of Post Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Industrial Biotechnology",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Chemical Process and Product Design",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Bio Energy Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Food Process Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Smart Materials Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Analytical Chemistry",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Inorganic Chemistry",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Organic Chemistry",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Physical Chemistry",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Construction Technology and Management",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geotechnical Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Hydraulic Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Road and Transport Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Structural Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Water Supply and Sanitary Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Computational Methods",
+   "college": "School of Post Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Cyber Security",
+   "college": "School of Post Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Communication System Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Computer Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Industrial Control Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Power System Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Environmental Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Food Science and Nutrition",
+   "college": "School of Post Graduate Studies",
+   "field": "Agriculture & Environment",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Economic Geology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Engineering Geology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Geochemistry)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Hydrogeology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Petrology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Sedimentary Geology)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Geology (Structural Geology and Tectonics)",
+   "college": "School of Post Graduate Studies",
+   "field": "Natural Sciences",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Automotive Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Manufacturing Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Mechanical Design",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Thermal Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Surface Mining",
+   "college": "School of Post Graduate Studies",
+   "field": "Engineering & Technology",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
+  },
+  {
+   "institution": "addis-ababa-science-and-technology-university",
+   "level": "PhD",
+   "name": "Software Engineering",
+   "college": "School of Post Graduate Studies",
+   "field": "Computing, Data & IT",
+   "source": "https://www.aastu.edu.et/registrar/programs/"
   }
  ],
  "studyAbroad": [

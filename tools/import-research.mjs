@@ -42,11 +42,12 @@ const RULES = [
   [/computer engineering|geomatics.*engineering|geo-?informatics engineering|biomedical engineering|healthcare technology engineering/i, "Engineering & Technology"],
   [/\btax|customs/i, "Business & Economics"],
   [/ministry|biblical|bible|christian|muslim|missiolog|religio/i, "Social Sciences & Humanities"],
+  [/food science/i, "Agriculture & Environment"],
   [/(?<!animal )nutrition/i, "Health & Medicine"],
   [/political economy|conflict|geo-?informat|geographic information|\bgis\b/i, "Social Sciences & Humanities"],
   [/spectroscop|quantum|field theory|\blaser|astrophys|nuclear phys|condensed matter|statistical physics/i, "Natural Sciences"],
   // "computational" in college names (e.g. "College of Natural and Computational Sciences") is not computing
-  [/comput(?!ational sci)|software|information (science|system|technolog)|informatics|data scien|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
+  [/comput(?!ational sci)|software|information (science|system|technolog)|informatics|data scien|big data|artificial intel|cyber|statistic|biostatist/i, "Computing, Data & IT"],
   [/teach|\beducation|instructional design|pedagog|curricul|pgdt|pgdhet|pgdsl|\bhdp\b|school (leadership|supervision)|counsel|special needs|inclusive|lifelong|non-formal/i, "Education"],
   [/medic|nurs|midwif|pharm|health|anesth|surg|pediatr|obstet|gyn|radiolog|optometr|patholog|dermat|orthop|ophthalm|epidem|biochem|laborator|maxillofac|emergency|oncolog|fetal|tropical|infectious|psychiatr|dental|physiother|internal medicine|venereol|human nutrition/i, "Health & Medicine"],
   [/\blaw\b|\bllb|\bllm|legal|governance|civics|human rights|public policy|public administration|peace|federalism|criminolog|land (administration|use|policy)/i, "Law & Governance"],

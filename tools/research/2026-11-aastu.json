@@ -1,0 +1,138 @@
+{
+ "addis-ababa-science-and-technology-university": {
+  "summary": "Addis Ababa Science and Technology University is one of Ethiopia’s two specialised science and technology universities, set up under the first Growth and Transformation Plan. Its College of Engineering and College of Natural and Applied Sciences offer 13 undergraduate programmes, and its School of Post Graduate Studies runs 41 MSc and 41 PhD tracks, including aeronautical, nuclear and space engineering, artificial intelligence and robotics, big data analytics and cyber security.",
+  "colleges": [
+   "College of Engineering",
+   "College of Natural and Applied Sciences",
+   "College of Social Science and Humanities",
+   "School of Post Graduate Studies"
+  ],
+  "sources": [
+   {
+    "label": "Programmes (registrar)",
+    "url": "https://www.aastu.edu.et/registrar/programs/",
+    "kind": "official"
+   },
+   {
+    "label": "Registrar",
+    "url": "https://www.aastu.edu.et/registrar/",
+    "kind": "official"
+   }
+  ],
+  "coverage": "full",
+  "coverageNote": "",
+  "programmes": {
+   "https://www.aastu.edu.et/registrar/programs/": {
+    "College of Engineering": {
+     "Bachelor's": [
+      "Architecture",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Electrical and Computer Engineering",
+      "Electromechanical Engineering",
+      "Environmental Engineering",
+      "Mechanical Engineering",
+      "Mining Engineering",
+      "Software Engineering"
+     ]
+    },
+    "College of Natural and Applied Sciences": {
+     "Bachelor's": [
+      "Biotechnology",
+      "Food Science and Applied Nutrition",
+      "Geology",
+      "Industrial Chemistry"
+     ]
+    },
+    "School of Post Graduate Studies": {
+     "Master's": [
+      "Aeronautical Engineering",
+      "Analytical Chemistry and Instrumentation",
+      "Architecture (Advanced Architectural Design)",
+      "Industrial and Environmental Biotechnology",
+      "Agricultural Biotechnology",
+      "Chemical Process and Product Design",
+      "Bio Energy Engineering",
+      "Food Process Engineering",
+      "Smart Materials Engineering",
+      "Construction Technology and Management",
+      "Geotechnical Engineering",
+      "Hydraulic Engineering",
+      "Road and Transport Engineering",
+      "Structural Engineering",
+      "Water Supply and Sanitary Engineering",
+      "Communication System Engineering",
+      "Computer Engineering",
+      "Industrial Control Engineering",
+      "Power System Engineering",
+      "Mechatronics Engineering",
+      "Environmental Engineering",
+      "Food Science and Nutrition",
+      "Geology (Economic Geology)",
+      "Geology (Engineering Geology)",
+      "Geology (Geochemistry)",
+      "Geology (Hydrogeology)",
+      "Geology (Petrology)",
+      "Geology (Sedimentary Geology)",
+      "Geology (Structural Geology and Tectonics)",
+      "Industrial Chemistry",
+      "Automotive Engineering",
+      "Manufacturing Engineering",
+      "Mechanical Design",
+      "Thermal Engineering",
+      "Surface Mining",
+      "Mineral Processing",
+      "Nuclear Engineering",
+      "Space Engineering",
+      "Software Engineering",
+      "Industrial Management (MBA)",
+      "Construction Management (MBA)"
+     ],
+     "PhD": [
+      "Aerospace Engineering",
+      "Artificial Intelligence and Robotics",
+      "Big Data Analytics",
+      "Agricultural Biotechnology",
+      "Environmental Biotechnology",
+      "Industrial Biotechnology",
+      "Chemical Process and Product Design",
+      "Bio Energy Engineering",
+      "Food Process Engineering",
+      "Smart Materials Engineering",
+      "Analytical Chemistry",
+      "Inorganic Chemistry",
+      "Organic Chemistry",
+      "Physical Chemistry",
+      "Construction Technology and Management",
+      "Geotechnical Engineering",
+      "Hydraulic Engineering",
+      "Road and Transport Engineering",
+      "Structural Engineering",
+      "Water Supply and Sanitary Engineering",
+      "Computational Methods",
+      "Cyber Security",
+      "Communication System Engineering",
+      "Computer Engineering",
+      "Industrial Control Engineering",
+      "Power System Engineering",
+      "Environmental Engineering",
+      "Food Science and Nutrition",
+      "Geology (Economic Geology)",
+      "Geology (Engineering Geology)",
+      "Geology (Geochemistry)",
+      "Geology (Hydrogeology)",
+      "Geology (Petrology)",
+      "Geology (Sedimentary Geology)",
+      "Geology (Structural Geology and Tectonics)",
+      "Automotive Engineering",
+      "Manufacturing Engineering",
+      "Mechanical Design",
+      "Thermal Engineering",
+      "Surface Mining",
+      "Software Engineering"
+     ]
+    }
+   }
+  }
+ }
+}
