@@ -665,7 +665,7 @@ window.SIE_DATA = {
    "name": "Dire Dawa University",
    "abbr": "DDU",
    "type": "public",
-   "website": "http://www.ddu.edu.et/",
+   "website": "https://www.ddu.edu.et/",
    "about": [],
    "category": "University",
    "lat": 9.59134,
@@ -677,8 +677,51 @@ window.SIE_DATA = {
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/relation/13422225"
    },
-   "coverage": "none",
-   "coverageNote": "The university website (ddu.edu.et) has an expired security certificate, so programmes are not listed yet."
+   "coverage": "most",
+   "coverageNote": "The natural sciences college reports 26 master's programmes but lists only some of them; continuing and distance education programmes are not included. The website's security certificate is invalid, so browsers show a warning.",
+   "summary": "Dire Dawa University is a public university in Dire Dawa with an Institute of Technology, colleges of natural and computational sciences, business and economics, medicine and health sciences, and social sciences and humanities, and a School of Law. Its Institute of Technology is one of the broadest in eastern Ethiopia, with programmes from software, food and textile engineering to architecture and fashion design.",
+   "colleges": [
+    "Institute of Technology",
+    "College of Natural and Computational Sciences",
+    "College of Business and Economics",
+    "College of Medicine and Health Sciences",
+    "College of Social Sciences and Humanities",
+    "School of Law",
+    "School of Graduate Studies"
+   ],
+   "sources": [
+    {
+     "label": "Institute of Technology programmes",
+     "url": "https://www.ddu.edu.et/iot/iot-programs",
+     "kind": "official"
+    },
+    {
+     "label": "Natural and Computational Sciences programmes",
+     "url": "https://www.ddu.edu.et/college-of-natural/cncs-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "Business and Economics programmes",
+     "url": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "Medicine and Health Sciences programmes",
+     "url": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "Social Sciences and Humanities programmes",
+     "url": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/",
+     "kind": "official"
+    },
+    {
+     "label": "School of Law",
+     "url": "https://www.ddu.edu.et/school-of-law/",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-08"
   },
   {
    "id": "dynamic-international-university-college",
@@ -25460,6 +25503,702 @@ window.SIE_DATA = {
    "college": "School of Law",
    "field": "Law & Governance",
    "source": "https://www.wru.edu.et/colleges/sol/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Electrical Engineering (Computer Engineering)",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Chemical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Food Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Architecture",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Civil Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Surveying Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Electrical Engineering (Communication Engineering)",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Electrical Engineering (Industrial Control Engineering)",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Electrical Engineering (Power Engineering)",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Mechanical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Industrial Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Engineering Design and Drawing",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Textile Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Fashion Design",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Computer Science",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Information Technology",
+   "college": "Institute of Technology",
+   "field": "Computing, Data & IT",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Process Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Geotechnical Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Structural Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Transportation Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Geomatics and Geoinformatics Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Communication Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Power Electronics and Electrical Drives",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Manufacturing Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Production Engineering and Management",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Thermal Engineering",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Mechanical Design",
+   "college": "Institute of Technology",
+   "field": "Engineering & Technology",
+   "source": "https://www.ddu.edu.et/iot/iot-programs"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Applied Zoology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Applied Mathematics (Differential Equations)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Applied Mathematics (Numerical Analysis)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Applied Mathematics (Optimization)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Physics (Astrophysics)",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://www.ddu.edu.et/college-of-natural/cncs-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Real Property Valuation",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Public Administration and Development Management",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Development Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Environmental and Natural Resource Economics",
+   "college": "College of Business and Economics",
+   "field": "Agriculture & Environment",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Logistics and Supply Chain Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Business Administration",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Public Management and Policy (Development Management)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Public Management and Policy (Governance)",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Public Management and Policy (Public Policy Studies)",
+   "college": "College of Business and Economics",
+   "field": "Law & Governance",
+   "source": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Public Health",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Medicine",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Midwifery",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Anesthesia",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Medical Laboratory Science",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Psychiatric Nursing",
+   "college": "College of Medicine and Health Sciences",
+   "field": "Health & Medicine",
+   "source": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Psychology",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Civics and Ethical Education",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Journalism and Communication",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Amharic Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Social Work",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Teaching Amharic",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Teaching English as a Foreign Language (TEFL)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Education",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Urban and Regional Development",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Disaster Risk Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Agriculture & Environment",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (Land Use and Administration)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Law & Governance",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (River Basin Dynamics)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "Geography and Environmental Studies (Integrated Dryland Management)",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Master's",
+   "name": "GIS and Remote Sensing",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/"
+  },
+  {
+   "institution": "dire-dawa-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://www.ddu.edu.et/school-of-law/"
   }
  ],
  "studyAbroad": [

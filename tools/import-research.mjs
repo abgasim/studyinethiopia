@@ -39,7 +39,7 @@ const RULES = [
   [/paleont|paleo-?environ/i, "Natural Sciences"],
   [/honey|\bbee\b|apicult|dairy products/i, "Agriculture & Environment"],
   [/histotechnolog/i, "Health & Medicine"],
-  [/computer engineering/i, "Engineering & Technology"],
+  [/computer engineering|geomatics.*engineering/i, "Engineering & Technology"],
   [/\btax|customs/i, "Business & Economics"],
   [/ministry|biblical|bible|christian|muslim|missiolog|religio/i, "Social Sciences & Humanities"],
   [/(?<!animal )nutrition/i, "Health & Medicine"],

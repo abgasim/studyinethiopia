@@ -1,0 +1,34 @@
+{
+ "dire-dawa-university": {
+  "website": "https://www.ddu.edu.et/",
+  "summary": "Dire Dawa University is a public university in Dire Dawa with an Institute of Technology, colleges of natural and computational sciences, business and economics, medicine and health sciences, and social sciences and humanities, and a School of Law. Its Institute of Technology is one of the broadest in eastern Ethiopia, with programmes from software, food and textile engineering to architecture and fashion design.",
+  "colleges": ["Institute of Technology", "College of Natural and Computational Sciences", "College of Business and Economics", "College of Medicine and Health Sciences", "College of Social Sciences and Humanities", "School of Law", "School of Graduate Studies"],
+  "sources": [
+   {"label": "Institute of Technology programmes", "url": "https://www.ddu.edu.et/iot/iot-programs", "kind": "official"},
+   {"label": "Natural and Computational Sciences programmes", "url": "https://www.ddu.edu.et/college-of-natural/cncs-programs/", "kind": "official"},
+   {"label": "Business and Economics programmes", "url": "https://www.ddu.edu.et/college-of-buisness/cbe-programs/", "kind": "official"},
+   {"label": "Medicine and Health Sciences programmes", "url": "https://www.ddu.edu.et/college-of-medicine/cmh-programs/", "kind": "official"},
+   {"label": "Social Sciences and Humanities programmes", "url": "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/", "kind": "official"},
+   {"label": "School of Law", "url": "https://www.ddu.edu.et/school-of-law/", "kind": "official"}
+  ],
+  "coverage": "most",
+  "coverageNote": "The natural sciences college reports 26 master's programmes but lists only some of them; continuing and distance education programmes are not included. The website's security certificate is invalid, so browsers show a warning.",
+  "programmes": {
+   "https://www.ddu.edu.et/iot/iot-programs": {"Institute of Technology": {
+    "Bachelor's": ["Software Engineering", "Computer Science", "Information Technology", "Electrical Engineering (Computer Engineering)", "Chemical Engineering", "Food Engineering", "Architecture", "Civil Engineering", "Surveying Engineering", "Electrical Engineering (Communication Engineering)", "Electrical Engineering (Industrial Control Engineering)", "Electrical Engineering (Power Engineering)", "Mechanical Engineering", "Industrial Engineering", "Engineering Design and Drawing", "Textile Engineering", "Fashion Design"],
+    "Master's": ["Computer Science", "Information Technology", "Process Engineering", "Geotechnical Engineering", "Structural Engineering", "Transportation Engineering", "Geomatics and Geoinformatics Engineering", "Communication Engineering", "Power Electronics and Electrical Drives", "Manufacturing Engineering", "Production Engineering and Management", "Thermal Engineering", "Mechanical Design"]}},
+   "https://www.ddu.edu.et/college-of-natural/cncs-programs/": {"College of Natural and Computational Sciences": {
+    "Bachelor's": ["Chemistry", "Sport Science", "Geology", "Mathematics", "Statistics", "Physics", "Biology"],
+    "Master's": ["Biology", "Applied Zoology", "Chemistry", "Applied Mathematics (Differential Equations)", "Applied Mathematics (Numerical Analysis)", "Applied Mathematics (Optimization)", "Mathematics", "Physics (Astrophysics)"]}},
+   "https://www.ddu.edu.et/college-of-buisness/cbe-programs/": {"College of Business and Economics": {
+    "Bachelor's": ["Management", "Economics", "Accounting and Finance", "Marketing Management", "Real Property Valuation", "Logistics and Supply Chain Management", "Public Administration and Development Management"],
+    "Master's": ["Accounting and Finance", "Development Economics", "Environmental and Natural Resource Economics", "Logistics and Supply Chain Management", "Business Administration", "Marketing Management", "Public Management and Policy (Development Management)", "Public Management and Policy (Governance)", "Public Management and Policy (Public Policy Studies)"]}},
+   "https://www.ddu.edu.et/college-of-medicine/cmh-programs/": {"College of Medicine and Health Sciences": {
+    "Bachelor's": ["Public Health", "Medicine", "Midwifery", "Anesthesia", "Nursing", "Medical Laboratory Science", "Psychiatric Nursing"]}},
+   "https://www.ddu.edu.et/college-of-social-science-2/cssh-programs/": {"College of Social Sciences and Humanities": {
+    "Bachelor's": ["Psychology", "English Language and Literature", "Civics and Ethical Education", "Geography and Environmental Studies", "Journalism and Communication", "Amharic Language and Literature", "History and Heritage Management", "Social Work", "Political Science and International Relations"],
+    "Master's": ["Teaching Amharic", "Teaching English as a Foreign Language (TEFL)", "Urban and Regional Development", "Disaster Risk Management", "Geography and Environmental Studies", "Geography and Environmental Studies (Land Use and Administration)", "Geography and Environmental Studies (River Basin Dynamics)", "Geography and Environmental Studies (Integrated Dryland Management)", "GIS and Remote Sensing"]}},
+   "https://www.ddu.edu.et/school-of-law/": {"School of Law": {"Bachelor's": ["Law"]}}
+  }
+ }
+}
