@@ -31,11 +31,15 @@ LANGS = {
 }
 
 PAGES = ["index", "institutions", "institution", "programmes", "apply", "study-abroad", "learn", "resources", "about"]
-# page -> (data-page used by app.js, needs data.js)
+# page -> (data-page used by app.js, which data it needs)
+#   "full": everything in data.js, including the programme list
+#   "core": everything except the programme list (smaller and faster; only programme counts)
+#   None:   no data
+# Locally every page loads data.js; at deploy, tools/split-data.mjs swaps in data-core.js / programmes.js.
 PAGE_JS = {
-    "index": ("home", True), "institutions": ("institutions", True), "institution": ("institution", True),
-    "programmes": ("programmes", True), "apply": ("apply", False), "study-abroad": ("abroad", True),
-    "learn": ("learn", True), "resources": ("resources", True), "about": ("about", False),
+    "index": ("home", "core"), "institutions": ("institutions", "full"), "institution": ("institution", "full"),
+    "programmes": ("programmes", "full"), "apply": ("apply", None), "study-abroad": ("abroad", "core"),
+    "learn": ("learn", "core"), "resources": ("resources", "core"), "about": ("about", None),
 }
 
 PAGE_META = {
@@ -189,7 +193,7 @@ def build(lang, page):
     # (a static one here would point every profile at the same address).
     canonical = "" if page == "institution" else f'  <link rel="canonical" href="{page_url(lang, page)}">\n'
 
-    scripts = f'\n  <script src="{up}assets/data.js"></script>' if needs_data else ""
+    scripts = f'\n  <script src="{up}assets/data.js" data-split="{needs_data}"></script>' if needs_data else ""
     scripts += f'\n  <script src="{up}assets/app.js"></script>'
 
     return f'''<!doctype html>

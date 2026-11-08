@@ -86,6 +86,13 @@ python -m http.server 8000      # then open http://localhost:8000
 ## Deploying
 The site is published by GitHub Pages from this repository on every push to `main` (see `.github/workflows/deploy-pages.yml`). To host elsewhere, upload the **contents** of `site/` to any static host (cPanel `public_html`, Netlify, GitHub Pages, Cloudflare Pages).
 
+At deploy the workflow also prepares the published copy (the files in `site/` are not changed):
+- `tools/build-sitemap.mjs` writes `sitemap.xml` from `data.js`;
+- `tools/split-data.mjs` splits `data.js` into `data-core.js` (everything except the programme list, plus programme counts) and `programmes.js`, so the home, study-abroad, learn and resources pages load ~150 KB instead of ~1.3 MB; pages marked `data-split="full"` load both;
+- shared files get content fingerprints (`?v=…`) so browsers fetch updates immediately.
+
+`assets/data.js` remains the single source of truth: edit it (or use the admin portal), never the generated files. If you upload `site/` to another host without the workflow, every page simply loads `data.js` as before.
+
 **Important:** the old server contained hidden web-shell files (`contents.php` in every `sie_*` folder). Before deploying:
 1. Delete everything in `public_html`. Don't upload the new site next to the old PHP files.
 2. Change your hosting, cPanel, FTP and MySQL passwords.

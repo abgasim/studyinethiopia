@@ -271,7 +271,7 @@
     set("#stat-public", inst.filter((i) => i.type === "public").length);
     set("#stat-private", inst.filter((i) => i.type === "private").length);
     set("#stat-abroad", new Set((D.studyAbroad || []).map((s) => s.name)).size);
-    set("#stat-programmes", (D.programmes || []).length);
+    set("#stat-programmes", progTotal());
 
     const links = $("#home-links");
     if (links) links.innerHTML = (D.links || []).slice(0, 6).map(linkCard).join("");
@@ -317,7 +317,7 @@
     function listFor(region) {
       const items = pinned.filter((i) => !region || i.region === region).sort((a, b) => a.name.localeCompare(b.name));
       out.innerHTML = `<h3>${esc(region ? lbl("region", region) : tr("All public institutions"))}</h3><ul>${items.map((i) => {
-        const n = progsOf(i.id).length;
+        const n = progCount(i.id);
         return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a><span>${esc(i.city || "")}${n ? ` · ${tr("{n} programmes", { n })}` : ""}</span></li>`;
       }).join("")}</ul>`;
     }
@@ -326,7 +326,7 @@
       const region = c.region && c.region !== c.city ? `<span>${esc(lbl("region", c.region))}</span>` : "";
       return `<div class="map-pop"><strong>${esc(c.city)}</strong>${region}<ul>${c.items
         .sort((a, b) => a.name.localeCompare(b.name))
-        .map((i) => { const n = progsOf(i.id).length; return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a>${n ? ` <em>${tr("{n} programmes", { n })}</em>` : ""}</li>`; }).join("")}</ul></div>`;
+        .map((i) => { const n = progCount(i.id); return `<li><a href="${profileUrl(i)}">${esc(i.name)}</a>${n ? ` <em>${tr("{n} programmes", { n })}</em>` : ""}</li>`; }).join("")}</ul></div>`;
     }
 
     function select(region) {
@@ -390,6 +390,10 @@
   const byLevelThenName = (a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level) || a.name.localeCompare(b.name);
   progsBy.forEach((l) => l.sort(byLevelThenName));
   const progsOf = (id) => progsBy.get(id) || [];
+  // Pages that load only data-core.js have no programme list, just counts (programmeStats, added at deploy)
+  const STATS = D.programmeStats || null;
+  const progCount = (id) => (D.programmes ? progsOf(id).length : (STATS && STATS.byInstitution[id]) || 0);
+  const progTotal = () => (D.programmes ? D.programmes.length : (STATS && STATS.total) || 0);
   const researchedCount = () => [...progsBy.keys()].length;
 
   const abbrOf = (i) => (i.abbr || i.name.split(/\s+/).filter((w) => /^[A-Z]/.test(w)).map((w) => w[0]).join("")).slice(0, 5);

@@ -5,7 +5,7 @@ name: Deploy site to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ["site/**", ".github/workflows/deploy-pages.yml"]
+    paths: ["site/**", ".github/workflows/deploy-pages.yml", "tools/build-sitemap.mjs", "tools/split-data.mjs"]
   workflow_dispatch:
 
 permissions:
@@ -33,11 +33,14 @@ jobs:
           rm -f _site/README.md
           # Sitemap for search engines, rebuilt from data.js so admin edits are included
           node tools/build-sitemap.mjs _site
+          # Faster pages: split data.js into data-core.js (no programme list) and programmes.js;
+          # pages that only show counts (home, study abroad, learn, resources) skip the programme list
+          node tools/split-data.mjs _site
           # Cache-busting: browsers may keep files for 10 minutes, so stamp each shared
           # file reference with a fingerprint of its contents (e.g. data.js?v=3f9a1c2b).
           # When a file changes (including data.js published from the admin portal),
           # its fingerprint changes and browsers fetch the new copy straight away.
-          for f in data.js app.js style.css admin.js admin.css; do
+          for f in data.js data-core.js programmes.js app.js style.css admin.js admin.css; do
             h=$(sha256sum "_site/assets/$f" | cut -c1-10)
             find _site -name '*.html' -exec sed -i "s#assets/$f\"#assets/$f?v=$h\"#g" {} +
             echo "assets/$f -> ?v=$h"
