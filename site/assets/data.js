@@ -2680,9 +2680,60 @@ window.SIE_DATA = {
    "abbr": "MAU",
    "category": "University",
    "region": "Amhara",
-   "summary": "Mekdela Amba University is a public university in South Wollo, Amhara region, named after the historic Mekdela Amba.",
-   "coverage": "none",
-   "coverageNote": "The website (mau.edu.et) refused access from outside Ethiopia in November 2026."
+   "summary": "Mekdela Amba University is a public university in South Wollo, Amhara, founded in November 2015, with campuses at Tulu Awuliya (Legambo district) and Mekane Selam (Borena district). It has about 5,100 undergraduate and 54 postgraduate students in five colleges, a School of Law and 28 departments, and focuses on agriculture, mining, culture and tourism, and technology development.",
+   "coverage": "most",
+   "coverageNote": "The colleges list their departments (shown here as bachelor's programmes); the website's programme pages are still empty, so master's programmes other than the MBA are not named.",
+   "website": "https://mkau.edu.et/",
+   "city": "Mekane Selam",
+   "founded": 2015,
+   "colleges": [
+    "College of Agriculture and Natural Resource",
+    "College of Business and Economics",
+    "College of Computing and Informatics",
+    "College of Natural and Computational Sciences",
+    "College of Social Sciences and Humanities",
+    "School of Law"
+   ],
+   "sources": [
+    {
+     "label": "About MAU",
+     "url": "https://mkau.edu.et/wordpress_e/?page_id=1903",
+     "kind": "official"
+    },
+    {
+     "label": "College of Agriculture and Natural Resource",
+     "url": "https://mkau.edu.et/wordpress_e/?page_id=1976",
+     "kind": "official"
+    },
+    {
+     "label": "College of Business and Economics",
+     "url": "https://mkau.edu.et/wordpress_e/?page_id=1974",
+     "kind": "official"
+    },
+    {
+     "label": "College of Computing and Informatics",
+     "url": "https://mkau.edu.et/wordpress_e/?page_id=2124",
+     "kind": "official"
+    },
+    {
+     "label": "College of Natural and Computational Sciences",
+     "url": "https://mkau.edu.et/wordpress_e/?page_id=1973",
+     "kind": "official"
+    },
+    {
+     "label": "College of Social Sciences and Humanities",
+     "url": "https://mkau.edu.et/wordpress_e/?page_id=1977",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-08",
+   "lat": 10.74778,
+   "lng": 38.75521,
+   "location": {
+    "source": "OpenStreetMap",
+    "note": "City of the main campus",
+    "url": "https://www.openstreetmap.org/node/2455981595"
+   }
   },
   {
    "id": "oda-bultum-university",
@@ -26245,6 +26296,230 @@ window.SIE_DATA = {
    "college": "School of Law",
    "field": "Law & Governance",
    "source": "https://www.ddu.edu.et/school-of-law/"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Animal Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Plant Science",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Natural Resource Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Agricultural Economics",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Horticulture",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Rural Development and Agricultural Extension",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Forestry",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Agribusiness and Value Chain Management",
+   "college": "College of Agriculture and Natural Resource",
+   "field": "Agriculture & Environment",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1976"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Economics",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1974"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1974"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Accounting and Finance",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1974"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Marketing Management",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1974"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Master's",
+   "name": "Business Administration (MBA)",
+   "college": "College of Business and Economics",
+   "field": "Business & Economics",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=2151"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Computer Science",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=2124"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Information Technology",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=2124"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Software Engineering",
+   "college": "College of Computing and Informatics",
+   "field": "Computing, Data & IT",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=2124"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Biology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Chemistry",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Physics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Mathematics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Statistics",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Computing, Data & IT",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Geology",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Natural Sciences",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Sport Science",
+   "college": "College of Natural and Computational Sciences",
+   "field": "Sport Science",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1973"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "History and Heritage Management",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1977"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "English Language and Literature",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Languages & Communication",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1977"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Geography and Environmental Studies",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1977"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Political Science and International Relations",
+   "college": "College of Social Sciences and Humanities",
+   "field": "Social Sciences & Humanities",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=1977"
+  },
+  {
+   "institution": "mekdela-amba-university",
+   "level": "Bachelor's",
+   "name": "Law",
+   "college": "School of Law",
+   "field": "Law & Governance",
+   "source": "https://mkau.edu.et/wordpress_e/?page_id=2545"
   }
  ],
  "studyAbroad": [

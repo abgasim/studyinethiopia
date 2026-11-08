@@ -1,0 +1,30 @@
+{
+ "mekdela-amba-university": {
+  "abbr": "MAU",
+  "website": "https://mkau.edu.et/",
+  "city": "Mekane Selam",
+  "region": "Amhara",
+  "founded": 2015,
+  "summary": "Mekdela Amba University is a public university in South Wollo, Amhara, founded in November 2015, with campuses at Tulu Awuliya (Legambo district) and Mekane Selam (Borena district). It has about 5,100 undergraduate and 54 postgraduate students in five colleges, a School of Law and 28 departments, and focuses on agriculture, mining, culture and tourism, and technology development.",
+  "colleges": ["College of Agriculture and Natural Resource", "College of Business and Economics", "College of Computing and Informatics", "College of Natural and Computational Sciences", "College of Social Sciences and Humanities", "School of Law"],
+  "sources": [
+   {"label": "About MAU", "url": "https://mkau.edu.et/wordpress_e/?page_id=1903", "kind": "official"},
+   {"label": "College of Agriculture and Natural Resource", "url": "https://mkau.edu.et/wordpress_e/?page_id=1976", "kind": "official"},
+   {"label": "College of Business and Economics", "url": "https://mkau.edu.et/wordpress_e/?page_id=1974", "kind": "official"},
+   {"label": "College of Computing and Informatics", "url": "https://mkau.edu.et/wordpress_e/?page_id=2124", "kind": "official"},
+   {"label": "College of Natural and Computational Sciences", "url": "https://mkau.edu.et/wordpress_e/?page_id=1973", "kind": "official"},
+   {"label": "College of Social Sciences and Humanities", "url": "https://mkau.edu.et/wordpress_e/?page_id=1977", "kind": "official"}
+  ],
+  "coverage": "most",
+  "coverageNote": "The colleges list their departments (shown here as bachelor's programmes); the website's programme pages are still empty, so master's programmes other than the MBA are not named.",
+  "programmes": {
+   "https://mkau.edu.et/wordpress_e/?page_id=1976": {"College of Agriculture and Natural Resource": {"Bachelor's": ["Animal Science", "Plant Science", "Natural Resource Management", "Agricultural Economics", "Horticulture", "Rural Development and Agricultural Extension", "Forestry", "Agribusiness and Value Chain Management"]}},
+   "https://mkau.edu.et/wordpress_e/?page_id=1974": {"College of Business and Economics": {"Bachelor's": ["Economics", "Management", "Accounting and Finance", "Marketing Management"]}},
+   "https://mkau.edu.et/wordpress_e/?page_id=2151": {"College of Business and Economics": {"Master's": ["Business Administration (MBA)"]}},
+   "https://mkau.edu.et/wordpress_e/?page_id=2124": {"College of Computing and Informatics": {"Bachelor's": ["Computer Science", "Information Technology", "Software Engineering"]}},
+   "https://mkau.edu.et/wordpress_e/?page_id=1973": {"College of Natural and Computational Sciences": {"Bachelor's": ["Biology", "Chemistry", "Physics", "Mathematics", "Statistics", "Geology", "Sport Science"]}},
+   "https://mkau.edu.et/wordpress_e/?page_id=1977": {"College of Social Sciences and Humanities": {"Bachelor's": ["History and Heritage Management", "English Language and Literature", "Geography and Environmental Studies", "Political Science and International Relations"]}},
+   "https://mkau.edu.et/wordpress_e/?page_id=2545": {"School of Law": {"Bachelor's": ["Law"]}}
+  }
+ }
+}

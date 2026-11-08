@@ -377,5 +377,14 @@
   "code": "ET-OR",
   "type": "city",
   "osm": "https://www.openstreetmap.org/node/1150899366"
+ },
+ "Tulu Awuliya": null,
+ "Mekane Selam": {
+  "lat": 10.74778,
+  "lng": 38.75521,
+  "region": "Amhara",
+  "code": "ET-AM",
+  "type": "town",
+  "osm": "https://www.openstreetmap.org/node/2455981595"
  }
 }
