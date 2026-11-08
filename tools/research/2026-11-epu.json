@@ -1,0 +1,16 @@
+{
+ "ethiopian-federal-police-college": {
+  "name": "Ethiopian Police University",
+  "abbr": "EPU",
+  "category": "University",
+  "website": "https://epu.edu.et/",
+  "founded": 1946,
+  "summary": "Ethiopian Police University is Ethiopia's higher education institution for police education, training, research and community service. It began as Aba Dina Police College in 1946 and became a full university in December 2020. It offers undergraduate, postgraduate, diploma, TVET, continuing education and specialised professional training in policing, criminal justice, forensic science, leadership, health sciences and related fields, and runs a Police TVET College.",
+  "sources": [
+   {"label": "About EPU", "url": "https://epu.edu.et/about-epu/", "kind": "official"},
+   {"label": "Undergraduate admission", "url": "https://epu.edu.et/undergraduate-programs/", "kind": "official"}
+  ],
+  "coverage": "none",
+  "coverageNote": "The university's new website describes its fields of study but does not yet list individual programmes (November 2026)."
+ }
+}

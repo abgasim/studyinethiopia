@@ -793,14 +793,29 @@ window.SIE_DATA = {
   },
   {
    "id": "ethiopian-federal-police-college",
-   "name": "Ethiopian Federal Police College",
-   "abbr": "EPUC",
+   "name": "Ethiopian Police University",
+   "abbr": "EPU",
    "type": "public",
-   "website": "https://www.epuc.edu.et/",
+   "website": "https://epu.edu.et/",
    "about": [],
-   "category": "College",
+   "category": "University",
    "coverage": "none",
-   "coverageNote": "The website (epuc.edu.et) could not be found in November 2026."
+   "coverageNote": "The university's new website describes its fields of study but does not yet list individual programmes (November 2026).",
+   "founded": 1946,
+   "summary": "Ethiopian Police University is Ethiopia's higher education institution for police education, training, research and community service. It began as Aba Dina Police College in 1946 and became a full university in December 2020. It offers undergraduate, postgraduate, diploma, TVET, continuing education and specialised professional training in policing, criminal justice, forensic science, leadership, health sciences and related fields, and runs a Police TVET College.",
+   "sources": [
+    {
+     "label": "About EPU",
+     "url": "https://epu.edu.et/about-epu/",
+     "kind": "official"
+    },
+    {
+     "label": "Undergraduate admission",
+     "url": "https://epu.edu.et/undergraduate-programs/",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-08"
   },
   {
    "id": "ethiopian-institute-of-architecture-building-construction-and-city-development",
