@@ -895,10 +895,10 @@ window.SIE_DATA = {
   },
   {
    "id": "gambella-teachers-and-health-science-college",
-   "name": "Gambella Teachers and Health Science College",
-   "abbr": "GTHSC",
+   "name": "Gambella Teachers' Education and Health Science College",
+   "abbr": "GTEHSC",
    "type": "public",
-   "website": "",
+   "website": "https://gtehsc.com/wp/",
    "about": [],
    "category": "College",
    "lat": 8.25037,
@@ -909,7 +909,37 @@ window.SIE_DATA = {
     "source": "OpenStreetMap",
     "note": "City of the main campus",
     "url": "https://www.openstreetmap.org/node/321376181"
-   }
+   },
+   "summary": "Gambella Teachers' Education and Health Science College trains teachers and health professionals for the Gambela region, and began about 30 years ago. It offers regular, private and evening programmes at certificate, diploma and degree level. Its departments include pre-primary education, mathematics and ICT, the natural and social sciences, languages, health and physical education, and the health sciences (nursing, midwifery, medical laboratory, health extension and health information technology).",
+   "colleges": [
+    "Education and Behavioral Science Stream",
+    "Health Science Stream",
+    "Mathematics and IT Stream",
+    "Natural Science Stream",
+    "Social Science Stream",
+    "Sport Science and Aesthetics Stream",
+    "Language Stream"
+   ],
+   "sources": [
+    {
+     "label": "GTEHSC website",
+     "url": "https://gtehsc.com/wp/",
+     "kind": "official"
+    },
+    {
+     "label": "About GTEHSC",
+     "url": "https://gtehsc.com/wp/about_gtehsc/",
+     "kind": "official"
+    },
+    {
+     "label": "Academics",
+     "url": "https://gtehsc.com/wp/academics/",
+     "kind": "official"
+    }
+   ],
+   "coverage": "none",
+   "coverageNote": "The website names its departments, but its degree, diploma and certificate pages do not list programmes yet (November 2026).",
+   "checked": "2026-11-08"
   },
   {
    "id": "gewane-agricultural-college",
